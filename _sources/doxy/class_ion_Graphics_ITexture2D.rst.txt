@@ -1,0 +1,47 @@
+.. index:: pair: class; ion.Graphics.ITexture2D
+.. _doxid-classion_1_1Graphics_1_1ITexture2D:
+.. _cid-ion.graphics.itexture2d:
+
+class ion.Graphics.ITexture2D
+=============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1ITexture2D_1a22bbf45c7386f3891cd55f6a97631905:
+.. _cid-ion.graphics.itexture2d.upload:
+.. _doxid-classion_1_1Graphics_1_1ITexture2D_1ae5af570f8e9f7e263eaee6ffca3b3f5c:
+.. _cid-ion.graphics.itexture2d.uploadsubregion:
+.. _doxid-classion_1_1Graphics_1_1ITexture2D_1a0660bdfc78dcab3f38f3928605209b17:
+.. _cid-ion.graphics.itexture2d.getdata:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void Upload (
+	    void const*const Data,
+	    :ref:`vec2u<doxid-structvec2>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+
+	void UploadSubRegion (
+	    void const*const Data,
+	    :ref:`vec2u<doxid-structvec2>` const& Offset,
+	    :ref:`vec2u<doxid-structvec2>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+
+	void GetData (
+	    void*const Data,
+	    :ref:`vec2u<doxid-structvec2>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+

@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>struct SRange &lt;typename T&gt; &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">struct SRange &lt;typename T&gt;</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>struct SRange &lt;typename T&gt;</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/struct_SRange.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="struct-srange-typename-t">
+<span id="cid-srange"></span><span id="doxid-structsrange"></span><span id="index-0"></span><h1>struct SRange &lt;typename T&gt;<a class="headerlink" href="#struct-srange-typename-t" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<pre class="highlight overview-code-block literal-block" id="cid-srange-operator">
+<span id="doxid-structsrange-1abb03d9ee1e80569752cff6448010792e"></span><span id="cid-srange-size"></span><span id="doxid-structsrange-1a6a3e09570acb44bb534aa12f1f42c3db"></span><span id="cid-srange-normalize"></span><span id="doxid-structsrange-1a3fbe1b28d5b9af894cf83121640693b3"></span><span id="cid-srange-issingular"></span><span id="doxid-structsrange-1a18f36aa2aa44d01414488cf1d30d2050"></span><span id="cid-srange-isempty"></span><span id="doxid-structsrange-1a308f034f94f3097ef0d114fedde8416c"></span><span id="cid-srange-contains"></span><span id="doxid-structsrange-1a345cba75cd3a33400dbfe5e6ba95b244"></span><span id="cid-srange-srange-2"></span><span id="doxid-structsrange-1a552bbaf4c74fd7a42a9dbb9ddb159fc0"></span><span id="cid-srange-srange"></span><span id="doxid-structsrange-1afabec7861059fdc4e8b6f6bffbdc7d6c"></span><span id="cid-srange-maximum"></span><span id="doxid-structsrange-1a53ea5d3215f2b8f79e7c7ec030c1a728"></span><span id="cid-srange-minimum"></span><span id="doxid-structsrange-1a4d1260ccc298bfcbbde0328b0c9d6995"></span><span id="cid-srange-empty"></span><span id="doxid-structsrange-1a7655bde28936832876f8a133ee7ccf89"></span><span id="cid-srange-full"></span><span id="doxid-structsrange-1a57c4eff3e3c041c11fed6846cbfb9d17"></span><span></span><span class="c1">// fields</span>
+
+SRange<span></span> <span class="k">const</span> <span class="n">Full</span>
+SRange<span></span> <span class="k">const</span> <span class="n">Empty</span>
+<span class="n">T</span> <span class="n">Minimum</span>
+<span class="n">T</span> <span class="n">Maximum</span>
+
+<span class="c1">// construction</span>
+
+<span class="n">SRange</span> <span class="p">()</span>
+
+<span class="n">SRange</span> <span class="p">(</span>
+    <span class="n">T</span> <span class="k">const</span> <span class="n">minimum</span><span class="p">,</span>
+    <span class="n">T</span> <span class="k">const</span> <span class="n">maximum</span>
+    <span class="p">)</span>
+
+<span class="c1">// methods</span>
+
+<span class="kt">bool</span> <span class="n">Contains</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">value</span><span class="p">)</span>
+<span class="kt">bool</span> <span class="n">IsEmpty</span> <span class="p">()</span>
+<span class="kt">bool</span> <span class="n">IsSingular</span> <span class="p">()</span>
+<span class="n">T</span> <span class="n">Normalize</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">value</span><span class="p">)</span>
+<span class="n">T</span> <span class="n">Size</span> <span class="p">()</span>
+SRange<span></span><span class="o">&amp;</span> <span class="k">operator</span><span class="o">=</span> <span class="p">(</span>SRange<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Other</span><span class="p">)</span>
+</pre>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

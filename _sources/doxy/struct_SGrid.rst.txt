@@ -1,0 +1,121 @@
+.. index:: pair: struct; SGrid <typename T>
+.. _doxid-structSGrid:
+.. _cid-sgrid:
+
+struct SGrid <typename T>
+=========================
+
+.. toctree::
+	:hidden:
+
+	class_SGrid_SConstRowAccess.rst
+	class_SGrid_SRowAccess.rst
+
+
+
+
+
+.. _doxid-structSGrid_1a2f52a4b3288fef29d76b7e1c734b777e:
+.. _cid-sgrid.iterator:
+.. _doxid-structSGrid_1a417faa3079540a01254c9f70f558f5d5:
+.. _cid-sgrid.const_iterator:
+.. _doxid-structSGrid_1a92b10f8c108adda68f49cef347eb2117:
+.. _cid-sgrid.values:
+.. _doxid-structSGrid_1ab070d718828d3a89d7a752363316007f:
+.. _cid-sgrid.dimensions:
+.. _doxid-structSGrid_1a910ec3248980b3fbbc182bd6f3cd733c:
+.. _cid-sgrid.sgrid:
+.. _doxid-structSGrid_1a66a443a9ba5b0a7b7ccaa341702e6dbd:
+.. _cid-sgrid.sgrid-2:
+.. _doxid-structSGrid_1aecde3dc8ae24b145ece094ac28c6ed06:
+.. _cid-sgrid.allocate:
+.. _doxid-structSGrid_1ad59f955e7176f76b480d9da63a2497f0:
+.. _cid-sgrid.allocate-2:
+.. _doxid-structSGrid_1a24fd1c48301568c42f8fc43c9c14c51f:
+.. _cid-sgrid.inbounds:
+.. _doxid-structSGrid_1a8d9e380a2e908adfff6670f1441e613d:
+.. _cid-sgrid.inbounds-2:
+.. _doxid-structSGrid_1afe2a3492eca9889007cd62a6a394b888:
+.. _cid-sgrid.get:
+.. _doxid-structSGrid_1a845116d8c92691516497d7678ad10277:
+.. _cid-sgrid.get-2:
+.. _doxid-structSGrid_1a722c37877ffb90e64eb3de565694b97e:
+.. _cid-sgrid.get-3:
+.. _doxid-structSGrid_1a03a7b823da54d0224ad814ebe3698699:
+.. _cid-sgrid.get-4:
+.. _doxid-structSGrid_1a399cf78aa69dc66833676b52a3c11ae4:
+.. _cid-sgrid.operator[]:
+.. _doxid-structSGrid_1a5e4624c336614d3ffd192ba4bdcfb29d:
+.. _cid-sgrid.operator[]-2:
+.. _doxid-structSGrid_1a0bbc22fa635e8e749d7e5a4462e154ea:
+.. _cid-sgrid.operator[]-3:
+.. _doxid-structSGrid_1a76694f0d882cfca5c16b4f6c27423a64:
+.. _cid-sgrid.operator[]-4:
+.. _doxid-structSGrid_1af6c1522536059e420e76c9d7bcde770e:
+.. _cid-sgrid.begin:
+.. _doxid-structSGrid_1aa509270bafca3cf79f3a7a4cc26f44cc:
+.. _cid-sgrid.end:
+.. _doxid-structSGrid_1ad60f9b2d5700773aa9d493d14a0dd9bd:
+.. _cid-sgrid.begin-2:
+.. _doxid-structSGrid_1adfc9e15fdd7f08eb81b2fed38aa9f915:
+.. _cid-sgrid.end-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// typedefs
+
+	typedef std::vector <T>::iterator iterator
+	typedef std::vector <T>::const_iterator const_iterator
+
+	// classes
+
+	class :ref:`SConstRowAccess<doxid-classSGrid_1_1SConstRowAccess>`
+	class :ref:`SRowAccess<doxid-classSGrid_1_1SRowAccess>`
+
+	// fields
+
+	std::vector <T> Values
+	:ref:`vec2i<doxid-structvec2>` Dimensions
+
+	// construction
+
+	SGrid (:ref:`vec2i<doxid-structvec2>` const& dimensions = :ref:`vec2i<doxid-structvec2>` ())
+
+	SGrid (
+	    T const& init,
+	    :ref:`vec2i<doxid-structvec2>` const& dimensions = :ref:`vec2i<doxid-structvec2>` ()
+	    )
+
+	// methods
+
+	void Allocate ()
+	void Allocate (T const& value)
+	bool const InBounds (:ref:`vec2i<doxid-structvec2>` const Index)
+
+	bool const InBounds (
+	    s32 const X,
+	    s32 const Y
+	    )
+
+	T& Get (:ref:`vec2i<doxid-structvec2>` const Index)
+	T const& Get (:ref:`vec2i<doxid-structvec2>` const Index)
+
+	T& Get (
+	    s32 const X,
+	    s32 const Y
+	    )
+
+	T const& Get (
+	    s32 const X,
+	    s32 const Y
+	    )
+
+	:ref:`SRowAccess<doxid-classSGrid_1_1SRowAccess>` operator[] (u32 const X)
+	:ref:`SConstRowAccess<doxid-classSGrid_1_1SConstRowAccess>` operator[] (u32 const X)
+	T& operator[] (:ref:`vec2i<doxid-structvec2>` const& index)
+	T const& operator[] (:ref:`vec2i<doxid-structvec2>` const& index)
+	iterator begin ()
+	iterator end ()
+	const_iterator begin ()
+	const_iterator end ()
+

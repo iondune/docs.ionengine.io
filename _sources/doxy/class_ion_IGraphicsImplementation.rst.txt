@@ -1,0 +1,90 @@
+.. index:: pair: class; ion.IGraphicsImplementation
+.. _doxid-classion_1_1IGraphicsImplementation:
+.. _cid-ion.igraphicsimplementation:
+
+class ion.IGraphicsImplementation
+=================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1IGraphicsImplementation_1a17f0eeb46616353dc47f88f4e422cb68:
+.. _cid-ion.igraphicsimplementation.prewindowcreationsetup:
+.. _doxid-classion_1_1IGraphicsImplementation_1a5cb19baab92bd290b40e6c39d70ea28e:
+.. _cid-ion.igraphicsimplementation.postwindowcreationsetup:
+.. _doxid-classion_1_1IGraphicsImplementation_1af5def08e5cf6011758418648e6e73de0:
+.. _cid-ion.igraphicsimplementation.createvertexshaderfromsource:
+.. _doxid-classion_1_1IGraphicsImplementation_1a3d4fbe4574d8b968321c055a59abc6d5:
+.. _cid-ion.igraphicsimplementation.creategeometryshaderfromsource:
+.. _doxid-classion_1_1IGraphicsImplementation_1a93c2678feb413b9f5001d01d4feb1f53:
+.. _cid-ion.igraphicsimplementation.createpixelshaderfromsource:
+.. _doxid-classion_1_1IGraphicsImplementation_1a1bcb3265bead8061d709a1ac20b79065:
+.. _cid-ion.igraphicsimplementation.createshaderprogram:
+.. _doxid-classion_1_1IGraphicsImplementation_1a8b84c9121c35edbe68b240e7365f9064:
+.. _cid-ion.igraphicsimplementation.createvertexbuffer:
+.. _doxid-classion_1_1IGraphicsImplementation_1abed7be9130cb14e0218895bedaee8e05:
+.. _cid-ion.igraphicsimplementation.createindexbuffer:
+.. _doxid-classion_1_1IGraphicsImplementation_1a96a2a399fc65b6bbba990cce2fcb2257:
+.. _cid-ion.igraphicsimplementation.createdepthbuffer:
+.. _doxid-classion_1_1IGraphicsImplementation_1a4429f11c73fec3c4d22d9e0f5915c138:
+.. _cid-ion.igraphicsimplementation.createdrawcontext:
+.. _doxid-classion_1_1IGraphicsImplementation_1a31405d1fd9297c6bb400312b9762e50e:
+.. _cid-ion.igraphicsimplementation.createtexture2d:
+.. _doxid-classion_1_1IGraphicsImplementation_1ac91faf06ba06e7031bbbd755e1f33503:
+.. _cid-ion.igraphicsimplementation.createtexture3d:
+.. _doxid-classion_1_1IGraphicsImplementation_1a14fb6c60fb16afac84528b514b8a7548:
+.. _cid-ion.igraphicsimplementation.createtexture2darray:
+.. _doxid-classion_1_1IGraphicsImplementation_1aae9be65156a6e5e59d24189b6c17a7cc:
+.. _cid-ion.igraphicsimplementation.createtexturecubemap:
+.. _doxid-classion_1_1IGraphicsImplementation_1a73abb66a7735daf4f51117531b334d6a:
+.. _cid-ion.igraphicsimplementation.getwindowcontext:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void PreWindowCreationSetup ()
+	void PostWindowCreationSetup ()
+	SharedPointer <:ref:`Graphics::IVertexShader<doxid-classion_1_1Graphics_1_1IVertexShader>`> CreateVertexShaderFromSource (string const& Source)
+	SharedPointer <:ref:`Graphics::IGeometryShader<doxid-classion_1_1Graphics_1_1IGeometryShader>`> CreateGeometryShaderFromSource (string const& Source)
+	SharedPointer <:ref:`Graphics::IPixelShader<doxid-classion_1_1Graphics_1_1IPixelShader>`> CreatePixelShaderFromSource (string const& Source)
+	SharedPointer <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> CreateShaderProgram ()
+	SharedPointer <:ref:`Graphics::IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> CreateVertexBuffer ()
+	SharedPointer <:ref:`Graphics::IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> CreateIndexBuffer ()
+	SharedPointer <:ref:`Graphics::IDepthBuffer<doxid-classion_1_1Graphics_1_1IDepthBuffer>`> CreateDepthBuffer (:ref:`vec2u<doxid-structvec2>` const& Size)
+	:ref:`Graphics::IDrawContext<doxid-classion_1_1Graphics_1_1IDrawContext>`* CreateDrawContext ()
+
+	SharedPointer <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> CreateTexture2D (
+	    :ref:`vec2u<doxid-structvec2>` const& Size,
+	    Graphics::ITexture::EMipMaps const MipMaps,
+	    Graphics::ITexture::EFormatComponents const Components,
+	    Graphics::ITexture::EInternalFormatType const Type
+	    )
+
+	SharedPointer <:ref:`Graphics::ITexture3D<doxid-classion_1_1Graphics_1_1ITexture3D>`> CreateTexture3D (
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    Graphics::ITexture::EMipMaps const MipMaps,
+	    Graphics::ITexture::EFormatComponents const Components,
+	    Graphics::ITexture::EInternalFormatType const Type
+	    )
+
+	SharedPointer <:ref:`Graphics::ITexture2DArray<doxid-classion_1_1Graphics_1_1ITexture2DArray>`> CreateTexture2DArray (
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    Graphics::ITexture::EMipMaps const MipMaps,
+	    Graphics::ITexture::EFormatComponents const Components,
+	    Graphics::ITexture::EInternalFormatType const Type
+	    )
+
+	SharedPointer <:ref:`Graphics::ITextureCubeMap<doxid-classion_1_1Graphics_1_1ITextureCubeMap>`> CreateTextureCubeMap (
+	    :ref:`vec2u<doxid-structvec2>` const& Size,
+	    Graphics::ITexture::EMipMaps const MipMaps,
+	    Graphics::ITexture::EFormatComponents const Components,
+	    Graphics::ITexture::EInternalFormatType const Type
+	    )
+
+	SharedPointer <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GetWindowContext (:ref:`CWindow<doxid-classion_1_1CWindow>`* Window)
+

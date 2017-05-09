@@ -1,0 +1,53 @@
+.. index:: pair: struct; ion.Scene.SSimpleMaterial
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial:
+.. _cid-ion.scene.ssimplematerial:
+
+struct ion.Scene.SSimpleMaterial
+================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1ad5a2c891f80e4b792f150c4c7e1f0ad7:
+.. _cid-ion.scene.ssimplematerial.ambient:
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1a9318675c33f7ef759ff173661de861ed:
+.. _cid-ion.scene.ssimplematerial.diffuse:
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1ae9b385c8a2f21e72011d199378680e62:
+.. _cid-ion.scene.ssimplematerial.specular:
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1a8e72498e7865167f0f531a48ba647236:
+.. _cid-ion.scene.ssimplematerial.shininess:
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1a4e2263349b394a8c7abd9335d4f12f67:
+.. _cid-ion.scene.ssimplematerial.diffuseimage:
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1a7f779460b7dc4a737f65080a08b8b09e:
+.. _cid-ion.scene.ssimplematerial.ambientimage:
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1a294c661aacc1ff7e6cd6a03a6b7a30dd:
+.. _cid-ion.scene.ssimplematerial.diffusetexture:
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1aadf79859134defc9d4d32a6ced2a5453:
+.. _cid-ion.scene.ssimplematerial.ambienttexture:
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1a38c9b3a2ba4aee02beb7dab1f3c347d7:
+.. _cid-ion.scene.ssimplematerial.ssimplematerial:
+.. _doxid-struction_1_1Scene_1_1SSimpleMaterial_1ac923c6a1f71a50bef02240f80b7d5b8d:
+.. _cid-ion.scene.ssimplematerial.loadtextures:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`color3f<doxid-classcolor3>`> Ambient
+	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`color3f<doxid-classcolor3>`> Diffuse
+	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`color3f<doxid-classcolor3>`> Specular
+	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <f32> Shininess
+	:ref:`CImage<doxid-classion_1_1CImage>`* DiffuseImage
+	:ref:`CImage<doxid-classion_1_1CImage>`* AmbientImage
+	SharedPointer <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> DiffuseTexture
+	SharedPointer <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> AmbientTexture
+
+	// methods
+
+	SSimpleMaterial ()
+	void LoadTextures ()
+

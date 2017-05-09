@@ -1,0 +1,46 @@
+.. index:: pair: class; ion.Graphics.ITextureCubeMap
+.. _doxid-classion_1_1Graphics_1_1ITextureCubeMap:
+.. _cid-ion.graphics.itexturecubemap:
+
+class ion.Graphics.ITextureCubeMap
+==================================
+
+.. toctree::
+	:hidden:
+
+	enum_ion_Graphics_ITextureCubeMap_EFace.rst
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1ITextureCubeMap_1a178aeebadc66abdd9db869de65d319c3:
+.. _cid-ion.graphics.itexturecubemap.upload:
+.. _doxid-classion_1_1Graphics_1_1ITextureCubeMap_1ac8060cf6a30de0832f0583d9a33fa003:
+.. _cid-ion.graphics.itexturecubemap.uploadsubregion:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enums
+
+	enum :ref:`EFace<doxid-classion_1_1Graphics_1_1ITextureCubeMap_1a11b5eaddd3f6d92d3fee7d676e8fbbaa>`
+
+	// methods
+
+	void Upload (
+	    EFace const Face,
+	    void const*const Data,
+	    :ref:`vec2u<doxid-structvec2>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+
+	void UploadSubRegion (
+	    EFace const Face,
+	    void const*const Data,
+	    :ref:`vec2u<doxid-structvec2>` const& Offset,
+	    :ref:`vec2u<doxid-structvec2>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+

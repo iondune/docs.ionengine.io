@@ -1,0 +1,156 @@
+.. index:: pair: class; ion.Graphics.GL.CTexture
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture:
+.. _cid-ion.graphics.gl.ctexture:
+
+class ion.Graphics.GL.CTexture
+==============================
+
+.. toctree::
+	:hidden:
+
+
+
+Overview
+~~~~~~~~
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a6ce689342ed08deaae3c2c084d327acc:
+.. _cid-ion.graphics.gl.ctexture.internalformatmatrix:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1ac2fec4d04d35245fc3ace89f821c5e98:
+.. _cid-ion.graphics.gl.ctexture.formatmatrix:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a2c935d6641d973c8a942b9ddbe981c46:
+.. _cid-ion.graphics.gl.ctexture.internalformatstringmatrix:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a6692b8b3de6630c48a682d048f9863b9:
+.. _cid-ion.graphics.gl.ctexture.formatstringmatrix:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1ad44c7d6c19bf0ffc0ab3fb05b2f938e2:
+.. _cid-ion.graphics.gl.ctexture.handle:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1adf434335d29e97ab2109ca66d77f1b9a:
+.. _cid-ion.graphics.gl.ctexture.minfilter:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a010eaeacad9a6b7356e7d97f1cd7f492:
+.. _cid-ion.graphics.gl.ctexture.magfilter:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a22f4c3751af3265db3bb95c0dd0ab631:
+.. _cid-ion.graphics.gl.ctexture.mipmapfilter:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1adf851b446406438434b32ff771d4d265:
+.. _cid-ion.graphics.gl.ctexture.wrapmode:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a907625812d3fcf63cc505c5d76694096:
+.. _cid-ion.graphics.gl.ctexture.mipmaps:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a52894531cad225777f7448655b1e0ff0:
+.. _cid-ion.graphics.gl.ctexture.isinteger:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1ac53193babcaadaa05afd53ca8f5df7a9:
+.. _cid-ion.graphics.gl.ctexture.getminfilter:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1ad094339afae2e66bccc685efdb986430:
+.. _cid-ion.graphics.gl.ctexture.getmagfilter:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a448165361bd631ba33c286ebdcc828a5:
+.. _cid-ion.graphics.gl.ctexture.getmipmapfilter:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1ac0d34492f2be5303d31922d2277f882a:
+.. _cid-ion.graphics.gl.ctexture.getwrapmode:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a9fb06a1405bdb7bb657eea7c5e82eee0:
+.. _cid-ion.graphics.gl.ctexture.getanisotropy:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1ade4fa7ac15efd9c9f1761252976a1a21:
+.. _cid-ion.graphics.gl.ctexture.applyparams:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a42a7abd27d6830471d480754fe08d254:
+.. _cid-ion.graphics.gl.ctexture.getglbindtexturetarget:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1af13a9499f832fda921647dc0c9cab0c3:
+.. _cid-ion.graphics.gl.ctexture.getgltexturebindingenum:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	u32 const InternalFormatMatrix [4][10]
+	u32 const FormatMatrix [4][2]
+	string const InternalFormatStringMatrix [4][10]
+	string const FormatStringMatrix [4]
+	uint Handle
+	EFilter MinFilter
+	EFilter MagFilter
+	EFilter MipMapFilter
+	EWrapMode WrapMode
+	f32 :ref:`Anisotropy<doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a2f8cfd47d1248b0a29864445ab2ebcd3>`
+	bool MipMaps
+	bool IsInteger
+
+	// methods
+
+	void :ref:`SetMinFilter<doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a423a337345b7726de60e4e356e9a052b>` (EFilter const MinFilter)
+	void :ref:`SetMagFilter<doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1aa8a89d7826f7274613b106d6608bb6a0>` (EFilter const MagFilter)
+	void :ref:`SetMipMapFilter<doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a9bbb28feea9e5235cda9aa02a02d1080>` (EFilter const MipMapFilter)
+	void :ref:`SetWrapMode<doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1aafeb148e873a4055e1d43c5f431d164d>` (EWrapMode const WrapMode)
+	void :ref:`SetAnisotropy<doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1ad8c28449ec0accc989f9988964fd4d2b>` (f32 const Anisotropy)
+	EFilter GetMinFilter ()
+	EFilter GetMagFilter ()
+	EFilter GetMipMapFilter ()
+	EWrapMode GetWrapMode ()
+	f32 GetAnisotropy ()
+	void ApplyParams ()
+	uint GetGLBindTextureTarget ()
+	uint GetGLTextureBindingEnum ()
+
+.. _details-doxid-classion_1_1Graphics_1_1GL_1_1CTexture:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Fields
+------
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a2f8cfd47d1248b0a29864445ab2ebcd3:
+.. _cid-ion.graphics.gl.ctexture.anisotropy:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	f32 Anisotropy
+
+Anisotrophic filtering value A value < 0 indicates that the max anisotrophy value should be used
+
+Methods
+-------
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a423a337345b7726de60e4e356e9a052b:
+.. _cid-ion.graphics.gl.ctexture.setminfilter:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetMinFilter (EFilter const MinFilter)
+
+Sets the minimizing filter for this texture Default is EFilter::Linear
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1aa8a89d7826f7274613b106d6608bb6a0:
+.. _cid-ion.graphics.gl.ctexture.setmagfilter:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetMagFilter (EFilter const MagFilter)
+
+Sets the maximizing filter for this texture Default is EFilter::Linear
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1a9bbb28feea9e5235cda9aa02a02d1080:
+.. _cid-ion.graphics.gl.ctexture.setmipmapfilter:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetMipMapFilter (EFilter const MipMapFilter)
+
+Sets the mip map filter for this texture Default is EFilter::Linear
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1aafeb148e873a4055e1d43c5f431d164d:
+.. _cid-ion.graphics.gl.ctexture.setwrapmode:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetWrapMode (EWrapMode const WrapMode)
+
+Sets the wrap mode for this texture Default is EWrapMode::Repeat
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture_1ad8c28449ec0accc989f9988964fd4d2b:
+.. _cid-ion.graphics.gl.ctexture.setanisotropy:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetAnisotropy (f32 const Anisotropy)
+
+Sets the anisotropy filtering value for this texture A value < 0 indicates that the max anisotrophy value should be used Default is -1
+

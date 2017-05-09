@@ -1,0 +1,38 @@
+.. index:: pair: class; ion.Graphics.ITexture2DArray
+.. _doxid-classion_1_1Graphics_1_1ITexture2DArray:
+.. _cid-ion.graphics.itexture2darray:
+
+class ion.Graphics.ITexture2DArray
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1ITexture2DArray_1afa5506ba73ef917557533c6099eb519a:
+.. _cid-ion.graphics.itexture2darray.upload:
+.. _doxid-classion_1_1Graphics_1_1ITexture2DArray_1ab026c63061c97427445d2297fa9edef8:
+.. _cid-ion.graphics.itexture2darray.uploadsubregion:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void Upload (
+	    void const*const Data,
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+
+	void UploadSubRegion (
+	    void const*const Data,
+	    :ref:`vec3u<doxid-structvec3>` const& Offset,
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+

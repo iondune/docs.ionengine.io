@@ -1,0 +1,231 @@
+.. index:: pair: enum; ion.EKey
+.. _doxid-EKey_8h_1a26c62ef1a9d4bae5f8a1863922baf037:
+.. _cid-ion.ekey:
+
+enum ion.EKey
+=============
+
+
+
+Overview
+~~~~~~~~
+
+
+
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enum values
+
+	Unknown 
+	Backspace 
+	Tab 
+	Clear 
+	Enter 
+	Pause 
+	Escape 
+	Space 
+	Exclaim 
+	DoubleQuote 
+	Hash 
+	Dollar 
+	Ampersand 
+	Quote 
+	Leftparen 
+	Rightparen 
+	Asterisk 
+	Plus 
+	Comma 
+	Minus 
+	Period 
+	Slash 
+	Num0 
+	Num1 
+	Num2 
+	Num3 
+	Num4 
+	Num5 
+	Num6 
+	Num7 
+	Num8 
+	Num9 
+	Colon 
+	Semicolon 
+	Less 
+	Equals 
+	Greater 
+	Question 
+	At 
+	Grave 
+	LeftBracket 
+	BackSlash 
+	RightBracket 
+	Caret 
+	Underscore 
+	Backquote 
+	A 
+	B 
+	C 
+	D 
+	E 
+	F 
+	G 
+	H 
+	I 
+	J 
+	K 
+	L 
+	M 
+	N 
+	O 
+	P 
+	Q 
+	R 
+	S 
+	T 
+	U 
+	V 
+	W 
+	X 
+	Y 
+	Z 
+	Delete 
+	KeyPad0 
+	KeyPad1 
+	KeyPad2 
+	KeyPad3 
+	KeyPad4 
+	KeyPad5 
+	KeyPad6 
+	KeyPad7 
+	KeyPad8 
+	KeyPad9 
+	KeyPadPeriod 
+	KeyPadDivide 
+	KeyPadMultiply 
+	KeyPadMinus 
+	KeyPadPlus 
+	KeyPadEnter 
+	KeyPadEquals 
+	Up 
+	Down 
+	Right 
+	Left 
+	Insert 
+	Home 
+	End 
+	Pageup 
+	Pagedown 
+	F1 
+	F2 
+	F3 
+	F4 
+	F5 
+	F6 
+	F7 
+	F8 
+	F9 
+	F10 
+	F11 
+	F12 
+	F13 
+	F14 
+	F15 
+	Numlock 
+	Capslock 
+	Scrollock 
+	RightShift 
+	LeftShift 
+	RightControl 
+	LeftControl 
+	RightAlt 
+	LeftAlt 
+	RightMeta 
+	LeftMeta 
+	:ref:`LeftSuper<doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a4bd45bf12e08f60072b6962e9f7794c2>` 
+	:ref:`RightSuper<doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a0cc5a9f113dc1147c8eeae2f0199f9f2>` 
+	:ref:`Mode<doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a650be61892bf690026089544abbd9d26>` 
+	:ref:`Compose<doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037aa0c29a6fe815b4e79cafb36a6714094c>` 
+	Help 
+	Print 
+	Sysreq 
+	Break 
+	Menu 
+	:ref:`Power<doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037add4fe0cc913f704600b97d1f5dd285de>` 
+	:ref:`Euro<doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a3e823fac7473e42888932c7761c224fc>` 
+	:ref:`Undo<doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a1cdc076b28f70afac5fcedadf99fa119>` 
+	Count 
+
+.. _details-doxid-EKey_8h_1a26c62ef1a9d4bae5f8a1863922baf037:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Enum Values
+-----------
+
+.. _doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a4bd45bf12e08f60072b6962e9f7794c2:
+.. _cid-ion.ekey.leftsuper:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	LeftSuper
+
+Left "Windows" key.
+
+.. _doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a0cc5a9f113dc1147c8eeae2f0199f9f2:
+.. _cid-ion.ekey.rightsuper:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	RightSuper
+
+Right "Windows" key.
+
+.. _doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a650be61892bf690026089544abbd9d26:
+.. _cid-ion.ekey.mode:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	Mode
+
+"Alt Gr" key
+
+.. _doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037aa0c29a6fe815b4e79cafb36a6714094c:
+.. _cid-ion.ekey.compose:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	Compose
+
+Multi-key compose key.
+
+.. _doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037add4fe0cc913f704600b97d1f5dd285de:
+.. _cid-ion.ekey.power:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	Power
+
+Power Macintosh power key.
+
+.. _doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a3e823fac7473e42888932c7761c224fc:
+.. _cid-ion.ekey.euro:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	Euro
+
+Some european keyboards.
+
+.. _doxid-dummy_1a26c62ef1a9d4bae5f8a1863922baf037a1cdc076b28f70afac5fcedadf99fa119:
+.. _cid-ion.ekey.undo:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	Undo
+
+Atari keyboard has Undo.
+

@@ -1,0 +1,23 @@
+.. index:: pair: enum; ion.Graphics.EDrawFeature
+.. _doxid-namespaceion_1_1Graphics_1a5e576a7b5e19dd1eb42f99e9baff1624:
+.. _cid-ion.graphics.edrawfeature:
+
+enum ion.Graphics.EDrawFeature
+==============================
+
+
+
+
+
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enum values
+
+	Wireframe = 0
+	CullFront = 1
+	CullBack = 2
+	DisableDepthTest = 3
+	DisableDepthWrite = 4
+	PolygonOffset = 5
+

@@ -1,0 +1,41 @@
+.. index:: pair: class; ion.Graphics.CUniformValue <typename T>
+.. _doxid-classion_1_1Graphics_1_1CUniformValue:
+.. _cid-ion.graphics.cuniformvalue:
+
+class ion.Graphics.CUniformValue <typename T>
+=============================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1CUniformValue_1afa0a5097a4caf462e76ef2663658f2d3:
+.. _cid-ion.graphics.cuniformvalue.value:
+.. _doxid-classion_1_1Graphics_1_1CUniformValue_1a2641bd782cb4587379848821b54010b2:
+.. _cid-ion.graphics.cuniformvalue.cuniformvalue:
+.. _doxid-classion_1_1Graphics_1_1CUniformValue_1aea7bc1695eba366166e815eede737d1b:
+.. _cid-ion.graphics.cuniformvalue.cuniformvalue-2:
+.. _doxid-classion_1_1Graphics_1_1CUniformValue_1af4d2e88da4cff290831bdf7ed8943d66:
+.. _cid-ion.graphics.cuniformvalue.getdata:
+.. _doxid-classion_1_1Graphics_1_1CUniformValue_1ac99d3ea639439ba7f9ebdccbb2d63f60:
+.. _cid-ion.graphics.cuniformvalue.operator=:
+.. _doxid-classion_1_1Graphics_1_1CUniformValue_1af0ae027774b0427dc979859434a54e82:
+.. _cid-ion.graphics.cuniformvalue.operator t:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	T Value
+
+	// methods
+
+	CUniformValue ()
+	CUniformValue (T const& value)
+	void const* GetData ()
+	:ref:`CUniformValue<doxid-classion_1_1Graphics_1_1CUniformValue>`& operator= (T const& value)
+	operator T ()
+

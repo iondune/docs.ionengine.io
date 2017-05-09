@@ -1,0 +1,30 @@
+.. index:: pair: class; SLongitudeLatitude.CVincentyProjection
+.. _doxid-classSLongitudeLatitude_1_1CVincentyProjection:
+.. _cid-slongitudelatitude.cvincentyprojection:
+
+class SLongitudeLatitude.CVincentyProjection
+============================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSLongitudeLatitude_1_1CVincentyProjection_1abd1b000b07e995fe92a3436fba4e9bc9:
+.. _cid-slongitudelatitude.cvincentyprojection.distancebetween:
+.. _doxid-classSLongitudeLatitude_1_1CVincentyProjection_1af561372f92af779efe2f9094b65402c9:
+.. _cid-slongitudelatitude.cvincentyprojection.cvincentyprojection:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	T DistanceBetween (
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const& Left,
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const& Right
+	    )
+
+	CVincentyProjection ()
+

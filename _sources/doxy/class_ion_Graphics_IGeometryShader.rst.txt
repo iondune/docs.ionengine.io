@@ -1,0 +1,23 @@
+.. index:: pair: class; ion.Graphics.IGeometryShader
+.. _doxid-classion_1_1Graphics_1_1IGeometryShader:
+.. _cid-ion.graphics.igeometryshader:
+
+class ion.Graphics.IGeometryShader
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1IGeometryShader_1a9a75c959d8ceee49f2de884da66f7bc5:
+.. _cid-ion.graphics.igeometryshader.~igeometryshader:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	~IGeometryShader ()
+

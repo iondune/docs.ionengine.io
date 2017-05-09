@@ -1,0 +1,33 @@
+.. index:: pair: class; Random
+.. _doxid-classRandom:
+.. _cid-random:
+
+class Random
+============
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classRandom_1a0368c0d0352950b2f492dac51518ea41:
+.. _cid-random.between:
+.. _doxid-classRandom_1aa583cff0f7c71032c99810b6746fe76e:
+.. _cid-random.between-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	float Between (
+	    float const Min,
+	    float const Max
+	    )
+
+	int Between (
+	    int const Min,
+	    int const Max
+	    )
+

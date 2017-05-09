@@ -1,0 +1,20 @@
+.. index:: pair: enum; ion.Animation.CCatmullRomAdvancedSplineInterpolator.EMode
+.. _doxid-classion_1_1Animation_1_1CCatmullRomAdvancedSplineInterpolator_1a804c34d2927da650c6f05b599154eb80:
+.. _cid-ion.animation.ccatmullromadvancedsplineinterpolator.emode:
+
+enum ion.Animation.CCatmullRomAdvancedSplineInterpolator.EMode
+==============================================================
+
+
+
+
+
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enum values
+
+	Uniform = 0
+	Centripetal = 1
+	Chordal = 2
+

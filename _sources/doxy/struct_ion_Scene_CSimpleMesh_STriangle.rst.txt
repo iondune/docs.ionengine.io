@@ -1,0 +1,40 @@
+.. index:: pair: struct; ion.Scene.CSimpleMesh.STriangle
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1STriangle:
+.. _cid-ion.scene.csimplemesh.striangle:
+
+struct ion.Scene.CSimpleMesh.STriangle
+======================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1STriangle_1ab24d28f443569f949280512a99106cd3:
+.. _cid-ion.scene.csimplemesh.striangle.indices:
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1STriangle_1ab2517783a78ca6c4650b2698ae25c636:
+.. _cid-ion.scene.csimplemesh.striangle.normal:
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1STriangle_1a3fb2847416412d08d4230b1355c08dd4:
+.. _cid-ion.scene.csimplemesh.striangle.striangle:
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1STriangle_1a2c42485d0c79c08adba5014cb7df9d52:
+.. _cid-ion.scene.csimplemesh.striangle.striangle-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	uint Indices [3]
+	:ref:`vec3f<doxid-structvec3>` Normal
+
+	// methods
+
+	STriangle ()
+
+	STriangle (
+	    uint const index0,
+	    uint const index1,
+	    uint const index2
+	    )
+

@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>class ion.Scene.CCamera &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">class ion.Scene.CCamera</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>class ion.Scene.CCamera</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/class_ion_Scene_CCamera.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="class-ion-scene-ccamera">
+<span id="cid-ion-scene-ccamera"></span><span id="doxid-classion-1-1scene-1-1ccamera"></span><span id="index-0"></span><h1>class ion.Scene.CCamera<a class="headerlink" href="#class-ion-scene-ccamera" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<pre class="highlight overview-code-block literal-block" id="cid-ion-scene-ccamera-getpickingray">
+<span id="doxid-classion-1-1scene-1-1ccamera-1a04a2ebfb296a88dafb03f16526cf6364"></span><span id="cid-ion-scene-ccamera-getscreencoordinates"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a1cc9d244dfa1badd495c6902695fc20a"></span><span id="cid-ion-scene-ccamera-setfarplane"></span><span id="doxid-classion-1-1scene-1-1ccamera-1ad9f24a1bb256c3da1062c6da6946b765"></span><span id="cid-ion-scene-ccamera-setnearplane"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a46d1697b951ec0279380ed5ffa96149b"></span><span id="cid-ion-scene-ccamera-getfarplane"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a3f95ce5ee6950c9f11b403c742695299"></span><span id="cid-ion-scene-ccamera-getnearplane"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a0ecaab1a128793e7a45caa53c36df261"></span><span id="cid-ion-scene-ccamera-setprojectionmatrix"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a270ec856d75360f83719cbad29e8246d"></span><span id="cid-ion-scene-ccamera-setviewmatrix"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a604ff41ce57a99d10f77a8195bdcca94"></span><span id="cid-ion-scene-ccamera-setupvector"></span><span id="doxid-classion-1-1scene-1-1ccamera-1af4400b4f21032c57a2988a69423a2617"></span><span id="cid-ion-scene-ccamera-setlookattarget"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a4530806786621ae1b0b50dafad810d12"></span><span id="cid-ion-scene-ccamera-setlookdirection"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a2483c0840b77c866a7392d309767393e"></span><span id="cid-ion-scene-ccamera-setposition"></span><span id="doxid-classion-1-1scene-1-1ccamera-1ab325f06670401e59ea93fb6ab54e9a15"></span><span id="cid-ion-scene-ccamera-getprojectionmatrix"></span><span id="doxid-classion-1-1scene-1-1ccamera-1acadb5f7aa073a588498cb1bca65b6917"></span><span id="cid-ion-scene-ccamera-getviewmatrix"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a3271dc6525617728ba0a6592f4b61d77"></span><span id="cid-ion-scene-ccamera-getupvector"></span><span id="doxid-classion-1-1scene-1-1ccamera-1ad58a292f62b50413337f62eb8373002e"></span><span id="cid-ion-scene-ccamera-getlookattarget"></span><span id="doxid-classion-1-1scene-1-1ccamera-1af8cd17081d17ec59fd1f255d9805bf3b"></span><span id="cid-ion-scene-ccamera-getlookdirecton"></span><span id="doxid-classion-1-1scene-1-1ccamera-1af1075cca7d654578a0222480c5014e2f"></span><span id="cid-ion-scene-ccamera-getposition"></span><span id="doxid-classion-1-1scene-1-1ccamera-1ac5d38249afe36f265fbd6f59dc182e2f"></span><span id="cid-ion-scene-ccamera-update"></span><span id="doxid-classion-1-1scene-1-1ccamera-1aa7b6f1a8d3c1f248819058dab63ab41d"></span><span id="cid-ion-scene-ccamera-recalculateviewmatrix"></span><span id="doxid-classion-1-1scene-1-1ccamera-1a66c2b113aba240b63a028d411ee775ff"></span><span id="cid-ion-scene-ccamera-ccamera"></span><span id="doxid-classion-1-1scene-1-1ccamera-1aba1956c3413f5d165b62ca688b7bc680"></span><span></span><span class="c1">// methods</span>
+
+<span class="n">CCamera</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">RecalculateViewMatrix</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">Update</span> <span class="p">()</span>
+<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">GetPosition</span> <span class="p">()</span>
+<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">GetLookDirecton</span> <span class="p">()</span>
+<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="n">GetLookAtTarget</span> <span class="p">()</span>
+<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">GetUpVector</span> <span class="p">()</span>
+<span class="n">glm</span><span class="o">::</span><span class="n">mat4</span> <span class="n">GetViewMatrix</span> <span class="p">()</span>
+<span class="n">glm</span><span class="o">::</span><span class="n">mat4</span> <span class="n">GetProjectionMatrix</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetPosition</span> <span class="p">(</span><a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">position</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetLookDirection</span> <span class="p">(</span><a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">lookDirection</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetLookAtTarget</span> <span class="p">(</span><a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">lookAtTarget</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetUpVector</span> <span class="p">(</span><a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">UpVector</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetViewMatrix</span> <span class="p">(</span><span class="n">glm</span><span class="o">::</span><span class="n">mat4</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">viewMatrix</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetProjectionMatrix</span> <span class="p">(</span><span class="n">glm</span><span class="o">::</span><span class="n">mat4</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">projectionMatrix</span><span class="p">)</span>
+<span class="n">f32</span> <span class="n">GetNearPlane</span> <span class="p">()</span>
+<span class="n">f32</span> <span class="n">GetFarPlane</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetNearPlane</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">nearPlane</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetFarPlane</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">farPlane</span><span class="p">)</span>
+
+<a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2i</span></a><span></span> <span class="n">GetScreenCoordinates</span> <span class="p">(</span>
+    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">WorldPosition</span><span class="p">,</span>
+    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">WindowSize</span><span class="p">,</span>
+    <span class="kt">bool</span><span class="o">*</span> <span class="n">InFront</span> <span class="o">=</span> <span class="k">nullptr</span>
+    <span class="p">)</span>
+
+<a class="reference internal" href="class_ray3.html#doxid-classray3"><span class="std std-ref">ray3f</span></a><span></span> <span class="n">GetPickingRay</span> <span class="p">(</span>
+    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2i</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Pixel</span><span class="p">,</span>
+    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">WindowSize</span>
+    <span class="p">)</span>
+</pre>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

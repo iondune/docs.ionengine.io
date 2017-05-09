@@ -1,0 +1,14 @@
+.. index:: pair: struct; Color.Convert <typename T, typename U>
+.. _doxid-structColor_1_1Convert:
+.. _cid-color.convert:
+
+struct Color.Convert <typename T, typename U>
+=============================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+

@@ -1,0 +1,54 @@
+.. index:: pair: class; IMultiTreeNode <typename Implementation>
+.. _doxid-classIMultiTreeNode:
+.. _cid-imultitreenode:
+
+class IMultiTreeNode <typename Implementation>
+==============================================
+
+.. toctree::
+	:hidden:
+
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionTreeNode.h>
+
+
+Variant of :ref:`ITreeNode <doxid-classITreeNode>` that doesn't require a single parent relationship.
+
+.. _doxid-classIMultiTreeNode_1a0a5937b1d003c0db62acf2e11abdfa67:
+.. _cid-imultitreenode.getchildren:
+.. _doxid-classIMultiTreeNode_1a86ad4c944644c97661f2a0aa08886160:
+.. _cid-imultitreenode.addchild:
+.. _doxid-classIMultiTreeNode_1a4a1545d0ca0071185fba1420b3e28125:
+.. _cid-imultitreenode.removechild:
+.. _doxid-classIMultiTreeNode_1a3dd213d9d34e85c0b6c2feee699947fb:
+.. _cid-imultitreenode.removeallchildren:
+.. _doxid-classIMultiTreeNode_1aa209d31c77e1828a9e9e797670b1174e:
+.. _cid-imultitreenode.recurseonchildren:
+.. _doxid-classIMultiTreeNode_1a42bcff8aba825d67b210badf712b8071:
+.. _cid-imultitreenode.recurseonchildren-2:
+.. _doxid-classIMultiTreeNode_1a2ca96e8aa28272413eb4b50fac1fe253:
+.. _cid-imultitreenode.recurseonchildren-3:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	std::set <Implementation*> const& GetChildren ()
+	void AddChild (Implementation* Child)
+	void RemoveChild (Implementation* Child)
+	void RemoveAllChildren ()
+	void RecurseOnChildren <typename Return> (Return (Implementation::*) () Function)
+
+	void RecurseOnChildren <typename Return, typename P1> (
+	    Return (Implementation::*) (P1) Function,
+	    P1 p1
+	    )
+
+	void RecurseOnChildren <typename Return, typename P1, typename P2> (
+	    Return (Implementation::*) (P1, P2) Function,
+	    P1 p1,
+	    P2 p2
+	    )
+

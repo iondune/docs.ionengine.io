@@ -1,0 +1,32 @@
+.. index:: pair: class; ion.Graphics.CUniformCallback <typename T>
+.. _doxid-classion_1_1Graphics_1_1CUniformCallback:
+.. _cid-ion.graphics.cuniformcallback:
+
+class ion.Graphics.CUniformCallback <typename T>
+================================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1CUniformCallback_1ac2b58a8826e7a8ba0b911290228606b2:
+.. _cid-ion.graphics.cuniformcallback.callback:
+.. _doxid-classion_1_1Graphics_1_1CUniformCallback_1ac000066f778caedef3630855e287421e:
+.. _cid-ion.graphics.cuniformcallback.cuniformcallback:
+.. _doxid-classion_1_1Graphics_1_1CUniformCallback_1a51d1fbccc96e0c54d3c069b665985cd1:
+.. _cid-ion.graphics.cuniformcallback.getdata:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	std::function <T ()> Callback
+
+	// methods
+
+	CUniformCallback (std::function <T ()> const callback)
+	void const* GetData ()
+

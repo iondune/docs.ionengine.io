@@ -1,0 +1,26 @@
+.. index:: pair: class; IColorMapper
+.. _doxid-classIColorMapper:
+.. _cid-icolormapper:
+
+class IColorMapper
+==================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classIColorMapper_1a9f2d726b93fa549ec86ae716fcdc199f:
+.. _cid-icolormapper.getcolor:
+.. _doxid-classIColorMapper_1a5446c469186173f24449dfe4eee3a13e:
+.. _cid-icolormapper.preprocessvalues:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	:ref:`SColorAf<doxid-classSColorA>` const GetColor (:ref:`IDataRecord<doxid-classIDataRecord>` <f64> const& DataRecord)
+	void PreProcessValues (:ref:`IDatabase<doxid-classIDatabase>` <f64>& Database)
+

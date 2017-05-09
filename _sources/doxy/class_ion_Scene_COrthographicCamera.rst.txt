@@ -1,0 +1,59 @@
+.. index:: pair: class; ion.Scene.COrthographicCamera
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera:
+.. _cid-ion.scene.corthographiccamera:
+
+class ion.Scene.COrthographicCamera
+===================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1aafddc57f8d964f6b43e10529d45c51ff:
+.. _cid-ion.scene.corthographiccamera.corthographiccamera:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1a345c6d94244b981dd4e727997bffd274:
+.. _cid-ion.scene.corthographiccamera.gettop:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1a67e33cb77a677bbdcfd102f0cfb7bba8:
+.. _cid-ion.scene.corthographiccamera.getbottom:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1ae202bb947ee7de61cc9ab0048fe52f2d:
+.. _cid-ion.scene.corthographiccamera.getleft:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1a232c3ccc32e33784d87be779f2272f54:
+.. _cid-ion.scene.corthographiccamera.getright:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1a324e362649768625596707d04e451fea:
+.. _cid-ion.scene.corthographiccamera.settop:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1a3dcbb3f7454e371615bbbe3e40c99189:
+.. _cid-ion.scene.corthographiccamera.setbottom:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1a674ec21ce31bb12f5d3da7c402aebe1e:
+.. _cid-ion.scene.corthographiccamera.setleft:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1ae1e7c0ff5a5f27270c5feadca7358e5a:
+.. _cid-ion.scene.corthographiccamera.setright:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1a18916fb36bdbb28af135150a32e88ab4:
+.. _cid-ion.scene.corthographiccamera.recalculateprojectionmatrix:
+.. _doxid-classion_1_1Scene_1_1COrthographicCamera_1ae934fdcbba99ca33381b44c1530dac88:
+.. _cid-ion.scene.corthographiccamera.update:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	COrthographicCamera (
+	    f32 const left,
+	    f32 const right,
+	    f32 const bottom,
+	    f32 const top
+	    )
+
+	f32 GetTop ()
+	f32 GetBottom ()
+	f32 GetLeft ()
+	f32 GetRight ()
+	void SetTop (f32 const top)
+	void SetBottom (f32 const bottom)
+	void SetLeft (f32 const left)
+	void SetRight (f32 const right)
+	void RecalculateProjectionMatrix ()
+	void Update ()
+

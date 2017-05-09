@@ -1,0 +1,29 @@
+.. index:: pair: class; ion.Graphics.IUniform
+.. _doxid-classion_1_1Graphics_1_1IUniform:
+.. _cid-ion.graphics.iuniform:
+
+class ion.Graphics.IUniform
+===========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1IUniform_1a3b7ec373523243e1f0d2efcd460c7e8c:
+.. _cid-ion.graphics.iuniform.getdata:
+.. _doxid-classion_1_1Graphics_1_1IUniform_1af7bdc78cf6cf576a206a009f495a17a1:
+.. _cid-ion.graphics.iuniform.gettype:
+.. _doxid-classion_1_1Graphics_1_1IUniform_1ad0ee4072f1b3fc6dfc197b12cea9a093:
+.. _cid-ion.graphics.iuniform.getsize:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void const* GetData ()
+	EUniformType GetType ()
+	size_t GetSize ()
+

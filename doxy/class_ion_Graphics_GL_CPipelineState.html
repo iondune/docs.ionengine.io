@@ -1,0 +1,298 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>class ion.Graphics.GL.CPipelineState &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">class ion.Graphics.GL.CPipelineState</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>class ion.Graphics.GL.CPipelineState</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/class_ion_Graphics_GL_CPipelineState.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="class-ion-graphics-gl-cpipelinestate">
+<span id="cid-ion-graphics-gl-cpipelinestate"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate"></span><span id="index-0"></span><h1>class ion.Graphics.GL.CPipelineState<a class="headerlink" href="#class-ion-graphics-gl-cpipelinestate" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<pre class="highlight overview-code-block literal-block" id="cid-ion-graphics-gl-cpipelinestate-load">
+<span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1ae8ec5ed96c19ff4f3b0a62eeb3160fda"></span><span id="cid-ion-graphics-gl-cpipelinestate-getunbounduniforms"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a6176b8e5be15663d5bb624901cef01b5"></span><span id="cid-ion-graphics-gl-cpipelinestate-ignoreuniform"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a45c4897bd6bd588d36420df01e5e6bf6"></span><span id="cid-ion-graphics-gl-cpipelinestate-offertexture"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1acf98b66dc29aa8e8faea3fc6c43cf54d"></span><span id="cid-ion-graphics-gl-cpipelinestate-offeruniform"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a0f5945a58c52c37993877d23790a7439"></span><span id="cid-ion-graphics-gl-cpipelinestate-setblendmode"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a23e1b90ebd24c5f824de5c826164a6b2"></span><span id="cid-ion-graphics-gl-cpipelinestate-setpolygonoffsetamount"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a1e80e0bd7fc0f6c15754b6f40f0f7c46"></span><span id="cid-ion-graphics-gl-cpipelinestate-setfeatureenabled"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1ae6efec6e0e1fab22580793bd39e6ab08"></span><span id="cid-ion-graphics-gl-cpipelinestate-setprimitivetype"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a985859cee88ea65d8d3dd47186509a11"></span><span id="cid-ion-graphics-gl-cpipelinestate-settexture"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a765cd3d549b5af7aee9427a0a4669195"></span><span id="cid-ion-graphics-gl-cpipelinestate-setuniform"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a4de52b8793bb79b7de7d216a09ff84e1"></span><span id="cid-ion-graphics-gl-cpipelinestate-setindexbuffer"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a3dc1f8b17a3f22cfcb91ae19d8a1e2b4"></span><span id="cid-ion-graphics-gl-cpipelinestate-setvertexbuffer"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1ab5d9d5d3cbf17683a9a6b3892d92534b"></span><span id="cid-ion-graphics-gl-cpipelinestate-setprogram"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a51492559644207675fc5ce036fbf5124"></span><span id="id1"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a173e4202f97f2b767873a070596311fa"></span><span id="cid-ion-graphics-gl-cpipelinestate-cpipelinestate"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a18b96cfa0d8b48c9e92d08afe52f2427"></span><span id="cid-ion-graphics-gl-cpipelinestate-primitivetype"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a74c37a8f259364a4ad19e00133fdd5de"></span><span id="cid-ion-graphics-gl-cpipelinestate-blendmode"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a38535529133ea2d78d3b588b1dc87b31"></span><span id="cid-ion-graphics-gl-cpipelinestate-polygonoffsetamount"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a27ea5346bd1576a0ba44689b7e1bb464"></span><span id="cid-ion-graphics-gl-cpipelinestate-polygonoffset"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a29b4335aaeaad855aefcde176b125a1c"></span><span id="cid-ion-graphics-gl-cpipelinestate-disabledepthwrite"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a11fd0e97c27de8c2a9ec34face5c4d57"></span><span id="cid-ion-graphics-gl-cpipelinestate-disabledepthtest"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1ab9156ca8f0880edb625c32207baaf639"></span><span id="cid-ion-graphics-gl-cpipelinestate-cullback"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1acb33fa47177e77313297e10d114460ab"></span><span id="cid-ion-graphics-gl-cpipelinestate-cullfront"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a9ba88c770c69082f102d214810fab784"></span><span id="cid-ion-graphics-gl-cpipelinestate-drawwireframe"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a5aecfd9acd13bfa76ab6ee112d8c5740"></span><span id="cid-ion-graphics-gl-cpipelinestate-unboundattributes"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1ae7e887361b534504b5c9592139cdf740"></span><span id="cid-ion-graphics-gl-cpipelinestate-unbounduniforms"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a3a9bd92c5274f762f0b76b7f75998fd2"></span><span id="cid-ion-graphics-gl-cpipelinestate-boundtextures"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1aba9ad915ffb01de2464cf6a185b598c3"></span><span id="cid-ion-graphics-gl-cpipelinestate-textures"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a36518025b206d4218c5bd91cb0d77c39"></span><span id="cid-ion-graphics-gl-cpipelinestate-bounduniforms"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a65b2b8709a56530439b3a302d319b5a0"></span><span id="cid-ion-graphics-gl-cpipelinestate-uniforms"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a4e7e648888292ff61aa6c4716bb225e8"></span><span id="cid-ion-graphics-gl-cpipelinestate-loaded"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1ace33a644e09b3ee9fe5119c38555f606"></span><span id="cid-ion-graphics-gl-cpipelinestate-vertexarrayhandle"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a13fc8f92fef905646642b272bcfef176"></span><span id="cid-ion-graphics-gl-cpipelinestate-indexbuffer"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1af2b55683402dc4eb2b69c3da3340c783"></span><span id="cid-ion-graphics-gl-cpipelinestate-vertexbuffers"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a245145c8f3a698aed013dc195c321065"></span><span id="cid-ion-graphics-gl-cpipelinestate-shaderprogram"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1a54211c7a20936c4e9d9dc18bec162433"></span><span id="cid-ion-graphics-gl-cpipelinestate-window"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cpipelinestate-1ac58739abe0d07fb3baf533a70b4cffea"></span><span></span><span class="c1">// fields</span>
+
+CWindow<span></span><span class="o">*</span> <span class="n">Window</span>
+<span class="n">SharedPointer</span> <span class="o">&lt;</span>CShaderProgram<span></span><span class="o">&gt;</span> <span class="n">ShaderProgram</span>
+<span class="n">vector</span> <span class="o">&lt;</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>CVertexBuffer<span></span><span class="o">&gt;&gt;</span> <span class="n">VertexBuffers</span>
+<span class="n">SharedPointer</span> <span class="o">&lt;</span>CIndexBuffer<span></span><span class="o">&gt;</span> <span class="n">IndexBuffer</span>
+<span class="n">uint</span> <span class="n">VertexArrayHandle</span>
+<span class="kt">bool</span> <span class="n">Loaded</span>
+<span class="n">map</span> <span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> <span class="n">SharedPointer</span> <span class="o">&lt;</span>IUniform<span></span> <span class="k">const</span><span class="o">&gt;&gt;</span> <span class="n">Uniforms</span>
+<span class="n">map</span> <span class="o">&lt;</span><span class="n">uint</span><span class="p">,</span> <span class="n">SharedPointer</span> <span class="o">&lt;</span>IUniform<span></span> <span class="k">const</span><span class="o">&gt;&gt;</span> <span class="n">BoundUniforms</span>
+<span class="n">map</span> <span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> <span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture<span></span> <span class="k">const</span><span class="o">&gt;&gt;</span> <span class="n">Textures</span>
+<span class="n">map</span> <span class="o">&lt;</span><span class="n">u32</span><span class="p">,</span> <span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture<span></span> <span class="k">const</span><span class="o">&gt;&gt;</span> <span class="n">BoundTextures</span>
+<span class="n">set</span> <span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span> <span class="n">UnboundUniforms</span>
+<span class="n">set</span> <span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span> <span class="n">UnboundAttributes</span>
+<span class="kt">bool</span> <span class="n">DrawWireframe</span>
+<span class="kt">bool</span> <span class="n">CullFront</span>
+<span class="kt">bool</span> <span class="n">CullBack</span>
+<span class="kt">bool</span> <span class="n">DisableDepthTest</span>
+<span class="kt">bool</span> <span class="n">DisableDepthWrite</span>
+<span class="kt">bool</span> <span class="n">PolygonOffset</span>
+<span class="kt">float</span> <span class="n">PolygonOffsetAmount</span>
+<span class="n">EBlendMode</span> <span class="n">BlendMode</span>
+<span class="n">uint</span> <span class="n">PrimitiveType</span>
+
+<span class="c1">// methods</span>
+
+<span class="n">CPipelineState</span> <span class="p">(</span>CWindow<span></span><span class="o">*</span> <span class="n">Window</span><span class="p">)</span>
+<span class="o">~</span><span class="n">CPipelineState</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetProgram</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>IShaderProgram<span></span><span class="o">&gt;</span> <span class="n">ShaderProgram</span><span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetVertexBuffer</span> <span class="p">(</span>
+    <span class="n">uint</span> <span class="k">const</span> <span class="n">Index</span><span class="p">,</span>
+    <span class="n">SharedPointer</span> <span class="o">&lt;</span>IVertexBuffer<span></span><span class="o">&gt;</span> <span class="n">VertexBuffer</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetIndexBuffer</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>IIndexBuffer<span></span><span class="o">&gt;</span> <span class="n">IndexBuffer</span><span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetUniform</span> <span class="p">(</span>
+    <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">,</span>
+    <span class="n">SharedPointer</span> <span class="o">&lt;</span>IUniform<span></span><span class="o">&gt;</span> <span class="n">Uniform</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetTexture</span> <span class="p">(</span>
+    <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">,</span>
+    <span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture<span></span><span class="o">&gt;</span> <span class="n">Texture</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetPrimitiveType</span> <span class="p">(</span><span class="n">EPrimitiveType</span> <span class="k">const</span> <span class="n">PrimitiveType</span><span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetFeatureEnabled</span> <span class="p">(</span>
+    <span class="n">EDrawFeature</span> <span class="k">const</span> <span class="n">Feature</span><span class="p">,</span>
+    <span class="kt">bool</span> <span class="k">const</span> <span class="n">Enabled</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetPolygonOffsetAmount</span> <span class="p">(</span><span class="kt">float</span> <span class="k">const</span> <span class="n">Amount</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetBlendMode</span> <span class="p">(</span><span class="n">EBlendMode</span> <span class="k">const</span> <span class="n">BlendMode</span><span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">OfferUniform</span> <span class="p">(</span>
+    <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">,</span>
+    <span class="n">SharedPointer</span> <span class="o">&lt;</span>IUniform<span></span><span class="o">&gt;</span> <span class="n">Uniform</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">OfferTexture</span> <span class="p">(</span>
+    <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">,</span>
+    <span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture<span></span><span class="o">&gt;</span> <span class="n">Texture</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">IgnoreUniform</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">)</span>
+<span class="n">set</span> <span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span> <span class="n">GetUnboundUniforms</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">Load</span> <span class="p">()</span>
+</pre>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

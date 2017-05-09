@@ -1,0 +1,33 @@
+.. index:: pair: class; SLongitudeLatitude.IProjectionSystem
+.. _doxid-classSLongitudeLatitude_1_1IProjectionSystem:
+.. _cid-slongitudelatitude.iprojectionsystem:
+
+class SLongitudeLatitude.IProjectionSystem
+==========================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSLongitudeLatitude_1_1IProjectionSystem_1a9acb04f61c59101013babd0984cec146:
+.. _cid-slongitudelatitude.iprojectionsystem.distancebetween:
+.. _doxid-classSLongitudeLatitude_1_1IProjectionSystem_1a9d3418fdb47807130f9e3e9422c6952c:
+.. _cid-slongitudelatitude.iprojectionsystem.offsetbetween:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	T DistanceBetween (
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const&,
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const&
+	    )
+
+	:ref:`vec2<doxid-structvec2>` <T> OffsetBetween (
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const&,
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const&
+	    )
+

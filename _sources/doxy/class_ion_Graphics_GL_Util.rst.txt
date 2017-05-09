@@ -1,0 +1,32 @@
+.. index:: pair: class; ion.Graphics.GL.Util
+.. _doxid-classion_1_1Graphics_1_1GL_1_1Util:
+.. _cid-ion.graphics.gl.util:
+
+class ion.Graphics.GL.Util
+==========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1Util_1ab3e43716b76367219c5d60379a032b10:
+.. _cid-ion.graphics.gl.util.scalartypematrix:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1Util_1a283136cad558307288c1e44389c84ad6:
+.. _cid-ion.graphics.gl.util.sizematrix:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1Util_1aed4a797d1e913c1eb0f98d977fb3a3ad:
+.. _cid-ion.graphics.gl.util.scalartypestringmatrix:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1Util_1ab9286f822b6fb02f67cb0ea5735a4d98:
+.. _cid-ion.graphics.gl.util.sizestringmatrix:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	u32 const ScalarTypeMatrix [9]
+	u64 const SizeMatrix [7]
+	string const ScalarTypeStringMatrix [9]
+	string const SizeStringMatrix [7]
+

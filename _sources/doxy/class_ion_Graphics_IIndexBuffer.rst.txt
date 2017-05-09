@@ -1,0 +1,44 @@
+.. index:: pair: class; ion.Graphics.IIndexBuffer
+.. _doxid-classion_1_1Graphics_1_1IIndexBuffer:
+.. _cid-ion.graphics.iindexbuffer:
+
+class ion.Graphics.IIndexBuffer
+===============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1IIndexBuffer_1a1221d998a5650f1106f9d2f12273089c:
+.. _cid-ion.graphics.iindexbuffer.~iindexbuffer:
+.. _doxid-classion_1_1Graphics_1_1IIndexBuffer_1a938250f5eec40285a47295f0d13922ff:
+.. _cid-ion.graphics.iindexbuffer.uploaddata:
+.. _doxid-classion_1_1Graphics_1_1IIndexBuffer_1adf8eb582da80b7fe4c81b358f8104f1d:
+.. _cid-ion.graphics.iindexbuffer.uploaddata-2:
+.. _doxid-classion_1_1Graphics_1_1IIndexBuffer_1a783f7fdece4a92d0f2c58dbe74d96544:
+.. _cid-ion.graphics.iindexbuffer.uploaddata-3:
+.. _doxid-classion_1_1Graphics_1_1IIndexBuffer_1a0a110a1205a7734850069d31065a87fe:
+.. _cid-ion.graphics.iindexbuffer.uploaddata-4:
+.. _doxid-classion_1_1Graphics_1_1IIndexBuffer_1a4672dfb7c37890d422b225fa83b14f4e:
+.. _cid-ion.graphics.iindexbuffer.uploaddata-5:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	~IIndexBuffer ()
+	void UploadData <typename T> (vector <T> const& Data)
+
+	void UploadData (
+	    void const* Data,
+	    size_t const Elements,
+	    EValueType const ValueType
+	    )
+
+	void UploadData (vector <u8> const& Data)
+	void UploadData (vector <u16> const& Data)
+	void UploadData (vector <u32> const& Data)
+

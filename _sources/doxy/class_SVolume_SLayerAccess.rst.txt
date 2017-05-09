@@ -1,0 +1,23 @@
+.. index:: pair: class; SVolume.SLayerAccess
+.. _doxid-classSVolume_1_1SLayerAccess:
+.. _cid-svolume.slayeraccess:
+
+class SVolume.SLayerAccess
+==========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSVolume_1_1SLayerAccess_1a961cd07b1327c31b841c47f845dd3df8:
+.. _cid-svolume.slayeraccess.operator[]:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	:ref:`SRowAccess<doxid-classSVolume_1_1SRowAccess>` operator[] (u32 const Y)
+

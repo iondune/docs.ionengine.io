@@ -1,0 +1,25 @@
+.. index:: pair: enum; ion.Graphics.EAttributeType
+.. _doxid-namespaceion_1_1Graphics_1a070026c778aa94db28cdb1c061f616b2:
+.. _cid-ion.graphics.eattributetype:
+
+enum ion.Graphics.EAttributeType
+================================
+
+
+
+
+
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enum values
+
+	Float = 0
+	Float = 1
+	Float = 1
+	Int = 1
+	UnsignedInt = 2
+	Double = 3
+	Double = 6
+	Double = 2
+

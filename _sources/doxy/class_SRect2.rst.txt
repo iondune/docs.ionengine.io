@@ -1,0 +1,89 @@
+.. index:: pair: class; SRect2 <typename T>
+.. _doxid-classSRect2:
+.. _cid-srect2:
+
+class SRect2 <typename T>
+=========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSRect2_1a4ed8e397f6c099c886138a9da58e0f09:
+.. _cid-srect2.position:
+.. _doxid-classSRect2_1a6020afede4a5771c81de738b191c8e3d:
+.. _cid-srect2.size:
+.. _doxid-classSRect2_1a358a23cb91a4f9e8877dd0125f166ba4:
+.. _cid-srect2.srect2:
+.. _doxid-classSRect2_1a04175764b5ce1ca9c9847b870b7858bd:
+.. _cid-srect2.srect2-2:
+.. _doxid-classSRect2_1a7b2bd84a9e1980bdfe945ac7d3f88b2b:
+.. _cid-srect2.srect2-3:
+.. _doxid-classSRect2_1a154451cfc96b657a95245a14eb8452d5:
+.. _cid-srect2.othercorner:
+.. _doxid-classSRect2_1ac0ea69ad95bc9b9ecb445b9a1b97bb19:
+.. _cid-srect2.getcenter:
+.. _doxid-classSRect2_1a85fcb2efbf5b03e7dafa57f6570c7f2a:
+.. _cid-srect2.intersects:
+.. _doxid-classSRect2_1a90dab6efff03fd3f63b02976315c62b6:
+.. _cid-srect2.getintersection:
+.. _doxid-classSRect2_1a8f067e602465dabeb1c4018b3740b7cb:
+.. _cid-srect2.ispointinside:
+.. _doxid-classSRect2_1add03d3bf336fc7e9b849cc4c4b43e359:
+.. _cid-srect2.ispointinsideoron:
+.. _doxid-classSRect2_1aaabed6042ddedab6511cf52d5202c522:
+.. _cid-srect2.getarea:
+.. _doxid-classSRect2_1a4b6955b946fac34d0bc4274a7c284b39:
+.. _cid-srect2.bounds:
+.. _doxid-classSRect2_1ad4221683240c51a8825adc718f291020:
+.. _cid-srect2.clipto:
+.. _doxid-classSRect2_1a0b3ed5fbb56092e8cbfe79e4b1cf17a7:
+.. _cid-srect2.operator<:
+.. _doxid-classSRect2_1a84c90b89b21aa18920db6f2c2da86704:
+.. _cid-srect2.operator==:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	:ref:`vec2<doxid-structvec2>` <T> Position
+	:ref:`vec2<doxid-structvec2>` <T> Size
+
+	// construction
+
+	SRect2 ()
+
+	SRect2 (
+	    :ref:`vec2<doxid-structvec2>` <T> const& position,
+	    :ref:`vec2<doxid-structvec2>` <T> const& size
+	    )
+
+	SRect2 (
+	    T const x,
+	    T const y,
+	    T const w,
+	    T const h
+	    )
+
+	// methods
+
+	:ref:`vec2<doxid-structvec2>` <T> OtherCorner ()
+	:ref:`vec2<doxid-structvec2>` <T> GetCenter ()
+	bool Intersects (:ref:`SRect2<doxid-classSRect2>` <T> const& r)
+	:ref:`SRect2<doxid-classSRect2>` GetIntersection (:ref:`SRect2<doxid-classSRect2>` <T> const& r)
+	bool IsPointInside (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	bool IsPointInsideOrOn (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	T GetArea ()
+
+	void Bounds (
+	    :ref:`vec2<doxid-structvec2>` <T> const& pos1,
+	    :ref:`vec2<doxid-structvec2>` <T> const& pos2
+	    )
+
+	void ClipTo (:ref:`SRect2<doxid-classSRect2>` const& r)
+	bool operator< (:ref:`SRect2<doxid-classSRect2>` <T> const& other)
+	bool operator== (:ref:`SRect2<doxid-classSRect2>` <T> const& other)
+

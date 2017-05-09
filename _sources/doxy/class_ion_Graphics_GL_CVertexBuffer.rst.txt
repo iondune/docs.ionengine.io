@@ -1,0 +1,63 @@
+.. index:: pair: class; ion.Graphics.GL.CVertexBuffer
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer:
+.. _cid-ion.graphics.gl.cvertexbuffer:
+
+class ion.Graphics.GL.CVertexBuffer
+===================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer_1aed81b3920eca7963a45298565743a08a:
+.. _cid-ion.graphics.gl.cvertexbuffer.handle:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer_1ae0b27ad4b44c472a023497257c6b4bee:
+.. _cid-ion.graphics.gl.cvertexbuffer.inputlayout:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer_1a8aaa71130697bf4b7adcf6d5ba632c7c:
+.. _cid-ion.graphics.gl.cvertexbuffer.instancing:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer_1a12809ad65cd538f20013010ccb02024f:
+.. _cid-ion.graphics.gl.cvertexbuffer.~cvertexbuffer:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer_1a62abab16ba6b9445d208fbf5277ac8b9:
+.. _cid-ion.graphics.gl.cvertexbuffer.uploaddata:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer_1a25f2a8db5ccb43484c4fcdebad2e213f:
+.. _cid-ion.graphics.gl.cvertexbuffer.uploadsubdata:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer_1a4fbdfde3f62d44d01fdaa10a33160db6:
+.. _cid-ion.graphics.gl.cvertexbuffer.setinputlayout:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer_1aa805cdc6267666001a08af95dbaeece6:
+.. _cid-ion.graphics.gl.cvertexbuffer.setinstancingenabled:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	uint Handle
+	vector <:ref:`SInputLayoutElement<doxid-struction_1_1Graphics_1_1SInputLayoutElement>`> InputLayout
+	bool Instancing
+
+	// methods
+
+	~CVertexBuffer ()
+
+	void UploadData (
+	    void const*const Data,
+	    size_t const DataSize,
+	    size_t const NumberOfElements
+	    )
+
+	void UploadSubData (
+	    void const*const Data,
+	    size_t const DataSize,
+	    size_t const Offset,
+	    size_t const NumberOfElements
+	    )
+
+	void SetInputLayout (
+	    :ref:`SInputLayoutElement<doxid-struction_1_1Graphics_1_1SInputLayoutElement>` const*const InputLayout,
+	    int const NumElements
+	    )
+
+	void SetInstancingEnabled (bool const Enabled)
+

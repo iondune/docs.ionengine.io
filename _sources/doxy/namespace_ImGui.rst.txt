@@ -1,0 +1,90 @@
+.. index:: pair: namespace; ImGui
+.. _doxid-namespaceImGui:
+.. _cid-imgui:
+
+namespace ImGui
+===============
+
+.. toctree::
+	:hidden:
+
+	class_ImGui_scoped_id.rst
+
+
+
+
+
+.. _doxid-imgui__color__picker_8cpp_1a78ab91895920cc93e008fb5c5736a112:
+.. _cid-imgui.colorpicker4:
+.. _doxid-imgui__color__picker_8cpp_1a7f4c571c4370e8071e8bb9f4b0ce969b:
+.. _cid-imgui.colorpicker3:
+.. _doxid-imgui__color__picker_8cpp_1a976b7d1872828f529d08f1be1f32812d:
+.. _cid-imgui.colorpicker3-2:
+.. _doxid-ionGUI_8cpp_1adbb535ec3ef0986cecb975545df3adb9:
+.. _cid-imgui.sliderdouble:
+.. _doxid-ionGUI_8cpp_1a463e1efcbe525d6c680022932c2e5e33:
+.. _cid-imgui.coloredit3:
+.. _doxid-ionGUI_8cpp_1a5291beaac7a0fe9ab7406406a67f2c5f:
+.. _cid-imgui.dragvec2:
+.. _doxid-ionGUI_8cpp_1a56718fc1ee5a9143069f83447b3ceed9:
+.. _cid-imgui.dragvec3:
+.. _doxid-ionGUI_8cpp_1a3b68fd8859fda125dd45845f2b00d938:
+.. _cid-imgui.combo:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// classes
+
+	class :ref:`ImGui.scoped_id<doxid-classImGui_1_1scoped__id>`
+
+	// global functions
+
+	bool ImGui.ColorPicker4 (
+	    float* col,
+	    bool show_alpha
+	    )
+
+	bool ImGui.ColorPicker3 (float col [3])
+	bool ImGui.ColorPicker3 (:ref:`color3f<doxid-classcolor3>`& col)
+
+	bool ImGui.SliderDouble (
+	    const char* label,
+	    double* v,
+	    double v_min,
+	    double v_max,
+	    const char* display_format,
+	    double power
+	    )
+
+	bool ImGui.ColorEdit3 (
+	    const char* label,
+	    :ref:`color3f<doxid-classcolor3>`& Color
+	    )
+
+	bool ImGui.DragVec2 (
+	    const char* label,
+	    :ref:`vec2f<doxid-structvec2>`& v,
+	    float v_speed,
+	    float v_min,
+	    float v_max,
+	    const char* display_format,
+	    float power
+	    )
+
+	bool ImGui.DragVec3 (
+	    const char* label,
+	    :ref:`vec3f<doxid-structvec3>`& v,
+	    float v_speed,
+	    float v_min,
+	    float v_max,
+	    const char* display_format,
+	    float power
+	    )
+
+	bool ImGui.Combo (
+	    const char* label,
+	    int* current_item,
+	    std::initializer_list <char const*> const& items,
+	    int height_in_items
+	    )
+

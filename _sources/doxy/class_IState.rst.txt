@@ -1,0 +1,29 @@
+.. index:: pair: class; IState
+.. _doxid-classIState:
+.. _cid-istate:
+
+class IState
+============
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classIState_1a5a7d9476cee2ff616257dc70e3fbfec2:
+.. _cid-istate.begin:
+.. _doxid-classIState_1a21c4407f9d7fec5a5e21d73312cd9562:
+.. _cid-istate.end:
+.. _doxid-classIState_1a1709053bf5ee1efb7f4895bcd16a550b:
+.. _cid-istate.update:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void Begin ()
+	void End ()
+	void Update (f32 const ElapsedTime)
+

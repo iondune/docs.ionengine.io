@@ -1,0 +1,47 @@
+.. index:: pair: class; ion.Scene.ICamera
+.. _doxid-classion_1_1Scene_1_1ICamera:
+.. _cid-ion.scene.icamera:
+
+class ion.Scene.ICamera
+=======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Scene_1_1ICamera_1afffc02c779387063ec90c84f5d6c20f4:
+.. _cid-ion.scene.icamera.getviewmatrix:
+.. _doxid-classion_1_1Scene_1_1ICamera_1a32903e67d1148184037f75122158a56e:
+.. _cid-ion.scene.icamera.getprojectionmatrix:
+.. _doxid-classion_1_1Scene_1_1ICamera_1a1d0d8868af676a253ee523ea03a30ed7:
+.. _cid-ion.scene.icamera.getposition:
+.. _doxid-classion_1_1Scene_1_1ICamera_1a9a2a054fe447e30fdc67ac1f14487148:
+.. _cid-ion.scene.icamera.getupvector:
+.. _doxid-classion_1_1Scene_1_1ICamera_1ac52c4007ec9f39423b8abb99cf694fcd:
+.. _cid-ion.scene.icamera.setposition:
+.. _doxid-classion_1_1Scene_1_1ICamera_1a3126962f820428b53b9d9aed012669f2:
+.. _cid-ion.scene.icamera.setupvector:
+.. _doxid-classion_1_1Scene_1_1ICamera_1a8430cca749c14558f8805f3b122998b2:
+.. _cid-ion.scene.icamera.setlookdirection:
+.. _doxid-classion_1_1Scene_1_1ICamera_1ad8a5848abf1c9b01f25801042196dfda:
+.. _cid-ion.scene.icamera.setlookattarget:
+.. _doxid-classion_1_1Scene_1_1ICamera_1ad141a8f671ef8ddc2867fcb4eaed7ad4:
+.. _cid-ion.scene.icamera.update:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	glm::mat4 GetViewMatrix ()
+	glm::mat4 GetProjectionMatrix ()
+	:ref:`vec3f<doxid-structvec3>` const& GetPosition ()
+	:ref:`vec3f<doxid-structvec3>` const& GetUpVector ()
+	void SetPosition (:ref:`vec3f<doxid-structvec3>` const& position)
+	void SetUpVector (:ref:`vec3f<doxid-structvec3>` const& UpVector)
+	void SetLookDirection (:ref:`vec3f<doxid-structvec3>` const& lookDirection)
+	void SetLookAtTarget (:ref:`vec3f<doxid-structvec3>` const& lookAtTarget)
+	void Update ()
+

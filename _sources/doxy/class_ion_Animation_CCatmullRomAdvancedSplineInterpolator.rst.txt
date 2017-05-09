@@ -1,0 +1,39 @@
+.. index:: pair: class; ion.Animation.CCatmullRomAdvancedSplineInterpolator <typename T>
+.. _doxid-classion_1_1Animation_1_1CCatmullRomAdvancedSplineInterpolator:
+.. _cid-ion.animation.ccatmullromadvancedsplineinterpolator:
+
+class ion.Animation.CCatmullRomAdvancedSplineInterpolator <typename T>
+======================================================================
+
+.. toctree::
+	:hidden:
+
+	enum_ion_Animation_CCatmullRomAdvancedSplineInterpolator_EMode.rst
+
+
+
+
+
+.. _doxid-classion_1_1Animation_1_1CCatmullRomAdvancedSplineInterpolator_1a4b13dbb2e390119b771e7a70c3d5db37:
+.. _cid-ion.animation.ccatmullromadvancedsplineinterpolator.mode:
+.. _doxid-classion_1_1Animation_1_1CCatmullRomAdvancedSplineInterpolator_1a3007dff9bbe88629ebbd922e9c4c386c:
+.. _cid-ion.animation.ccatmullromadvancedsplineinterpolator.interpolate:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enums
+
+	enum :ref:`EMode<doxid-classion_1_1Animation_1_1CCatmullRomAdvancedSplineInterpolator_1a804c34d2927da650c6f05b599154eb80>`
+
+	// fields
+
+	EMode Mode
+
+	// methods
+
+	T Interpolate (
+	    :ref:`ISpline<doxid-classion_1_1Animation_1_1ISpline>` <T> const& Path,
+	    int const Index,
+	    float const Mu
+	    )
+

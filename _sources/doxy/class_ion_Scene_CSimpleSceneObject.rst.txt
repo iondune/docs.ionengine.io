@@ -1,0 +1,89 @@
+.. index:: pair: class; ion.Scene.CSimpleSceneObject
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject:
+.. _cid-ion.scene.csimplesceneobject:
+
+class ion.Scene.CSimpleSceneObject
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1aec5ff35f37f3bb15740faffe60d8ea7d:
+.. _cid-ion.scene.csimplesceneobject.~csimplesceneobject:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1aa6e74831b95318d1fc556b525c77e1a9:
+.. _cid-ion.scene.csimplesceneobject.load:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1a0ae2fd9aa642f84d00918fe945d5111e:
+.. _cid-ion.scene.csimplesceneobject.draw:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1a6703e8bc027eb92d55c93a821f61b4a8:
+.. _cid-ion.scene.csimplesceneobject.setindexbuffer:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1a841095b3fdc8a288d2c3092f1c2a83c9:
+.. _cid-ion.scene.csimplesceneobject.setvertexbuffer:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1af2a32d31a59511ca0bab3fb90bb8eabf:
+.. _cid-ion.scene.csimplesceneobject.setshader:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1afaa4a8b90d0110b15b46a2f2ad85d24a:
+.. _cid-ion.scene.csimplesceneobject.settexture:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1a366c2438d431704eb5379b5562ab0a06:
+.. _cid-ion.scene.csimplesceneobject.setuniform:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1a5b3dc589c0add9a2ef8c3ee83fe34e48:
+.. _cid-ion.scene.csimplesceneobject.setfeatureenabled:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1aa7d2ca1fb35602de1c9fed31671abfe6:
+.. _cid-ion.scene.csimplesceneobject.setpolygonoffsetamount:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1ac229eff081dc55aefb93c17d9e2b2c48:
+.. _cid-ion.scene.csimplesceneobject.setblendmode:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1a371035dde422e429533d20fe4f39927d:
+.. _cid-ion.scene.csimplesceneobject.setprimitivetype:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1aff32d21c4c1d8939fd6e8e5171324573:
+.. _cid-ion.scene.csimplesceneobject.setrendercategory:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1a34e968e8e2ffad71e4476c9ca322c711:
+.. _cid-ion.scene.csimplesceneobject.setinstancecount:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1a480a217388c4c34e951e15c8338082be:
+.. _cid-ion.scene.csimplesceneobject.getmaterial:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1ac8559ed9470c458e04519121ed95a826:
+.. _cid-ion.scene.csimplesceneobject.getmaterial-2:
+.. _doxid-classion_1_1Scene_1_1CSimpleSceneObject_1a9b2c04bad96cd94c3afa4f366147837d:
+.. _cid-ion.scene.csimplesceneobject.setmaterial:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	~CSimpleSceneObject ()
+	void Load (:ref:`CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`* RenderPass)
+	void Draw (:ref:`CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`* RenderPass)
+	void SetIndexBuffer (SharedPointer <:ref:`Graphics::IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> IndexBuffer)
+
+	void SetVertexBuffer (
+	    uint const Index,
+	    SharedPointer <:ref:`Graphics::IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> VertexBuffer
+	    )
+
+	void SetShader (SharedPointer <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> Shader)
+
+	void SetTexture (
+	    string const& Name,
+	    SharedPointer <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
+	    )
+
+	void SetUniform (
+	    string const& Name,
+	    SharedPointer <:ref:`Graphics::IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
+	    )
+
+	void SetFeatureEnabled (
+	    Graphics::EDrawFeature const Feature,
+	    bool const Enabled
+	    )
+
+	void SetPolygonOffsetAmount (float const Amount)
+	void SetBlendMode (Graphics::EBlendMode const BlendMode)
+	void SetPrimitiveType (Graphics::EPrimitiveType const PrimitiveType)
+	void SetRenderCategory (uint const Category)
+	void SetInstanceCount (uint const InstanceCount)
+	:ref:`SSimpleMaterial<doxid-struction_1_1Scene_1_1SSimpleMaterial>`& GetMaterial ()
+	:ref:`SSimpleMaterial<doxid-struction_1_1Scene_1_1SSimpleMaterial>` const& GetMaterial ()
+	void SetMaterial (:ref:`SSimpleMaterial<doxid-struction_1_1Scene_1_1SSimpleMaterial>` const& Material)
+

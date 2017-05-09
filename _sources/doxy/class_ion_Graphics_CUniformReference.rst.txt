@@ -1,0 +1,35 @@
+.. index:: pair: class; ion.Graphics.CUniformReference <typename T>
+.. _doxid-classion_1_1Graphics_1_1CUniformReference:
+.. _cid-ion.graphics.cuniformreference:
+
+class ion.Graphics.CUniformReference <typename T>
+=================================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1CUniformReference_1a995003e18153654286f9553f77b527df:
+.. _cid-ion.graphics.cuniformreference.value:
+.. _doxid-classion_1_1Graphics_1_1CUniformReference_1a8247d5d9bcfbd7c537ef79359871f48c:
+.. _cid-ion.graphics.cuniformreference.cuniformreference:
+.. _doxid-classion_1_1Graphics_1_1CUniformReference_1aa622a40ad6c3352211839a26f2211a9d:
+.. _cid-ion.graphics.cuniformreference.cuniformreference-2:
+.. _doxid-classion_1_1Graphics_1_1CUniformReference_1a26ab9a84578f94f384247463f052feb5:
+.. _cid-ion.graphics.cuniformreference.getdata:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	T const* Value
+
+	// methods
+
+	CUniformReference ()
+	CUniformReference (T const* value)
+	void const* GetData ()
+

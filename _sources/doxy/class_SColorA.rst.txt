@@ -1,0 +1,128 @@
+.. index:: pair: class; SColorA <typename T>
+.. _doxid-classSColorA:
+.. _cid-scolora:
+
+class SColorA <typename T>
+==========================
+
+.. toctree::
+	:hidden:
+
+
+
+Overview
+~~~~~~~~
+
+
+
+.. _doxid-classSColorA_1a32653b64806d21ce42d98add920231ad:
+.. _cid-scolora.red:
+.. _doxid-classSColorA_1a18097e0ab2c905fff619ebbff0881632:
+.. _cid-scolora.green:
+.. _doxid-classSColorA_1a4ea9887e60664dea85fc1a3765d105a3:
+.. _cid-scolora.blue:
+.. _doxid-classSColorA_1a5c030a6209303657c4a7dc1337d46681:
+.. _cid-scolora.alpha:
+.. _doxid-classSColorA_1a7165b6063df1752cd7968c95bf62630d:
+.. _cid-scolora.full:
+.. _doxid-classSColorA_1a9735c6517d25cbaecbea1580d5752df0:
+.. _cid-scolora.scolora:
+.. _doxid-classSColorA_1ac36b59ff0d4f605f8d48de1b2950f5c6:
+.. _cid-scolora.scolora-2:
+.. _doxid-classSColorA_1a4e89626a786359bef235bc2ac1d33dfa:
+.. _cid-scolora.scolora-3:
+.. _doxid-classSColorA_1a86373d087a840bf5dbb564bbe87530d7:
+.. _cid-scolora.scolora-4:
+.. _doxid-classSColorA_1a1b4eeccf6235ce7f4ff1e622db936cca:
+.. _cid-scolora.scolora-5:
+.. _doxid-classSColorA_1a8837305df041dbbb5c6de4acf0d387ac:
+.. _cid-scolora.operator=:
+.. _doxid-classSColorA_1a247f609ba04835a94dadbee3aa802a58:
+.. _cid-scolora.operator=-2:
+.. _doxid-classSColorA_1a5c310e1756ac32c750b50d5935386a72:
+.. _cid-scolora.operator=-3:
+.. _doxid-classSColorA_1aaf7f887558160e1c05556a988d5e8e1a:
+.. _cid-scolora.operator=-4:
+.. _doxid-classSColorA_1a391b315f9346ea3087438d99287f7881:
+.. _cid-scolora.set:
+.. _doxid-classSColorA_1a3e039233dde1e01451b6ff2371829e1d:
+.. _cid-scolora.set-2:
+.. _doxid-classSColorA_1a9edc5114c3452dd147811a359e9db5ee:
+.. _cid-scolora.set-3:
+.. _doxid-classSColorA_1ae05ab9f3360c30a98b1b973e45462444:
+.. _cid-scolora.set-4:
+.. _doxid-classSColorA_1abfb334ab364604ac10d659e9c2997069:
+.. _cid-scolora.operator color3< t >:
+.. _doxid-classSColorA_1aa8e0ad736436f62fb453f533341ed707:
+.. _cid-scolora.full-2:
+.. _doxid-classSColorA_1ade21cffcb131ab5a56037145bd4f6a9a:
+.. _cid-scolora.set-5:
+.. _doxid-classSColorA_1a5d73810f4aa9280473b9bda06f35d4c8:
+.. _cid-scolora.set-6:
+.. _doxid-classSColorA_1a58076fa62836a32c56fbac3082be8678:
+.. _cid-scolora.set-7:
+.. _doxid-classSColorA_1ad48b7aa6776e5304b20230a826adfbe8:
+.. _cid-scolora.set-8:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	T& Red
+	T& Green
+	T& Blue
+	T& Alpha
+	T const Full
+
+	// construction
+
+	SColorA ()
+	SColorA (T const in)
+
+	SColorA (
+	    T const r,
+	    T const g,
+	    T const b,
+	    T const a = Full
+	    )
+
+	SColorA (:ref:`SColorA<doxid-classSColorA>` <T> const& vec)
+	SColorA <typename U, int otherDimension, typename otherImplementation> (:ref:`SVector<doxid-classSVector>` <U, otherDimension, otherImplementation> const& vec)
+	:ref:`SColorA<doxid-classSColorA_1a8d29ff18772cdbfe7a9ae8a39c7aee9e>` (:ref:`color3<doxid-classcolor3>` <T> const& Other)
+
+	// methods
+
+	:ref:`SColorA<doxid-classSColorA>` <T>& operator= (:ref:`SColorA<doxid-classSColorA>` <T> const& vec)
+	:ref:`SColorA<doxid-classSColorA>` <T>& operator= <typename U, u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <U, OtherDimension> const& vec)
+	:ref:`SColorA<doxid-classSColorA>` <T>& operator= (:ref:`color3<doxid-classcolor3>` <T> const& col)
+	:ref:`SColorA<doxid-classSColorA>` <T>& operator= <typename U> (:ref:`color3<doxid-classcolor3>` <U> const& col)
+	void set <typename U, u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <U, OtherDimension> const& other)
+	void set <u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <u8, OtherDimension> const& other)
+	void set <u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <f32, OtherDimension> const& other)
+	void set <u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <f64, OtherDimension> const& other)
+	operator color3< T > ()
+	u8 const Full ()
+	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <u8, OtherDimension> const& other)
+	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <u8, OtherDimension> const& other)
+	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <f32, OtherDimension> const& other)
+	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <f64, OtherDimension> const& other)
+
+.. _details-doxid-classSColorA:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Construction
+------------
+
+.. _doxid-classSColorA_1a8d29ff18772cdbfe7a9ae8a39c7aee9e:
+.. _cid-scolora.scolora-6:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	SColorA (:ref:`color3<doxid-classcolor3>` <T> const& Other)
+
+Scalar constructor.
+

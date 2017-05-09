@@ -1,0 +1,32 @@
+.. index:: pair: class; ion.CTimeManager.CUpdateTick
+.. _doxid-classion_1_1CTimeManager_1_1CUpdateTick:
+.. _cid-ion.ctimemanager.cupdatetick:
+
+class ion.CTimeManager.CUpdateTick
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1CTimeManager_1_1CUpdateTick_1a4788937dc519f27f689daf8fd1278119:
+.. _cid-ion.ctimemanager.cupdatetick.gettick:
+.. _doxid-classion_1_1CTimeManager_1_1CUpdateTick_1a1cab73bdab58952363bc08018f820461:
+.. _cid-ion.ctimemanager.cupdatetick.getelapsedtime:
+.. _doxid-classion_1_1CTimeManager_1_1CUpdateTick_1a34c9d3588ea50c9af219337077adffc4:
+.. _cid-ion.ctimemanager.cupdatetick.getmaxduration:
+.. _doxid-classion_1_1CTimeManager_1_1CUpdateTick_1ac87a8a5f3f0ec20186425ebadeebac1b:
+.. _cid-ion.ctimemanager.cupdatetick.getaccumulator:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	f64 GetTick ()
+	f64 GetElapsedTime ()
+	f64 GetMaxDuration ()
+	f64 GetAccumulator ()
+

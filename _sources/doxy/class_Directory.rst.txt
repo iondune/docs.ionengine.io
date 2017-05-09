@@ -1,0 +1,30 @@
+.. index:: pair: class; Directory
+.. _doxid-classDirectory:
+.. _cid-directory:
+
+class Directory
+===============
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classDirectory_1a09f59fc0269cde284535bdf2ca835893:
+.. _cid-directory.read:
+.. _doxid-classDirectory_1aa93210928940ac01f59fa9678f95ab43:
+.. _cid-directory.findbyextension:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	vector <string> Read (string const& Path)
+
+	vector <string> FindByExtension (
+	    string const& Path,
+	    string const& Extension
+	    )
+

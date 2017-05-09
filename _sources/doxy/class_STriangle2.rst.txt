@@ -1,0 +1,51 @@
+.. index:: pair: class; STriangle2 <typename T>
+.. _doxid-classSTriangle2:
+.. _cid-striangle2:
+
+class STriangle2 <typename T>
+=============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSTriangle2_1a96307f7c5280472c2fd1ce70535c1e7b:
+.. _cid-striangle2.vertices:
+.. _doxid-classSTriangle2_1ad400fe299c4545bdbd2f2f1fa1c8affe:
+.. _cid-striangle2.striangle2:
+.. _doxid-classSTriangle2_1a134397f18fef298de39ce3c2d3ccf26f:
+.. _cid-striangle2.striangle2-2:
+.. _doxid-classSTriangle2_1a87ee82f1a64968a4800b2888005f8f7c:
+.. _cid-striangle2.pointinside:
+.. _doxid-classSTriangle2_1a97855e919da119fcd1aa7628007c29ab:
+.. _cid-striangle2.sign:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	:ref:`vec2<doxid-structvec2>` <T> Vertices [3]
+
+	// construction
+
+	STriangle2 ()
+
+	STriangle2 (
+	    :ref:`vec2<doxid-structvec2>` <T> const& v1,
+	    :ref:`vec2<doxid-structvec2>` <T> const& v2,
+	    :ref:`vec2<doxid-structvec2>` <T> const& v3
+	    )
+
+	// methods
+
+	bool PointInside (:ref:`vec2<doxid-structvec2>` <T> const& pt)
+
+	T Sign (
+	    :ref:`vec2<doxid-structvec2>` <T> const& p1,
+	    :ref:`vec2<doxid-structvec2>` <T> const& p2,
+	    :ref:`vec2<doxid-structvec2>` <T> const& p3
+	    )
+

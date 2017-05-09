@@ -1,0 +1,102 @@
+.. index:: pair: class; ion.Scene.CGeometryCreator
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator:
+.. _cid-ion.scene.cgeometrycreator:
+
+class ion.Scene.CGeometryCreator
+================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1ad9d67e3ef75f91013b5d6d09991891ef:
+.. _cid-ion.scene.cgeometrycreator.createcube:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1a2ef66ce59e23439b9d2d1129fcfa6d0e:
+.. _cid-ion.scene.cgeometrycreator.createcylinder:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1a81012c93f0b1a7a46e6351ca52f9036b:
+.. _cid-ion.scene.cgeometrycreator.createdisc:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1ae3484aed8c399a313c1649c8afa6a461:
+.. _cid-ion.scene.cgeometrycreator.createtorus:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1a5bbc267fa0c4322520ba7ccc5c24d47e:
+.. _cid-ion.scene.cgeometrycreator.createsphere:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1a7db47c8fb70e4b69956b640e1641ee2c:
+.. _cid-ion.scene.cgeometrycreator.createskysphere:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1abd378e23262c04d9f58bb8c62877dbd2:
+.. _cid-ion.scene.cgeometrycreator.createplane:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1a94397fb8660a61c4ad0c5ae4b4511ba3:
+.. _cid-ion.scene.cgeometrycreator.createwafer:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1a94a72ae576b5f09daa0edf0e02b1c143:
+.. _cid-ion.scene.cgeometrycreator.createscreentriangle:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1a5ed28843a74eb1ea545c7e94e20ed092:
+.. _cid-ion.scene.cgeometrycreator.intersect:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1ae39762898c93e0ab99325f8451d856ae:
+.. _cid-ion.scene.cgeometrycreator.intersectanddelete:
+.. _doxid-classion_1_1Scene_1_1CGeometryCreator_1a08c97085a113cadcda77883825c9bf8e:
+.. _cid-ion.scene.cgeometrycreator.loadobjfile:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateCube (:ref:`vec3f<doxid-structvec3>` const& Size = :ref:`vec3f<doxid-structvec3>` (1.f))
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateCylinder (
+	    f32 const baseRadius = 0.2f,
+	    f32 const topRadius = 0.2f,
+	    f32 const height = 1.f,
+	    uint const slices = 32,
+	    uint const stacks = 4
+	    )
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateDisc (
+	    f32 const innerRadius = 0.1f,
+	    f32 const outerRadius = 0.5f,
+	    f32 const height = 0.2f,
+	    uint const slices = 32,
+	    uint const stacks = 4
+	    )
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateTorus (
+	    f32 const centralRadius = 1.f,
+	    f32 const innerRadius = 0.25f,
+	    uint const slices = 16,
+	    uint const stacks = 20
+	    )
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateSphere (
+	    :ref:`vec3f<doxid-structvec3>` const& Radii = :ref:`vec3f<doxid-structvec3>` (0.5f),
+	    uint const Slices = 32,
+	    uint const Stacks = 16
+	    )
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateSkySphere ()
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreatePlane (:ref:`vec2f<doxid-structvec2>` const& Size = :ref:`vec2f<doxid-structvec2>` (1.f))
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateWafer (
+	    f32 const radius = 0.5f,
+	    uint const Slices = 40
+	    )
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateScreenTriangle ()
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* Intersect (
+	    :ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>` const* A,
+	    :ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>` const* B,
+	    :ref:`vec3f<doxid-structvec3>` const& AOffset = 0,
+	    :ref:`vec3f<doxid-structvec3>` const& BOffset = 0
+	    )
+
+	void IntersectAndDelete (
+	    :ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* A,
+	    :ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>` const* B,
+	    :ref:`vec3f<doxid-structvec3>` const& BOffset = 0
+	    )
+
+	vector <:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`*> LoadOBJFile (
+	    string const& FileName,
+	    string const& Path = ""
+	    )
+

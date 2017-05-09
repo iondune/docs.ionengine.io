@@ -1,0 +1,23 @@
+.. index:: pair: class; ion.Graphics.IVertexShader
+.. _doxid-classion_1_1Graphics_1_1IVertexShader:
+.. _cid-ion.graphics.ivertexshader:
+
+class ion.Graphics.IVertexShader
+================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1IVertexShader_1aac752e7de8dcfd562fcd1c3d8141af41:
+.. _cid-ion.graphics.ivertexshader.~ivertexshader:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	~IVertexShader ()
+

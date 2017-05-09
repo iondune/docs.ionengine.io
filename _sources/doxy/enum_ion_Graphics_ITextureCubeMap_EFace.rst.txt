@@ -1,0 +1,23 @@
+.. index:: pair: enum; ion.Graphics.ITextureCubeMap.EFace
+.. _doxid-classion_1_1Graphics_1_1ITextureCubeMap_1a11b5eaddd3f6d92d3fee7d676e8fbbaa:
+.. _cid-ion.graphics.itexturecubemap.eface:
+
+enum ion.Graphics.ITextureCubeMap.EFace
+=======================================
+
+
+
+
+
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enum values
+
+	PositiveX = 0
+	NegativeX = 1
+	PositiveY = 2
+	NegativeY = 3
+	PositiveZ = 4
+	NegativeZ = 5
+

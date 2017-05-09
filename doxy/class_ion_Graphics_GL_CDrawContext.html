@@ -1,0 +1,263 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>class ion.Graphics.GL.CDrawContext &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">class ion.Graphics.GL.CDrawContext</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>class ion.Graphics.GL.CDrawContext</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/class_ion_Graphics_GL_CDrawContext.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="class-ion-graphics-gl-cdrawcontext">
+<span id="cid-ion-graphics-gl-cdrawcontext"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext"></span><span id="index-0"></span><h1>class ion.Graphics.GL.CDrawContext<a class="headerlink" href="#class-ion-graphics-gl-cdrawcontext" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<pre class="highlight overview-code-block literal-block" id="cid-ion-graphics-gl-cdrawcontext-invalidate">
+<span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a45f4d26eda0324c04752e1f0f758cc9d"></span><span id="cid-ion-graphics-gl-cdrawcontext-createdrawconfig"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a96eb7dfa07810c576db8b3b2a1860146"></span><span id="cid-ion-graphics-gl-cdrawcontext-draw"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a1e26b012eb5ea3af13918397ca66df89"></span><span id="cid-ion-graphics-gl-cdrawcontext-getunbounduniforms"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a5d5c4bf9410e40a083e052527c3aa5fb"></span><span id="cid-ion-graphics-gl-cdrawcontext-setinstancingenabled"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a0d3da17da5e72433391f7a25bf8a059c"></span><span id="cid-ion-graphics-gl-cdrawcontext-setblendmode"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a71fb192d746896615023f315155730ca"></span><span id="cid-ion-graphics-gl-cdrawcontext-setfeatureenabled"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a071dbb4bfae3f0d6c704950a09474d0c"></span><span id="cid-ion-graphics-gl-cdrawcontext-setprimitivetype"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1acfd71c15d41b2c02e075ede33fd58ce8"></span><span id="cid-ion-graphics-gl-cdrawcontext-settexture"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1ac0320d292ff89c3024e8979a0b98c73d"></span><span id="cid-ion-graphics-gl-cdrawcontext-setuniform"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a95703f76ccbd63fe2c2e846e866b9bb6"></span><span id="cid-ion-graphics-gl-cdrawcontext-setindexbuffer"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a4be4126db522e7a284ec1364c0cae4a5"></span><span id="cid-ion-graphics-gl-cdrawcontext-setvertexbuffer"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a2622c0989be6b37b332505d50a500eb5"></span><span id="cid-ion-graphics-gl-cdrawcontext-setprogram"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1a6c2434a8722e9aa1dbe4e0f5148f022a"></span><span id="cid-ion-graphics-gl-cdrawcontext-cdrawcontext"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cdrawcontext-1ae846fe9e01958c53b448a9c5e1ea3772"></span><span></span><span class="c1">// methods</span>
+
+<span class="n">CDrawContext</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetProgram</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>IShaderProgram<span></span><span class="o">&gt;</span> <span class="n">ShaderProgram</span><span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetVertexBuffer</span> <span class="p">(</span>
+    <span class="n">uint</span> <span class="k">const</span> <span class="n">Index</span><span class="p">,</span>
+    <span class="n">SharedPointer</span> <span class="o">&lt;</span>IVertexBuffer<span></span><span class="o">&gt;</span> <span class="n">VertexBuffer</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetIndexBuffer</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>IIndexBuffer<span></span><span class="o">&gt;</span> <span class="n">IndexBuffer</span><span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetUniform</span> <span class="p">(</span>
+    <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">,</span>
+    <span class="n">SharedPointer</span> <span class="o">&lt;</span>IUniform<span></span><span class="o">&gt;</span> <span class="n">Uniform</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetTexture</span> <span class="p">(</span>
+    <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">,</span>
+    <span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture<span></span><span class="o">&gt;</span> <span class="n">Texture</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetPrimitiveType</span> <span class="p">(</span><span class="n">EPrimitiveType</span> <span class="k">const</span> <span class="n">PrimitiveType</span><span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetFeatureEnabled</span> <span class="p">(</span>
+    <span class="n">EDrawFeature</span> <span class="k">const</span> <span class="n">Feature</span><span class="p">,</span>
+    <span class="kt">bool</span> <span class="k">const</span> <span class="n">Enabled</span>
+    <span class="p">)</span>
+
+<span class="kt">void</span> <span class="n">SetBlendMode</span> <span class="p">(</span><span class="n">EBlendMode</span> <span class="k">const</span> <span class="n">BlendMode</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetInstancingEnabled</span> <span class="p">(</span><span class="kt">bool</span> <span class="k">const</span> <span class="n">Enabled</span><span class="p">)</span>
+<span class="n">set</span> <span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span> <span class="n">GetUnboundUniforms</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">Draw</span> <span class="p">(</span>IDrawConfig<span></span><span class="o">*</span> <span class="n">DrawConfig</span><span class="p">)</span>
+IDrawConfig<span></span><span class="o">*</span> <span class="n">CreateDrawConfig</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">Invalidate</span> <span class="p">()</span>
+</pre>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+.. index:: pair: class; ion.GUI.CWindowWidget
+.. _doxid-classion_1_1GUI_1_1CWindowWidget:
+.. _cid-ion.gui.cwindowwidget:
+
+class ion.GUI.CWindowWidget
+===========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1GUI_1_1CWindowWidget_1a51904a1223452b65124a8086a003053d:
+.. _cid-ion.gui.cwindowwidget.drawgui:
+.. _doxid-classion_1_1GUI_1_1CWindowWidget_1aaf37d97e0a8dfbda03eb06322f66b22c:
+.. _cid-ion.gui.cwindowwidget.drawguiifvisible:
+.. _doxid-classion_1_1GUI_1_1CWindowWidget_1a4b7332943757ab5f8169107ccc5e0a0b:
+.. _cid-ion.gui.cwindowwidget.toggleguivisibility:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void DrawGUI ()
+	void DrawGUIIfVisible ()
+	void ToggleGUIVisibility ()
+

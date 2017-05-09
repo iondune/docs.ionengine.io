@@ -1,0 +1,81 @@
+.. index:: pair: class; ion.Graphics.GL.CDrawContext
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext:
+.. _cid-ion.graphics.gl.cdrawcontext:
+
+class ion.Graphics.GL.CDrawContext
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1ae846fe9e01958c53b448a9c5e1ea3772:
+.. _cid-ion.graphics.gl.cdrawcontext.cdrawcontext:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a6c2434a8722e9aa1dbe4e0f5148f022a:
+.. _cid-ion.graphics.gl.cdrawcontext.setprogram:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a2622c0989be6b37b332505d50a500eb5:
+.. _cid-ion.graphics.gl.cdrawcontext.setvertexbuffer:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a4be4126db522e7a284ec1364c0cae4a5:
+.. _cid-ion.graphics.gl.cdrawcontext.setindexbuffer:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a95703f76ccbd63fe2c2e846e866b9bb6:
+.. _cid-ion.graphics.gl.cdrawcontext.setuniform:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1ac0320d292ff89c3024e8979a0b98c73d:
+.. _cid-ion.graphics.gl.cdrawcontext.settexture:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1acfd71c15d41b2c02e075ede33fd58ce8:
+.. _cid-ion.graphics.gl.cdrawcontext.setprimitivetype:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a071dbb4bfae3f0d6c704950a09474d0c:
+.. _cid-ion.graphics.gl.cdrawcontext.setfeatureenabled:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a71fb192d746896615023f315155730ca:
+.. _cid-ion.graphics.gl.cdrawcontext.setblendmode:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a0d3da17da5e72433391f7a25bf8a059c:
+.. _cid-ion.graphics.gl.cdrawcontext.setinstancingenabled:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a5d5c4bf9410e40a083e052527c3aa5fb:
+.. _cid-ion.graphics.gl.cdrawcontext.getunbounduniforms:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a1e26b012eb5ea3af13918397ca66df89:
+.. _cid-ion.graphics.gl.cdrawcontext.draw:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a96eb7dfa07810c576db8b3b2a1860146:
+.. _cid-ion.graphics.gl.cdrawcontext.createdrawconfig:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawContext_1a45f4d26eda0324c04752e1f0f758cc9d:
+.. _cid-ion.graphics.gl.cdrawcontext.invalidate:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	CDrawContext ()
+	void SetProgram (SharedPointer <:ref:`IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> ShaderProgram)
+
+	void SetVertexBuffer (
+	    uint const Index,
+	    SharedPointer <:ref:`IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> VertexBuffer
+	    )
+
+	void SetIndexBuffer (SharedPointer <:ref:`IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> IndexBuffer)
+
+	void SetUniform (
+	    string const& Name,
+	    SharedPointer <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
+	    )
+
+	void SetTexture (
+	    string const& Name,
+	    SharedPointer <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
+	    )
+
+	void SetPrimitiveType (EPrimitiveType const PrimitiveType)
+
+	void SetFeatureEnabled (
+	    EDrawFeature const Feature,
+	    bool const Enabled
+	    )
+
+	void SetBlendMode (EBlendMode const BlendMode)
+	void SetInstancingEnabled (bool const Enabled)
+	set <string> GetUnboundUniforms ()
+	void Draw (:ref:`IDrawConfig<doxid-classion_1_1Graphics_1_1IDrawConfig>`* DrawConfig)
+	:ref:`IDrawConfig<doxid-classion_1_1Graphics_1_1IDrawConfig>`* CreateDrawConfig ()
+	void Invalidate ()
+

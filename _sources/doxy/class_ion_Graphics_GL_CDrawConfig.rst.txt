@@ -1,0 +1,48 @@
+.. index:: pair: class; ion.Graphics.GL.CDrawConfig
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawConfig:
+.. _cid-ion.graphics.gl.cdrawconfig:
+
+class ion.Graphics.GL.CDrawConfig
+=================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawConfig_1a76d924b3cd5c443d9f14a3d653aeae2b:
+.. _cid-ion.graphics.gl.cdrawconfig.setvertexbuffer:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawConfig_1a535f0df9f0d3a07fd8385865eb4ac82a:
+.. _cid-ion.graphics.gl.cdrawconfig.setindexbuffer:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawConfig_1aaad78fd019377059eaba6a51be333f4c:
+.. _cid-ion.graphics.gl.cdrawconfig.setuniform:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawConfig_1a33c2a82cb1de667d6da90cfb8a42f51a:
+.. _cid-ion.graphics.gl.cdrawconfig.settexture:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CDrawConfig_1a56e40930ca2209294d34725cbf871851:
+.. _cid-ion.graphics.gl.cdrawconfig.setinstancecount:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void SetVertexBuffer (
+	    uint const Index,
+	    SharedPointer <:ref:`IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> VertexBuffer
+	    )
+
+	void SetIndexBuffer (SharedPointer <:ref:`IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> IndexBuffer)
+
+	void SetUniform (
+	    string const& Name,
+	    SharedPointer <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
+	    )
+
+	void SetTexture (
+	    string const& Name,
+	    SharedPointer <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
+	    )
+
+	void SetInstanceCount (uint const Count)
+

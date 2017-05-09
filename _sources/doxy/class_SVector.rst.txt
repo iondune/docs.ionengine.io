@@ -1,0 +1,133 @@
+.. index:: pair: class; SVector <typename T, int Size, typename Implementation>
+.. _doxid-classSVector:
+.. _cid-svector:
+
+class SVector <typename T, int Size, typename Implementation>
+=============================================================
+
+.. toctree::
+	:hidden:
+
+
+
+Overview
+~~~~~~~~
+
+
+
+.. _doxid-classSVector_1ae07714efce7476cf5a295bc12bd74f9f:
+.. _cid-svector.dotproduct:
+.. _doxid-classSVector_1accec650b11ad53611c547f22a6d9ebd8:
+.. _cid-svector.dot:
+.. _doxid-classSVector_1aa50a23541078b3d60ef995fe8a00a315:
+.. _cid-svector.getdistancefrom:
+.. _doxid-classSVector_1a45ca81593d4617ff309b536360bb6c29:
+.. _cid-svector.getdistancesqfrom:
+.. _doxid-classSVector_1aac6240cecb5919590de4319f1857dfd4:
+.. _cid-svector.getinterpolated:
+.. _doxid-classSVector_1aebad8c05d0f299f62ce2b36ffa18a226:
+.. _cid-svector.getnormalized:
+.. _doxid-classSVector_1ababdd0ecbc60c9bbac2d43d9bb0a9a78:
+.. _cid-svector.operator+:
+.. _doxid-classSVector_1ae55fe04e918d4c242b4348ab4daf1fdf:
+.. _cid-svector.operator-:
+.. _doxid-classSVector_1abe8fd510cd3c63e864c507721f99b8a8:
+.. _cid-svector.operator*:
+.. _doxid-classSVector_1ad06635d9dc6fedc4dc4842196e4612ed:
+.. _cid-svector.operator.:
+.. _doxid-classSVector_1a12ee8bda8526402726e8185079eed362:
+.. _cid-svector.operator+-2:
+.. _doxid-classSVector_1a953baa2cc3ae8b9741209ce0bd60692e:
+.. _cid-svector.operator--2:
+.. _doxid-classSVector_1a5bf6d1d72d9af8e150cd75fd403081f2:
+.. _cid-svector.operator*-2:
+.. _doxid-classSVector_1a99432569375d5a7c87145807bcd16a99:
+.. _cid-svector.operator.-2:
+.. _doxid-classSVector_1ae514874387e04bc7b435873785f28e4f:
+.. _cid-svector.operator+=:
+.. _doxid-classSVector_1abe9307e3154d882ae93d6e1dad4abe53:
+.. _cid-svector.operator-=:
+.. _doxid-classSVector_1aa8019fa203e08be675bc31f12245f1f4:
+.. _cid-svector.operator*=:
+.. _doxid-classSVector_1a527f1daef8f1f4b0d7dd66770e3d4c5c:
+.. _cid-svector.operator.=:
+.. _doxid-classSVector_1aa468c9fc71905c7725ab90c72119d090:
+.. _cid-svector.operator+=-2:
+.. _doxid-classSVector_1a67247be1efef8c12d9cf7c97e526774b:
+.. _cid-svector.operator-=-2:
+.. _doxid-classSVector_1a263a71f7fb1119891a6a9dea92a92af9:
+.. _cid-svector.operator*=-2:
+.. _doxid-classSVector_1a635a374002f76d8e72f93625c83c7c9a:
+.. _cid-svector.operator.=-2:
+.. _doxid-classSVector_1a813cd0a841cf3a7629d5702d476b2793:
+.. _cid-svector.operator--3:
+.. _doxid-classSVector_1ac24b9ca0291f7d9793cbfc0250592610:
+.. _cid-svector.operator<:
+.. _doxid-classSVector_1a110ca4c57db6e2166b0978dc795eab38:
+.. _cid-svector.operator==:
+.. _doxid-classSVector_1a9bcadc07aa65599b4cbd9275fbe11dee:
+.. _cid-svector.operator!=:
+.. _doxid-classSVector_1a6c0a121b0ebd3825629ed80bfed0626e:
+.. _cid-svector.equals:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	T const DotProduct (:ref:`Other<doxid-classSVectorBase>` const& other)
+	T const Dot (:ref:`Other<doxid-classSVectorBase>` const& other)
+	T const GetDistanceFrom (:ref:`Other<doxid-classSVectorBase>` const& v)
+	T const GetDistanceSqFrom (:ref:`Other<doxid-classSVectorBase>` const& v)
+
+	Implementation const GetInterpolated <typename Real> (
+	    :ref:`Other<doxid-classSVectorBase>` const& v,
+	    Real const d
+	    )
+
+	Implementation const GetNormalized ()
+	:ref:`Type<doxid-classSVector>`& :ref:`Normalize<doxid-classSVector_1a02d6bc8afcb4f7f657839076374bfdb1>` ()
+	Implementation const operator+ (:ref:`Other<doxid-classSVectorBase>` const& v)
+	Implementation const operator- (:ref:`Other<doxid-classSVectorBase>` const& v)
+	Implementation const operator* (:ref:`Other<doxid-classSVectorBase>` const& v)
+	Implementation const operator/ (:ref:`Other<doxid-classSVectorBase>` const& v)
+	Implementation const operator+ (T const s)
+	Implementation const operator- (T const s)
+	Implementation const operator* (T const s)
+	Implementation const operator/ (T const s)
+	:ref:`Type<doxid-classSVector>`& operator+= (:ref:`Other<doxid-classSVectorBase>` const& v)
+	:ref:`Type<doxid-classSVector>`& operator-= (:ref:`Other<doxid-classSVectorBase>` const& v)
+	:ref:`Type<doxid-classSVector>`& operator*= (:ref:`Other<doxid-classSVectorBase>` const& v)
+	:ref:`Type<doxid-classSVector>`& operator/= (:ref:`Other<doxid-classSVectorBase>` const& v)
+	:ref:`Type<doxid-classSVector>`& operator+= (T const s)
+	:ref:`Type<doxid-classSVector>`& operator-= (T const s)
+	:ref:`Type<doxid-classSVector>`& operator*= (T const s)
+	:ref:`Type<doxid-classSVector>`& operator/= (T const s)
+	Implementation const operator- ()
+	bool operator< (:ref:`Other<doxid-classSVectorBase>` const& v)
+	bool operator== (:ref:`Other<doxid-classSVectorBase>` const& v)
+	bool operator!= (:ref:`Other<doxid-classSVectorBase>` const& v)
+
+	bool Equals (
+	    :ref:`Other<doxid-classSVectorBase>` const& v,
+	    T const Epsilon = :ref:`RoundingError<doxid-structRoundingError>` <T>::Value ()
+	    )
+
+.. _details-doxid-classSVector:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Methods
+-------
+
+.. _doxid-classSVector_1a02d6bc8afcb4f7f657839076374bfdb1:
+.. _cid-svector.normalize:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	:ref:`Type<doxid-classSVector>`& Normalize ()
+
+Normalize this vector.
+

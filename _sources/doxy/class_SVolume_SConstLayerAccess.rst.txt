@@ -1,0 +1,23 @@
+.. index:: pair: class; SVolume.SConstLayerAccess
+.. _doxid-classSVolume_1_1SConstLayerAccess:
+.. _cid-svolume.sconstlayeraccess:
+
+class SVolume.SConstLayerAccess
+===============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSVolume_1_1SConstLayerAccess_1aa96e3340bfe6dfdef9376b7c759c0acb:
+.. _cid-svolume.sconstlayeraccess.operator[]:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	:ref:`SConstRowAccess<doxid-classSVolume_1_1SConstRowAccess>` operator[] (u32 const Y)
+

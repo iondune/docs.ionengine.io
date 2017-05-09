@@ -1,0 +1,47 @@
+.. index:: pair: class; ion.Graphics.GL.CShaderProgram
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram:
+.. _cid-ion.graphics.gl.cshaderprogram:
+
+class ion.Graphics.GL.CShaderProgram
+====================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram_1addd42f211083a94388112a44937e96b4:
+.. _cid-ion.graphics.gl.cshaderprogram.handle:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram_1a044fbdc5a550fce5c62a3bc8d40771ea:
+.. _cid-ion.graphics.gl.cshaderprogram.linked:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram_1a8d9a3255440282cddf33c541c3f65127:
+.. _cid-ion.graphics.gl.cshaderprogram.attributes:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram_1acf798b0ac01fde31decd227e33628a60:
+.. _cid-ion.graphics.gl.cshaderprogram.uniforms:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram_1a481671777d2eb72b045ce8d2ff7a70d9:
+.. _cid-ion.graphics.gl.cshaderprogram.setvertexstage:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram_1a5ee9a9dae9d462a1f8e64fbef04a7bc0:
+.. _cid-ion.graphics.gl.cshaderprogram.setgeometrystage:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram_1a570c2cab24c76d69befdebbcbeea2834:
+.. _cid-ion.graphics.gl.cshaderprogram.setpixelstage:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram_1a6d2c6a0e301a1a7221ab44cc5076ddaf:
+.. _cid-ion.graphics.gl.cshaderprogram.link:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	uint Handle
+	bool Linked
+	map <string, pair <uint, uint>> Attributes
+	map <string, uint> Uniforms
+
+	// methods
+
+	void SetVertexStage (SharedPointer <:ref:`IVertexShader<doxid-classion_1_1Graphics_1_1IVertexShader>`> VertexShader)
+	void SetGeometryStage (SharedPointer <:ref:`IGeometryShader<doxid-classion_1_1Graphics_1_1IGeometryShader>`> GeometryShader)
+	void SetPixelStage (SharedPointer <:ref:`IPixelShader<doxid-classion_1_1Graphics_1_1IPixelShader>`> PixelShader)
+	void Link ()
+

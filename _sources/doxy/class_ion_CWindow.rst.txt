@@ -1,0 +1,83 @@
+.. index:: pair: class; ion.CWindow
+.. _doxid-classion_1_1CWindow:
+.. _cid-ion.cwindow:
+
+class ion.CWindow
+=================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1CWindow_1a41d8f7fb7845364d3b2f4403c327fe50:
+.. _cid-ion.cwindow.makecontextcurrent:
+.. _doxid-classion_1_1CWindow_1acb80e67df7d700f2bcc7d42f2ceccd40:
+.. _cid-ion.cwindow.shouldclose:
+.. _doxid-classion_1_1CWindow_1aefc55326c1b5c0a714817a529392ad82:
+.. _cid-ion.cwindow.close:
+.. _doxid-classion_1_1CWindow_1ab3f89a6482a5109ec0834b49376fabe8:
+.. _cid-ion.cwindow.getsize:
+.. _doxid-classion_1_1CWindow_1af728e9aab76a887fa7a146e7452bc7b1:
+.. _cid-ion.cwindow.getframebuffersize:
+.. _doxid-classion_1_1CWindow_1aa6f5c91e3d2af24eacdac43f42c5d7a6:
+.. _cid-ion.cwindow.getaspectratio:
+.. _doxid-classion_1_1CWindow_1a0ee0ce2231398a49586cf6fa0fc5fb0d:
+.. _cid-ion.cwindow.swapbuffers:
+.. _doxid-classion_1_1CWindow_1ac341265324a05939f9bdebabe5afd623:
+.. _cid-ion.cwindow.getposition:
+.. _doxid-classion_1_1CWindow_1af8e02c313bd3380146dcacf4a4e854fb:
+.. _cid-ion.cwindow.setposition:
+.. _doxid-classion_1_1CWindow_1a611540906e85c13da78d2e40af47fc3a:
+.. _cid-ion.cwindow.iskeydown:
+.. _doxid-classion_1_1CWindow_1a1249927835911a6b4085b523530eaba3:
+.. _cid-ion.cwindow.ismousedown:
+.. _doxid-classion_1_1CWindow_1aaf54334a91b7c18e8cf9f67c9ff6e9fb:
+.. _cid-ion.cwindow.getcursorlocation:
+.. _doxid-classion_1_1CWindow_1a8e013e3b53ed573cf12081cf93908eaf:
+.. _cid-ion.cwindow.setcursorlocation:
+.. _doxid-classion_1_1CWindow_1a6ab6e977e777fe7c2a2423745ea82fe9:
+.. _cid-ion.cwindow.setcursorvisible:
+.. _doxid-classion_1_1CWindow_1a0c950955cc39ae7ebfb23046893ab6a5:
+.. _cid-ion.cwindow.getrelativecursorlocation:
+.. _doxid-classion_1_1CWindow_1ae18989fef37595a3b3b27a9aa02176cd:
+.. _cid-ion.cwindow.setrelativecursorlocation:
+.. _doxid-classion_1_1CWindow_1a42ed693f628c85f9083cfe0b683fc767:
+.. _cid-ion.cwindow.gethandle:
+.. _doxid-classion_1_1CWindow_1a9a468e0937c067ef6205544d38c21567:
+.. _cid-ion.cwindow.getclipboardtext:
+.. _doxid-classion_1_1CWindow_1a1e485bbd6401fd8b30ae11ef6007e147:
+.. _cid-ion.cwindow.setclipboardtext:
+.. _doxid-classion_1_1CWindow_1a5c5c577114c4a32a81c84bd2f3506701:
+.. _cid-ion.cwindow.isfocused:
+.. _doxid-classion_1_1CWindow_1ade2cf19181ce9ad7d662adb24b481fe0:
+.. _cid-ion.cwindow.getcontext:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void MakeContextCurrent ()
+	bool ShouldClose ()
+	void Close ()
+	:ref:`vec2i<doxid-structvec2>` const& GetSize ()
+	:ref:`vec2i<doxid-structvec2>` const& GetFrameBufferSize ()
+	f32 GetAspectRatio ()
+	void SwapBuffers ()
+	:ref:`vec2i<doxid-structvec2>` GetPosition ()
+	void SetPosition (:ref:`vec2i<doxid-structvec2>` const& Position)
+	bool IsKeyDown (EKey const Key)
+	bool IsMouseDown (SMouseEvent::EButton const Button)
+	:ref:`vec2f<doxid-structvec2>` const& GetCursorLocation ()
+	void SetCursorLocation (:ref:`vec2f<doxid-structvec2>` const& position)
+	void SetCursorVisible (bool const Visible)
+	:ref:`vec2f<doxid-structvec2>` GetRelativeCursorLocation ()
+	void SetRelativeCursorLocation (:ref:`vec2f<doxid-structvec2>` const& position)
+	GLFWwindow*const GetHandle ()
+	string GetClipboardText ()
+	void SetClipboardText (string const& Text)
+	bool IsFocused ()
+	SharedPointer <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GetContext ()
+

@@ -1,0 +1,69 @@
+.. index:: pair: class; STable.SFieldIterator
+.. _doxid-classSTable_1_1SFieldIterator:
+.. _cid-stable.sfielditerator:
+
+class STable.SFieldIterator
+===========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSTable_1_1SFieldIterator_1a228dad0766ed813c20d9d22f228cd855:
+.. _cid-stable.sfielditerator.iterator_category:
+.. _doxid-classSTable_1_1SFieldIterator_1a8f01aa2805d3ff63b304672bd93e42bb:
+.. _cid-stable.sfielditerator.value_type:
+.. _doxid-classSTable_1_1SFieldIterator_1aee300b5a068ed316975f2badc6a3dce1:
+.. _cid-stable.sfielditerator.difference_type:
+.. _doxid-classSTable_1_1SFieldIterator_1ac5b90d443373020a207e173c70b11dd4:
+.. _cid-stable.sfielditerator.pointer:
+.. _doxid-classSTable_1_1SFieldIterator_1a240b659203ed1c6f91704189e33fa2b1:
+.. _cid-stable.sfielditerator.reference:
+.. _doxid-classSTable_1_1SFieldIterator_1a157b474514810d7f53886d93f65d3672:
+.. _cid-stable.sfielditerator.sfielditerator:
+.. _doxid-classSTable_1_1SFieldIterator_1ad31241f734d317fed25b59c6d6a7c83b:
+.. _cid-stable.sfielditerator.operator++:
+.. _doxid-classSTable_1_1SFieldIterator_1a991c8d573c8ac009651df92a6572a742:
+.. _cid-stable.sfielditerator.operator++-2:
+.. _doxid-classSTable_1_1SFieldIterator_1a9f0f27d5e549e3a49d70362faf6226da:
+.. _cid-stable.sfielditerator.operator*:
+.. _doxid-classSTable_1_1SFieldIterator_1a3a2ca9b42f094116138bf6dc4a3ec006:
+.. _cid-stable.sfielditerator.operator*-2:
+.. _doxid-classSTable_1_1SFieldIterator_1ac4f25d11ec3de203ba5e6e3cbae1e895:
+.. _cid-stable.sfielditerator.operator->:
+.. _doxid-classSTable_1_1SFieldIterator_1a72d65c9ff642742a64b0658d8da70eec:
+.. _cid-stable.sfielditerator.operator->-2:
+.. _doxid-classSTable_1_1SFieldIterator_1adbadd176ed9fe7382503eb4ffa43d2f9:
+.. _cid-stable.sfielditerator.operator<:
+.. _doxid-classSTable_1_1SFieldIterator_1a47d6c0433c0d01a78d5cb19fa7d9d4e4:
+.. _cid-stable.sfielditerator.operator!=:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// typedefs
+
+	typedef std::vector <:ref:`SRow<doxid-classSTable_1_1SRow>`>::iterator::iterator_category iterator_category
+	typedef f64 value_type
+	typedef std::vector <:ref:`SRow<doxid-classSTable_1_1SRow>`>::iterator::difference_type difference_type
+	typedef f64* pointer
+	typedef f64& reference
+
+	// methods
+
+	SFieldIterator (
+	    std::vector <:ref:`SRow<doxid-classSTable_1_1SRow>`>::iterator iterator,
+	    std::string const& field
+	    )
+
+	:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>`& operator++ ()
+	:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>` operator++ (int)
+	f64 operator* ()
+	f64& operator* ()
+	f64 const* operator-> ()
+	f64* operator-> ()
+	bool operator< (:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>` const& other)
+	bool operator!= (:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>` const& other)
+

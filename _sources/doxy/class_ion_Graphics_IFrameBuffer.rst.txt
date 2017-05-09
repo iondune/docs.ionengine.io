@@ -1,0 +1,39 @@
+.. index:: pair: class; ion.Graphics.IFrameBuffer
+.. _doxid-classion_1_1Graphics_1_1IFrameBuffer:
+.. _cid-ion.graphics.iframebuffer:
+
+class ion.Graphics.IFrameBuffer
+===============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1IFrameBuffer_1a24426f777d9cd023fb65c370b2af8b73:
+.. _cid-ion.graphics.iframebuffer.attachcolortexture:
+.. _doxid-classion_1_1Graphics_1_1IFrameBuffer_1ad0f013860c4da092f6b64df8243dc87c:
+.. _cid-ion.graphics.iframebuffer.attachdepthtexture:
+.. _doxid-classion_1_1Graphics_1_1IFrameBuffer_1a5d6f345160d75137422d300ffe1a8d0c:
+.. _cid-ion.graphics.iframebuffer.attachdepthbuffer:
+.. _doxid-classion_1_1Graphics_1_1IFrameBuffer_1aa6825ac15cb115ba13d40fc652e95ecf:
+.. _cid-ion.graphics.iframebuffer.checkcorrectness:
+.. _doxid-classion_1_1Graphics_1_1IFrameBuffer_1aa142c683fbc65ab0ce236ac01cf8facc:
+.. _cid-ion.graphics.iframebuffer.~iframebuffer:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void AttachColorTexture (
+	    SharedPointer <:ref:`ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> Texture,
+	    uint const Attachment
+	    )
+
+	void AttachDepthTexture (SharedPointer <:ref:`ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> Texture)
+	void AttachDepthBuffer (SharedPointer <:ref:`IDepthBuffer<doxid-classion_1_1Graphics_1_1IDepthBuffer>`> DepthBuffer)
+	bool CheckCorrectness ()
+	~IFrameBuffer ()
+

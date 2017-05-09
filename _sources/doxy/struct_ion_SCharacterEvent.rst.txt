@@ -1,0 +1,23 @@
+.. index:: pair: struct; ion.SCharacterEvent
+.. _doxid-struction_1_1SCharacterEvent:
+.. _cid-ion.scharacterevent:
+
+struct ion.SCharacterEvent
+==========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-struction_1_1SCharacterEvent_1a97c4b5a121897d1e14bf3b8d825f8277:
+.. _cid-ion.scharacterevent.c:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	char C
+

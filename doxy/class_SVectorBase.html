@@ -1,0 +1,302 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>class SVectorBase &lt;typename T, u32 Size&gt; &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">class SVectorBase &lt;typename T, u32 Size&gt;</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#detailed-documentation">Detailed Documentation</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>class SVectorBase &lt;typename T, u32 Size&gt;</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/class_SVectorBase.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="class-svectorbase-typename-t-u32-size">
+<span id="cid-svectorbase"></span><span id="doxid-classsvectorbase"></span><span id="index-0"></span><h1>class SVectorBase &lt;typename T, u32 Size&gt;<a class="headerlink" href="#class-svectorbase-typename-t-u32-size" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<pre class="highlight overview-code-block literal-block" id="cid-svectorbase-outofbounds">
+<span id="doxid-classsvectorbase-1a480cf57b30bf2c4cb4cbf4e3693b02d7"></span><span id="cid-svectorbase-values"></span><span id="doxid-classsvectorbase-1ad7d11693a02fbe649ff6ae968d7d605e"></span><span id="cid-svectorbase-dimension"></span><span id="doxid-classsvectorbase-1a4212a622f503198dc5ca6d780e63cb6d"></span><span></span><span class="c1">// fields</span>
+
+<span class="n">u32</span> <span class="k">const</span> <span class="n">Dimension</span>
+<span class="n">T</span> <span class="n">Values</span> <span class="p">[</span><span class="n">Dimension</span><span class="p">]</span>
+<span class="n">T</span> <span class="n">OutOfBounds</span>
+
+<span class="c1">// methods</span>
+
+<span class="n">T</span> <span class="k">const</span> operator[]<span></span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+<span class="n">T</span><span class="o">&amp;</span> operator[]<span></span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+<span class="kt">void</span> reset<span></span> <span class="p">()</span>
+<span class="kt">void</span> set<span></span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span><span class="p">)</span>
+<span class="kt">void</span> set<span></span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span> <span class="p">[])</span>
+<span class="kt">void</span> set &lt;typename U, u32 otherDimension&gt;<span></span> <span class="p">(</span>SVectorBase<span></span> <span class="o">&lt;</span><span class="n">U</span><span class="p">,</span> <span class="n">otherDimension</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span>
+<span class="n">T</span> <span class="k">const</span> Length<span></span> <span class="p">()</span>
+<span class="n">T</span> <span class="k">const</span> LengthSq<span></span> <span class="p">()</span>
+<span class="n">T</span> <span class="k">const</span><span class="o">*</span> GetValuePointer<span></span> <span class="p">()</span>
+<span class="n">T</span><span class="o">*</span> GetValuePointer<span></span> <span class="p">()</span>
+</pre>
+</div>
+<div class="section" id="detailed-documentation">
+<span id="details-doxid-classsvectorbase"></span><h2>Detailed Documentation<a class="headerlink" href="#detailed-documentation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="methods">
+<h3>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-operator">
+<span id="doxid-classsvectorbase-1ae6498981b6642b8989456ed655f03bed"></span><span></span><span class="n">T</span> <span class="k">const</span> <span class="k">operator</span><span class="p">[]</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+</pre>
+<p>Const member copy access Note: Out-of-bounds access returns a dummy value without error</p>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-operator-2">
+<span id="doxid-classsvectorbase-1a74d7235dfe0c9466a00e5288b80233ce"></span><span></span><span class="n">T</span><span class="o">&amp;</span> <span class="k">operator</span><span class="p">[]</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+</pre>
+<p>Member reference access Note: Out-of-bounds access returns a dummy value without error</p>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-reset">
+<span id="doxid-classsvectorbase-1ad3a08148a8b652ce02b044ea4a3b16b1"></span><span></span><span class="kt">void</span> <span class="n">reset</span> <span class="p">()</span>
+</pre>
+<p>Sets all values to 0.</p>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-set">
+<span id="doxid-classsvectorbase-1a78d7d122985c7d3308984b4d8e363888"></span><span></span><span class="kt">void</span> <span class="n">set</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span><span class="p">)</span>
+</pre>
+<p>Sets all values to a single scalar.</p>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-set-2">
+<span id="doxid-classsvectorbase-1a768bd1c078d9d1976d0439cae90e9505"></span><span></span><span class="kt">void</span> <span class="n">set</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span> <span class="p">[])</span>
+</pre>
+<p>Sets all values by an input C-style array.</p>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-set-3">
+<span id="doxid-classsvectorbase-1a721050ef54548f870903a003052a86af"></span><span></span><span class="kt">void</span> <span class="n">set</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">U</span><span class="p">,</span> <span class="n">u32</span> <span class="n">otherDimension</span><span class="o">&gt;</span> <span class="p">(</span>SVectorBase<span></span> <span class="o">&lt;</span><span class="n">U</span><span class="p">,</span> <span class="n">otherDimension</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span>
+</pre>
+<p>Sets all values by an input vector.</p>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-length">
+<span id="doxid-classsvectorbase-1a81bf3011ba968e700bdbffae3e160c1f"></span><span></span><span class="n">T</span> <span class="k">const</span> <span class="n">Length</span> <span class="p">()</span>
+</pre>
+<p>Length of vector.</p>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-lengthsq">
+<span id="doxid-classsvectorbase-1a587faaf302364898aff2021896314dbc"></span><span></span><span class="n">T</span> <span class="k">const</span> <span class="n">LengthSq</span> <span class="p">()</span>
+</pre>
+<p>Squared-length of vector (computationally fast)</p>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-getvaluepointer">
+<span id="doxid-classsvectorbase-1a39e800a676fc4252af6c9041b64e2bac"></span><span></span><span class="n">T</span> <span class="k">const</span><span class="o">*</span> <span class="n">GetValuePointer</span> <span class="p">()</span>
+</pre>
+<p>Raw pointer access to vector values.</p>
+<pre class="highlight title-code-block literal-block" id="cid-svectorbase-getvaluepointer-2">
+<span id="doxid-classsvectorbase-1a04bbf180f97e405aa258af9c9e453b56"></span><span></span><span class="n">T</span><span class="o">*</span> <span class="n">GetValuePointer</span> <span class="p">()</span>
+</pre>
+<p>Raw pointer access to vector values.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

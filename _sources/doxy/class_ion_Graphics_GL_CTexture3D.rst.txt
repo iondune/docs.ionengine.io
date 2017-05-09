@@ -1,0 +1,51 @@
+.. index:: pair: class; ion.Graphics.GL.CTexture3D
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture3D:
+.. _cid-ion.graphics.gl.ctexture3d:
+
+class ion.Graphics.GL.CTexture3D
+================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture3D_1a155bacc9a7b33556a17695cca700b9e4:
+.. _cid-ion.graphics.gl.ctexture3d.texturesize:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture3D_1a92e93319ec0d5d3cc14853c626e76333:
+.. _cid-ion.graphics.gl.ctexture3d.upload:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture3D_1a966cd0f63cfa067d960718fa59915708:
+.. _cid-ion.graphics.gl.ctexture3d.uploadsubregion:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture3D_1a3ab71491aae67122a45789523afb379d:
+.. _cid-ion.graphics.gl.ctexture3d.getglbindtexturetarget:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture3D_1ab73587fb3f3f4113fc75bb60938a3958:
+.. _cid-ion.graphics.gl.ctexture3d.getgltexturebindingenum:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	:ref:`vec3u<doxid-structvec3>` TextureSize
+
+	// methods
+
+	void Upload (
+	    void const*const Data,
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+
+	void UploadSubRegion (
+	    void const*const Data,
+	    :ref:`vec3u<doxid-structvec3>` const& Offset,
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+
+	uint GetGLBindTextureTarget ()
+	uint GetGLTextureBindingEnum ()
+

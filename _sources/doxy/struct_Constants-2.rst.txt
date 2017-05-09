@@ -1,0 +1,26 @@
+.. index:: pair: struct; Constants <f64>
+.. _doxid-structConstants_3_01f64_01_4:
+.. _cid-constants-2:
+
+struct Constants <f64>
+======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-structConstants_3_01f64_01_4_1a0152dc17ce732f8733cdcb5b7edb1335:
+.. _cid-constants.pi:
+.. _doxid-structConstants_3_01f64_01_4_1af2a49cd050da71f05498ac80c2729e25:
+.. _cid-constants.e:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	f64 Pi ()
+	f64 e ()
+

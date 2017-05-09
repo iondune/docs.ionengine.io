@@ -1,0 +1,29 @@
+.. index:: pair: class; ion.CStopWatch
+.. _doxid-classion_1_1CStopWatch:
+.. _cid-ion.cstopwatch:
+
+class ion.CStopWatch
+====================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1CStopWatch_1a20a86dde97c00848a8638bc97bcb9f9d:
+.. _cid-ion.cstopwatch.cstopwatch:
+.. _doxid-classion_1_1CStopWatch_1a5a0af61da304725d5f20a340468e1a25:
+.. _cid-ion.cstopwatch.start:
+.. _doxid-classion_1_1CStopWatch_1a283e6967f784cd7b4517ebc14e91d87a:
+.. _cid-ion.cstopwatch.stop:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	CStopWatch ()
+	f64 Start ()
+	f64 Stop ()
+

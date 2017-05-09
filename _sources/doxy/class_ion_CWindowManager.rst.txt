@@ -1,0 +1,47 @@
+.. index:: pair: class; ion.CWindowManager
+.. _doxid-classion_1_1CWindowManager:
+.. _cid-ion.cwindowmanager:
+
+class ion.CWindowManager
+========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1CWindowManager_1ae6be9681baa5dff6055cdc5565d2c203:
+.. _cid-ion.cwindowmanager.init:
+.. _doxid-classion_1_1CWindowManager_1abd3b0c9118f65d8a06b331ca589e39ac:
+.. _cid-ion.cwindowmanager.pollevents:
+.. _doxid-classion_1_1CWindowManager_1aa4b2af4fe3a09855cc536464b7043698:
+.. _cid-ion.cwindowmanager.shouldclose:
+.. _doxid-classion_1_1CWindowManager_1a18a3f1304d5216687f6ba150f54ec7f6:
+.. _cid-ion.cwindowmanager.run:
+.. _doxid-classion_1_1CWindowManager_1a39eb1ff641d3999fef7f6d05d8402a6e:
+.. _cid-ion.cwindowmanager.createwindow:
+.. _doxid-classion_1_1CWindowManager_1a9b0846c7de83975b9caf08b67807133d:
+.. _cid-ion.cwindowmanager.createwindowonmonitor:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void Init (:ref:`CGraphicsAPI<doxid-classion_1_1CGraphicsAPI>`* GraphicsAPI)
+	void PollEvents ()
+	bool ShouldClose ()
+	bool Run ()
+
+	:ref:`CWindow<doxid-classion_1_1CWindow>`* CreateWindow (
+	    :ref:`vec2i<doxid-structvec2>` const& Size,
+	    std::string const& Title,
+	    EWindowType const Type
+	    )
+
+	:ref:`CWindow<doxid-classion_1_1CWindow>`* CreateWindowOnMonitor (
+	    int const Monitor,
+	    std::string const& Title
+	    )
+

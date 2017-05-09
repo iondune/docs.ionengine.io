@@ -1,0 +1,112 @@
+.. index:: pair: class; ion.Graphics.ITexture
+.. _doxid-classion_1_1Graphics_1_1ITexture:
+.. _cid-ion.graphics.itexture:
+
+class ion.Graphics.ITexture
+===========================
+
+.. toctree::
+	:hidden:
+
+	enum_ion_Graphics_ITexture_EFilter.rst
+	enum_ion_Graphics_ITexture_EFormatComponents.rst
+	enum_ion_Graphics_ITexture_EInternalFormatType.rst
+	enum_ion_Graphics_ITexture_EMipMaps.rst
+	enum_ion_Graphics_ITexture_EWrapMode.rst
+
+
+
+Overview
+~~~~~~~~
+
+
+
+.. _doxid-classion_1_1Graphics_1_1ITexture_1ac2a866bd10a846486fd5b76a36800c9c:
+.. _cid-ion.graphics.itexture.getminfilter:
+.. _doxid-classion_1_1Graphics_1_1ITexture_1ac5cd2ef49555616574bf916d1e351ff2:
+.. _cid-ion.graphics.itexture.getmagfilter:
+.. _doxid-classion_1_1Graphics_1_1ITexture_1a4388aaf5027e75f53e8414e5cc617a8c:
+.. _cid-ion.graphics.itexture.getmipmapfilter:
+.. _doxid-classion_1_1Graphics_1_1ITexture_1a2988ba7ef8c7bafe05758fe5ef0ae0c7:
+.. _cid-ion.graphics.itexture.getwrapmode:
+.. _doxid-classion_1_1Graphics_1_1ITexture_1a0dba2d88055f9e6ecd087460a961d5c1:
+.. _cid-ion.graphics.itexture.getanisotropy:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enums
+
+	enum :ref:`EFilter<doxid-classion_1_1Graphics_1_1ITexture_1a7abc240922acfe5c6782c9302547d735>`
+	enum :ref:`EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>`
+	enum :ref:`EInternalFormatType<doxid-classion_1_1Graphics_1_1ITexture_1aa2d2690e95cba9a405b9ee2498ac2014>`
+	enum :ref:`EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>`
+	enum :ref:`EWrapMode<doxid-classion_1_1Graphics_1_1ITexture_1a2cff528866c2b4473a487e3a348e75f5>`
+
+	// methods
+
+	void :ref:`SetMinFilter<doxid-classion_1_1Graphics_1_1ITexture_1af267e182935d2c18207a24938589c49d>` (EFilter const MinFilter)
+	void :ref:`SetMagFilter<doxid-classion_1_1Graphics_1_1ITexture_1ae7d50a3a491076371001bde150620871>` (EFilter const MagFilter)
+	void :ref:`SetMipMapFilter<doxid-classion_1_1Graphics_1_1ITexture_1aea985baf7fcb64879c2048785bafd631>` (EFilter const MipMapFilter)
+	void :ref:`SetWrapMode<doxid-classion_1_1Graphics_1_1ITexture_1a8253054ec0af0554d52f9e5bf75f3d48>` (EWrapMode const WrapMode)
+	void :ref:`SetAnisotropy<doxid-classion_1_1Graphics_1_1ITexture_1ab605ebc931098e6f8019e02554eef8a4>` (float const Anisotropy)
+	EFilter GetMinFilter ()
+	EFilter GetMagFilter ()
+	EFilter GetMipMapFilter ()
+	EWrapMode GetWrapMode ()
+	float GetAnisotropy ()
+
+.. _details-doxid-classion_1_1Graphics_1_1ITexture:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Methods
+-------
+
+.. _doxid-classion_1_1Graphics_1_1ITexture_1af267e182935d2c18207a24938589c49d:
+.. _cid-ion.graphics.itexture.setminfilter:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetMinFilter (EFilter const MinFilter)
+
+Sets the minimizing filter for this texture Default is EFilter::Linear
+
+.. _doxid-classion_1_1Graphics_1_1ITexture_1ae7d50a3a491076371001bde150620871:
+.. _cid-ion.graphics.itexture.setmagfilter:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetMagFilter (EFilter const MagFilter)
+
+Sets the maximizing filter for this texture Default is EFilter::Linear
+
+.. _doxid-classion_1_1Graphics_1_1ITexture_1aea985baf7fcb64879c2048785bafd631:
+.. _cid-ion.graphics.itexture.setmipmapfilter:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetMipMapFilter (EFilter const MipMapFilter)
+
+Sets the mip map filter for this texture Default is EFilter::Linear
+
+.. _doxid-classion_1_1Graphics_1_1ITexture_1a8253054ec0af0554d52f9e5bf75f3d48:
+.. _cid-ion.graphics.itexture.setwrapmode:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetWrapMode (EWrapMode const WrapMode)
+
+Sets the wrap mode for this texture Default is EWrapMode::Repeat
+
+.. _doxid-classion_1_1Graphics_1_1ITexture_1ab605ebc931098e6f8019e02554eef8a4:
+.. _cid-ion.graphics.itexture.setanisotropy:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void SetAnisotropy (float const Anisotropy)
+
+Sets the anisotropy filtering value for this texture A value < 0 indicates that the max anisotrophy value should be used Default is -1
+

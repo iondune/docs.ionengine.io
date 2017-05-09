@@ -1,0 +1,40 @@
+.. index:: pair: class; ion.Graphics.GL.CIndexBuffer
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CIndexBuffer:
+.. _cid-ion.graphics.gl.cindexbuffer:
+
+class ion.Graphics.GL.CIndexBuffer
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CIndexBuffer_1a1199167df3673d30def6d522057ab81e:
+.. _cid-ion.graphics.gl.cindexbuffer.handle:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CIndexBuffer_1a49119737765519a9736d86e480144b3f:
+.. _cid-ion.graphics.gl.cindexbuffer.size:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CIndexBuffer_1a3897b56a8b5c660f6ddbf0ff207f2d24:
+.. _cid-ion.graphics.gl.cindexbuffer.~cindexbuffer:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CIndexBuffer_1ac1b536acd9b1e33a2df72ab36f9070a5:
+.. _cid-ion.graphics.gl.cindexbuffer.uploaddata:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	uint Handle
+	size_t Size
+
+	// methods
+
+	~CIndexBuffer ()
+
+	void UploadData (
+	    void const* Data,
+	    size_t const Elements,
+	    EValueType const ValueType
+	    )
+

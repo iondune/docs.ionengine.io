@@ -1,0 +1,91 @@
+.. index:: pair: class; ion.CAssetManager
+.. _doxid-classion_1_1CAssetManager:
+.. _cid-ion.cassetmanager:
+
+class ion.CAssetManager
+=======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1CAssetManager_1ae42ba4e0e68fd5188c931487369c2ddc:
+.. _cid-ion.cassetmanager.init:
+.. _doxid-classion_1_1CAssetManager_1a8f3fd18606fb7a24cf53129ae29d1b09:
+.. _cid-ion.cassetmanager.loadshader:
+.. _doxid-classion_1_1CAssetManager_1a89c69aefdac42fdda059b1ea34072139:
+.. _cid-ion.cassetmanager.loadimage:
+.. _doxid-classion_1_1CAssetManager_1a18d80b96540a5e6fc3858a1f1886fd19:
+.. _cid-ion.cassetmanager.loadtexture:
+.. _doxid-classion_1_1CAssetManager_1a2ad22b9493543ecbbbe81552cfc16a28:
+.. _cid-ion.cassetmanager.load3dtexture:
+.. _doxid-classion_1_1CAssetManager_1a621adf23b792c0e0dd776b4092ab56b4:
+.. _cid-ion.cassetmanager.load2dtexturearray:
+.. _doxid-classion_1_1CAssetManager_1a36ce0b6f056d36d955944a84ba20a5a1:
+.. _cid-ion.cassetmanager.loadcubemaptexture:
+.. _doxid-classion_1_1CAssetManager_1ac27d27a721977498789757235ffb9caa:
+.. _cid-ion.cassetmanager.loadmesh:
+.. _doxid-classion_1_1CAssetManager_1a210a872567e4d73f0099a913cf3f87da:
+.. _cid-ion.cassetmanager.loadmeshmerged:
+.. _doxid-classion_1_1CAssetManager_1a878b3404d6d0e0a7369e60a9ae33c465:
+.. _cid-ion.cassetmanager.loadmeshes:
+.. _doxid-classion_1_1CAssetManager_1ae79f13582eef323233e491ee8315f518:
+.. _cid-ion.cassetmanager.addassetpath:
+.. _doxid-classion_1_1CAssetManager_1ac37c5eb62ab35e023b58742a7c9c0eba:
+.. _cid-ion.cassetmanager.settexturepath:
+.. _doxid-classion_1_1CAssetManager_1a9d1fc75649c3bdc1feb090e94beaf142:
+.. _cid-ion.cassetmanager.setshaderpath:
+.. _doxid-classion_1_1CAssetManager_1a322fe299d104baa67cf988aef7b9bf54:
+.. _cid-ion.cassetmanager.setmeshpath:
+.. _doxid-classion_1_1CAssetManager_1afc9344707265659fd40fe645ffdcbd47:
+.. _cid-ion.cassetmanager.parseshadersource:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void Init (:ref:`CGraphicsAPI<doxid-classion_1_1CGraphicsAPI>`* GraphicsAPI)
+	SharedPointer <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> LoadShader (string const& Name)
+	:ref:`CImage<doxid-classion_1_1CImage>`* LoadImage (string const& FileName)
+
+	SharedPointer <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> LoadTexture (
+	    string const& FileName,
+	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    )
+
+	SharedPointer <:ref:`Graphics::ITexture3D<doxid-classion_1_1Graphics_1_1ITexture3D>`> Load3DTexture (
+	    const std::vector <std::string>& fileName,
+	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    )
+
+	SharedPointer <:ref:`Graphics::ITexture2DArray<doxid-classion_1_1Graphics_1_1ITexture2DArray>`> Load2DTextureArray (
+	    const std::vector <std::string>& fileName,
+	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    )
+
+	SharedPointer <:ref:`Graphics::ITextureCubeMap<doxid-classion_1_1Graphics_1_1ITextureCubeMap>`> LoadCubeMapTexture (
+	    string const& FileNameLeft,
+	    string const& FileNameRight,
+	    string const& FileNameUp,
+	    string const& FileNameDown,
+	    string const& FileNameFront,
+	    string const& FileNameBack,
+	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    )
+
+	:ref:`Scene::CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* LoadMesh (string const& FileName)
+	:ref:`Scene::CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* LoadMeshMerged (string const& FileName)
+	vector <:ref:`Scene::CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`*> LoadMeshes (string const& FileName)
+	void AddAssetPath (string const& Path)
+	void SetTexturePath (string const& Path)
+	void SetShaderPath (string const& Path)
+	void SetMeshPath (string const& Path)
+
+	string ParseShaderSource (
+	    string const& FileName,
+	    string const& RelativeDirectory
+	    )
+

@@ -1,0 +1,384 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>struct vec2 &lt;typename T&gt; &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">struct vec2 &lt;typename T&gt;</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#detailed-documentation">Detailed Documentation</a><ul>
+<li><a class="reference internal" href="#construction">Construction</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>struct vec2 &lt;typename T&gt;</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/struct_vec2.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="struct-vec2-typename-t">
+<span id="cid-vec2"></span><span id="doxid-structvec2"></span><span id="index-0"></span><h1>struct vec2 &lt;typename T&gt;<a class="headerlink" href="#struct-vec2-typename-t" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<pre class="highlight overview-code-block literal-block" id="cid-vec2-fromglm">
+<span id="doxid-structvec2-1abbb4815e89451ee6467e9aaa13520a71"></span><span id="cid-vec2-getangle"></span><span id="doxid-structvec2-1aaf4585193b83275eb3fcc8c7ebfed234"></span><span id="cid-vec2-rotate"></span><span id="doxid-structvec2-1a291b88fbce709980bc5027311cefe19f"></span><span id="cid-vec2-yy"></span><span id="doxid-structvec2-1a7179a42b174ee5a8f0eb0b9631d9390b"></span><span id="cid-vec2-xx"></span><span id="doxid-structvec2-1abbfd73b335ae93d01a16b59fde74fe17"></span><span id="cid-vec2-yx"></span><span id="doxid-structvec2-1a52a97bbb1aa2f98a86b0d158dcfd072f"></span><span id="cid-vec2-toglm"></span><span id="doxid-structvec2-1a67a2ed742ca3dfd9f1565a41755e0094"></span><span id="cid-vec2-equals"></span><span id="doxid-structvec2-1a5e10cd197d1965374a4f19df61ab0b53"></span><span id="id17"></span><span id="doxid-structvec2-1a35d334c6249111d3f3e7b0c035fb136f"></span><span id="id16"></span><span id="doxid-structvec2-1a1bc65a6c0f3d84a321976b03269b0e2a"></span><span id="id15"></span><span id="doxid-structvec2-1a245c8d716a240e6b7692a62bbaecbe3f"></span><span id="cid-vec2-operator-3"></span><span id="doxid-structvec2-1a15dea2a8b211c4e7e9db5083732e1c80"></span><span id="id14"></span><span id="doxid-structvec2-1a4f2c1680d268570c80761efbf000d0c2"></span><span id="id13"></span><span id="doxid-structvec2-1ac53b426425a9567033aff01e453e8cab"></span><span id="id12"></span><span id="doxid-structvec2-1a3aa64d44e1cc9d746b0cf8e2d4576ea1"></span><span id="id11"></span><span id="doxid-structvec2-1a60471a657dc185d0b1d1d3c9052ae6ad"></span><span id="id10"></span><span id="doxid-structvec2-1a8e96d98636ca7f58d787b11db7c6080b"></span><span id="id9"></span><span id="doxid-structvec2-1a6936fb5a059512bac82e3621ad82a0cc"></span><span id="id8"></span><span id="doxid-structvec2-1a363d8143bbcd1617c6b3edd44ae275cd"></span><span id="id7"></span><span id="doxid-structvec2-1a25e19c1c03d1cdb6342c194d9c0d111a"></span><span id="id6"></span><span id="doxid-structvec2-1a077c4da3724b79778929962a1bb26967"></span><span id="id5"></span><span id="doxid-structvec2-1a7c10622896d1cd5617569e910cb12760"></span><span id="id4"></span><span id="doxid-structvec2-1a13142848b11564b477245423352ffe59"></span><span id="cid-vec2-operator-2"></span><span id="doxid-structvec2-1a6513099eda17a896d77a7be78c32fae2"></span><span id="id3"></span><span id="doxid-structvec2-1ada109f53356b995e9c48302dd3ba97cd"></span><span id="id2"></span><span id="doxid-structvec2-1a9a9902fc47683ee09252fec15b85cf98"></span><span id="id1"></span><span id="doxid-structvec2-1a183acafc3a03c055ea61d85efcd4b76c"></span><span id="cid-vec2-operator"></span><span id="doxid-structvec2-1a651e87b56c659e565728a338eae19652"></span><span id="cid-vec2-getnormalized"></span><span id="doxid-structvec2-1a065b7d934e9a1f7f05b1d961cce00d74"></span><span id="cid-vec2-getinterpolated"></span><span id="doxid-structvec2-1a9a364a0ecd21a839e2a9835db19e0911"></span><span id="cid-vec2-getdistancesqfrom"></span><span id="doxid-structvec2-1a3ae8cd51b80870baa9bef16df2096de7"></span><span id="cid-vec2-getdistancefrom"></span><span id="doxid-structvec2-1ab27463301f7cf1ec47f574cd276cfa8f"></span><span id="cid-vec2-dot"></span><span id="doxid-structvec2-1a0c70c51e1b358761b7a1526604dae48d"></span><span id="cid-vec2-y"></span><span id="doxid-structvec2-1a606de27e1be0db2211e23e53e56277c3"></span><span id="cid-vec2-x"></span><span id="doxid-structvec2-1ac5e03d738148b33eea03f96dc39f71c3"></span><span></span><span class="c1">// fields</span>
+
+<span class="n">T</span> <span class="n">X</span>
+<span class="n">T</span> <span class="n">Y</span>
+
+<span class="c1">// construction</span>
+
+<a class="reference internal" href="#doxid-structvec2-1a4307f112f2113890dc1107f1106a9376"><span class="std std-ref">vec2</span></a><span></span> <span class="p">()</span>
+<a class="reference internal" href="#doxid-structvec2-1af0362026c4eabfd45ba7c2c669c99f35"><span class="std std-ref">vec2</span></a><span></span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span><span class="p">)</span>
+
+<a class="reference internal" href="#doxid-structvec2-1a63a87ec805789d30a04aaa40b1d83cda"><span class="std std-ref">vec2</span></a><span></span> <span class="p">(</span>
+    <span class="n">T</span> <span class="k">const</span> <span class="n">x</span><span class="p">,</span>
+    <span class="n">T</span> <span class="k">const</span> <span class="n">y</span>
+    <span class="p">)</span>
+
+<a class="reference internal" href="#doxid-structvec2-1aa9dd776401c21fc22c91fd6e7f034bd0"><span class="std std-ref">vec2 &lt;typename U&gt;</span></a><span></span> <span class="p">(</span><span class="n">glm</span><span class="o">::</span><span class="n">tvec2</span> <span class="o">&lt;</span><span class="n">U</span><span class="p">,</span> <span class="n">glm</span><span class="o">::</span><span class="n">defaultp</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2-1a7d8d916b2d220bb0aa2cd294d4245074"><span class="std std-ref">vec2 &lt;typename U&gt;</span></a><span></span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">U</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">vec</span><span class="p">)</span>
+
+<span class="c1">// methods</span>
+
+<span class="n">T</span> <a class="reference internal" href="#doxid-structvec2-1ab8c4c1037d31b4121b0b2c1d4f27629d"><span class="std std-ref">operator[]</span></a><span></span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+<span class="n">T</span><span class="o">&amp;</span> <a class="reference internal" href="#doxid-structvec2-1a4f464ecadb21b40379899d5cd42deec6"><span class="std std-ref">operator[]</span></a><span></span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <a class="reference internal" href="#doxid-structvec2-1a1de6640cc051fd35648c77a8348bf6fb"><span class="std std-ref">operator= &lt;typename U&gt;</span></a><span></span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">U</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">vec</span><span class="p">)</span>
+<span class="kt">void</span> <a class="reference internal" href="#doxid-structvec2-1aee4fbc117915e52f52d48d423c337fe9"><span class="std std-ref">reset</span></a><span></span> <span class="p">()</span>
+<span class="kt">void</span> <a class="reference internal" href="#doxid-structvec2-1a0b2a1c19e7c33e362dc62d0c8e827cb1"><span class="std std-ref">set</span></a><span></span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span><span class="p">)</span>
+<span class="kt">void</span> <a class="reference internal" href="#doxid-structvec2-1a76b32ee7aaed4ee5c212bfd23a770d7d"><span class="std std-ref">set</span></a><span></span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span> <span class="p">[])</span>
+<span class="kt">void</span> <a class="reference internal" href="#doxid-structvec2-1a490ede76a4e1548b3deae1cec5b36342"><span class="std std-ref">set &lt;typename U&gt;</span></a><span></span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">U</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span>
+<span class="n">T</span> <a class="reference internal" href="#doxid-structvec2-1a3dee481ad5e3941c09d9d8065c8dd6a3"><span class="std std-ref">Length</span></a><span></span> <span class="p">()</span>
+<span class="n">T</span> <a class="reference internal" href="#doxid-structvec2-1a9e70efefb9977c298b5a5c33ebf75196"><span class="std std-ref">LengthSq</span></a><span></span> <span class="p">()</span>
+<span class="n">T</span> <span class="n">Dot</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span>
+<span class="n">T</span> <span class="n">GetDistanceFrom</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<span class="n">T</span> <span class="k">const</span> <span class="n">GetDistanceSqFrom</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">GetInterpolated</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">Real</span><span class="o">&gt;</span> <span class="p">(</span>
+    <a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">,</span>
+    <span class="n">Real</span> <span class="k">const</span> <span class="n">d</span>
+    <span class="p">)</span>
+
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">GetNormalized</span> <span class="p">()</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <a class="reference internal" href="#doxid-structvec2-1a3c58573bc414b90a0b7e4f237b19594e"><span class="std std-ref">Normalize</span></a><span></span> <span class="p">()</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">operator</span><span class="o">+</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">operator</span><span class="o">-</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">operator</span><span class="o">*</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">operator</span><span class="o">/</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">operator</span><span class="o">+</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">s</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">operator</span><span class="o">-</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">s</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">operator</span><span class="o">*</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">s</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">operator</span><span class="o">/</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">s</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="k">operator</span><span class="o">+=</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="k">operator</span><span class="o">-=</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="k">operator</span><span class="o">*=</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="k">operator</span><span class="o">/=</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="k">operator</span><span class="o">+=</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">s</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="k">operator</span><span class="o">-=</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">s</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="k">operator</span><span class="o">*=</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">s</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="k">operator</span><span class="o">/=</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">s</span><span class="p">)</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span> <span class="k">operator</span><span class="o">-</span> <span class="p">()</span>
+<span class="kt">bool</span> <span class="k">operator</span><span class="o">&lt;</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<span class="kt">bool</span> <span class="k">operator</span><span class="o">==</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<span class="kt">bool</span> <span class="k">operator</span><span class="o">!=</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+
+<span class="kt">bool</span> <span class="n">Equals</span> <span class="p">(</span>
+    <a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">,</span>
+    <span class="n">T</span> <span class="k">const</span> <span class="n">Epsilon</span> <span class="o">=</span> RoundingError<span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">Value</span> <span class="p">()</span>
+    <span class="p">)</span>
+
+<span class="n">glm</span><span class="o">::</span><span class="n">vec2</span> <span class="k">const</span> <span class="n">ToGLM</span> <span class="p">()</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">YX</span> <span class="p">()</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">XX</span> <span class="p">()</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">YY</span> <span class="p">()</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">Rotate</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">radians</span><span class="p">)</span>
+<span class="n">T</span> <span class="n">GetAngle</span> <span class="p">()</span>
+<a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">FromGLM</span> <span class="p">(</span><span class="n">glm</span><span class="o">::</span><span class="n">vec2</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Vec</span><span class="p">)</span>
+</pre>
+</div>
+<div class="section" id="detailed-documentation">
+<span id="details-doxid-structvec2"></span><h2>Detailed Documentation<a class="headerlink" href="#detailed-documentation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="construction">
+<h3>Construction<a class="headerlink" href="#construction" title="Permalink to this headline">¶</a></h3>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-vec2">
+<span id="doxid-structvec2-1a4307f112f2113890dc1107f1106a9376"></span><span></span><span class="n">vec2</span> <span class="p">()</span>
+</pre>
+<p>Default constructor.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-vec2-2">
+<span id="doxid-structvec2-1af0362026c4eabfd45ba7c2c669c99f35"></span><span></span><span class="n">vec2</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span><span class="p">)</span>
+</pre>
+<p>Scalar constructor.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-vec2-3">
+<span id="doxid-structvec2-1a63a87ec805789d30a04aaa40b1d83cda"></span><span></span><span class="n">vec2</span> <span class="p">(</span>
+    <span class="n">T</span> <span class="k">const</span> <span class="n">x</span><span class="p">,</span>
+    <span class="n">T</span> <span class="k">const</span> <span class="n">y</span>
+    <span class="p">)</span>
+</pre>
+<p>Explicit constructor.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-vec2-4">
+<span id="doxid-structvec2-1aa9dd776401c21fc22c91fd6e7f034bd0"></span><span></span><span class="n">vec2</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">U</span><span class="o">&gt;</span> <span class="p">(</span><span class="n">glm</span><span class="o">::</span><span class="n">tvec2</span> <span class="o">&lt;</span><span class="n">U</span><span class="p">,</span> <span class="n">glm</span><span class="o">::</span><span class="n">defaultp</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+</pre>
+<p>GLM constructor.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-vec2-5">
+<span id="doxid-structvec2-1a7d8d916b2d220bb0aa2cd294d4245074"></span><span></span><span class="n">vec2</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">U</span><span class="o">&gt;</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">U</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">vec</span><span class="p">)</span>
+</pre>
+<p>Generic <a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a> constructor.</p>
+</div>
+<div class="section" id="methods">
+<h3>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
+<pre class="highlight title-code-block literal-block" id="id18">
+<span id="doxid-structvec2-1ab8c4c1037d31b4121b0b2c1d4f27629d"></span><span></span><span class="n">T</span> <span class="k">operator</span><span class="p">[]</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+</pre>
+<p>Note: Out-of-bounds access returns a dummy value without error.</p>
+<pre class="highlight title-code-block literal-block" id="id19">
+<span id="doxid-structvec2-1a4f464ecadb21b40379899d5cd42deec6"></span><span></span><span class="n">T</span><span class="o">&amp;</span> <span class="k">operator</span><span class="p">[]</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+</pre>
+<p>Note: Out-of-bounds access returns a dummy value without error.</p>
+<pre class="highlight title-code-block literal-block" id="id20">
+<span id="doxid-structvec2-1a1de6640cc051fd35648c77a8348bf6fb"></span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="k">operator</span><span class="o">=</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">U</span><span class="o">&gt;</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">U</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">vec</span><span class="p">)</span>
+</pre>
+<p>Generic vector assignment operator.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-reset">
+<span id="doxid-structvec2-1aee4fbc117915e52f52d48d423c337fe9"></span><span></span><span class="kt">void</span> <span class="n">reset</span> <span class="p">()</span>
+</pre>
+<p>Sets all values to 0.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-set">
+<span id="doxid-structvec2-1a0b2a1c19e7c33e362dc62d0c8e827cb1"></span><span></span><span class="kt">void</span> <span class="n">set</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span><span class="p">)</span>
+</pre>
+<p>Sets all values to a single scalar.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-set-2">
+<span id="doxid-structvec2-1a76b32ee7aaed4ee5c212bfd23a770d7d"></span><span></span><span class="kt">void</span> <span class="n">set</span> <span class="p">(</span><span class="n">T</span> <span class="k">const</span> <span class="n">in</span> <span class="p">[])</span>
+</pre>
+<p>Sets all values by an input C-style array.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-set-3">
+<span id="doxid-structvec2-1a490ede76a4e1548b3deae1cec5b36342"></span><span></span><span class="kt">void</span> <span class="n">set</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">U</span><span class="o">&gt;</span> <span class="p">(</span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">U</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span>
+</pre>
+<p>Sets all values by an input vector.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-length">
+<span id="doxid-structvec2-1a3dee481ad5e3941c09d9d8065c8dd6a3"></span><span></span><span class="n">T</span> <span class="n">Length</span> <span class="p">()</span>
+</pre>
+<p>Length of vector.</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-lengthsq">
+<span id="doxid-structvec2-1a9e70efefb9977c298b5a5c33ebf75196"></span><span></span><span class="n">T</span> <span class="n">LengthSq</span> <span class="p">()</span>
+</pre>
+<p>Squared-length of vector (computationally fast)</p>
+<pre class="highlight title-code-block literal-block" id="cid-vec2-normalize">
+<span id="doxid-structvec2-1a3c58573bc414b90a0b7e4f237b19594e"></span><a class="reference internal" href="#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="n">Normalize</span> <span class="p">()</span>
+</pre>
+<p>Normalize this vector.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

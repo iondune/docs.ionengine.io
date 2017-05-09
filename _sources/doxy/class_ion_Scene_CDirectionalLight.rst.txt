@@ -1,0 +1,38 @@
+.. index:: pair: class; ion.Scene.CDirectionalLight
+.. _doxid-classion_1_1Scene_1_1CDirectionalLight:
+.. _cid-ion.scene.cdirectionallight:
+
+class ion.Scene.CDirectionalLight
+=================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Scene_1_1CDirectionalLight_1a2484541861a616e34d234447033d0c37:
+.. _cid-ion.scene.cdirectionallight.cdirectionallight:
+.. _doxid-classion_1_1Scene_1_1CDirectionalLight_1af57d50ccaf04294fff18ed1a0576081a:
+.. _cid-ion.scene.cdirectionallight.getcolor:
+.. _doxid-classion_1_1Scene_1_1CDirectionalLight_1a75a1bb36dde6768955b661f7cd218c9e:
+.. _cid-ion.scene.cdirectionallight.getdirection:
+.. _doxid-classion_1_1Scene_1_1CDirectionalLight_1a05c788d5d917ca2d234693ff0464b162:
+.. _cid-ion.scene.cdirectionallight.setcolor:
+.. _doxid-classion_1_1Scene_1_1CDirectionalLight_1af39564c36d4cc21fa116d15f68f1b329:
+.. _cid-ion.scene.cdirectionallight.setdirection:
+.. _doxid-classion_1_1Scene_1_1CDirectionalLight_1ae079cadf93773d4efb2f620bdb1c8d5a:
+.. _cid-ion.scene.cdirectionallight.getlighttype:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	CDirectionalLight ()
+	:ref:`color3f<doxid-classcolor3>` GetColor ()
+	:ref:`vec3f<doxid-structvec3>` GetDirection ()
+	void SetColor (:ref:`color3f<doxid-classcolor3>` const& Color)
+	void SetDirection (:ref:`vec3f<doxid-structvec3>` const& Direction)
+	string GetLightType ()
+

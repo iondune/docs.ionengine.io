@@ -1,0 +1,23 @@
+.. index:: pair: struct; Color.Full <u8>
+.. _doxid-structColor_1_1Full_3_01u8_01_4:
+.. _cid-color.full:
+
+struct Color.Full <u8>
+======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-structColor_1_1Full_3_01u8_01_4_1a22d3884ab2be774f6377862a5d9da4e7:
+.. _cid-color.full.value:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	u8 Value ()
+

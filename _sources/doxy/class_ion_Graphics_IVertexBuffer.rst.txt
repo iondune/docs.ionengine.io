@@ -1,0 +1,61 @@
+.. index:: pair: class; ion.Graphics.IVertexBuffer
+.. _doxid-classion_1_1Graphics_1_1IVertexBuffer:
+.. _cid-ion.graphics.ivertexbuffer:
+
+class ion.Graphics.IVertexBuffer
+================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1IVertexBuffer_1a7d18e2f9ec92a02a58a70b1b6db719ef:
+.. _cid-ion.graphics.ivertexbuffer.~ivertexbuffer:
+.. _doxid-classion_1_1Graphics_1_1IVertexBuffer_1ae708646318a3ef77097a758a01879dea:
+.. _cid-ion.graphics.ivertexbuffer.uploaddata:
+.. _doxid-classion_1_1Graphics_1_1IVertexBuffer_1ae8586156ed71e10d2ca27a16cd12143d:
+.. _cid-ion.graphics.ivertexbuffer.uploadsubdata:
+.. _doxid-classion_1_1Graphics_1_1IVertexBuffer_1a7a62d95648f9dacacad2ec536081227b:
+.. _cid-ion.graphics.ivertexbuffer.uploaddata-2:
+.. _doxid-classion_1_1Graphics_1_1IVertexBuffer_1afa880e9402c63c381d1d9779f13a906e:
+.. _cid-ion.graphics.ivertexbuffer.uploadsubdata-2:
+.. _doxid-classion_1_1Graphics_1_1IVertexBuffer_1a8767cc7f89d9354568909c311673e5a1:
+.. _cid-ion.graphics.ivertexbuffer.setinputlayout:
+.. _doxid-classion_1_1Graphics_1_1IVertexBuffer_1a2957129945a3ff50b0e87aedd18a6bd5:
+.. _cid-ion.graphics.ivertexbuffer.setinstancingenabled:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	~IVertexBuffer ()
+	void UploadData <typename T> (vector <T> const& Data)
+
+	void UploadSubData <typename T> (
+	    vector <T> const& Data,
+	    size_t const Offset
+	    )
+
+	void UploadData (
+	    void const*const Data,
+	    size_t const DataSize,
+	    size_t const NumberOfElements
+	    )
+
+	void UploadSubData (
+	    void const*const Data,
+	    size_t const DataSize,
+	    size_t const Offset,
+	    size_t const NumberOfElements
+	    )
+
+	void SetInputLayout (
+	    :ref:`SInputLayoutElement<doxid-struction_1_1Graphics_1_1SInputLayoutElement>` const*const InputLayout,
+	    int const NumElements
+	    )
+
+	void SetInstancingEnabled (bool const Enabled)
+

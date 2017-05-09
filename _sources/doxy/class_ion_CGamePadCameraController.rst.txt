@@ -1,0 +1,26 @@
+.. index:: pair: class; ion.CGamePadCameraController
+.. _doxid-classion_1_1CGamePadCameraController:
+.. _cid-ion.cgamepadcameracontroller:
+
+class ion.CGamePadCameraController
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1CGamePadCameraController_1a3b87afa4813575f7e449d0ca2b7b9f96:
+.. _cid-ion.cgamepadcameracontroller.cgamepadcameracontroller:
+.. _doxid-classion_1_1CGamePadCameraController_1a056f6f14718d57a01aa19ce59d4f4704:
+.. _cid-ion.cgamepadcameracontroller.update:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	CGamePadCameraController (:ref:`Scene::ICamera<doxid-classion_1_1Scene_1_1ICamera>`* Camera)
+	void Update (f64 const TickTime)
+

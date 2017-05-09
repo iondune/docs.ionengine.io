@@ -1,0 +1,32 @@
+.. index:: pair: class; File
+.. _doxid-classFile:
+.. _cid-file-10:
+
+class File
+==========
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classFile_1a023b707aa00361c841a75c91e60cf00c:
+.. _cid-file.exists:
+.. _doxid-classFile_1a084c9f29d1ecf494bd35c80285f31936:
+.. _cid-file.readasstring:
+.. _doxid-classFile_1ac112ff68ac6628e078ceb2e69103b8a2:
+.. _cid-file.stripextension:
+.. _doxid-classFile_1a4e844f33b43878d1ce08863d73d09472:
+.. _cid-file.getextension:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	bool Exists (string const& FileName)
+	string ReadAsString (string const& FileName)
+	string StripExtension (string const& Path)
+	string GetExtension (string const& Path)
+

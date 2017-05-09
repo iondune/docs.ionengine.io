@@ -1,0 +1,435 @@
+.. index:: pair: class; SPlane3 <typename T, typename Vector = vec3<T>>
+.. _doxid-classSPlane3:
+.. _cid-splane3:
+
+class SPlane3 <typename T, typename Vector = vec3<T>>
+=====================================================
+
+.. toctree::
+	:hidden:
+
+	enum_SPlane3_EIntersectionRelation.rst
+
+
+
+Overview
+~~~~~~~~
+
+
+
+.. _doxid-classSPlane3_1a9ae7d7c186dfc998418501def6a649e2:
+.. _cid-splane3.splane3:
+.. _doxid-classSPlane3_1a6fda29d5d0eb3603cdc6c57fc7863daa:
+.. _cid-splane3.splane3-2:
+.. _doxid-classSPlane3_1a4b7e861bf49718e92d9288cdf80da94d:
+.. _cid-splane3.splane3-3:
+.. _doxid-classSPlane3_1a86a2819e30efadaae2e4be1f5ef7a5ad:
+.. _cid-splane3.splane3-4:
+.. _doxid-classSPlane3_1a05a5b9b3c86a7891e5c522d95064de27:
+.. _cid-splane3.splane3-5:
+.. _doxid-classSPlane3_1a2232fbe5b99d84d540237f263f9bd739:
+.. _cid-splane3.setplane:
+.. _doxid-classSPlane3_1aafd297454f012029bcce676fb1bfd3de:
+.. _cid-splane3.setplane-2:
+.. _doxid-classSPlane3_1a877d855b0da415f4232e6b21e4f14a72:
+.. _cid-splane3.setplane-3:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enums
+
+	enum :ref:`EIntersectionRelation<doxid-classSPlane3_1a4561ac733fbd6b49ae37d2f4e28abd01>`
+
+	// fields
+
+	Vector :ref:`Normal<doxid-classSPlane3_1adc0baf37fa68617263d05ecd18ea50c4>`
+	T :ref:`D<doxid-classSPlane3_1a327eaaf2ee4726c82701c0320c89e60f>`
+
+	// construction
+
+	SPlane3 ()
+
+	SPlane3 (
+	    const Vector& MPoint,
+	    const Vector& Normal
+	    )
+
+	SPlane3 (
+	    T px,
+	    T py,
+	    T pz,
+	    T nx,
+	    T ny,
+	    T nz
+	    )
+
+	SPlane3 (
+	    const Vector& point1,
+	    const Vector& point2,
+	    const Vector& point3
+	    )
+
+	SPlane3 (
+	    const Vector& normal,
+	    const T d
+	    )
+
+	// methods
+
+	void SetPlane (
+	    const Vector& point,
+	    const Vector& nvector
+	    )
+
+	void SetPlane (
+	    const Vector& nvect,
+	    T d
+	    )
+
+	void SetPlane (
+	    const Vector& point1,
+	    const Vector& point2,
+	    const Vector& point3
+	    )
+
+	bool :ref:`GetIntersectionWithLine<doxid-classSPlane3_1a18f36bf6b37179dbd9baac48da800c32>` (
+	    const Vector& linePoint,
+	    const Vector& lineVect,
+	    Vector& outIntersection
+	    )
+
+	f32 :ref:`GetKnownIntersectionWithLine<doxid-classSPlane3_1a63a92e1065fc99ca21340f0494804af8>` (
+	    const Vector& linePoint1,
+	    const Vector& linePoint2
+	    )
+
+	bool :ref:`GetIntersectionWithLimitedLine<doxid-classSPlane3_1a31e003dcd84c6b0bd64df1083fc92bda>` (
+	    const Vector& linePoint1,
+	    const Vector& linePoint2,
+	    Vector& outIntersection
+	    )
+
+	EIntersectionRelation :ref:`ClassifyPointRelation<doxid-classSPlane3_1acc97b58b90126474eb7840f58a764369>` (const Vector& point)
+	void :ref:`RecalculateD<doxid-classSPlane3_1a4d33c66e4c539e4ce3d652887063cc72>` (const Vector& MPoint)
+	Vector :ref:`GetMemberPoint<doxid-classSPlane3_1a54a45cfdaed3e5b097f5f7f8646f9a8a>` ()
+	bool :ref:`ExistsIntersection<doxid-classSPlane3_1a65b20213b45257fb2ae89ec01e62c0d2>` (const :ref:`SPlane3<doxid-classSPlane3>` <T>& other)
+
+	bool :ref:`GetIntersectionWithPlane<doxid-classSPlane3_1a330c928422183a04669f557298cf12eb>` (
+	    const :ref:`SPlane3<doxid-classSPlane3>` <T>& other,
+	    Vector& outLinePoint,
+	    Vector& outLineVect
+	    )
+
+	bool :ref:`GetIntersectionWithPlanes<doxid-classSPlane3_1a2e7e5918fd11ead89e7ff5342ef7505e>` (
+	    const :ref:`SPlane3<doxid-classSPlane3>` <T>& o1,
+	    const :ref:`SPlane3<doxid-classSPlane3>` <T>& o2,
+	    Vector& outPoint
+	    )
+
+	bool :ref:`IsFrontFacing<doxid-classSPlane3_1a461a4da61a10d17af3c4501116e16939>` (const Vector& lookDirection)
+	T :ref:`GetDistanceTo<doxid-classSPlane3_1adb506aaaac2586441bb98a13b33d85c6>` (const Vector& point)
+
+.. _details-doxid-classSPlane3:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Fields
+------
+
+.. _doxid-classSPlane3_1adc0baf37fa68617263d05ecd18ea50c4:
+.. _cid-splane3.normal:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	Vector Normal
+
+Normal vector of the plane.
+
+.. _doxid-classSPlane3_1a327eaaf2ee4726c82701c0320c89e60f:
+.. _cid-splane3.d:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	T D
+
+Distance from origin.
+
+Methods
+-------
+
+.. _doxid-classSPlane3_1a18f36bf6b37179dbd9baac48da800c32:
+.. _cid-splane3.getintersectionwithline:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	bool GetIntersectionWithLine (
+	    const Vector& linePoint,
+	    const Vector& lineVect,
+	    Vector& outIntersection
+	    )
+
+Get an intersection with a 3d line.
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+    :widths: 20 80
+
+    *
+        - lineVect
+
+        - Vector of the line to intersect with.
+
+    *
+        - linePoint
+
+        - Point of the line to intersect with.
+
+    *
+        - outIntersection
+
+        - Place to store the intersection point, if there is one.
+
+
+
+.. rubric:: Returns:
+
+True if there was an intersection, false if there was not.
+
+.. _doxid-classSPlane3_1a63a92e1065fc99ca21340f0494804af8:
+.. _cid-splane3.getknownintersectionwithline:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	f32 GetKnownIntersectionWithLine (
+	    const Vector& linePoint1,
+	    const Vector& linePoint2
+	    )
+
+Get percentage of line between two points where an intersection with this plane happens.
+
+Only useful if known that there is an intersection.
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+    :widths: 20 80
+
+    *
+        - linePoint1
+
+        - Point1 of the line to intersect with.
+
+    *
+        - linePoint2
+
+        - Point2 of the line to intersect with.
+
+
+
+.. rubric:: Returns:
+
+Where on a line between two points an intersection with this plane happened. For example, 0.5 is returned if the intersection happened exactly in the middle of the two points.
+
+.. _doxid-classSPlane3_1a31e003dcd84c6b0bd64df1083fc92bda:
+.. _cid-splane3.getintersectionwithlimitedline:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	bool GetIntersectionWithLimitedLine (
+	    const Vector& linePoint1,
+	    const Vector& linePoint2,
+	    Vector& outIntersection
+	    )
+
+Get an intersection with a 3d line, limited between two 3d points.
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+    :widths: 20 80
+
+    *
+        - linePoint1
+
+        - Point 1 of the line.
+
+    *
+        - linePoint2
+
+        - Point 2 of the line.
+
+    *
+        - outIntersection
+
+        - Place to store the intersection point, if there is one.
+
+
+
+.. rubric:: Returns:
+
+True if there was an intersection, false if there was not.
+
+.. _doxid-classSPlane3_1acc97b58b90126474eb7840f58a764369:
+.. _cid-splane3.classifypointrelation:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	EIntersectionRelation ClassifyPointRelation (const Vector& point)
+
+Classifies the relation of a point to this plane.
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+    :widths: 20 80
+
+    *
+        - point
+
+        - Point to classify its relation.
+
+
+
+.. rubric:: Returns:
+
+ISREL3D_FRONT if the point is in front of the plane, ISREL3D_BACK if the point is behind of the plane, and ISREL3D_PLANAR if the point is within the plane.
+
+.. _doxid-classSPlane3_1a4d33c66e4c539e4ce3d652887063cc72:
+.. _cid-splane3.recalculated:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void RecalculateD (const Vector& MPoint)
+
+Recalculates the distance from origin by applying a new member point to the plane.
+
+.. _doxid-classSPlane3_1a54a45cfdaed3e5b097f5f7f8646f9a8a:
+.. _cid-splane3.getmemberpoint:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	Vector GetMemberPoint ()
+
+Gets a member point of the plane.
+
+.. _doxid-classSPlane3_1a65b20213b45257fb2ae89ec01e62c0d2:
+.. _cid-splane3.existsintersection:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	bool ExistsIntersection (const :ref:`SPlane3<doxid-classSPlane3>` <T>& other)
+
+Tests if there is an intersection with the other plane.
+
+
+
+.. rubric:: Returns:
+
+True if there is a intersection.
+
+.. _doxid-classSPlane3_1a330c928422183a04669f557298cf12eb:
+.. _cid-splane3.getintersectionwithplane:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	bool GetIntersectionWithPlane (
+	    const :ref:`SPlane3<doxid-classSPlane3>` <T>& other,
+	    Vector& outLinePoint,
+	    Vector& outLineVect
+	    )
+
+Intersects this plane with another.
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+    :widths: 20 80
+
+    *
+        - other
+
+        - Other plane to intersect with.
+
+    *
+        - outLinePoint
+
+        - Base point of intersection line.
+
+    *
+        - outLineVect
+
+        - Vector of intersection.
+
+
+
+.. rubric:: Returns:
+
+True if there is a intersection, false if not.
+
+.. _doxid-classSPlane3_1a2e7e5918fd11ead89e7ff5342ef7505e:
+.. _cid-splane3.getintersectionwithplanes:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	bool GetIntersectionWithPlanes (
+	    const :ref:`SPlane3<doxid-classSPlane3>` <T>& o1,
+	    const :ref:`SPlane3<doxid-classSPlane3>` <T>& o2,
+	    Vector& outPoint
+	    )
+
+Get the intersection point with two other planes if there is one.
+
+.. _doxid-classSPlane3_1a461a4da61a10d17af3c4501116e16939:
+.. _cid-splane3.isfrontfacing:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	bool IsFrontFacing (const Vector& lookDirection)
+
+Test if the triangle would be front or backfacing from any point.
+
+Thus, this method assumes a camera position from which the triangle is definitely visible when looking into the given direction. Note that this only works if the normal is Normalized. Do not use this method with points as it will give wrong results!
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+    :widths: 20 80
+
+    *
+        - lookDirection
+
+        - Look direction.
+
+
+
+.. rubric:: Returns:
+
+True if the plane is front facing and false if it is backfacing.
+
+.. _doxid-classSPlane3_1adb506aaaac2586441bb98a13b33d85c6:
+.. _cid-splane3.getdistanceto:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	T GetDistanceTo (const Vector& point)
+
+Get the distance to a point.
+
+Note that this only works if the normal is normalized.
+

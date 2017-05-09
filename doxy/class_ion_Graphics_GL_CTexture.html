@@ -1,0 +1,302 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>class ion.Graphics.GL.CTexture &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">class ion.Graphics.GL.CTexture</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#detailed-documentation">Detailed Documentation</a><ul>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>class ion.Graphics.GL.CTexture</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/class_ion_Graphics_GL_CTexture.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="class-ion-graphics-gl-ctexture">
+<span id="cid-ion-graphics-gl-ctexture"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture"></span><span id="index-0"></span><h1>class ion.Graphics.GL.CTexture<a class="headerlink" href="#class-ion-graphics-gl-ctexture" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<pre class="highlight overview-code-block literal-block" id="cid-ion-graphics-gl-ctexture-getgltexturebindingenum">
+<span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1af13a9499f832fda921647dc0c9cab0c3"></span><span id="cid-ion-graphics-gl-ctexture-getglbindtexturetarget"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a42a7abd27d6830471d480754fe08d254"></span><span id="cid-ion-graphics-gl-ctexture-applyparams"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1ade4fa7ac15efd9c9f1761252976a1a21"></span><span id="cid-ion-graphics-gl-ctexture-getanisotropy"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a9fb06a1405bdb7bb657eea7c5e82eee0"></span><span id="cid-ion-graphics-gl-ctexture-getwrapmode"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1ac0d34492f2be5303d31922d2277f882a"></span><span id="cid-ion-graphics-gl-ctexture-getmipmapfilter"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a448165361bd631ba33c286ebdcc828a5"></span><span id="cid-ion-graphics-gl-ctexture-getmagfilter"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1ad094339afae2e66bccc685efdb986430"></span><span id="cid-ion-graphics-gl-ctexture-getminfilter"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1ac53193babcaadaa05afd53ca8f5df7a9"></span><span id="cid-ion-graphics-gl-ctexture-isinteger"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a52894531cad225777f7448655b1e0ff0"></span><span id="cid-ion-graphics-gl-ctexture-mipmaps"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a907625812d3fcf63cc505c5d76694096"></span><span id="cid-ion-graphics-gl-ctexture-wrapmode"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1adf851b446406438434b32ff771d4d265"></span><span id="cid-ion-graphics-gl-ctexture-mipmapfilter"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a22f4c3751af3265db3bb95c0dd0ab631"></span><span id="cid-ion-graphics-gl-ctexture-magfilter"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a010eaeacad9a6b7356e7d97f1cd7f492"></span><span id="cid-ion-graphics-gl-ctexture-minfilter"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1adf434335d29e97ab2109ca66d77f1b9a"></span><span id="cid-ion-graphics-gl-ctexture-handle"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1ad44c7d6c19bf0ffc0ab3fb05b2f938e2"></span><span id="cid-ion-graphics-gl-ctexture-formatstringmatrix"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a6692b8b3de6630c48a682d048f9863b9"></span><span id="cid-ion-graphics-gl-ctexture-internalformatstringmatrix"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a2c935d6641d973c8a942b9ddbe981c46"></span><span id="cid-ion-graphics-gl-ctexture-formatmatrix"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1ac2fec4d04d35245fc3ace89f821c5e98"></span><span id="cid-ion-graphics-gl-ctexture-internalformatmatrix"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a6ce689342ed08deaae3c2c084d327acc"></span><span></span><span class="c1">// fields</span>
+
+<span class="n">u32</span> <span class="k">const</span> <span class="n">InternalFormatMatrix</span> <span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">10</span><span class="p">]</span>
+<span class="n">u32</span> <span class="k">const</span> <span class="n">FormatMatrix</span> <span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span>
+<span class="n">string</span> <span class="k">const</span> <span class="n">InternalFormatStringMatrix</span> <span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="mi">10</span><span class="p">]</span>
+<span class="n">string</span> <span class="k">const</span> <span class="n">FormatStringMatrix</span> <span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+<span class="n">uint</span> <span class="n">Handle</span>
+<span class="n">EFilter</span> <span class="n">MinFilter</span>
+<span class="n">EFilter</span> <span class="n">MagFilter</span>
+<span class="n">EFilter</span> <span class="n">MipMapFilter</span>
+<span class="n">EWrapMode</span> <span class="n">WrapMode</span>
+<span class="n">f32</span> Anisotropy<span></span>
+<span class="kt">bool</span> <span class="n">MipMaps</span>
+<span class="kt">bool</span> <span class="n">IsInteger</span>
+
+<span class="c1">// methods</span>
+
+<span class="kt">void</span> SetMinFilter<span></span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MinFilter</span><span class="p">)</span>
+<span class="kt">void</span> SetMagFilter<span></span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MagFilter</span><span class="p">)</span>
+<span class="kt">void</span> SetMipMapFilter<span></span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MipMapFilter</span><span class="p">)</span>
+<span class="kt">void</span> SetWrapMode<span></span> <span class="p">(</span><span class="n">EWrapMode</span> <span class="k">const</span> <span class="n">WrapMode</span><span class="p">)</span>
+<span class="kt">void</span> SetAnisotropy<span></span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">Anisotropy</span><span class="p">)</span>
+<span class="n">EFilter</span> <span class="n">GetMinFilter</span> <span class="p">()</span>
+<span class="n">EFilter</span> <span class="n">GetMagFilter</span> <span class="p">()</span>
+<span class="n">EFilter</span> <span class="n">GetMipMapFilter</span> <span class="p">()</span>
+<span class="n">EWrapMode</span> <span class="n">GetWrapMode</span> <span class="p">()</span>
+<span class="n">f32</span> <span class="n">GetAnisotropy</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">ApplyParams</span> <span class="p">()</span>
+<span class="n">uint</span> <span class="n">GetGLBindTextureTarget</span> <span class="p">()</span>
+<span class="n">uint</span> <span class="n">GetGLTextureBindingEnum</span> <span class="p">()</span>
+</pre>
+</div>
+<div class="section" id="detailed-documentation">
+<span id="details-doxid-classion-1-1graphics-1-1gl-1-1ctexture"></span><h2>Detailed Documentation<a class="headerlink" href="#detailed-documentation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="fields">
+<h3>Fields<a class="headerlink" href="#fields" title="Permalink to this headline">¶</a></h3>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-gl-ctexture-anisotropy">
+<span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a2f8cfd47d1248b0a29864445ab2ebcd3"></span><span></span><span class="n">f32</span> <span class="n">Anisotropy</span>
+</pre>
+<p>Anisotrophic filtering value A value &lt; 0 indicates that the max anisotrophy value should be used</p>
+</div>
+<div class="section" id="methods">
+<h3>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-gl-ctexture-setminfilter">
+<span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a423a337345b7726de60e4e356e9a052b"></span><span></span><span class="kt">void</span> <span class="n">SetMinFilter</span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MinFilter</span><span class="p">)</span>
+</pre>
+<p>Sets the minimizing filter for this texture Default is EFilter::Linear</p>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-gl-ctexture-setmagfilter">
+<span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1aa8a89d7826f7274613b106d6608bb6a0"></span><span></span><span class="kt">void</span> <span class="n">SetMagFilter</span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MagFilter</span><span class="p">)</span>
+</pre>
+<p>Sets the maximizing filter for this texture Default is EFilter::Linear</p>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-gl-ctexture-setmipmapfilter">
+<span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1a9bbb28feea9e5235cda9aa02a02d1080"></span><span></span><span class="kt">void</span> <span class="n">SetMipMapFilter</span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MipMapFilter</span><span class="p">)</span>
+</pre>
+<p>Sets the mip map filter for this texture Default is EFilter::Linear</p>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-gl-ctexture-setwrapmode">
+<span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1aafeb148e873a4055e1d43c5f431d164d"></span><span></span><span class="kt">void</span> <span class="n">SetWrapMode</span> <span class="p">(</span><span class="n">EWrapMode</span> <span class="k">const</span> <span class="n">WrapMode</span><span class="p">)</span>
+</pre>
+<p>Sets the wrap mode for this texture Default is EWrapMode::Repeat</p>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-gl-ctexture-setanisotropy">
+<span id="doxid-classion-1-1graphics-1-1gl-1-1ctexture-1ad8c28449ec0accc989f9988964fd4d2b"></span><span></span><span class="kt">void</span> <span class="n">SetAnisotropy</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">Anisotropy</span><span class="p">)</span>
+</pre>
+<p>Sets the anisotropy filtering value for this texture A value &lt; 0 indicates that the max anisotrophy value should be used Default is -1</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

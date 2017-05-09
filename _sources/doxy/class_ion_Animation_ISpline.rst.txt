@@ -1,0 +1,35 @@
+.. index:: pair: class; ion.Animation.ISpline <typename TSplineNode>
+.. _doxid-classion_1_1Animation_1_1ISpline:
+.. _cid-ion.animation.ispline:
+
+class ion.Animation.ISpline <typename TSplineNode>
+==================================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Animation_1_1ISpline_1a422011cd8b471440639a6f43eb281097:
+.. _cid-ion.animation.ispline.getnodes:
+.. _doxid-classion_1_1Animation_1_1ISpline_1a03ed24c064d9bff9ef3e31629ef55ab4:
+.. _cid-ion.animation.ispline.getnodes-2:
+.. _doxid-classion_1_1Animation_1_1ISpline_1aba0299831f7ff86d81643f91e12ca720:
+.. _cid-ion.animation.ispline.islooping:
+.. _doxid-classion_1_1Animation_1_1ISpline_1a26f5caed6f9f4f9af1db25ce0b3ef9a1:
+.. _cid-ion.animation.ispline.sanitizeindex:
+.. _doxid-classion_1_1Animation_1_1ISpline_1a864143327a1bd2172b21c4a89bf06fb8:
+.. _cid-ion.animation.ispline.getnode:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	vector <TSplineNode> const& GetNodes ()
+	vector <TSplineNode>& GetNodes ()
+	bool IsLooping ()
+	int SanitizeIndex (int Index)
+	TSplineNode const& GetNode (int const Index)
+

@@ -1,0 +1,55 @@
+.. index:: pair: class; ion.Graphics.GL.CFrameBuffer
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer:
+.. _cid-ion.graphics.gl.cframebuffer:
+
+class ion.Graphics.GL.CFrameBuffer
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer_1acf3a3f5676327fd4adba3015f61da93b:
+.. _cid-ion.graphics.gl.cframebuffer.handle:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer_1a50cc890c2ac938f9c89bbe4dde428b5a:
+.. _cid-ion.graphics.gl.cframebuffer.size:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer_1a519a405f2fc78a5c8df826a3d1150824:
+.. _cid-ion.graphics.gl.cframebuffer.cframebuffer:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer_1a5f2cccb4c01a78c075500c6bb8bda4c2:
+.. _cid-ion.graphics.gl.cframebuffer.~cframebuffer:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer_1ad5494ea3d062eff5b2ddf4f283faab96:
+.. _cid-ion.graphics.gl.cframebuffer.attachcolortexture:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer_1a3cdce0ffaebf7534296802f0d86454a8:
+.. _cid-ion.graphics.gl.cframebuffer.attachdepthtexture:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer_1a97f3cd496c5272f3ab06d25aa6762846:
+.. _cid-ion.graphics.gl.cframebuffer.attachdepthbuffer:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer_1a6ea3cd044b59ccad7dcd5e0ce74e9b07:
+.. _cid-ion.graphics.gl.cframebuffer.checkcorrectness:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CFrameBuffer_1a530e2fc4c2bc5f071dc8e113290f4b33:
+.. _cid-ion.graphics.gl.cframebuffer.bind:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	uint Handle
+	:ref:`vec2u<doxid-structvec2>` Size
+
+	// methods
+
+	CFrameBuffer (:ref:`CWindow<doxid-classion_1_1CWindow>`* Window)
+	~CFrameBuffer ()
+
+	void AttachColorTexture (
+	    SharedPointer <:ref:`ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> Texture,
+	    uint const Attachment
+	    )
+
+	void AttachDepthTexture (SharedPointer <:ref:`ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> Texture)
+	void AttachDepthBuffer (SharedPointer <:ref:`IDepthBuffer<doxid-classion_1_1Graphics_1_1IDepthBuffer>`> DepthBuffer)
+	bool CheckCorrectness ()
+	void Bind ()
+

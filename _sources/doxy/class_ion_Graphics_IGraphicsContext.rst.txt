@@ -1,0 +1,39 @@
+.. index:: pair: class; ion.Graphics.IGraphicsContext
+.. _doxid-classion_1_1Graphics_1_1IGraphicsContext:
+.. _cid-ion.graphics.igraphicscontext:
+
+class ion.Graphics.IGraphicsContext
+===================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1IGraphicsContext_1ae7111fe4da056e6af23263249b3e69fd:
+.. _cid-ion.graphics.igraphicscontext.getbackbuffer:
+.. _doxid-classion_1_1Graphics_1_1IGraphicsContext_1a1e3727d4589c36390cddf29a2581acc6:
+.. _cid-ion.graphics.igraphicscontext.createframebuffer:
+.. _doxid-classion_1_1Graphics_1_1IGraphicsContext_1a44cab6d14c215b864b547aba7484ac9e:
+.. _cid-ion.graphics.igraphicscontext.createpipelinestate:
+.. _doxid-classion_1_1Graphics_1_1IGraphicsContext_1a825d933b42754e03df2ea93f79c60664:
+.. _cid-ion.graphics.igraphicscontext.draw:
+.. _doxid-classion_1_1Graphics_1_1IGraphicsContext_1a08aae96265c3a25602b6ccf9e063e595:
+.. _cid-ion.graphics.igraphicscontext.drawinstanced:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	SharedPointer <:ref:`IRenderTarget<doxid-classion_1_1Graphics_1_1IRenderTarget>`> GetBackBuffer ()
+	SharedPointer <:ref:`IFrameBuffer<doxid-classion_1_1Graphics_1_1IFrameBuffer>`> CreateFrameBuffer ()
+	SharedPointer <:ref:`IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> CreatePipelineState ()
+	void Draw (SharedPointer <:ref:`IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> State)
+
+	void DrawInstanced (
+	    SharedPointer <:ref:`IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> State,
+	    uint const InstanceCount
+	    )
+

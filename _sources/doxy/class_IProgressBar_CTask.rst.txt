@@ -1,0 +1,26 @@
+.. index:: pair: class; IProgressBar.CTask
+.. _doxid-classIProgressBar_1_1CTask:
+.. _cid-iprogressbar.ctask:
+
+class IProgressBar.CTask
+========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classIProgressBar_1_1CTask_1aa7ed5f5c84f86654c7780a721184494c:
+.. _cid-iprogressbar.ctask.update:
+.. _doxid-classIProgressBar_1_1CTask_1afa6b2adb36234391cf930f377c657362:
+.. _cid-iprogressbar.ctask.update-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void Update (f32 const progress)
+	void Update (f64 const progress)
+

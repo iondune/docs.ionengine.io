@@ -1,0 +1,38 @@
+.. index:: pair: struct; ion.CDefaultApplication.SSettings
+.. _doxid-struction_1_1CDefaultApplication_1_1SSettings:
+.. _cid-ion.cdefaultapplication.ssettings:
+
+struct ion.CDefaultApplication.SSettings
+========================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-struction_1_1CDefaultApplication_1_1SSettings_1a6203b56e31c7499095bf138c1e6bc5de:
+.. _cid-ion.cdefaultapplication.ssettings.windowmonitor:
+.. _doxid-struction_1_1CDefaultApplication_1_1SSettings_1a5d89ea21fdebffce5a03d49fa65a9830:
+.. _cid-ion.cdefaultapplication.ssettings.windowsize:
+.. _doxid-struction_1_1CDefaultApplication_1_1SSettings_1a64f4d8b1266c4b32763d6f8ee485196d:
+.. _cid-ion.cdefaultapplication.ssettings.windowposition:
+.. _doxid-struction_1_1CDefaultApplication_1_1SSettings_1a791b8c877b63ff025cc1b77f6191fa0f:
+.. _cid-ion.cdefaultapplication.ssettings.windowtype:
+.. _doxid-struction_1_1CDefaultApplication_1_1SSettings_1ad3051b38cee0f01298e3eec3e3705230:
+.. _cid-ion.cdefaultapplication.ssettings.fontsize:
+.. _doxid-struction_1_1CDefaultApplication_1_1SSettings_1acd844ce878c6361d47e8334382128c30:
+.. _cid-ion.cdefaultapplication.ssettings.uiscale:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	int WindowMonitor
+	:ref:`vec2i<doxid-structvec2>` WindowSize
+	:ref:`vec2i<doxid-structvec2>` WindowPosition
+	EWindowType WindowType
+	float FontSize
+	float UIScale
+

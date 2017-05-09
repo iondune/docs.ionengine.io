@@ -1,0 +1,280 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>class SBoundingBox3 &lt;typename T, typename Vector = vec3&lt;T&gt;&gt; &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">class SBoundingBox3 &lt;typename T, typename Vector = vec3&lt;T&gt;&gt;</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>class SBoundingBox3 &lt;typename T, typename Vector = vec3&lt;T&gt;&gt;</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/class_SBoundingBox3.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="class-sboundingbox3-typename-t-typename-vector-vec3-t">
+<span id="cid-sboundingbox3"></span><span id="doxid-classsboundingbox3"></span><span id="index-0"></span><h1>class SBoundingBox3 &lt;typename T, typename Vector = vec3&lt;T&gt;&gt;<a class="headerlink" href="#class-sboundingbox3-typename-t-typename-vector-vec3-t" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<pre class="highlight overview-code-block literal-block" id="cid-sboundingbox3-transform">
+<span id="doxid-classsboundingbox3-1a8fb1eb4ac3e9902e5431f3d14c23b7bd"></span><span id="cid-sboundingbox3-reset"></span><span id="doxid-classsboundingbox3-1aae5454633c44a9bf8d5fdcaed21b2050"></span><span id="cid-sboundingbox3-resize"></span><span id="doxid-classsboundingbox3-1a1a52f80661c7d3ee583be02370c97de6"></span><span id="cid-sboundingbox3-move"></span><span id="doxid-classsboundingbox3-1a194ada256e4e113afb629af0344f1003"></span><span id="cid-sboundingbox3-moveto"></span><span id="doxid-classsboundingbox3-1ac419c67dc8ad87c934bd209428053e2f"></span><span id="cid-sboundingbox3-getcorner"></span><span id="doxid-classsboundingbox3-1a77e55984f49ec596590e45cf037dfea0"></span><span id="cid-sboundingbox3-getmaximumradius"></span><span id="doxid-classsboundingbox3-1a44cca6866d3e0d996d309cd3916c83af"></span><span id="cid-sboundingbox3-intersectswithlimitedray"></span><span id="doxid-classsboundingbox3-1a162a42be44c056d2745f98ca1c6ab160"></span><span id="cid-sboundingbox3-intersectswithray"></span><span id="doxid-classsboundingbox3-1a02b2e4522927a1db6f4aab7bb59753ba"></span><span id="cid-sboundingbox3-intersectswithline-2"></span><span id="doxid-classsboundingbox3-1a62fab362b1cb9eb386680e6232482377"></span><span id="cid-sboundingbox3-intersectswithline"></span><span id="doxid-classsboundingbox3-1ad1afccaac25be576abe7b2c7a60a6da4"></span><span id="cid-sboundingbox3-addinternalbox"></span><span id="doxid-classsboundingbox3-1a43ce4b96151ab6a0be1a35174bbfc085"></span><span id="cid-sboundingbox3-addinternalpoint"></span><span id="doxid-classsboundingbox3-1a550740af82b403c5950e368397177b44"></span><span id="cid-sboundingbox3-intersects"></span><span id="doxid-classsboundingbox3-1a347368cd4c28b0bf42f35f6b85bcc72c"></span><span id="cid-sboundingbox3-ispointinside"></span><span id="doxid-classsboundingbox3-1a10652467b2b5017914dfbfdb3b0cf23d"></span><span id="cid-sboundingbox3-getcenter"></span><span id="doxid-classsboundingbox3-1aa541399b711db1a2923b8cd28e2e5cf5"></span><span id="cid-sboundingbox3-gethalfextent"></span><span id="doxid-classsboundingbox3-1a59d3cc44aab2ec241fe8b40683c2c0b7"></span><span id="cid-sboundingbox3-getextent"></span><span id="doxid-classsboundingbox3-1a16edc74d28cfd89395840bda46c61e4c"></span><span id="cid-sboundingbox3-sboundingbox3-3"></span><span id="doxid-classsboundingbox3-1ad43e7b890866be925192e6774788b44a"></span><span id="cid-sboundingbox3-sboundingbox3-2"></span><span id="doxid-classsboundingbox3-1a2f57835d4d364ba28ff8454a3c893e54"></span><span id="cid-sboundingbox3-sboundingbox3"></span><span id="doxid-classsboundingbox3-1abc72053b0aef14dda0df8c03a78fab39"></span><span id="cid-sboundingbox3-maxcorner"></span><span id="doxid-classsboundingbox3-1ac190812d1fbba07639223ab44612e56f"></span><span id="cid-sboundingbox3-mincorner"></span><span id="doxid-classsboundingbox3-1a1480b1de2258f6f16dd029f9966e5eee"></span><span></span><span class="c1">// fields</span>
+
+<span class="n">Vector</span> <span class="n">MinCorner</span>
+<span class="n">Vector</span> <span class="n">MaxCorner</span>
+
+<span class="c1">// construction</span>
+
+<span class="n">SBoundingBox3</span> <span class="p">()</span>
+
+<span class="n">SBoundingBox3</span> <span class="p">(</span>
+    <span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">min</span><span class="p">,</span>
+    <span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">max</span>
+    <span class="p">)</span>
+
+<span class="n">SBoundingBox3</span> <span class="p">(</span><span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+
+<span class="c1">// methods</span>
+
+<span class="n">Vector</span> <span class="n">GetExtent</span> <span class="p">()</span>
+<span class="n">Vector</span> <span class="n">GetHalfExtent</span> <span class="p">()</span>
+<span class="n">Vector</span> <span class="n">GetCenter</span> <span class="p">()</span>
+<span class="kt">bool</span> <span class="n">IsPointInside</span> <span class="p">(</span><span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">p</span><span class="p">)</span>
+<span class="kt">bool</span> <span class="n">Intersects</span> <span class="p">(</span>Type<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">r</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">AddInternalPoint</span> <span class="p">(</span><span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">v</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">AddInternalBox</span> <span class="p">(</span>Type<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">bb</span><span class="p">)</span>
+<span class="kt">bool</span> <span class="n">IntersectsWithLine</span> <span class="p">(</span>SLine3<span></span> <span class="o">&lt;</span><span class="n">T</span><span class="p">,</span> <span class="n">Vector</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">line</span><span class="p">)</span>
+
+<span class="kt">bool</span> <span class="n">IntersectsWithLine</span> <span class="p">(</span>
+    <span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">linemiddle</span><span class="p">,</span>
+    <span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">linevect</span><span class="p">,</span>
+    <span class="n">T</span> <span class="n">halflength</span>
+    <span class="p">)</span>
+
+<span class="kt">bool</span> <span class="n">IntersectsWithRay</span> <span class="p">(</span>
+    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">origin</span><span class="p">,</span>
+    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">dir</span><span class="p">,</span>
+    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span><span class="o">&amp;</span> <span class="n">coord</span>
+    <span class="p">)</span>
+
+<span class="kt">bool</span> <span class="n">IntersectsWithLimitedRay</span> <span class="p">(</span>
+    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">origin</span><span class="p">,</span>
+    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">dir</span><span class="p">,</span>
+    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span><span class="o">&amp;</span> <span class="n">coord</span>
+    <span class="p">)</span>
+
+<span class="n">T</span> <span class="k">const</span> <span class="n">GetMaximumRadius</span> <span class="p">(</span><span class="n">Vector</span> <span class="k">const</span> <span class="n">Scale</span><span class="p">)</span>
+<span class="n">Vector</span> <span class="k">const</span> <span class="n">GetCorner</span> <span class="p">(</span><span class="kt">int</span> <span class="k">const</span> <span class="n">i</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">MoveTo</span> <span class="p">(</span><span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Center</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">Move</span> <span class="p">(</span><span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Offset</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">Resize</span> <span class="p">(</span><span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">Reset</span> <span class="p">(</span><span class="n">Vector</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Point</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">Transform</span> <span class="p">(</span><span class="n">glm</span><span class="o">::</span><span class="n">mat4</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Transformation</span><span class="p">)</span>
+</pre>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

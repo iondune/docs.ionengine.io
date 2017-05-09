@@ -1,0 +1,38 @@
+.. index:: pair: class; ion.Graphics.ITexture3D
+.. _doxid-classion_1_1Graphics_1_1ITexture3D:
+.. _cid-ion.graphics.itexture3d:
+
+class ion.Graphics.ITexture3D
+=============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1ITexture3D_1a28eb38525890145ce1090eb7cd0cff3a:
+.. _cid-ion.graphics.itexture3d.upload:
+.. _doxid-classion_1_1Graphics_1_1ITexture3D_1a7dc59eabed79d0ffa7bc304a74d15504:
+.. _cid-ion.graphics.itexture3d.uploadsubregion:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void Upload (
+	    void const*const Data,
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+
+	void UploadSubRegion (
+	    void const*const Data,
+	    :ref:`vec3u<doxid-structvec3>` const& Offset,
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+

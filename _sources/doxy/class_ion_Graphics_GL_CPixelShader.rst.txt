@@ -1,0 +1,23 @@
+.. index:: pair: class; ion.Graphics.GL.CPixelShader
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CPixelShader:
+.. _cid-ion.graphics.gl.cpixelshader:
+
+class ion.Graphics.GL.CPixelShader
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CPixelShader_1a76f290e684382399c89e4e49ddbd8361:
+.. _cid-ion.graphics.gl.cpixelshader.handle:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	int Handle
+

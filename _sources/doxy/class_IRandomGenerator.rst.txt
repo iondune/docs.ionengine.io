@@ -1,0 +1,74 @@
+.. index:: pair: class; IRandomGenerator
+.. _doxid-classIRandomGenerator:
+.. _cid-irandomgenerator:
+
+class IRandomGenerator
+======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classIRandomGenerator_1aad3bde7f194409db0cabb7c381de204a:
+.. _cid-irandomgenerator.generate:
+.. _doxid-classIRandomGenerator_1a8257b1c5c698b9c02244f23e2069b7c4:
+.. _cid-irandomgenerator.seed:
+.. _doxid-classIRandomGenerator_1aaf968ab0db8b860393b659278d6ba359:
+.. _cid-irandomgenerator.generate-2:
+.. _doxid-classIRandomGenerator_1a5cb0d197d9c15ac816529002da0cb71f:
+.. _cid-irandomgenerator.generate-3:
+.. _doxid-classIRandomGenerator_1a8edee8203e5f8e96888353b8bbeb41d2:
+.. _cid-irandomgenerator.generatef32:
+.. _doxid-classIRandomGenerator_1ae31e71a92a6c81504de346d8beade4f5:
+.. _cid-irandomgenerator.generatef32-2:
+.. _doxid-classIRandomGenerator_1a69782b3ce5f5cbe41c2293b9595d1396:
+.. _cid-irandomgenerator.generatef32-3:
+.. _doxid-classIRandomGenerator_1a4f5fecb5dde7ef0382d31a6934f43af0:
+.. _cid-irandomgenerator.generatef64:
+.. _doxid-classIRandomGenerator_1aa9de3f6ac4732a1df5015c1b0e5e1fcd:
+.. _cid-irandomgenerator.generatef64-2:
+.. _doxid-classIRandomGenerator_1a9d6e8df0019637cb24afde4e9b2d218c:
+.. _cid-irandomgenerator.generatef64-3:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	u32 const Generate ()
+	void Seed (u32 const seed)
+	u32 const Generate (u32 const max)
+
+	u32 const Generate (
+	    u32 const min,
+	    u32 const max
+	    )
+
+	f32 const Generatef32 (u32 const modulus = 100000)
+
+	f32 const Generatef32 (
+	    f32 const max,
+	    u32 const modulus = 100000
+	    )
+
+	f32 const Generatef32 (
+	    f32 const min,
+	    f32 const max,
+	    u32 const modulus = 100000
+	    )
+
+	f64 const Generatef64 (u32 const modulus = 100000)
+
+	f64 const Generatef64 (
+	    f64 const max,
+	    u32 const modulus = 100000
+	    )
+
+	f64 const Generatef64 (
+	    f64 const min,
+	    f64 const max,
+	    u32 const modulus = 100000
+	    )
+

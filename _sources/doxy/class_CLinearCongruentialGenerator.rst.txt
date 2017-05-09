@@ -1,0 +1,32 @@
+.. index:: pair: class; CLinearCongruentialGenerator
+.. _doxid-classCLinearCongruentialGenerator:
+.. _cid-clinearcongruentialgenerator:
+
+class CLinearCongruentialGenerator
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classCLinearCongruentialGenerator_1a0c0948320473314a917e108c57835ae8:
+.. _cid-clinearcongruentialgenerator.clinearcongruentialgenerator:
+.. _doxid-classCLinearCongruentialGenerator_1a347d563f66b469e146137dcdd0b1772a:
+.. _cid-clinearcongruentialgenerator.generate:
+.. _doxid-classCLinearCongruentialGenerator_1ade7620f73ab09a8d204970ffa8ae66d6:
+.. _cid-clinearcongruentialgenerator.seed:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// construction
+
+	CLinearCongruentialGenerator (u32 const seed = 0)
+
+	// methods
+
+	u32 const Generate ()
+	void Seed (u32 const seed)
+

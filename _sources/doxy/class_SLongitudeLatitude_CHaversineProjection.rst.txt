@@ -1,0 +1,52 @@
+.. index:: pair: class; SLongitudeLatitude.CHaversineProjection
+.. _doxid-classSLongitudeLatitude_1_1CHaversineProjection:
+.. _cid-slongitudelatitude.chaversineprojection:
+
+class SLongitudeLatitude.CHaversineProjection
+=============================================
+
+.. toctree::
+	:hidden:
+
+	enum_SLongitudeLatitude_CHaversineProjection_EOffsetMode.rst
+
+
+
+
+
+.. _doxid-classSLongitudeLatitude_1_1CHaversineProjection_1a7845a2206f4f6afa46ddbe39b93c63d7:
+.. _cid-slongitudelatitude.chaversineprojection.offsetmode:
+.. _doxid-classSLongitudeLatitude_1_1CHaversineProjection_1aa350015a4e506b39472fe5e254bb34cf:
+.. _cid-slongitudelatitude.chaversineprojection.distancebetween:
+.. _doxid-classSLongitudeLatitude_1_1CHaversineProjection_1ac01a1c24831ef718e7be9a9cd4f2cd44:
+.. _cid-slongitudelatitude.chaversineprojection.offsetbetween:
+.. _doxid-classSLongitudeLatitude_1_1CHaversineProjection_1ad3dbb30b8701483ecd3754e5aa6318fe:
+.. _cid-slongitudelatitude.chaversineprojection.chaversineprojection:
+.. _doxid-classSLongitudeLatitude_1_1CHaversineProjection_1a4af98ac08c3d4ccc9986f2822e157bdf:
+.. _cid-slongitudelatitude.chaversineprojection.chaversineprojection-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enums
+
+	enum :ref:`EOffsetMode<doxid-classSLongitudeLatitude_1_1CHaversineProjection_1a7b6c8e3fce61cce01c93bf6faec6467a>`
+
+	// fields
+
+	EOffsetMode OffsetMode
+
+	// methods
+
+	T DistanceBetween (
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const& Left,
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const& Right
+	    )
+
+	:ref:`vec2<doxid-structvec2>` <T> OffsetBetween (
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const& A,
+	    :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` const& B
+	    )
+
+	CHaversineProjection ()
+	CHaversineProjection (EOffsetMode const offsetMode)
+

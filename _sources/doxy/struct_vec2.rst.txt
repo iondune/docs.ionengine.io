@@ -1,0 +1,315 @@
+.. index:: pair: struct; vec2 <typename T>
+.. _doxid-structvec2:
+.. _cid-vec2:
+
+struct vec2 <typename T>
+========================
+
+.. toctree::
+	:hidden:
+
+
+
+Overview
+~~~~~~~~
+
+
+
+.. _doxid-structvec2_1ac5e03d738148b33eea03f96dc39f71c3:
+.. _cid-vec2.x:
+.. _doxid-structvec2_1a606de27e1be0db2211e23e53e56277c3:
+.. _cid-vec2.y:
+.. _doxid-structvec2_1a0c70c51e1b358761b7a1526604dae48d:
+.. _cid-vec2.dot:
+.. _doxid-structvec2_1ab27463301f7cf1ec47f574cd276cfa8f:
+.. _cid-vec2.getdistancefrom:
+.. _doxid-structvec2_1a3ae8cd51b80870baa9bef16df2096de7:
+.. _cid-vec2.getdistancesqfrom:
+.. _doxid-structvec2_1a9a364a0ecd21a839e2a9835db19e0911:
+.. _cid-vec2.getinterpolated:
+.. _doxid-structvec2_1a065b7d934e9a1f7f05b1d961cce00d74:
+.. _cid-vec2.getnormalized:
+.. _doxid-structvec2_1a651e87b56c659e565728a338eae19652:
+.. _cid-vec2.operator+:
+.. _doxid-structvec2_1a183acafc3a03c055ea61d85efcd4b76c:
+.. _cid-vec2.operator-:
+.. _doxid-structvec2_1a9a9902fc47683ee09252fec15b85cf98:
+.. _cid-vec2.operator*:
+.. _doxid-structvec2_1ada109f53356b995e9c48302dd3ba97cd:
+.. _cid-vec2.operator.:
+.. _doxid-structvec2_1a6513099eda17a896d77a7be78c32fae2:
+.. _cid-vec2.operator+-2:
+.. _doxid-structvec2_1a13142848b11564b477245423352ffe59:
+.. _cid-vec2.operator--2:
+.. _doxid-structvec2_1a7c10622896d1cd5617569e910cb12760:
+.. _cid-vec2.operator*-2:
+.. _doxid-structvec2_1a077c4da3724b79778929962a1bb26967:
+.. _cid-vec2.operator.-2:
+.. _doxid-structvec2_1a25e19c1c03d1cdb6342c194d9c0d111a:
+.. _cid-vec2.operator+=:
+.. _doxid-structvec2_1a363d8143bbcd1617c6b3edd44ae275cd:
+.. _cid-vec2.operator-=:
+.. _doxid-structvec2_1a6936fb5a059512bac82e3621ad82a0cc:
+.. _cid-vec2.operator*=:
+.. _doxid-structvec2_1a8e96d98636ca7f58d787b11db7c6080b:
+.. _cid-vec2.operator.=:
+.. _doxid-structvec2_1a60471a657dc185d0b1d1d3c9052ae6ad:
+.. _cid-vec2.operator+=-2:
+.. _doxid-structvec2_1a3aa64d44e1cc9d746b0cf8e2d4576ea1:
+.. _cid-vec2.operator-=-2:
+.. _doxid-structvec2_1ac53b426425a9567033aff01e453e8cab:
+.. _cid-vec2.operator*=-2:
+.. _doxid-structvec2_1a4f2c1680d268570c80761efbf000d0c2:
+.. _cid-vec2.operator.=-2:
+.. _doxid-structvec2_1a15dea2a8b211c4e7e9db5083732e1c80:
+.. _cid-vec2.operator--3:
+.. _doxid-structvec2_1a245c8d716a240e6b7692a62bbaecbe3f:
+.. _cid-vec2.operator<:
+.. _doxid-structvec2_1a1bc65a6c0f3d84a321976b03269b0e2a:
+.. _cid-vec2.operator==:
+.. _doxid-structvec2_1a35d334c6249111d3f3e7b0c035fb136f:
+.. _cid-vec2.operator!=:
+.. _doxid-structvec2_1a5e10cd197d1965374a4f19df61ab0b53:
+.. _cid-vec2.equals:
+.. _doxid-structvec2_1a67a2ed742ca3dfd9f1565a41755e0094:
+.. _cid-vec2.toglm:
+.. _doxid-structvec2_1a52a97bbb1aa2f98a86b0d158dcfd072f:
+.. _cid-vec2.yx:
+.. _doxid-structvec2_1abbfd73b335ae93d01a16b59fde74fe17:
+.. _cid-vec2.xx:
+.. _doxid-structvec2_1a7179a42b174ee5a8f0eb0b9631d9390b:
+.. _cid-vec2.yy:
+.. _doxid-structvec2_1a291b88fbce709980bc5027311cefe19f:
+.. _cid-vec2.rotate:
+.. _doxid-structvec2_1aaf4585193b83275eb3fcc8c7ebfed234:
+.. _cid-vec2.getangle:
+.. _doxid-structvec2_1abbb4815e89451ee6467e9aaa13520a71:
+.. _cid-vec2.fromglm:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	T X
+	T Y
+
+	// construction
+
+	:ref:`vec2<doxid-structvec2_1a4307f112f2113890dc1107f1106a9376>` ()
+	:ref:`vec2<doxid-structvec2_1af0362026c4eabfd45ba7c2c669c99f35>` (T const in)
+
+	:ref:`vec2<doxid-structvec2_1a63a87ec805789d30a04aaa40b1d83cda>` (
+	    T const x,
+	    T const y
+	    )
+
+	:ref:`vec2 <typename U><doxid-structvec2_1aa9dd776401c21fc22c91fd6e7f034bd0>` (glm::tvec2 <U, glm::defaultp> const& v)
+	:ref:`vec2 <typename U><doxid-structvec2_1a7d8d916b2d220bb0aa2cd294d4245074>` (:ref:`vec2<doxid-structvec2>` <U> const& vec)
+
+	// methods
+
+	T :ref:`operator[]<doxid-structvec2_1ab8c4c1037d31b4121b0b2c1d4f27629d>` (int i)
+	T& :ref:`operator[]<doxid-structvec2_1a4f464ecadb21b40379899d5cd42deec6>` (int i)
+	:ref:`vec2<doxid-structvec2>` <T>& :ref:`operator= <typename U><doxid-structvec2_1a1de6640cc051fd35648c77a8348bf6fb>` (:ref:`vec2<doxid-structvec2>` <U> const& vec)
+	void :ref:`reset<doxid-structvec2_1aee4fbc117915e52f52d48d423c337fe9>` ()
+	void :ref:`set<doxid-structvec2_1a0b2a1c19e7c33e362dc62d0c8e827cb1>` (T const in)
+	void :ref:`set<doxid-structvec2_1a76b32ee7aaed4ee5c212bfd23a770d7d>` (T const in [])
+	void :ref:`set <typename U><doxid-structvec2_1a490ede76a4e1548b3deae1cec5b36342>` (:ref:`vec2<doxid-structvec2>` <U> const& other)
+	T :ref:`Length<doxid-structvec2_1a3dee481ad5e3941c09d9d8065c8dd6a3>` ()
+	T :ref:`LengthSq<doxid-structvec2_1a9e70efefb9977c298b5a5c33ebf75196>` ()
+	T Dot (:ref:`vec2<doxid-structvec2>` <T> const& other)
+	T GetDistanceFrom (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	T const GetDistanceSqFrom (:ref:`vec2<doxid-structvec2>` <T> const& v)
+
+	:ref:`vec2<doxid-structvec2>` <T> GetInterpolated <typename Real> (
+	    :ref:`vec2<doxid-structvec2>` <T> const& v,
+	    Real const d
+	    )
+
+	:ref:`vec2<doxid-structvec2>` <T> GetNormalized ()
+	:ref:`vec2<doxid-structvec2>` <T>& :ref:`Normalize<doxid-structvec2_1a3c58573bc414b90a0b7e4f237b19594e>` ()
+	:ref:`vec2<doxid-structvec2>` <T> operator+ (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	:ref:`vec2<doxid-structvec2>` <T> operator- (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	:ref:`vec2<doxid-structvec2>` <T> operator* (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	:ref:`vec2<doxid-structvec2>` <T> operator/ (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	:ref:`vec2<doxid-structvec2>` <T> operator+ (T const s)
+	:ref:`vec2<doxid-structvec2>` <T> operator- (T const s)
+	:ref:`vec2<doxid-structvec2>` <T> operator* (T const s)
+	:ref:`vec2<doxid-structvec2>` <T> operator/ (T const s)
+	:ref:`vec2<doxid-structvec2>` <T>& operator+= (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	:ref:`vec2<doxid-structvec2>` <T>& operator-= (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	:ref:`vec2<doxid-structvec2>` <T>& operator*= (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	:ref:`vec2<doxid-structvec2>` <T>& operator/= (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	:ref:`vec2<doxid-structvec2>` <T>& operator+= (T const s)
+	:ref:`vec2<doxid-structvec2>` <T>& operator-= (T const s)
+	:ref:`vec2<doxid-structvec2>` <T>& operator*= (T const s)
+	:ref:`vec2<doxid-structvec2>` <T>& operator/= (T const s)
+	:ref:`vec2<doxid-structvec2>` <T> const operator- ()
+	bool operator< (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	bool operator== (:ref:`vec2<doxid-structvec2>` <T> const& v)
+	bool operator!= (:ref:`vec2<doxid-structvec2>` <T> const& v)
+
+	bool Equals (
+	    :ref:`vec2<doxid-structvec2>` <T> const& v,
+	    T const Epsilon = :ref:`RoundingError<doxid-structRoundingError>` <T>::Value ()
+	    )
+
+	glm::vec2 const ToGLM ()
+	:ref:`vec2<doxid-structvec2>` <T> YX ()
+	:ref:`vec2<doxid-structvec2>` <T> XX ()
+	:ref:`vec2<doxid-structvec2>` <T> YY ()
+	:ref:`vec2<doxid-structvec2>` <T> Rotate (T const radians)
+	T GetAngle ()
+	:ref:`vec2<doxid-structvec2>` <T> FromGLM (glm::vec2 const& Vec)
+
+.. _details-doxid-structvec2:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Construction
+------------
+
+.. _doxid-structvec2_1a4307f112f2113890dc1107f1106a9376:
+.. _cid-vec2.vec2:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	vec2 ()
+
+Default constructor.
+
+.. _doxid-structvec2_1af0362026c4eabfd45ba7c2c669c99f35:
+.. _cid-vec2.vec2-2:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	vec2 (T const in)
+
+Scalar constructor.
+
+.. _doxid-structvec2_1a63a87ec805789d30a04aaa40b1d83cda:
+.. _cid-vec2.vec2-3:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	vec2 (
+	    T const x,
+	    T const y
+	    )
+
+Explicit constructor.
+
+.. _doxid-structvec2_1aa9dd776401c21fc22c91fd6e7f034bd0:
+.. _cid-vec2.vec2-4:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	vec2 <typename U> (glm::tvec2 <U, glm::defaultp> const& v)
+
+GLM constructor.
+
+.. _doxid-structvec2_1a7d8d916b2d220bb0aa2cd294d4245074:
+.. _cid-vec2.vec2-5:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	vec2 <typename U> (:ref:`vec2<doxid-structvec2>` <U> const& vec)
+
+Generic :ref:`vec2 <doxid-structvec2>` constructor.
+
+Methods
+-------
+
+.. _doxid-structvec2_1ab8c4c1037d31b4121b0b2c1d4f27629d:
+.. _cid-vec2.operator[]:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	T operator[] (int i)
+
+Note: Out-of-bounds access returns a dummy value without error.
+
+.. _doxid-structvec2_1a4f464ecadb21b40379899d5cd42deec6:
+.. _cid-vec2.operator[]-2:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	T& operator[] (int i)
+
+Note: Out-of-bounds access returns a dummy value without error.
+
+.. _doxid-structvec2_1a1de6640cc051fd35648c77a8348bf6fb:
+.. _cid-vec2.operator=:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	:ref:`vec2<doxid-structvec2>` <T>& operator= <typename U> (:ref:`vec2<doxid-structvec2>` <U> const& vec)
+
+Generic vector assignment operator.
+
+.. _doxid-structvec2_1aee4fbc117915e52f52d48d423c337fe9:
+.. _cid-vec2.reset:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void reset ()
+
+Sets all values to 0.
+
+.. _doxid-structvec2_1a0b2a1c19e7c33e362dc62d0c8e827cb1:
+.. _cid-vec2.set:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void set (T const in)
+
+Sets all values to a single scalar.
+
+.. _doxid-structvec2_1a76b32ee7aaed4ee5c212bfd23a770d7d:
+.. _cid-vec2.set-2:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void set (T const in [])
+
+Sets all values by an input C-style array.
+
+.. _doxid-structvec2_1a490ede76a4e1548b3deae1cec5b36342:
+.. _cid-vec2.set-3:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	void set <typename U> (:ref:`vec2<doxid-structvec2>` <U> const& other)
+
+Sets all values by an input vector.
+
+.. _doxid-structvec2_1a3dee481ad5e3941c09d9d8065c8dd6a3:
+.. _cid-vec2.length:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	T Length ()
+
+Length of vector.
+
+.. _doxid-structvec2_1a9e70efefb9977c298b5a5c33ebf75196:
+.. _cid-vec2.lengthsq:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	T LengthSq ()
+
+Squared-length of vector (computationally fast)
+
+.. _doxid-structvec2_1a3c58573bc414b90a0b7e4f237b19594e:
+.. _cid-vec2.normalize:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	:ref:`vec2<doxid-structvec2>` <T>& Normalize ()
+
+Normalize this vector.
+

@@ -1,0 +1,27 @@
+.. index:: pair: struct; RoundingError <f64>
+.. _doxid-structRoundingError_3_01f64_01_4:
+.. _cid-roundingerror-3:
+
+struct RoundingError <f64>
+==========================
+
+.. toctree::
+	:hidden:
+
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionComparison.h>
+
+
+Template specialization of :ref:`RoundingError <doxid-structRoundingError>` for 64bit floating-point values.
+
+.. _doxid-structRoundingError_3_01f64_01_4_1a53b455a5541789ae61f3f968cd5062f7:
+.. _cid-roundingerror.value-3:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	f64 Value ()
+

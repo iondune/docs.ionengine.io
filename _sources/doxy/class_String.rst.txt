@@ -1,0 +1,45 @@
+.. index:: pair: class; String
+.. _doxid-classString:
+.. _cid-string:
+
+class String
+============
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classString_1aeda9f2dbda875288fefe334995d7fbdf:
+.. _cid-string.separatelines:
+.. _doxid-classString_1a0df2c78127ee4c519c57012d431b336f:
+.. _cid-string.explode:
+.. _doxid-classString_1adaaf1df243e71ec6423770e0a4d56f97:
+.. _cid-string.beginswith:
+.. _doxid-classString_1a79562623ec15bc5bbcb5eaf4a45d6981:
+.. _cid-string.build:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	vector <string> SeparateLines (string const& str)
+
+	vector <string> Explode (
+	    string const& str,
+	    char delimiter
+	    )
+
+	bool BeginsWith (
+	    string const& s,
+	    string const& prefix,
+	    string& remainder
+	    )
+
+	string Build <typename... Args> (
+	    char const*const Format,
+	    Args const&... args
+	    )
+

@@ -1,0 +1,38 @@
+.. index:: pair: class; ion.CGamePad
+.. _doxid-classion_1_1CGamePad:
+.. _cid-ion.cgamepad:
+
+class ion.CGamePad
+==================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1CGamePad_1ac92fd1edb46033fe3028f853bf4f3f51:
+.. _cid-ion.cgamepad.getleftstick:
+.. _doxid-classion_1_1CGamePad_1aa4b014b76821bf43ee4f4d860c337048:
+.. _cid-ion.cgamepad.getrightstick:
+.. _doxid-classion_1_1CGamePad_1a097646ca46971ed121fe0bf21d78cd5c:
+.. _cid-ion.cgamepad.getlefttrigger:
+.. _doxid-classion_1_1CGamePad_1acf0436137d3151c335fd36129b26bc03:
+.. _cid-ion.cgamepad.getrighttrigger:
+.. _doxid-classion_1_1CGamePad_1a6f3cb361b008e96606389cfb8d1100ed:
+.. _cid-ion.cgamepad.isbuttonpressed:
+.. _doxid-classion_1_1CGamePad_1a366990064aec32f1801f8c37b83d54aa:
+.. _cid-ion.cgamepad.updatestate:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	:ref:`vec2f<doxid-structvec2>` const& GetLeftStick ()
+	:ref:`vec2f<doxid-structvec2>` const& GetRightStick ()
+	f32 GetLeftTrigger ()
+	f32 GetRightTrigger ()
+	bool IsButtonPressed (EGamePadButton const Button)
+	void UpdateState ()
+

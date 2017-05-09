@@ -1,0 +1,35 @@
+.. index:: pair: struct; Type
+.. _doxid-structType:
+.. _cid-type:
+
+struct Type
+===========
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-structType_1a64f66e78e7e5e5dc893a1ebbfe82b05a:
+.. _cid-type.value:
+.. _doxid-structType_1ac24210a05f1127dd9d40977405adaa8d:
+.. _cid-type.type:
+.. _doxid-structType_1a16c58ef55dc610a38b5cd37991cbc4c7:
+.. _cid-type.operator<:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	std::type_info const& Value
+
+	// construction
+
+	Type (std::type_info const& value)
+
+	// methods
+
+	bool operator< (:ref:`Type<doxid-structType>` const& other)
+

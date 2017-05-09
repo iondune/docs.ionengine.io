@@ -1,0 +1,284 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>class ion.Graphics.ITexture &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">class ion.Graphics.ITexture</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#detailed-documentation">Detailed Documentation</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>class ion.Graphics.ITexture</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/class_ion_Graphics_ITexture.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="class-ion-graphics-itexture">
+<span id="cid-ion-graphics-itexture"></span><span id="doxid-classion-1-1graphics-1-1itexture"></span><span id="index-0"></span><h1>class ion.Graphics.ITexture<a class="headerlink" href="#class-ion-graphics-itexture" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<pre class="highlight overview-code-block literal-block" id="cid-ion-graphics-itexture-getanisotropy">
+<span id="doxid-classion-1-1graphics-1-1itexture-1a0dba2d88055f9e6ecd087460a961d5c1"></span><span id="cid-ion-graphics-itexture-getwrapmode"></span><span id="doxid-classion-1-1graphics-1-1itexture-1a2988ba7ef8c7bafe05758fe5ef0ae0c7"></span><span id="cid-ion-graphics-itexture-getmipmapfilter"></span><span id="doxid-classion-1-1graphics-1-1itexture-1a4388aaf5027e75f53e8414e5cc617a8c"></span><span id="cid-ion-graphics-itexture-getmagfilter"></span><span id="doxid-classion-1-1graphics-1-1itexture-1ac5cd2ef49555616574bf916d1e351ff2"></span><span id="cid-ion-graphics-itexture-getminfilter"></span><span id="doxid-classion-1-1graphics-1-1itexture-1ac2a866bd10a846486fd5b76a36800c9c"></span><span></span><span class="c1">// enums</span>
+
+<span class="k">enum</span> EFilter<span></span>
+<span class="k">enum</span> EFormatComponents<span></span>
+<span class="k">enum</span> EInternalFormatType<span></span>
+<span class="k">enum</span> EMipMaps<span></span>
+<span class="k">enum</span> EWrapMode<span></span>
+
+<span class="c1">// methods</span>
+
+<span class="kt">void</span> SetMinFilter<span></span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MinFilter</span><span class="p">)</span>
+<span class="kt">void</span> SetMagFilter<span></span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MagFilter</span><span class="p">)</span>
+<span class="kt">void</span> SetMipMapFilter<span></span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MipMapFilter</span><span class="p">)</span>
+<span class="kt">void</span> SetWrapMode<span></span> <span class="p">(</span><span class="n">EWrapMode</span> <span class="k">const</span> <span class="n">WrapMode</span><span class="p">)</span>
+<span class="kt">void</span> SetAnisotropy<span></span> <span class="p">(</span><span class="kt">float</span> <span class="k">const</span> <span class="n">Anisotropy</span><span class="p">)</span>
+<span class="n">EFilter</span> <span class="n">GetMinFilter</span> <span class="p">()</span>
+<span class="n">EFilter</span> <span class="n">GetMagFilter</span> <span class="p">()</span>
+<span class="n">EFilter</span> <span class="n">GetMipMapFilter</span> <span class="p">()</span>
+<span class="n">EWrapMode</span> <span class="n">GetWrapMode</span> <span class="p">()</span>
+<span class="kt">float</span> <span class="n">GetAnisotropy</span> <span class="p">()</span>
+</pre>
+</div>
+<div class="section" id="detailed-documentation">
+<span id="details-doxid-classion-1-1graphics-1-1itexture"></span><h2>Detailed Documentation<a class="headerlink" href="#detailed-documentation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="methods">
+<h3>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setminfilter">
+<span id="doxid-classion-1-1graphics-1-1itexture-1af267e182935d2c18207a24938589c49d"></span><span></span><span class="kt">void</span> <span class="n">SetMinFilter</span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MinFilter</span><span class="p">)</span>
+</pre>
+<p>Sets the minimizing filter for this texture Default is EFilter::Linear</p>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setmagfilter">
+<span id="doxid-classion-1-1graphics-1-1itexture-1ae7d50a3a491076371001bde150620871"></span><span></span><span class="kt">void</span> <span class="n">SetMagFilter</span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MagFilter</span><span class="p">)</span>
+</pre>
+<p>Sets the maximizing filter for this texture Default is EFilter::Linear</p>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setmipmapfilter">
+<span id="doxid-classion-1-1graphics-1-1itexture-1aea985baf7fcb64879c2048785bafd631"></span><span></span><span class="kt">void</span> <span class="n">SetMipMapFilter</span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MipMapFilter</span><span class="p">)</span>
+</pre>
+<p>Sets the mip map filter for this texture Default is EFilter::Linear</p>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setwrapmode">
+<span id="doxid-classion-1-1graphics-1-1itexture-1a8253054ec0af0554d52f9e5bf75f3d48"></span><span></span><span class="kt">void</span> <span class="n">SetWrapMode</span> <span class="p">(</span><span class="n">EWrapMode</span> <span class="k">const</span> <span class="n">WrapMode</span><span class="p">)</span>
+</pre>
+<p>Sets the wrap mode for this texture Default is EWrapMode::Repeat</p>
+<pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setanisotropy">
+<span id="doxid-classion-1-1graphics-1-1itexture-1ab605ebc931098e6f8019e02554eef8a4"></span><span></span><span class="kt">void</span> <span class="n">SetAnisotropy</span> <span class="p">(</span><span class="kt">float</span> <span class="k">const</span> <span class="n">Anisotropy</span><span class="p">)</span>
+</pre>
+<p>Sets the anisotropy filtering value for this texture A value &lt; 0 indicates that the max anisotrophy value should be used Default is -1</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

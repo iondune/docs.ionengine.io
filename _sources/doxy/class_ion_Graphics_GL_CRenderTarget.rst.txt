@@ -1,0 +1,76 @@
+.. index:: pair: class; ion.Graphics.GL.CRenderTarget
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget:
+.. _cid-ion.graphics.gl.crendertarget:
+
+class ion.Graphics.GL.CRenderTarget
+===================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a4d066b77fd18082aae32650561631da7:
+.. _cid-ion.graphics.gl.crendertarget.window:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a30414d2895aad0209e295d30d521fc5b:
+.. _cid-ion.graphics.gl.crendertarget.color:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a97ef2df7a29511632fcda9e3b5e4cfbe:
+.. _cid-ion.graphics.gl.crendertarget.viewportmin:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a6cc9957b1a063c00ffd1130a59cf1c6a:
+.. _cid-ion.graphics.gl.crendertarget.viewportmax:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a295a10e818d70dbb5e1d8abdd6e7d904:
+.. _cid-ion.graphics.gl.crendertarget.specifiedviewport:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1ab280461b8e7d8d8dba1e547d085cbda4:
+.. _cid-ion.graphics.gl.crendertarget.currentlybound:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1acd3f33f9d727a8b44a38f841fd4221d5:
+.. _cid-ion.graphics.gl.crendertarget.crendertarget:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1af6a1ab5045ff44252490981ec25fe262:
+.. _cid-ion.graphics.gl.crendertarget.clearcolor:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1ada8bf0dea30dfedc2e1769cedfe97916:
+.. _cid-ion.graphics.gl.crendertarget.cleardepth:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a72bd84a983ee596a8b7bb3b1d36c863a:
+.. _cid-ion.graphics.gl.crendertarget.clearcoloranddepth:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a6b4e7d301a3e2ffdeac0c9b3ceb8c20b:
+.. _cid-ion.graphics.gl.crendertarget.setclearcolor:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a50c2b8991f2d98035ab4d3f28b21cc78:
+.. _cid-ion.graphics.gl.crendertarget.readimage:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1ac0b022fdb97c9ba725583a067f686201:
+.. _cid-ion.graphics.gl.crendertarget.bind:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a4f3703ad3decbb961b5e0c2698b66e5a:
+.. _cid-ion.graphics.gl.crendertarget.getcurrentlybound:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1acc6e3d5a6f997a0ebd87dadcbd2eb82f:
+.. _cid-ion.graphics.gl.crendertarget.setviewport:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget_1a0ecc01d0f3abc5afb2b7483608de1e01:
+.. _cid-ion.graphics.gl.crendertarget.clearviewport:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	:ref:`CWindow<doxid-classion_1_1CWindow>`* Window
+	:ref:`color4f<doxid-classSColorA>` Color
+	:ref:`vec2i<doxid-structvec2>` ViewportMin
+	:ref:`vec2i<doxid-structvec2>` ViewportMax
+	bool SpecifiedViewport
+	:ref:`CRenderTarget<doxid-classion_1_1Graphics_1_1GL_1_1CRenderTarget>`* CurrentlyBound
+
+	// methods
+
+	CRenderTarget (:ref:`CWindow<doxid-classion_1_1CWindow>`* Window)
+	void ClearColor ()
+	void ClearDepth ()
+	void ClearColorAndDepth ()
+	void SetClearColor (:ref:`color4f<doxid-classSColorA>` const& Color)
+	:ref:`CImage<doxid-classion_1_1CImage>`* ReadImage ()
+	void Bind ()
+	:ref:`IRenderTarget<doxid-classion_1_1Graphics_1_1IRenderTarget>`* GetCurrentlyBound ()
+
+	void SetViewport (
+	    :ref:`vec2i<doxid-structvec2>` const& Min,
+	    :ref:`vec2i<doxid-structvec2>` const& Max
+	    )
+
+	void ClearViewport ()
+

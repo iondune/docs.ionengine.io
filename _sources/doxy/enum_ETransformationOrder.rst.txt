@@ -1,0 +1,23 @@
+.. index:: pair: enum; ETransformationOrder
+.. _doxid-STransformation3_8h_1ad55879292d49039e900abcdcf9415199:
+.. _cid-etransformationorder:
+
+enum ETransformationOrder
+=========================
+
+
+
+
+
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enum values
+
+	TranslationRotationScale 
+	TranslationScaleRotation 
+	RotationScaleTranslation 
+	RotationTranslationScale 
+	ScaleTranslationRotation 
+	ScaleRotationTranslation 
+

@@ -1,0 +1,96 @@
+.. index:: pair: class; ion.Scene.CSimpleMesh
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh:
+.. _cid-ion.scene.csimplemesh:
+
+class ion.Scene.CSimpleMesh
+===========================
+
+.. toctree::
+	:hidden:
+
+	struct_ion_Scene_CSimpleMesh_STriangle.rst
+	struct_ion_Scene_CSimpleMesh_SVertex.rst
+
+
+
+
+
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a13659288aa6270a1ef360208273f89e7:
+.. _cid-ion.scene.csimplemesh.vertices:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a1ab975d85d6789f66c376482eb5dfed1:
+.. _cid-ion.scene.csimplemesh.triangles:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a4b24799943290eb8524a244048d4aaf1:
+.. _cid-ion.scene.csimplemesh.material:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a9ab32fb397f2fb3aa2a8159107f096c2:
+.. _cid-ion.scene.csimplemesh.fromattributes:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a818e115f64549d83280f5ff5bf748815:
+.. _cid-ion.scene.csimplemesh.getboundingbox:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1ab94d7360b96f5b7a684c1ba56d6c9c69:
+.. _cid-ion.scene.csimplemesh.clear:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a6042de9d0d156eaeaf2a5928a5a85680:
+.. _cid-ion.scene.csimplemesh.resizemesh:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1ae7f42627da16bae001e2c62bc4f085a0:
+.. _cid-ion.scene.csimplemesh.applyscalefactor:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a887f22bbd50b5f214ba2effb2fcde952:
+.. _cid-ion.scene.csimplemesh.applyoffset:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1ab02d604f2757ec3ed621191fc74b5088:
+.. _cid-ion.scene.csimplemesh.applytransformation:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a8c1f06ca6b6342c5f970fd210fc346f1:
+.. _cid-ion.scene.csimplemesh.reversefaces:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a5b21151f4d4a5170218a012b20198aee:
+.. _cid-ion.scene.csimplemesh.separatetriangles:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1aa761671a0104512407b01a1cc105a24a:
+.. _cid-ion.scene.csimplemesh.calculatenormalsperface:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1aae62d78afea4431bdba3a838ed2a6c27:
+.. _cid-ion.scene.csimplemesh.calculatenormalspervertex:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a56d09dcae413c9f573ef1b334aa8b305:
+.. _cid-ion.scene.csimplemesh.writeobj:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1ac0d4c2783672939b7bb3dcfdba915ebe:
+.. _cid-ion.scene.csimplemesh.calculateboundingbox:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a108e8c387c373f8d27655fe2b42881a2:
+.. _cid-ion.scene.csimplemesh.createindexbuffer:
+.. _doxid-classion_1_1Scene_1_1CSimpleMesh_1a4ee7e1dad8220aa95b0a97750fbcddaf:
+.. _cid-ion.scene.csimplemesh.createvertexbuffer:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// structs
+
+	struct :ref:`STriangle<doxid-struction_1_1Scene_1_1CSimpleMesh_1_1STriangle>`
+	struct :ref:`SVertex<doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex>`
+
+	// fields
+
+	vector <:ref:`SVertex<doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex>`> Vertices
+	vector <:ref:`STriangle<doxid-struction_1_1Scene_1_1CSimpleMesh_1_1STriangle>`> Triangles
+	:ref:`SSimpleMaterial<doxid-struction_1_1Scene_1_1SSimpleMaterial>` Material
+
+	// methods
+
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* FromAttributes (
+	    vector <uint> Indices,
+	    vector <f32> const& Positions,
+	    vector <f32> const& Normals = vector <f32> (),
+	    vector <f32> const& TexCoords = vector <f32> ()
+	    )
+
+	:ref:`SBoundingBox3f<doxid-classSBoundingBox3>` GetBoundingBox ()
+	void Clear ()
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ResizeMesh (:ref:`vec3f<doxid-structvec3>` const& Scale)
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ApplyScaleFactor (:ref:`vec3f<doxid-structvec3>` const& Scale)
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ApplyOffset (:ref:`vec3f<doxid-structvec3>` const& Offset)
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ApplyTransformation (glm::mat4 const& Transform)
+	void ReverseFaces ()
+	void SeparateTriangles ()
+	void CalculateNormalsPerFace ()
+
+	void CalculateNormalsPerVertex (
+	    bool CombineNear = true,
+	    f32 const NearTolerance = 0.0001f
+	    )
+
+	void WriteOBJ (string const& FileName)
+	:ref:`box3f<doxid-classSBoundingBox3>` CalculateBoundingBox ()
+	SharedPointer <:ref:`Graphics::IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> CreateIndexBuffer ()
+	SharedPointer <:ref:`Graphics::IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> CreateVertexBuffer ()
+

@@ -1,0 +1,32 @@
+.. index:: pair: struct; ion.SWindowResizedEvent
+.. _doxid-struction_1_1SWindowResizedEvent:
+.. _cid-ion.swindowresizedevent:
+
+struct ion.SWindowResizedEvent
+==============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-struction_1_1SWindowResizedEvent_1a631dca647d663a5b3eeae1dc9d778c50:
+.. _cid-ion.swindowresizedevent.size:
+.. _doxid-struction_1_1SWindowResizedEvent_1a8960de8fb2e64429ade43b93bc3b8a8b:
+.. _cid-ion.swindowresizedevent.window:
+.. _doxid-struction_1_1SWindowResizedEvent_1a9f709ad62cbf25e42d37a7d5faba4631:
+.. _cid-ion.swindowresizedevent.swindowresizedevent:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	:ref:`vec2i<doxid-structvec2>` Size
+	:ref:`CWindow<doxid-classion_1_1CWindow>`* Window
+
+	// methods
+
+	SWindowResizedEvent ()
+

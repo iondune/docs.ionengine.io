@@ -1,0 +1,27 @@
+.. index:: pair: class; ion.Animation.CCatmullRomSplineInterpolator <typename T>
+.. _doxid-classion_1_1Animation_1_1CCatmullRomSplineInterpolator:
+.. _cid-ion.animation.ccatmullromsplineinterpolator:
+
+class ion.Animation.CCatmullRomSplineInterpolator <typename T>
+==============================================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Animation_1_1CCatmullRomSplineInterpolator_1a7691056c81e2d574e36553aa7d01c33d:
+.. _cid-ion.animation.ccatmullromsplineinterpolator.interpolate:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	T Interpolate (
+	    :ref:`ISpline<doxid-classion_1_1Animation_1_1ISpline>` <T> const& Path,
+	    int const Index,
+	    float const Mu
+	    )
+

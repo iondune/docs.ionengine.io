@@ -1,0 +1,14 @@
+.. index:: pair: struct; Constants <typename T>
+.. _doxid-structConstants:
+.. _cid-constants:
+
+struct Constants <typename T>
+=============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+

@@ -1,0 +1,47 @@
+.. index:: pair: namespace; Colors
+.. _doxid-namespaceColors:
+.. _cid-colors:
+
+namespace Colors
+================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-SColor_8h_1a7f1143b83be064049a05af8534dcbde1:
+.. _cid-colors.white:
+.. _doxid-SColor_8h_1afa2c5f69005301cc334250191a3ad8ee:
+.. _cid-colors.black:
+.. _doxid-SColor_8h_1a38fd4a5812feeb9d49e704decdb4a297:
+.. _cid-colors.red:
+.. _doxid-SColor_8h_1a680dfb1ef14076551b646a7da39bd521:
+.. _cid-colors.orange:
+.. _doxid-SColor_8h_1aa074eacdbcb40bff331229771a6f709f:
+.. _cid-colors.yellow:
+.. _doxid-SColor_8h_1a1b9668309edd7bcd2d0bd29e45d77f36:
+.. _cid-colors.green:
+.. _doxid-SColor_8h_1a5b4e5eec4c0246797c807f13449dc0a0:
+.. _cid-colors.cyan:
+.. _doxid-SColor_8h_1a9f68fba7520aa14574920fe447866347:
+.. _cid-colors.blue:
+.. _doxid-SColor_8h_1ac1e232f3eed31a0eea9b152a92d78a0f:
+.. _cid-colors.magenta:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// global variables
+
+	:ref:`color3f<doxid-classcolor3>` const Colors.White
+	:ref:`color3f<doxid-classcolor3>` const Colors.Black
+	:ref:`color3f<doxid-classcolor3>` const Colors.Red
+	:ref:`color3f<doxid-classcolor3>` const Colors.Orange
+	:ref:`color3f<doxid-classcolor3>` const Colors.Yellow
+	:ref:`color3f<doxid-classcolor3>` const Colors.Green
+	:ref:`color3f<doxid-classcolor3>` const Colors.Cyan
+	:ref:`color3f<doxid-classcolor3>` const Colors.Blue
+	:ref:`color3f<doxid-classcolor3>` const Colors.Magenta
+

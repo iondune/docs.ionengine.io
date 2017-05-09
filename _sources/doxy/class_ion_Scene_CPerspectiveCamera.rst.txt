@@ -1,0 +1,59 @@
+.. index:: pair: class; ion.Scene.CPerspectiveCamera
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera:
+.. _cid-ion.scene.cperspectivecamera:
+
+class ion.Scene.CPerspectiveCamera
+==================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1ab02d029109c650b05ad48fd4c49a248c:
+.. _cid-ion.scene.cperspectivecamera.cperspectivecamera:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1a609429f0e741277b86116b378992e74f:
+.. _cid-ion.scene.cperspectivecamera.getfieldofview:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1a8755d7841b9f62eeff91c1b96acb2e4f:
+.. _cid-ion.scene.cperspectivecamera.getfocallength:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1a70ca9865053e0cba9f1d79b36f0410a9:
+.. _cid-ion.scene.cperspectivecamera.getaspectratio:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1a96702e00579d4fe449fc2148f7e465c4:
+.. _cid-ion.scene.cperspectivecamera.setfieldofview:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1aee98f982077cb5a8a419fd00e16ffdfa:
+.. _cid-ion.scene.cperspectivecamera.setfocallength:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1a881b4fd4661942caf0848ec5f301ae90:
+.. _cid-ion.scene.cperspectivecamera.setaspectratio:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1ac6aab4b9bcb9af0977b81f6cabd75222:
+.. _cid-ion.scene.cperspectivecamera.recalculateprojectionmatrix:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1ab6155c8f62d6ac648ad8eecfef16c104:
+.. _cid-ion.scene.cperspectivecamera.update:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1a12e7778bc2f23321a8abd42e92970b34:
+.. _cid-ion.scene.cperspectivecamera.getprojectiontype:
+.. _doxid-classion_1_1Scene_1_1CPerspectiveCamera_1a8eaa5714ea7cbe627abd74f5bfcec501:
+.. _cid-ion.scene.cperspectivecamera.setprojectiontype:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	CPerspectiveCamera (
+	    f32 const aspectRatio,
+	    f32 const nearPlane = 0.1f,
+	    f32 const farPlane = 100.f,
+	    f32 const focalLength = 0.13f
+	    )
+
+	f32 GetFieldOfView ()
+	f32 GetFocalLength ()
+	f32 GetAspectRatio ()
+	void SetFieldOfView (f32 const fieldOfView)
+	void SetFocalLength (f32 const focalLength)
+	void SetAspectRatio (f32 const aspectRatio)
+	void RecalculateProjectionMatrix ()
+	void Update ()
+	EProjectionType GetProjectionType ()
+	void SetProjectionType (EProjectionType const Type)
+

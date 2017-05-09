@@ -1,0 +1,23 @@
+.. index:: pair: enum; ERotationOrder
+.. _doxid-STransformation3_8h_1a0f52acd0ddbd7c3b492ba9ed57139e4e:
+.. _cid-erotationorder:
+
+enum ERotationOrder
+===================
+
+
+
+
+
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enum values
+
+	ZYX 
+	ZXY 
+	YXZ 
+	YZX 
+	XZY 
+	XYZ 
+

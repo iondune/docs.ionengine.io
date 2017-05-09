@@ -1,0 +1,49 @@
+.. index:: pair: struct; RoundingError <typename T>
+.. _doxid-structRoundingError:
+.. _cid-roundingerror-2:
+
+struct RoundingError <typename T>
+=================================
+
+.. toctree::
+	:hidden:
+
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionComparison.h>
+
+
+Overview
+~~~~~~~~
+
+Helper template to enable template-dependant epsilon values. :ref:`More...<details-doxid-structRoundingError>`
+
+.. _doxid-structRoundingError_1ab3043b418972be7e5c151702913d120d:
+.. _cid-roundingerror.value-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	T const Value ()
+
+.. _details-doxid-structRoundingError:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+Helper template to enable template-dependant epsilon values.
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+    :widths: 20 80
+
+    *
+        - T
+
+        - :ref:`Type <doxid-structType>` of number to retrieve epsilon value
+

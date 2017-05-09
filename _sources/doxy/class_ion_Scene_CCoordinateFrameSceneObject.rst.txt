@@ -1,0 +1,35 @@
+.. index:: pair: class; ion.Scene.CCoordinateFrameSceneObject
+.. _doxid-classion_1_1Scene_1_1CCoordinateFrameSceneObject:
+.. _cid-ion.scene.ccoordinateframesceneobject:
+
+class ion.Scene.CCoordinateFrameSceneObject
+===========================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Scene_1_1CCoordinateFrameSceneObject_1ada01bec69494acf42888ba16c608d052:
+.. _cid-ion.scene.ccoordinateframesceneobject.ccoordinateframesceneobject:
+.. _doxid-classion_1_1Scene_1_1CCoordinateFrameSceneObject_1a0fef48b61d27b7626f03088468d6ef12:
+.. _cid-ion.scene.ccoordinateframesceneobject.~ccoordinateframesceneobject:
+.. _doxid-classion_1_1Scene_1_1CCoordinateFrameSceneObject_1a67a1050d1669aad1a8ec63c17cc2de9d:
+.. _cid-ion.scene.ccoordinateframesceneobject.load:
+.. _doxid-classion_1_1Scene_1_1CCoordinateFrameSceneObject_1ac293e445db682971d262a6e5563821c5:
+.. _cid-ion.scene.ccoordinateframesceneobject.draw:
+.. _doxid-classion_1_1Scene_1_1CCoordinateFrameSceneObject_1acf3a066e63bdc698dcf099ad47945f70:
+.. _cid-ion.scene.ccoordinateframesceneobject.setshader:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	CCoordinateFrameSceneObject ()
+	~CCoordinateFrameSceneObject ()
+	void Load (:ref:`CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`* RenderPass)
+	void Draw (:ref:`CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`* RenderPass)
+	void SetShader (SharedPointer <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> Shader)
+

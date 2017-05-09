@@ -1,0 +1,32 @@
+.. index:: pair: page; Modules
+.. _doxid-modules:
+
+Modules
+=======
+
+Module Dependency Diagram
+
+.. _doxid-modules_1ionCore:
+.. rubric:: ionCore:
+
+ionCore is the basis for all other modules, a set of boilerplate functions and templates. See module documentation here: :ref:`Module ionCore <doxid-moduleCore>`
+
+.. _doxid-modules_1ionFramework:
+.. rubric:: ionFramework:
+
+ionFramework provides basic application structures including event listeners.
+
+.. _doxid-modules_1ionWindow:
+.. rubric:: ionWindow:
+
+ionWindow wraps GLFW and hooks up to ionFramework interfaces.
+
+.. _doxid-modules_1ionGraphics:
+.. rubric:: ionGraphics:
+
+ionGraphics provides a interface to the graphics hardware that can be fulfilled by either DirectX or OpenGL.
+
+.. _doxid-modules_1ionGraphicsGL:
+.. rubric:: ionGraphicsGL:
+
+ionGraphicsGL implements the ionGraphics interfaces for OpenGL.

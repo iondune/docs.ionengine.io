@@ -1,0 +1,21 @@
+.. index:: pair: enum; ion.SMouseEvent.EButton
+.. _doxid-struction_1_1SMouseEvent_1a6bc94f1b06d84884dd789f82eecbefcb:
+.. _cid-ion.smouseevent.ebutton:
+
+enum ion.SMouseEvent.EButton
+============================
+
+
+
+
+
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enum values
+
+	Left 
+	Right 
+	Middle 
+	Count 
+

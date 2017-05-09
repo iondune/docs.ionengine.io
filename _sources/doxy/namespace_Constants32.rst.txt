@@ -1,0 +1,26 @@
+.. index:: pair: namespace; Constants32
+.. _doxid-namespaceConstants32:
+.. _cid-constants32:
+
+namespace Constants32
+=====================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-Constants_8h_1a5db6cf8eadc4320f47ee7fd9a2bfc066:
+.. _cid-constants32.pi:
+.. _doxid-Constants_8h_1aed5d0816a87410b4ab934916bc8ba5ee:
+.. _cid-constants32.e:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// global variables
+
+	f32 const Constants32.Pi
+	f32 const Constants32.e
+

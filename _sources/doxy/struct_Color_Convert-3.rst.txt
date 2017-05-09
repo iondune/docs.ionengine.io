@@ -1,0 +1,23 @@
+.. index:: pair: struct; Color.Convert <u8, f32>
+.. _doxid-structColor_1_1Convert_3_01u8_00_01f32_01_4:
+.. _cid-color.convert-3:
+
+struct Color.Convert <u8, f32>
+==============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-structColor_1_1Convert_3_01u8_00_01f32_01_4_1a30ada2c284bf5d1fd0be0c59c33cec12:
+.. _cid-color.convert.from-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	u8 From (f32 const Value)
+

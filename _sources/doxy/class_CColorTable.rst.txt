@@ -1,0 +1,23 @@
+.. index:: pair: class; CColorTable
+.. _doxid-classCColorTable:
+.. _cid-ccolortable:
+
+class CColorTable
+=================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classCColorTable_1a2f1f94059fda9e93fab99cca88514e00:
+.. _cid-ccolortable.get:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	:ref:`color3i<doxid-classcolor3>` const& Get (f32 const Value)
+

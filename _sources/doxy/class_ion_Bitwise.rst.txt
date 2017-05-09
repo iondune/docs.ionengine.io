@@ -1,0 +1,29 @@
+.. index:: pair: class; ion.Bitwise
+.. _doxid-classion_1_1Bitwise:
+.. _cid-ion.bitwise:
+
+class ion.Bitwise
+=================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Bitwise_1a6b4b290fe16f98a90105a5a2328036d8:
+.. _cid-ion.bitwise.bitstobyte:
+.. _doxid-classion_1_1Bitwise_1ac94fe3d554b3615a61fc50bf18d772d9:
+.. _cid-ion.bitwise.bytetobits:
+.. _doxid-classion_1_1Bitwise_1a39a3a0e860537d3474c379e17a19cfa1:
+.. _cid-ion.bitwise.bitcount:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	uint BitsToByte (vector <uint> const& bits)
+	vector <uint> ByteToBits (uint const Byte)
+	uint BitCount (uint i)
+

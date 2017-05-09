@@ -1,0 +1,23 @@
+.. index:: pair: class; ion.Graphics.GL.CVertexShader
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexShader:
+.. _cid-ion.graphics.gl.cvertexshader:
+
+class ion.Graphics.GL.CVertexShader
+===================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CVertexShader_1ab44db69afc31184cb71110f557cebff5:
+.. _cid-ion.graphics.gl.cvertexshader.handle:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	int Handle
+

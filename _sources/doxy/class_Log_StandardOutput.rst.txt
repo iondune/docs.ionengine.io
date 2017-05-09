@@ -1,0 +1,26 @@
+.. index:: pair: class; Log.StandardOutput
+.. _doxid-classLog_1_1StandardOutput:
+.. _cid-log.standardoutput:
+
+class Log.StandardOutput
+========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classLog_1_1StandardOutput_1a18d550e53ced86d6ef81c486053e07c8:
+.. _cid-log.standardoutput.standardoutput:
+.. _doxid-classLog_1_1StandardOutput_1a82e76fb19724fecf66b2ec3f4dee090b:
+.. _cid-log.standardoutput.write:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	StandardOutput (std::ostream& Stream)
+	void Write (string const& Message)
+

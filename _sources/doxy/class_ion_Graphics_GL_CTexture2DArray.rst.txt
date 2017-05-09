@@ -1,0 +1,51 @@
+.. index:: pair: class; ion.Graphics.GL.CTexture2DArray
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture2DArray:
+.. _cid-ion.graphics.gl.ctexture2darray:
+
+class ion.Graphics.GL.CTexture2DArray
+=====================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture2DArray_1af5b012b0ac7280af60475a213ba3ec10:
+.. _cid-ion.graphics.gl.ctexture2darray.texturesize:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture2DArray_1a4572a30c6349af2b005e8c751d6cde74:
+.. _cid-ion.graphics.gl.ctexture2darray.upload:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture2DArray_1aa2e53965b90c5d8c82337b2b625c46b4:
+.. _cid-ion.graphics.gl.ctexture2darray.uploadsubregion:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture2DArray_1a06a5cdc66359da2669dc1f04c9ed1746:
+.. _cid-ion.graphics.gl.ctexture2darray.getglbindtexturetarget:
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CTexture2DArray_1a79b14b9726b265e1d721ac9c85bf6ac5:
+.. _cid-ion.graphics.gl.ctexture2darray.getgltexturebindingenum:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	:ref:`vec3u<doxid-structvec3>` TextureSize
+
+	// methods
+
+	void Upload (
+	    void const*const Data,
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+
+	void UploadSubRegion (
+	    void const*const Data,
+	    :ref:`vec3u<doxid-structvec3>` const& Offset,
+	    :ref:`vec3u<doxid-structvec3>` const& Size,
+	    EFormatComponents const Components,
+	    EScalarType const Type
+	    )
+
+	uint GetGLBindTextureTarget ()
+	uint GetGLTextureBindingEnum ()
+

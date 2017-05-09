@@ -1,0 +1,50 @@
+.. index:: pair: struct; ion.Scene.CSimpleMesh.SVertex
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex:
+.. _cid-ion.scene.csimplemesh.svertex:
+
+struct ion.Scene.CSimpleMesh.SVertex
+====================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex_1ace7bde1b36640fffb84144ec54679fb3:
+.. _cid-ion.scene.csimplemesh.svertex.position:
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex_1a4e347a33e90097f2b694600e454495ea:
+.. _cid-ion.scene.csimplemesh.svertex.normal:
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex_1aa335584c972108bb3a24928b334e09d4:
+.. _cid-ion.scene.csimplemesh.svertex.color:
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex_1a45c59d6ef56208bb6c96141e4db8c7a7:
+.. _cid-ion.scene.csimplemesh.svertex.tangent:
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex_1a679cb6d98ce15aa4693d40037ebccf4c:
+.. _cid-ion.scene.csimplemesh.svertex.texturecoordinates:
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex_1a38a6026ff58cc74284acb47e621f9bdf:
+.. _cid-ion.scene.csimplemesh.svertex.svertex:
+.. _doxid-struction_1_1Scene_1_1CSimpleMesh_1_1SVertex_1a6ed0b2254437164636806863b7ea1e05:
+.. _cid-ion.scene.csimplemesh.svertex.svertex-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	:ref:`vec3f<doxid-structvec3>` Position
+	:ref:`vec3f<doxid-structvec3>` Normal
+	:ref:`color3f<doxid-classcolor3>` Color
+	:ref:`vec3f<doxid-structvec3>` Tangent
+	:ref:`vec2f<doxid-structvec2>` TextureCoordinates
+
+	// methods
+
+	SVertex ()
+
+	SVertex (
+	    :ref:`vec3f<doxid-structvec3>` const& position,
+	    :ref:`vec3f<doxid-structvec3>` const& normal = :ref:`vec3f<doxid-structvec3>` (),
+	    :ref:`vec2f<doxid-structvec2>` const& texture = :ref:`vec2f<doxid-structvec2>` (),
+	    :ref:`vec3f<doxid-structvec3>` const& tangent = :ref:`vec3f<doxid-structvec3>` ()
+	    )
+

@@ -1,0 +1,23 @@
+.. index:: pair: class; SVolume.SRowAccess
+.. _doxid-classSVolume_1_1SRowAccess:
+.. _cid-svolume.srowaccess:
+
+class SVolume.SRowAccess
+========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSVolume_1_1SRowAccess_1a4e1c54a48d3bfce4fc4eec28e0ce9c03:
+.. _cid-svolume.srowaccess.operator[]:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	T& operator[] (u32 const Z)
+

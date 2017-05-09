@@ -1,0 +1,71 @@
+.. index:: pair: class; STransformation3
+.. _doxid-classSTransformation3:
+.. _cid-stransformation3:
+
+class STransformation3
+======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSTransformation3_1a566264e4a98a3c76f5202c38e78d7fec:
+.. _cid-stransformation3.operator glm::mat4:
+.. _doxid-classSTransformation3_1abd00b6a1199502c914e753dce515b0ce:
+.. _cid-stransformation3.operator():
+.. _doxid-classSTransformation3_1abe4a1bf9b049bc33607464af62261738:
+.. _cid-stransformation3.getglmmat4:
+.. _doxid-classSTransformation3_1aca5dfdc67c2a2ac4296cd547418edc27:
+.. _cid-stransformation3.get:
+.. _doxid-classSTransformation3_1a7857ec5a100092fa4765d1f4fc911663:
+.. _cid-stransformation3.update:
+.. _doxid-classSTransformation3_1a5aba597f9810a5249a4c7c8d13cf1d3b:
+.. _cid-stransformation3.setrotation:
+.. _doxid-classSTransformation3_1a6c50e9dd4a2b3ccb3b44002d4657986a:
+.. _cid-stransformation3.setrotation-2:
+.. _doxid-classSTransformation3_1a40a6589dcbd65b8cc1f3dae4bf04779e:
+.. _cid-stransformation3.getrotation:
+.. _doxid-classSTransformation3_1ab7450207dfb0f4e2923b1fe98af13cea:
+.. _cid-stransformation3.setscale:
+.. _doxid-classSTransformation3_1a68556f79b2d8ad3d280b205f923ee638:
+.. _cid-stransformation3.getscale:
+.. _doxid-classSTransformation3_1a4688619648d694a6b046f058e226a786:
+.. _cid-stransformation3.settranslation:
+.. _doxid-classSTransformation3_1a864a0972f3866dac188ab9e911bb4b4e:
+.. _cid-stransformation3.gettranslation:
+.. _doxid-classSTransformation3_1ae9974d7a6ea8ba61ce3491eea1b67c44:
+.. _cid-stransformation3.set:
+.. _doxid-classSTransformation3_1a681c049a8287c1257f74c66c0f8397e5:
+.. _cid-stransformation3.setrotationorder:
+.. _doxid-classSTransformation3_1a548154168cec9a9d3c49b32fde9f36e6:
+.. _cid-stransformation3.getrotationorder:
+.. _doxid-classSTransformation3_1a406e737d443b3ba0dde7eae77968474d:
+.. _cid-stransformation3.setorder:
+.. _doxid-classSTransformation3_1a7b7b86393e71d51d663af194cd520621:
+.. _cid-stransformation3.getorder:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	operator glm::mat4 ()
+	glm::mat4 const operator() ()
+	glm::mat4 const GetGLMMat4 ()
+	glm::mat4 const Get ()
+	void Update ()
+	void SetRotation (glm::mat4 const& rotation)
+	void SetRotation (:ref:`vec3f<doxid-structvec3>` const& rotation)
+	:ref:`vec3f<doxid-structvec3>` GetRotation ()
+	void SetScale (:ref:`vec3f<doxid-structvec3>` const& scale)
+	:ref:`vec3f<doxid-structvec3>` GetScale ()
+	void SetTranslation (:ref:`vec3f<doxid-structvec3>` const& translation)
+	:ref:`vec3f<doxid-structvec3>` GetTranslation ()
+	void Set (glm::mat4 const& Transformation)
+	void SetRotationOrder (ERotationOrder const RotationOrder)
+	ERotationOrder GetRotationOrder ()
+	void SetOrder (ETransformationOrder const TransformationOrder)
+	ETransformationOrder GetOrder ()
+

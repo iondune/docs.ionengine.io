@@ -1,0 +1,264 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>class IRandomGenerator &mdash; ionEngine 0.4.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ionEngine
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">class IRandomGenerator</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ionEngine</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>class IRandomGenerator</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/doxy/class_IRandomGenerator.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="class-irandomgenerator">
+<span id="cid-irandomgenerator"></span><span id="doxid-classirandomgenerator"></span><span id="index-0"></span><h1>class IRandomGenerator<a class="headerlink" href="#class-irandomgenerator" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<pre class="highlight overview-code-block literal-block" id="cid-irandomgenerator-generatef64-3">
+<span id="doxid-classirandomgenerator-1a9d6e8df0019637cb24afde4e9b2d218c"></span><span id="cid-irandomgenerator-generatef64-2"></span><span id="doxid-classirandomgenerator-1aa9de3f6ac4732a1df5015c1b0e5e1fcd"></span><span id="cid-irandomgenerator-generatef64"></span><span id="doxid-classirandomgenerator-1a4f5fecb5dde7ef0382d31a6934f43af0"></span><span id="cid-irandomgenerator-generatef32-3"></span><span id="doxid-classirandomgenerator-1a69782b3ce5f5cbe41c2293b9595d1396"></span><span id="cid-irandomgenerator-generatef32-2"></span><span id="doxid-classirandomgenerator-1ae31e71a92a6c81504de346d8beade4f5"></span><span id="cid-irandomgenerator-generatef32"></span><span id="doxid-classirandomgenerator-1a8edee8203e5f8e96888353b8bbeb41d2"></span><span id="cid-irandomgenerator-generate-3"></span><span id="doxid-classirandomgenerator-1a5cb0d197d9c15ac816529002da0cb71f"></span><span id="cid-irandomgenerator-generate-2"></span><span id="doxid-classirandomgenerator-1aaf968ab0db8b860393b659278d6ba359"></span><span id="cid-irandomgenerator-seed"></span><span id="doxid-classirandomgenerator-1a8257b1c5c698b9c02244f23e2069b7c4"></span><span id="cid-irandomgenerator-generate"></span><span id="doxid-classirandomgenerator-1aad3bde7f194409db0cabb7c381de204a"></span><span></span><span class="c1">// methods</span>
+
+<span class="n">u32</span> <span class="k">const</span> <span class="n">Generate</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">Seed</span> <span class="p">(</span><span class="n">u32</span> <span class="k">const</span> <span class="n">seed</span><span class="p">)</span>
+<span class="n">u32</span> <span class="k">const</span> <span class="n">Generate</span> <span class="p">(</span><span class="n">u32</span> <span class="k">const</span> <span class="n">max</span><span class="p">)</span>
+
+<span class="n">u32</span> <span class="k">const</span> <span class="n">Generate</span> <span class="p">(</span>
+    <span class="n">u32</span> <span class="k">const</span> <span class="n">min</span><span class="p">,</span>
+    <span class="n">u32</span> <span class="k">const</span> <span class="n">max</span>
+    <span class="p">)</span>
+
+<span class="n">f32</span> <span class="k">const</span> <span class="n">Generatef32</span> <span class="p">(</span><span class="n">u32</span> <span class="k">const</span> <span class="n">modulus</span> <span class="o">=</span> <span class="mi">100000</span><span class="p">)</span>
+
+<span class="n">f32</span> <span class="k">const</span> <span class="n">Generatef32</span> <span class="p">(</span>
+    <span class="n">f32</span> <span class="k">const</span> <span class="n">max</span><span class="p">,</span>
+    <span class="n">u32</span> <span class="k">const</span> <span class="n">modulus</span> <span class="o">=</span> <span class="mi">100000</span>
+    <span class="p">)</span>
+
+<span class="n">f32</span> <span class="k">const</span> <span class="n">Generatef32</span> <span class="p">(</span>
+    <span class="n">f32</span> <span class="k">const</span> <span class="n">min</span><span class="p">,</span>
+    <span class="n">f32</span> <span class="k">const</span> <span class="n">max</span><span class="p">,</span>
+    <span class="n">u32</span> <span class="k">const</span> <span class="n">modulus</span> <span class="o">=</span> <span class="mi">100000</span>
+    <span class="p">)</span>
+
+<span class="n">f64</span> <span class="k">const</span> <span class="n">Generatef64</span> <span class="p">(</span><span class="n">u32</span> <span class="k">const</span> <span class="n">modulus</span> <span class="o">=</span> <span class="mi">100000</span><span class="p">)</span>
+
+<span class="n">f64</span> <span class="k">const</span> <span class="n">Generatef64</span> <span class="p">(</span>
+    <span class="n">f64</span> <span class="k">const</span> <span class="n">max</span><span class="p">,</span>
+    <span class="n">u32</span> <span class="k">const</span> <span class="n">modulus</span> <span class="o">=</span> <span class="mi">100000</span>
+    <span class="p">)</span>
+
+<span class="n">f64</span> <span class="k">const</span> <span class="n">Generatef64</span> <span class="p">(</span>
+    <span class="n">f64</span> <span class="k">const</span> <span class="n">min</span><span class="p">,</span>
+    <span class="n">f64</span> <span class="k">const</span> <span class="n">max</span><span class="p">,</span>
+    <span class="n">u32</span> <span class="k">const</span> <span class="n">modulus</span> <span class="o">=</span> <span class="mi">100000</span>
+    <span class="p">)</span>
+</pre>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Ian Dunn.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.4.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

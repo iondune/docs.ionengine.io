@@ -1,0 +1,23 @@
+.. index:: pair: struct; Color.Pack
+.. _doxid-structColor_1_1Pack:
+.. _cid-color.pack:
+
+struct Color.Pack
+=================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-structColor_1_1Pack_1a9a305bc2ff7daf4eb17f05e9537acfe4:
+.. _cid-color.pack.bits24:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	uint Bits24 (:ref:`color3i<doxid-classcolor3>` const& Color)
+

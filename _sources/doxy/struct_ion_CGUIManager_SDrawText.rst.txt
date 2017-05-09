@@ -1,0 +1,29 @@
+.. index:: pair: struct; ion.CGUIManager.SDrawText
+.. _doxid-struction_1_1CGUIManager_1_1SDrawText:
+.. _cid-ion.cguimanager.sdrawtext:
+
+struct ion.CGUIManager.SDrawText
+================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-struction_1_1CGUIManager_1_1SDrawText_1a51256659693c75c045134d83bc3f4099:
+.. _cid-ion.cguimanager.sdrawtext.position:
+.. _doxid-struction_1_1CGUIManager_1_1SDrawText_1a64794a719f1e2f069c653ccd770e625e:
+.. _cid-ion.cguimanager.sdrawtext.color:
+.. _doxid-struction_1_1CGUIManager_1_1SDrawText_1a78649109365d72354de06913da5471ff:
+.. _cid-ion.cguimanager.sdrawtext.text:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	:ref:`vec2i<doxid-structvec2>` Position
+	:ref:`color3i<doxid-classcolor3>` Color
+	string Text
+

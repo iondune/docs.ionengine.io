@@ -1,0 +1,26 @@
+.. index:: pair: namespace; Constants64
+.. _doxid-namespaceConstants64:
+.. _cid-constants64:
+
+namespace Constants64
+=====================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-Constants_8h_1a8f50282c6d3ab3f44cbb4c745b89009b:
+.. _cid-constants64.pi:
+.. _doxid-Constants_8h_1a53b6837169343d75b234a6b02d49d296:
+.. _cid-constants64.e:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// global variables
+
+	f64 const Constants64.Pi
+	f64 const Constants64.e
+

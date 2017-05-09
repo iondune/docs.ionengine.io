@@ -1,0 +1,19 @@
+.. index:: pair: enum; ion.EWindowType
+.. _doxid-CWindowManager_8h_1ab40a9db3eacbb4cf19e714158dac71d5:
+.. _cid-ion.ewindowtype:
+
+enum ion.EWindowType
+====================
+
+
+
+
+
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enum values
+
+	Fullscreen 
+	Windowed 
+

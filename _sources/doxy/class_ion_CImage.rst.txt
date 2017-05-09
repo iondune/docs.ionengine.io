@@ -1,0 +1,95 @@
+.. index:: pair: class; ion.CImage
+.. _doxid-classion_1_1CImage:
+.. _cid-ion.cimage:
+
+class ion.CImage
+================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1CImage_1a6b62854994ac488a77bb11df43fba4f7:
+.. _cid-ion.cimage.load:
+.. _doxid-classion_1_1CImage_1a565a0d2ab27577a36888a2588b43d22b:
+.. _cid-ion.cimage.cimage:
+.. _doxid-classion_1_1CImage_1a827b3e6abbe7367c9733f90d320b8810:
+.. _cid-ion.cimage.cimage-2:
+.. _doxid-classion_1_1CImage_1a298967a5a45a89b2ac36f5b18efe6e08:
+.. _cid-ion.cimage.~cimage:
+.. _doxid-classion_1_1CImage_1afaec9415eafacfd7cf38b1e793ff53ff:
+.. _cid-ion.cimage.getwidth:
+.. _doxid-classion_1_1CImage_1acecffc67e51447851c25760fb7bbfbbe:
+.. _cid-ion.cimage.getheight:
+.. _doxid-classion_1_1CImage_1a686ffc1d47d848d7afe8e90a596ba8bb:
+.. _cid-ion.cimage.getsize:
+.. _doxid-classion_1_1CImage_1a88ef5f03e919a3e74df622b2dbc51919:
+.. _cid-ion.cimage.getstride:
+.. _doxid-classion_1_1CImage_1a09824f0a6a778589d7836d4d485b9b18:
+.. _cid-ion.cimage.getchannels:
+.. _doxid-classion_1_1CImage_1accbb16eff3da9dc0b87906d720993927:
+.. _cid-ion.cimage.getpixel:
+.. _doxid-classion_1_1CImage_1a2e59fc71507ea4b9037a9fdf7d1c0b9e:
+.. _cid-ion.cimage.setpixel:
+.. _doxid-classion_1_1CImage_1ae83834f01175aa4c8c95f7789e979942:
+.. _cid-ion.cimage.getdata:
+.. _doxid-classion_1_1CImage_1a29e441a8c5e6ad907339d9cfdc7338da:
+.. _cid-ion.cimage.getdata-2:
+.. _doxid-classion_1_1CImage_1a47c9cf9c8c27c07f8b1d1d97587530f2:
+.. _cid-ion.cimage.hasalpha:
+.. _doxid-classion_1_1CImage_1a5f27c3fabb8e2b1762915e0999c60429:
+.. _cid-ion.cimage.write:
+.. _doxid-classion_1_1CImage_1a5d38eef32e3f9799e7b39bcba638bbf5:
+.. _cid-ion.cimage.flipy:
+.. _doxid-classion_1_1CImage_1a4ee21012c7d0b3f3f9981e1760845b47:
+.. _cid-ion.cimage.crop:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	:ref:`CImage<doxid-classion_1_1CImage>`* Load (std::string const& FileName)
+
+	CImage (
+	    byte*const Data,
+	    :ref:`vec2u<doxid-structvec2>` const Size,
+	    u8 const Channels
+	    )
+
+	CImage (
+	    :ref:`color4f<doxid-classSColorA>` const& Color,
+	    bool const Alpha = false
+	    )
+
+	~CImage ()
+	uint GetWidth ()
+	uint GetHeight ()
+	:ref:`vec2u<doxid-structvec2>` GetSize ()
+	uint GetStride ()
+	uint GetChannels ()
+
+	:ref:`color4i<doxid-classSColorA>` GetPixel (
+	    uint const x,
+	    uint const y
+	    )
+
+	void SetPixel (
+	    uint const x,
+	    uint const y,
+	    :ref:`color4i<doxid-classSColorA>` const color
+	    )
+
+	u8 const* GetData ()
+	u8* GetData ()
+	bool HasAlpha ()
+	void Write (std::string const& fileName)
+	void FlipY ()
+
+	void Crop (
+	    :ref:`vec2i<doxid-structvec2>` const& Position,
+	    :ref:`vec2i<doxid-structvec2>` const& Size
+	    )
+

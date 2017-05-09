@@ -1,0 +1,23 @@
+.. index:: pair: class; ion.Graphics.GL.CGeometryShader
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CGeometryShader:
+.. _cid-ion.graphics.gl.cgeometryshader:
+
+class ion.Graphics.GL.CGeometryShader
+=====================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1Graphics_1_1GL_1_1CGeometryShader_1ac3d9a99a6852edebb3f61d4273f1671b:
+.. _cid-ion.graphics.gl.cgeometryshader.handle:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	int Handle
+

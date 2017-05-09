@@ -1,0 +1,29 @@
+.. index:: pair: class; ion.CSceneManager
+.. _doxid-classion_1_1CSceneManager:
+.. _cid-ion.cscenemanager:
+
+class ion.CSceneManager
+=======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classion_1_1CSceneManager_1a5ed6a46cbc7a7be60cf474f19c53ad0f:
+.. _cid-ion.cscenemanager.init:
+.. _doxid-classion_1_1CSceneManager_1abf9b78f25ba6fa3f83246112fe29d996:
+.. _cid-ion.cscenemanager.drawall:
+.. _doxid-classion_1_1CSceneManager_1a24d72d58172ff4431dd9be7dd4e15c4e:
+.. _cid-ion.cscenemanager.addrenderpass:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	void Init (:ref:`CGraphicsAPI<doxid-classion_1_1CGraphicsAPI>`* GraphicsAPI)
+	void DrawAll ()
+	void AddRenderPass (:ref:`Scene::CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`* RenderPass)
+

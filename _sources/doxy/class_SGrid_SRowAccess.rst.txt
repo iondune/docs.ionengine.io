@@ -1,0 +1,23 @@
+.. index:: pair: class; SGrid.SRowAccess
+.. _doxid-classSGrid_1_1SRowAccess:
+.. _cid-sgrid.srowaccess:
+
+class SGrid.SRowAccess
+======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSGrid_1_1SRowAccess_1a54460e38c14880ae165b430a770f7b60:
+.. _cid-sgrid.srowaccess.operator[]:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	T& operator[] (u32 const Y)
+

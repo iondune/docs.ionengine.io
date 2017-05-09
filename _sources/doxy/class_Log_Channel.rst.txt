@@ -1,0 +1,71 @@
+.. index:: pair: class; Log.Channel
+.. _doxid-classLog_1_1Channel:
+.. _cid-log.channel:
+
+class Log.Channel
+=================
+
+.. toctree::
+	:hidden:
+
+
+
+Overview
+~~~~~~~~
+
+
+
+.. _doxid-classLog_1_1Channel_1a4f8f8d29e0d283c9d9bf5d699dbb477c:
+.. _cid-log.channel.label:
+.. _doxid-classLog_1_1Channel_1ae7f1c597ba804c6587456ec8ecf4f850:
+.. _cid-log.channel.writeto:
+.. _doxid-classLog_1_1Channel_1a7b5f7038435ce768ed5a7141050a3a93:
+.. _cid-log.channel.messages:
+.. _doxid-classLog_1_1Channel_1a3ad1f62624b480c4a46f626fd76d0c8b:
+.. _cid-log.channel.messagesdetail:
+.. _doxid-classLog_1_1Channel_1a0e0e2907bda30ea4b06a45e2e9723e31:
+.. _cid-log.channel.messagemap:
+.. _doxid-classLog_1_1Channel_1aaa30ab9f041f9b4e633f45c4fe973064:
+.. _cid-log.channel.channel:
+.. _doxid-classLog_1_1Channel_1a528718f823a04ba20c72173c3b8a7a77:
+.. _cid-log.channel.getmessagesdetail:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	string Label
+	vector <:ref:`Output<doxid-classLog_1_1Output>`*> WriteTo
+	vector <string> Messages
+	vector <pair <string, int>> MessagesDetail
+	unordered_map <string, int> MessageMap
+
+	// methods
+
+	Channel (string const& Label)
+	bool :ref:`WriteMessage<doxid-classLog_1_1Channel_1a9656467ac00788171e652f675b6cb2b9>` (string const& ToWrite)
+	vector <pair <string, int>> const& GetMessagesDetail ()
+
+.. _details-doxid-classLog_1_1Channel:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Methods
+-------
+
+.. _doxid-classLog_1_1Channel_1a9656467ac00788171e652f675b6cb2b9:
+.. _cid-log.channel.writemessage:
+.. ref-code-block:: cpp
+	:class: title-code-block
+
+	bool WriteMessage (string const& ToWrite)
+
+
+
+.. rubric:: Returns:
+
+true if this is a new message, false if not
+

@@ -1,0 +1,151 @@
+.. index:: pair: struct; SVolume <typename T>
+.. _doxid-structSVolume:
+.. _cid-svolume:
+
+struct SVolume <typename T>
+===========================
+
+.. toctree::
+	:hidden:
+
+	class_SVolume_SConstLayerAccess.rst
+	class_SVolume_SConstRowAccess.rst
+	class_SVolume_SLayerAccess.rst
+	class_SVolume_SRowAccess.rst
+
+
+
+
+
+.. _doxid-structSVolume_1a181c6208149262be42a40bd4e2899a66:
+.. _cid-svolume.iterator:
+.. _doxid-structSVolume_1a58e158c28e42cff9a03ce3a1b48e3323:
+.. _cid-svolume.const_iterator:
+.. _doxid-structSVolume_1aed79c157f28d61db97c08a15e6fc023a:
+.. _cid-svolume.values:
+.. _doxid-structSVolume_1a8eebebc8954560844c87b166b751cef8:
+.. _cid-svolume.dimensions:
+.. _doxid-structSVolume_1a07c3ada77c3546175af97c8a6f95a36a:
+.. _cid-svolume.svolume:
+.. _doxid-structSVolume_1ad67c9cf818ed65d24493591ae6fd3197:
+.. _cid-svolume.svolume-2:
+.. _doxid-structSVolume_1a9b620e69b8abbb929595b62782671e9c:
+.. _cid-svolume.allocate:
+.. _doxid-structSVolume_1a92f5d69862b81f9aae23cd99a3d2adc6:
+.. _cid-svolume.allocate-2:
+.. _doxid-structSVolume_1a73b7511ba9a4386282a35f929b3edfb8:
+.. _cid-svolume.inbounds:
+.. _doxid-structSVolume_1a4ae7b38415eb396450e0f3930e7f057a:
+.. _cid-svolume.inbounds-2:
+.. _doxid-structSVolume_1a02c2733e558a15dc5114ace9208f0b5f:
+.. _cid-svolume.get:
+.. _doxid-structSVolume_1a11bcb597d2e5677c9042941f245ef88c:
+.. _cid-svolume.get-2:
+.. _doxid-structSVolume_1a33a441b23fb6371f0f3b16166ffd6524:
+.. _cid-svolume.get-3:
+.. _doxid-structSVolume_1a7122f9113216383f29ee6be630a104f5:
+.. _cid-svolume.get-4:
+.. _doxid-structSVolume_1a129d281d4af80a265574fc71820661a8:
+.. _cid-svolume.gettricubicinterpolated:
+.. _doxid-structSVolume_1a76ef45c4b7f40e2dd7467e9502df1f47:
+.. _cid-svolume.gettricubicinterpolatedmember:
+.. _doxid-structSVolume_1a63ab1df5b6cef5be50b99c23da1c5449:
+.. _cid-svolume.operator[]:
+.. _doxid-structSVolume_1aefd71f83766b693960c5c6f87a3b25d6:
+.. _cid-svolume.operator[]-2:
+.. _doxid-structSVolume_1a45b22c44c8cbab57b18503927fbb4c8a:
+.. _cid-svolume.operator[]-3:
+.. _doxid-structSVolume_1aa2aad8d60104e91a614f8216cec1dc7f:
+.. _cid-svolume.operator[]-4:
+.. _doxid-structSVolume_1a1053c56352145711fb9cd14e1dea3f41:
+.. _cid-svolume.operator[]-5:
+.. _doxid-structSVolume_1a3e9b83a8661099e1d4bda9efade4d4ff:
+.. _cid-svolume.operator[]-6:
+.. _doxid-structSVolume_1a0271202f05fadb0b1774a049c6b2c819:
+.. _cid-svolume.begin:
+.. _doxid-structSVolume_1af84795c12ab46062061b5bb9db0d6635:
+.. _cid-svolume.end:
+.. _doxid-structSVolume_1a326d31c19d2ddf4718e79a04c77b2a0f:
+.. _cid-svolume.begin-2:
+.. _doxid-structSVolume_1a931df85b5b724a8b94e52c3eb8abcf2a:
+.. _cid-svolume.end-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// typedefs
+
+	typedef std::vector <T>::iterator iterator
+	typedef std::vector <T>::const_iterator const_iterator
+
+	// classes
+
+	class :ref:`SConstLayerAccess<doxid-classSVolume_1_1SConstLayerAccess>`
+	class :ref:`SConstRowAccess<doxid-classSVolume_1_1SConstRowAccess>`
+	class :ref:`SLayerAccess<doxid-classSVolume_1_1SLayerAccess>`
+	class :ref:`SRowAccess<doxid-classSVolume_1_1SRowAccess>`
+
+	// fields
+
+	std::vector <T> Values
+	:ref:`vec3i<doxid-structvec3>` Dimensions
+
+	// construction
+
+	SVolume (:ref:`vec3i<doxid-structvec3>` const& dimensions = :ref:`vec3i<doxid-structvec3>` ())
+
+	SVolume (
+	    T const& init,
+	    :ref:`vec3i<doxid-structvec3>` const& dimensions = :ref:`vec3i<doxid-structvec3>` ()
+	    )
+
+	// methods
+
+	void Allocate ()
+	void Allocate (T const& value)
+	bool const InBounds (:ref:`vec3i<doxid-structvec3>` const Index)
+
+	bool const InBounds (
+	    s32 const X,
+	    s32 const Y,
+	    s32 const Z
+	    )
+
+	T& Get (:ref:`vec3i<doxid-structvec3>` const Index)
+	T const& Get (:ref:`vec3i<doxid-structvec3>` const Index)
+
+	T& Get (
+	    s32 const X,
+	    s32 const Y,
+	    s32 const Z
+	    )
+
+	T const& Get (
+	    s32 const X,
+	    s32 const Y,
+	    s32 const Z
+	    )
+
+	T const& GetTricubicInterpolated (
+	    f32 const X,
+	    f32 const Y,
+	    f32 const Z
+	    )
+
+	T const& GetTricubicInterpolatedMember <typename U> (
+	    f32 const X,
+	    f32 const Y,
+	    f32 const Z,
+	    U T::* Member
+	    )
+
+	:ref:`SLayerAccess<doxid-classSVolume_1_1SLayerAccess>` operator[] (u32 const X)
+	:ref:`SConstLayerAccess<doxid-classSVolume_1_1SConstLayerAccess>` operator[] (u32 const X)
+	T& operator[] (:ref:`vec3i<doxid-structvec3>` const& index)
+	T& operator[] (glm::ivec3 const& index)
+	T const& operator[] (:ref:`vec3i<doxid-structvec3>` const& index)
+	T const& operator[] (glm::ivec3 const& index)
+	iterator begin ()
+	iterator end ()
+	const_iterator begin ()
+	const_iterator end ()
+

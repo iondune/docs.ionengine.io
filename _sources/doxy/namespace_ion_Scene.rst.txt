@@ -1,0 +1,70 @@
+.. index:: pair: namespace; ion.Scene
+.. _doxid-namespaceion_1_1Scene:
+.. _cid-ion.scene:
+
+namespace ion.Scene
+===================
+
+.. toctree::
+	:hidden:
+
+	enum_ion_Scene_EProjectionType.rst
+	struct_ion_Scene_SSimpleMaterial.rst
+	class_ion_Scene_CCamera.rst
+	class_ion_Scene_CCoordinateFrameSceneObject.rst
+	class_ion_Scene_CDirectionalLight.rst
+	class_ion_Scene_CGeometryCreator.rst
+	class_ion_Scene_COrthographicCamera.rst
+	class_ion_Scene_CPerspectiveCamera.rst
+	class_ion_Scene_CPointLight.rst
+	class_ion_Scene_CRenderPass.rst
+	class_ion_Scene_CSimpleMesh.rst
+	class_ion_Scene_CSimpleMeshSceneObject.rst
+	class_ion_Scene_CSimpleSceneObject.rst
+	class_ion_Scene_ICamera.rst
+	class_ion_Scene_ILight.rst
+	class_ion_Scene_ISceneObject.rst
+
+
+
+Documentation of the ionScene module.
+
+.. _doxid-namespaceion_1_1Scene_1ad16819bfab9a2a0db2415af9c6bf278d:
+.. _cid-ion.scene.isuniformnamearrayelement:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// enums
+
+	enum :ref:`EProjectionType<doxid-namespaceion_1_1Scene_1a86061092cee81233af1eab19c8b32f82>`
+
+	// structs
+
+	struct :ref:`ion.Scene.SSimpleMaterial<doxid-struction_1_1Scene_1_1SSimpleMaterial>`
+
+	// classes
+
+	class :ref:`ion.Scene.CCamera<doxid-classion_1_1Scene_1_1CCamera>`
+	class :ref:`ion.Scene.CCoordinateFrameSceneObject<doxid-classion_1_1Scene_1_1CCoordinateFrameSceneObject>`
+	class :ref:`ion.Scene.CDirectionalLight<doxid-classion_1_1Scene_1_1CDirectionalLight>`
+	class :ref:`ion.Scene.CGeometryCreator<doxid-classion_1_1Scene_1_1CGeometryCreator>`
+	class :ref:`ion.Scene.COrthographicCamera<doxid-classion_1_1Scene_1_1COrthographicCamera>`
+	class :ref:`ion.Scene.CPerspectiveCamera<doxid-classion_1_1Scene_1_1CPerspectiveCamera>`
+	class :ref:`ion.Scene.CPointLight<doxid-classion_1_1Scene_1_1CPointLight>`
+	class :ref:`ion.Scene.CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`
+	class :ref:`ion.Scene.CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`
+	class :ref:`ion.Scene.CSimpleMeshSceneObject<doxid-classion_1_1Scene_1_1CSimpleMeshSceneObject>`
+	class :ref:`ion.Scene.CSimpleSceneObject<doxid-classion_1_1Scene_1_1CSimpleSceneObject>`
+	class :ref:`ion.Scene.ICamera<doxid-classion_1_1Scene_1_1ICamera>`
+	class :ref:`ion.Scene.ILight<doxid-classion_1_1Scene_1_1ILight>`
+	class :ref:`ion.Scene.ISceneObject<doxid-classion_1_1Scene_1_1ISceneObject>`
+
+	// global functions
+
+	bool ion.Scene.IsUniformNameArrayElement (
+	    string const& Label,
+	    int& Index,
+	    string& LHS,
+	    string& Remaining
+	    )
+

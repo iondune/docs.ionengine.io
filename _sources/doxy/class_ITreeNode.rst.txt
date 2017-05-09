@@ -1,0 +1,67 @@
+.. index:: pair: class; ITreeNode <typename Implementation>
+.. _doxid-classITreeNode:
+.. _cid-itreenode:
+
+class ITreeNode <typename Implementation>
+=========================================
+
+.. toctree::
+	:hidden:
+
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionTreeNode.h>
+
+
+Abstract Node in a generic tree structure.
+
+Note that a static_cast to TreeNode<Implementation> is sometimes needed for compilation in VS2012 where Implementation has 'uses' for Children or Parent since these fields will then have protected access in the subclass.
+
+.. _doxid-classITreeNode_1a2a855d31faa7d4d2f24becca3fbb47ea:
+.. _cid-itreenode.getparent:
+.. _doxid-classITreeNode_1a3fd80aaba722a5ae45ec9b621f7ddb03:
+.. _cid-itreenode.getchildren:
+.. _doxid-classITreeNode_1a726558b2c208bc808ee069fb6c90cf9b:
+.. _cid-itreenode.addchild:
+.. _doxid-classITreeNode_1aeea00f09b96d074713ad17d64b08c912:
+.. _cid-itreenode.removechild:
+.. _doxid-classITreeNode_1a443ccc01e0bc5c28a1b8b8e10977bf32:
+.. _cid-itreenode.setparent:
+.. _doxid-classITreeNode_1a8d8669b803f72232b13cb9ccd306bbe6:
+.. _cid-itreenode.removeallchildren:
+.. _doxid-classITreeNode_1a4fcf0ccf48c0e147b4348ea662610803:
+.. _cid-itreenode.remove:
+.. _doxid-classITreeNode_1acb335951df9be4256812712459ce1778:
+.. _cid-itreenode.recurseonchildren:
+.. _doxid-classITreeNode_1aa732dc063691b08580942741c5423e20:
+.. _cid-itreenode.recurseonchildren-2:
+.. _doxid-classITreeNode_1a560cbbee9527300f06fe05b9eb8e32c4:
+.. _cid-itreenode.recurseonchildren-3:
+.. _doxid-classITreeNode_1acd30252f9177c1bfba737f14c9f28da6:
+.. _cid-itreenode.~itreenode:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	Implementation const*const GetParent ()
+	std::set <Implementation*> const& GetChildren ()
+	void AddChild (Implementation* child)
+	void RemoveChild (Implementation* child)
+	void SetParent (Implementation* parent)
+	void RemoveAllChildren ()
+	void Remove ()
+	void RecurseOnChildren <typename Return> (Return (Implementation::*) () Function)
+
+	void RecurseOnChildren <typename Return, typename P1> (
+	    Return (Implementation::*) (P1) Function,
+	    P1 p1
+	    )
+
+	void RecurseOnChildren <typename Return, typename P1, typename P2> (
+	    Return (Implementation::*) (P1, P2) Function,
+	    P1 p1,
+	    P2 p2
+	    )
+

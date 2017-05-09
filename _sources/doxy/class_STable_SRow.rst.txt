@@ -1,0 +1,29 @@
+.. index:: pair: class; STable.SRow
+.. _doxid-classSTable_1_1SRow:
+.. _cid-stable.srow:
+
+class STable.SRow
+=================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-classSTable_1_1SRow_1a758829fca316480c4e96534363c6ab5f:
+.. _cid-stable.srow.getfield:
+.. _doxid-classSTable_1_1SRow_1a96c8867c98cdec651da93e20c13d6f45:
+.. _cid-stable.srow.getfield-2:
+.. _doxid-classSTable_1_1SRow_1a1d4dee28aa9746d0f35106ac49fc040e:
+.. _cid-stable.srow.operator=:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// methods
+
+	f64 GetField (std::string const& Field)
+	f64& GetField (std::string const& Field)
+	:ref:`SRow<doxid-classSTable_1_1SRow>` operator= (:ref:`SRow<doxid-classSTable_1_1SRow>` const& Other)
+

@@ -1,0 +1,47 @@
+.. index:: pair: struct; SVolumeDataRecord <typename T>
+.. _doxid-structSVolumeDataRecord:
+.. _cid-svolumedatarecord:
+
+struct SVolumeDataRecord <typename T>
+=====================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+
+.. _doxid-structSVolumeDataRecord_1aa0f43c44378a1f4f68a404c2c8562b25:
+.. _cid-svolumedatarecord.values:
+.. _doxid-structSVolumeDataRecord_1a132f1807522bea187543f5738ba260a5:
+.. _cid-svolumedatarecord.database:
+.. _doxid-structSVolumeDataRecord_1a28084b48df4e6aaf4ef5e459f7f0b786:
+.. _cid-svolumedatarecord.svolumedatarecord:
+.. _doxid-structSVolumeDataRecord_1aac86d519cd4d07515e394e9f1ff7c3ff:
+.. _cid-svolumedatarecord.svolumedatarecord-2:
+.. _doxid-structSVolumeDataRecord_1a0fcc2a2583a241bff62790ac0d37f2bf:
+.. _cid-svolumedatarecord.operator=:
+.. _doxid-structSVolumeDataRecord_1a43a54232a66e34894ee4c7f33fb0bb45:
+.. _cid-svolumedatarecord.getfield:
+.. _doxid-structSVolumeDataRecord_1afac0d4a8615cbe6ddefe08aa2dd63f98:
+.. _cid-svolumedatarecord.getfield-2:
+.. ref-code-block:: cpp
+	:class: overview-code-block
+
+	// fields
+
+	std::vector <T> Values
+	:ref:`SVolumeDatabase<doxid-structSVolumeDatabase>` <T>* Database
+
+	// construction
+
+	SVolumeDataRecord ()
+	SVolumeDataRecord (:ref:`SVolumeDatabase<doxid-structSVolumeDatabase>` <T>& database)
+
+	// methods
+
+	:ref:`SVolumeDataRecord<doxid-structSVolumeDataRecord>` <T>& operator= (:ref:`SVolumeDataRecord<doxid-structSVolumeDataRecord>` <T> const& other)
+	T GetField (std::string const& Field)
+	T& GetField (std::string const& Field)
+
