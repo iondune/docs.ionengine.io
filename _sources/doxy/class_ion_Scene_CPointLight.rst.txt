@@ -8,6 +8,10 @@ class ion.Scene.CPointLight
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CPointLight.h>
 
 
 
@@ -30,9 +34,9 @@ class ion.Scene.CPointLight
 	// methods
 
 	CPointLight ()
-	:ref:`color3f<doxid-classcolor3>` GetColor ()
+	:ref:`color3f<doxid-SColor_8h_1a3b7aefaabad9501bb8428eeeb1e6e4df>` GetColor ()
 	float GetRadius ()
-	void SetColor (:ref:`color3f<doxid-classcolor3>` const& Color)
+	void SetColor (:ref:`color3f<doxid-SColor_8h_1a3b7aefaabad9501bb8428eeeb1e6e4df>` const& Color)
 	void SetRadius (float const Radius)
 	string GetLightType ()
 

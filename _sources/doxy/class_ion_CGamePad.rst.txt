@@ -8,6 +8,10 @@ class ion.CGamePad
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CGamePad.h>
 
 
 
@@ -29,10 +33,10 @@ class ion.CGamePad
 
 	// methods
 
-	:ref:`vec2f<doxid-structvec2>` const& GetLeftStick ()
-	:ref:`vec2f<doxid-structvec2>` const& GetRightStick ()
-	f32 GetLeftTrigger ()
-	f32 GetRightTrigger ()
-	bool IsButtonPressed (EGamePadButton const Button)
+	:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& GetLeftStick ()
+	:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& GetRightStick ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetLeftTrigger ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetRightTrigger ()
+	bool IsButtonPressed (:ref:`EGamePadButton<doxid-namespaceion_1a7556e2f50eb5cb19ff72747595655e01>` const Button)
 	void UpdateState ()
 

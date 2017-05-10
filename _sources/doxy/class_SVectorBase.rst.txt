@@ -8,6 +8,10 @@ class SVectorBase <typename T, u32 Size>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVector.h>
 
 
 Overview
@@ -26,7 +30,7 @@ Overview
 
 	// fields
 
-	u32 const Dimension
+	:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const Dimension
 	T Values [Dimension]
 	T OutOfBounds
 

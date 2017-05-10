@@ -8,6 +8,10 @@ class ion.Graphics.IUniform
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IUniform.h>
 
 
 
@@ -24,6 +28,6 @@ class ion.Graphics.IUniform
 	// methods
 
 	void const* GetData ()
-	EUniformType GetType ()
+	:ref:`EUniformType<doxid-namespaceion_1_1Graphics_1addb5c086fd0778aac8df05438e372cca>` GetType ()
 	size_t GetSize ()
 

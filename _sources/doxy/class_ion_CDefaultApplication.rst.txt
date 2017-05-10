@@ -10,6 +10,10 @@ class ion.CDefaultApplication
 
 	struct_ion_CDefaultApplication_SSettings.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CDefaultApplication.h>
 
 
 

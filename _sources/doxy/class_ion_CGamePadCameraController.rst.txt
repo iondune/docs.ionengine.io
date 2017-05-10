@@ -8,6 +8,10 @@ class ion.CGamePadCameraController
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CCameraController.h>
 
 
 
@@ -22,5 +26,5 @@ class ion.CGamePadCameraController
 	// methods
 
 	CGamePadCameraController (:ref:`Scene::ICamera<doxid-classion_1_1Scene_1_1ICamera>`* Camera)
-	void Update (f64 const TickTime)
+	void Update (:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const TickTime)
 

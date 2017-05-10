@@ -159,15 +159,18 @@
 <span id="cid-ion-cimage"></span><span id="doxid-classion-1-1cimage"></span><span id="index-0"></span><h1>class ion.CImage<a class="headerlink" href="#class-ion-cimage" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;CImage.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-cimage-crop">
 <span id="doxid-classion-1-1cimage-1a4ee21012c7d0b3f3f9981e1760845b47"></span><span id="cid-ion-cimage-flipy"></span><span id="doxid-classion-1-1cimage-1a5d38eef32e3f9799e7b39bcba638bbf5"></span><span id="cid-ion-cimage-write"></span><span id="doxid-classion-1-1cimage-1a5f27c3fabb8e2b1762915e0999c60429"></span><span id="cid-ion-cimage-hasalpha"></span><span id="doxid-classion-1-1cimage-1a47c9cf9c8c27c07f8b1d1d97587530f2"></span><span id="cid-ion-cimage-getdata-2"></span><span id="doxid-classion-1-1cimage-1a29e441a8c5e6ad907339d9cfdc7338da"></span><span id="cid-ion-cimage-getdata"></span><span id="doxid-classion-1-1cimage-1ae83834f01175aa4c8c95f7789e979942"></span><span id="cid-ion-cimage-setpixel"></span><span id="doxid-classion-1-1cimage-1a2e59fc71507ea4b9037a9fdf7d1c0b9e"></span><span id="cid-ion-cimage-getpixel"></span><span id="doxid-classion-1-1cimage-1accbb16eff3da9dc0b87906d720993927"></span><span id="cid-ion-cimage-getchannels"></span><span id="doxid-classion-1-1cimage-1a09824f0a6a778589d7836d4d485b9b18"></span><span id="cid-ion-cimage-getstride"></span><span id="doxid-classion-1-1cimage-1a88ef5f03e919a3e74df622b2dbc51919"></span><span id="cid-ion-cimage-getsize"></span><span id="doxid-classion-1-1cimage-1a686ffc1d47d848d7afe8e90a596ba8bb"></span><span id="cid-ion-cimage-getheight"></span><span id="doxid-classion-1-1cimage-1acecffc67e51447851c25760fb7bbfbbe"></span><span id="cid-ion-cimage-getwidth"></span><span id="doxid-classion-1-1cimage-1afaec9415eafacfd7cf38b1e793ff53ff"></span><span id="id1"></span><span id="doxid-classion-1-1cimage-1a298967a5a45a89b2ac36f5b18efe6e08"></span><span id="cid-ion-cimage-cimage-2"></span><span id="doxid-classion-1-1cimage-1a827b3e6abbe7367c9733f90d320b8810"></span><span id="cid-ion-cimage-cimage"></span><span id="doxid-classion-1-1cimage-1a565a0d2ab27577a36888a2588b43d22b"></span><span id="cid-ion-cimage-load"></span><span id="doxid-classion-1-1cimage-1a6b62854994ac488a77bb11df43fba4f7"></span><span></span><span class="c1">// methods</span>
 
 CImage<span></span><span class="o">*</span> <span class="n">Load</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileName</span><span class="p">)</span>
 
 <span class="n">CImage</span> <span class="p">(</span>
-    <span class="n">byte</span><span class="o">*</span><span class="k">const</span> <span class="n">Data</span><span class="p">,</span>
-    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2u</span></a><span></span> <span class="k">const</span> <span class="n">Size</span><span class="p">,</span>
-    <span class="n">u8</span> <span class="k">const</span> <span class="n">Channels</span>
+    byte<span></span><span class="o">*</span><span class="k">const</span> <span class="n">Data</span><span class="p">,</span>
+    vec2u<span></span> <span class="k">const</span> <span class="n">Size</span><span class="p">,</span>
+    u8<span></span> <span class="k">const</span> <span class="n">Channels</span>
     <span class="p">)</span>
 
 <span class="n">CImage</span> <span class="p">(</span>
@@ -176,32 +179,32 @@ CImage<span></span><span class="o">*</span> <span class="n">Load</span> <span cl
     <span class="p">)</span>
 
 <span class="o">~</span><span class="n">CImage</span> <span class="p">()</span>
-<span class="n">uint</span> <span class="n">GetWidth</span> <span class="p">()</span>
-<span class="n">uint</span> <span class="n">GetHeight</span> <span class="p">()</span>
-<a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2u</span></a><span></span> <span class="n">GetSize</span> <span class="p">()</span>
-<span class="n">uint</span> <span class="n">GetStride</span> <span class="p">()</span>
-<span class="n">uint</span> <span class="n">GetChannels</span> <span class="p">()</span>
+uint<span></span> <span class="n">GetWidth</span> <span class="p">()</span>
+uint<span></span> <span class="n">GetHeight</span> <span class="p">()</span>
+vec2u<span></span> <span class="n">GetSize</span> <span class="p">()</span>
+uint<span></span> <span class="n">GetStride</span> <span class="p">()</span>
+uint<span></span> <span class="n">GetChannels</span> <span class="p">()</span>
 
 color4i<span></span> <span class="n">GetPixel</span> <span class="p">(</span>
-    <span class="n">uint</span> <span class="k">const</span> <span class="n">x</span><span class="p">,</span>
-    <span class="n">uint</span> <span class="k">const</span> <span class="n">y</span>
+    uint<span></span> <span class="k">const</span> <span class="n">x</span><span class="p">,</span>
+    uint<span></span> <span class="k">const</span> <span class="n">y</span>
     <span class="p">)</span>
 
 <span class="kt">void</span> <span class="n">SetPixel</span> <span class="p">(</span>
-    <span class="n">uint</span> <span class="k">const</span> <span class="n">x</span><span class="p">,</span>
-    <span class="n">uint</span> <span class="k">const</span> <span class="n">y</span><span class="p">,</span>
+    uint<span></span> <span class="k">const</span> <span class="n">x</span><span class="p">,</span>
+    uint<span></span> <span class="k">const</span> <span class="n">y</span><span class="p">,</span>
     color4i<span></span> <span class="k">const</span> <span class="n">color</span>
     <span class="p">)</span>
 
-<span class="n">u8</span> <span class="k">const</span><span class="o">*</span> <span class="n">GetData</span> <span class="p">()</span>
-<span class="n">u8</span><span class="o">*</span> <span class="n">GetData</span> <span class="p">()</span>
+u8<span></span> <span class="k">const</span><span class="o">*</span> <span class="n">GetData</span> <span class="p">()</span>
+u8<span></span><span class="o">*</span> <span class="n">GetData</span> <span class="p">()</span>
 <span class="kt">bool</span> <span class="n">HasAlpha</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">Write</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">fileName</span><span class="p">)</span>
 <span class="kt">void</span> <span class="n">FlipY</span> <span class="p">()</span>
 
 <span class="kt">void</span> <span class="n">Crop</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2i</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Position</span><span class="p">,</span>
-    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2i</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span>
+    vec2i<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Position</span><span class="p">,</span>
+    vec2i<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span>
     <span class="p">)</span>
 </pre>
 </div>

@@ -8,6 +8,10 @@ struct ion.SKeyboardEvent
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SKeyboardEvent.h>
 
 
 
@@ -24,6 +28,6 @@ struct ion.SKeyboardEvent
 	// fields
 
 	bool Pressed
-	EKey Key
+	:ref:`EKey<doxid-namespaceion_1a26c62ef1a9d4bae5f8a1863922baf037>` Key
 	:ref:`CWindow<doxid-classion_1_1CWindow>`* Window
 

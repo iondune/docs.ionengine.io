@@ -11,6 +11,10 @@ struct SGrid <typename T>
 	class_SGrid_SConstRowAccess.rst
 	class_SGrid_SRowAccess.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SGrid.h>
 
 
 
@@ -64,8 +68,8 @@ struct SGrid <typename T>
 
 	// typedefs
 
-	typedef std::vector <T>::iterator iterator
-	typedef std::vector <T>::const_iterator const_iterator
+	typedef std::vector <T>:::ref:`iterator<doxid-structSGrid_1a2f52a4b3288fef29d76b7e1c734b777e>` iterator
+	typedef std::vector <T>:::ref:`const_iterator<doxid-structSGrid_1a417faa3079540a01254c9f70f558f5d5>` const_iterator
 
 	// classes
 
@@ -75,47 +79,47 @@ struct SGrid <typename T>
 	// fields
 
 	std::vector <T> Values
-	:ref:`vec2i<doxid-structvec2>` Dimensions
+	:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` Dimensions
 
 	// construction
 
-	SGrid (:ref:`vec2i<doxid-structvec2>` const& dimensions = :ref:`vec2i<doxid-structvec2>` ())
+	SGrid (:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& dimensions = :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` ())
 
 	SGrid (
 	    T const& init,
-	    :ref:`vec2i<doxid-structvec2>` const& dimensions = :ref:`vec2i<doxid-structvec2>` ()
+	    :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& dimensions = :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` ()
 	    )
 
 	// methods
 
 	void Allocate ()
 	void Allocate (T const& value)
-	bool const InBounds (:ref:`vec2i<doxid-structvec2>` const Index)
+	bool const InBounds (:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const Index)
 
 	bool const InBounds (
-	    s32 const X,
-	    s32 const Y
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const X,
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const Y
 	    )
 
-	T& Get (:ref:`vec2i<doxid-structvec2>` const Index)
-	T const& Get (:ref:`vec2i<doxid-structvec2>` const Index)
+	T& Get (:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const Index)
+	T const& Get (:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const Index)
 
 	T& Get (
-	    s32 const X,
-	    s32 const Y
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const X,
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const Y
 	    )
 
 	T const& Get (
-	    s32 const X,
-	    s32 const Y
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const X,
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const Y
 	    )
 
-	:ref:`SRowAccess<doxid-classSGrid_1_1SRowAccess>` operator[] (u32 const X)
-	:ref:`SConstRowAccess<doxid-classSGrid_1_1SConstRowAccess>` operator[] (u32 const X)
-	T& operator[] (:ref:`vec2i<doxid-structvec2>` const& index)
-	T const& operator[] (:ref:`vec2i<doxid-structvec2>` const& index)
-	iterator begin ()
-	iterator end ()
-	const_iterator begin ()
-	const_iterator end ()
+	:ref:`SRowAccess<doxid-classSGrid_1_1SRowAccess>` operator[] (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const X)
+	:ref:`SConstRowAccess<doxid-classSGrid_1_1SConstRowAccess>` operator[] (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const X)
+	T& operator[] (:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& index)
+	T const& operator[] (:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& index)
+	:ref:`iterator<doxid-structSGrid_1a2f52a4b3288fef29d76b7e1c734b777e>` begin ()
+	:ref:`iterator<doxid-structSGrid_1a2f52a4b3288fef29d76b7e1c734b777e>` end ()
+	:ref:`const_iterator<doxid-structSGrid_1a417faa3079540a01254c9f70f558f5d5>` begin ()
+	:ref:`const_iterator<doxid-structSGrid_1a417faa3079540a01254c9f70f558f5d5>` end ()
 

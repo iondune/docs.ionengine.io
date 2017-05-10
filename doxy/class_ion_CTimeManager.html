@@ -159,6 +159,9 @@
 <span id="cid-ion-ctimemanager"></span><span id="doxid-classion-1-1ctimemanager"></span><span id="index-0"></span><h1>class ion.CTimeManager<a class="headerlink" href="#class-ion-ctimemanager" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;CTimeManager.h&gt;</span>
+</pre>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-ctimemanager-makeupdatetick">
@@ -172,15 +175,15 @@
 <span class="kt">void</span> <span class="n">Start</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">Update</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">SkipElapsedTime</span> <span class="p">()</span>
-<span class="n">f64</span> GetElapsedTime<span></span> <span class="p">()</span>
-<span class="n">f64</span> GetActualElapsedTime<span></span> <span class="p">()</span>
-<span class="n">f64</span> <span class="n">GetRunTime</span> <span class="p">()</span>
-<span class="n">f64</span> <span class="n">GetTimeMultiplier</span> <span class="p">()</span>
-<span class="kt">void</span> <span class="n">SetTimeMultiplier</span> <span class="p">(</span><span class="n">f64</span> <span class="k">const</span> <span class="n">TimeMultiplier</span><span class="p">)</span>
+f64<span></span> GetElapsedTime<span></span> <span class="p">()</span>
+f64<span></span> GetActualElapsedTime<span></span> <span class="p">()</span>
+f64<span></span> <span class="n">GetRunTime</span> <span class="p">()</span>
+f64<span></span> <span class="n">GetTimeMultiplier</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetTimeMultiplier</span> <span class="p">(</span>f64<span></span> <span class="k">const</span> <span class="n">TimeMultiplier</span><span class="p">)</span>
 
 CUpdateTick<span></span><span class="o">*</span> <span class="n">MakeUpdateTick</span> <span class="p">(</span>
-    <span class="n">f64</span> <span class="k">const</span> <span class="n">Tick</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">MaxDuration</span> <span class="o">=</span> <span class="mf">1.0</span>
+    f64<span></span> <span class="k">const</span> <span class="n">Tick</span><span class="p">,</span>
+    f32<span></span> <span class="k">const</span> <span class="n">MaxDuration</span> <span class="o">=</span> <span class="mf">1.0</span>
     <span class="p">)</span>
 </pre>
 </div>
@@ -189,11 +192,11 @@ CUpdateTick<span></span><span class="o">*</span> <span class="n">MakeUpdateTick<
 <div class="section" id="methods">
 <h3>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
 <pre class="highlight title-code-block literal-block" id="cid-ion-ctimemanager-getelapsedtime">
-<span id="doxid-classion-1-1ctimemanager-1a2b75e0896e81bf009eeddb1dfd0c9ff8"></span><span></span><span class="n">f64</span> <span class="n">GetElapsedTime</span> <span class="p">()</span>
+<span id="doxid-classion-1-1ctimemanager-1a2b75e0896e81bf009eeddb1dfd0c9ff8"></span>f64<span></span> <span class="n">GetElapsedTime</span> <span class="p">()</span>
 </pre>
 <p>Get the time elapsed between this frame and the last frame in seconds.</p>
 <pre class="highlight title-code-block literal-block" id="cid-ion-ctimemanager-getactualelapsedtime">
-<span id="doxid-classion-1-1ctimemanager-1aa029eaacfdb1ddba3953fb866a4a154a"></span><span></span><span class="n">f64</span> <span class="n">GetActualElapsedTime</span> <span class="p">()</span>
+<span id="doxid-classion-1-1ctimemanager-1aa029eaacfdb1ddba3953fb866a4a154a"></span>f64<span></span> <span class="n">GetActualElapsedTime</span> <span class="p">()</span>
 </pre>
 <p>Same as ElapsedTime, except before TimeMultiplier is applied.</p>
 </div>

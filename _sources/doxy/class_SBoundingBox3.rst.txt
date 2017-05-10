@@ -8,6 +8,10 @@ class SBoundingBox3 <typename T, typename Vector = vec3<T>>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SBoundingBox3.h>
 
 
 
@@ -95,15 +99,15 @@ class SBoundingBox3 <typename T, typename Vector = vec3<T>>
 	    )
 
 	bool IntersectsWithRay (
-	    :ref:`vec3f<doxid-structvec3>` const& origin,
-	    :ref:`vec3f<doxid-structvec3>` const& dir,
-	    :ref:`vec3f<doxid-structvec3>`& coord
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& origin,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& dir,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>`& coord
 	    )
 
 	bool IntersectsWithLimitedRay (
-	    :ref:`vec3f<doxid-structvec3>` const& origin,
-	    :ref:`vec3f<doxid-structvec3>` const& dir,
-	    :ref:`vec3f<doxid-structvec3>`& coord
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& origin,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& dir,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>`& coord
 	    )
 
 	T const GetMaximumRadius (Vector const Scale)

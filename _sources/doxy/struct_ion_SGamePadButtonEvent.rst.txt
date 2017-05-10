@@ -8,6 +8,10 @@ struct ion.SGamePadButtonEvent
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CGamePad.h>
 
 
 
@@ -24,6 +28,6 @@ struct ion.SGamePadButtonEvent
 	// fields
 
 	bool Pressed
-	EGamePadButton Button
+	:ref:`EGamePadButton<doxid-namespaceion_1a7556e2f50eb5cb19ff72747595655e01>` Button
 	:ref:`CGamePad<doxid-classion_1_1CGamePad>`* GamePad
 

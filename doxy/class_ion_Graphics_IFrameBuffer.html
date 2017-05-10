@@ -159,16 +159,19 @@
 <span id="cid-ion-graphics-iframebuffer"></span><span id="doxid-classion-1-1graphics-1-1iframebuffer"></span><span id="index-0"></span><h1>class ion.Graphics.IFrameBuffer<a class="headerlink" href="#class-ion-graphics-iframebuffer" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;IRenderTarget.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-graphics-iframebuffer-iframebuffer">
 <span id="doxid-classion-1-1graphics-1-1iframebuffer-1aa142c683fbc65ab0ce236ac01cf8facc"></span><span id="cid-ion-graphics-iframebuffer-checkcorrectness"></span><span id="doxid-classion-1-1graphics-1-1iframebuffer-1aa6825ac15cb115ba13d40fc652e95ecf"></span><span id="cid-ion-graphics-iframebuffer-attachdepthbuffer"></span><span id="doxid-classion-1-1graphics-1-1iframebuffer-1a5d6f345160d75137422d300ffe1a8d0c"></span><span id="cid-ion-graphics-iframebuffer-attachdepthtexture"></span><span id="doxid-classion-1-1graphics-1-1iframebuffer-1ad0f013860c4da092f6b64df8243dc87c"></span><span id="cid-ion-graphics-iframebuffer-attachcolortexture"></span><span id="doxid-classion-1-1graphics-1-1iframebuffer-1a24426f777d9cd023fb65c370b2af8b73"></span><span></span><span class="c1">// methods</span>
 
 <span class="kt">void</span> <span class="n">AttachColorTexture</span> <span class="p">(</span>
-    <span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">Texture</span><span class="p">,</span>
-    <span class="n">uint</span> <span class="k">const</span> <span class="n">Attachment</span>
+    SharedPointer<span></span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">Texture</span><span class="p">,</span>
+    uint<span></span> <span class="k">const</span> <span class="n">Attachment</span>
     <span class="p">)</span>
 
-<span class="kt">void</span> <span class="n">AttachDepthTexture</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">Texture</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">AttachDepthBuffer</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>IDepthBuffer<span></span><span class="o">&gt;</span> <span class="n">DepthBuffer</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">AttachDepthTexture</span> <span class="p">(</span>SharedPointer<span></span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">Texture</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">AttachDepthBuffer</span> <span class="p">(</span>SharedPointer<span></span> <span class="o">&lt;</span>IDepthBuffer<span></span><span class="o">&gt;</span> <span class="n">DepthBuffer</span><span class="p">)</span>
 <span class="kt">bool</span> <span class="n">CheckCorrectness</span> <span class="p">()</span>
 <span class="o">~</span><span class="n">IFrameBuffer</span> <span class="p">()</span>
 </pre>

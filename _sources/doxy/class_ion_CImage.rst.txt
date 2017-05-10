@@ -8,6 +8,10 @@ class ion.CImage
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CImage.h>
 
 
 
@@ -54,42 +58,42 @@ class ion.CImage
 	:ref:`CImage<doxid-classion_1_1CImage>`* Load (std::string const& FileName)
 
 	CImage (
-	    byte*const Data,
-	    :ref:`vec2u<doxid-structvec2>` const Size,
-	    u8 const Channels
+	    :ref:`byte<doxid-ionTypes_8h_1a0c8186d9b9b7880309c27230bbb5e69d>`*const Data,
+	    :ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` const Size,
+	    :ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>` const Channels
 	    )
 
 	CImage (
-	    :ref:`color4f<doxid-classSColorA>` const& Color,
+	    :ref:`color4f<doxid-SColor_8h_1ae5ed10712576bffc1dc1c43bedc57ec0>` const& Color,
 	    bool const Alpha = false
 	    )
 
 	~CImage ()
-	uint GetWidth ()
-	uint GetHeight ()
-	:ref:`vec2u<doxid-structvec2>` GetSize ()
-	uint GetStride ()
-	uint GetChannels ()
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` GetWidth ()
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` GetHeight ()
+	:ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` GetSize ()
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` GetStride ()
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` GetChannels ()
 
-	:ref:`color4i<doxid-classSColorA>` GetPixel (
-	    uint const x,
-	    uint const y
+	:ref:`color4i<doxid-SColor_8h_1a90b7b9eb3647df840ee64fdab379f15f>` GetPixel (
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const x,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const y
 	    )
 
 	void SetPixel (
-	    uint const x,
-	    uint const y,
-	    :ref:`color4i<doxid-classSColorA>` const color
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const x,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const y,
+	    :ref:`color4i<doxid-SColor_8h_1a90b7b9eb3647df840ee64fdab379f15f>` const color
 	    )
 
-	u8 const* GetData ()
-	u8* GetData ()
+	:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>` const* GetData ()
+	:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`* GetData ()
 	bool HasAlpha ()
 	void Write (std::string const& fileName)
 	void FlipY ()
 
 	void Crop (
-	    :ref:`vec2i<doxid-structvec2>` const& Position,
-	    :ref:`vec2i<doxid-structvec2>` const& Size
+	    :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& Position,
+	    :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& Size
 	    )
 

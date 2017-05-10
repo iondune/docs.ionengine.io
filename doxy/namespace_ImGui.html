@@ -160,7 +160,7 @@
 <div class="toctree-wrapper compound">
 </div>
 <pre class="highlight overview-code-block literal-block" id="cid-imgui-combo">
-<span id="doxid-iongui-8cpp-1a3b68fd8859fda125dd45845f2b00d938"></span><span id="cid-imgui-dragvec3"></span><span id="doxid-iongui-8cpp-1a56718fc1ee5a9143069f83447b3ceed9"></span><span id="cid-imgui-dragvec2"></span><span id="doxid-iongui-8cpp-1a5291beaac7a0fe9ab7406406a67f2c5f"></span><span id="cid-imgui-coloredit3"></span><span id="doxid-iongui-8cpp-1a463e1efcbe525d6c680022932c2e5e33"></span><span id="cid-imgui-sliderdouble"></span><span id="doxid-iongui-8cpp-1adbb535ec3ef0986cecb975545df3adb9"></span><span id="cid-imgui-colorpicker3-2"></span><span id="doxid-imgui-color-picker-8cpp-1a976b7d1872828f529d08f1be1f32812d"></span><span id="cid-imgui-colorpicker3"></span><span id="doxid-imgui-color-picker-8cpp-1a7f4c571c4370e8071e8bb9f4b0ce969b"></span><span id="cid-imgui-colorpicker4"></span><span id="doxid-imgui-color-picker-8cpp-1a78ab91895920cc93e008fb5c5736a112"></span><span></span><span class="c1">// classes</span>
+<span id="doxid-namespaceimgui-1a3b68fd8859fda125dd45845f2b00d938"></span><span id="cid-imgui-dragvec3"></span><span id="doxid-namespaceimgui-1a56718fc1ee5a9143069f83447b3ceed9"></span><span id="cid-imgui-dragvec2"></span><span id="doxid-namespaceimgui-1a5291beaac7a0fe9ab7406406a67f2c5f"></span><span id="cid-imgui-coloredit3"></span><span id="doxid-namespaceimgui-1a463e1efcbe525d6c680022932c2e5e33"></span><span id="cid-imgui-sliderdouble"></span><span id="doxid-namespaceimgui-1adbb535ec3ef0986cecb975545df3adb9"></span><span id="cid-imgui-colorpicker3-2"></span><span id="doxid-namespaceimgui-1a976b7d1872828f529d08f1be1f32812d"></span><span id="cid-imgui-colorpicker3"></span><span id="doxid-namespaceimgui-1a7f4c571c4370e8071e8bb9f4b0ce969b"></span><span id="cid-imgui-colorpicker4"></span><span id="doxid-namespaceimgui-1a78ab91895920cc93e008fb5c5736a112"></span><span></span><span class="c1">// classes</span>
 
 <span class="k">class</span> ImGui.scoped_id<span></span>
 
@@ -172,7 +172,7 @@
     <span class="p">)</span>
 
 <span class="kt">bool</span> <span class="n">ImGui</span><span class="p">.</span><span class="n">ColorPicker3</span> <span class="p">(</span><span class="kt">float</span> <span class="n">col</span> <span class="p">[</span><span class="mi">3</span><span class="p">])</span>
-<span class="kt">bool</span> <span class="n">ImGui</span><span class="p">.</span><span class="n">ColorPicker3</span> <span class="p">(</span><a class="reference internal" href="class_color3.html#doxid-classcolor3"><span class="std std-ref">color3f</span></a><span></span><span class="o">&amp;</span> <span class="n">col</span><span class="p">)</span>
+<span class="kt">bool</span> <span class="n">ImGui</span><span class="p">.</span><span class="n">ColorPicker3</span> <span class="p">(</span>color3f<span></span><span class="o">&amp;</span> <span class="n">col</span><span class="p">)</span>
 
 <span class="kt">bool</span> <span class="n">ImGui</span><span class="p">.</span><span class="n">SliderDouble</span> <span class="p">(</span>
     <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">label</span><span class="p">,</span>
@@ -185,12 +185,12 @@
 
 <span class="kt">bool</span> <span class="n">ImGui</span><span class="p">.</span><span class="n">ColorEdit3</span> <span class="p">(</span>
     <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">label</span><span class="p">,</span>
-    <a class="reference internal" href="class_color3.html#doxid-classcolor3"><span class="std std-ref">color3f</span></a><span></span><span class="o">&amp;</span> <span class="n">Color</span>
+    color3f<span></span><span class="o">&amp;</span> <span class="n">Color</span>
     <span class="p">)</span>
 
 <span class="kt">bool</span> <span class="n">ImGui</span><span class="p">.</span><span class="n">DragVec2</span> <span class="p">(</span>
     <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">label</span><span class="p">,</span>
-    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2f</span></a><span></span><span class="o">&amp;</span> <span class="n">v</span><span class="p">,</span>
+    vec2f<span></span><span class="o">&amp;</span> <span class="n">v</span><span class="p">,</span>
     <span class="kt">float</span> <span class="n">v_speed</span><span class="p">,</span>
     <span class="kt">float</span> <span class="n">v_min</span><span class="p">,</span>
     <span class="kt">float</span> <span class="n">v_max</span><span class="p">,</span>
@@ -200,7 +200,7 @@
 
 <span class="kt">bool</span> <span class="n">ImGui</span><span class="p">.</span><span class="n">DragVec3</span> <span class="p">(</span>
     <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">label</span><span class="p">,</span>
-    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span><span class="o">&amp;</span> <span class="n">v</span><span class="p">,</span>
+    vec3f<span></span><span class="o">&amp;</span> <span class="n">v</span><span class="p">,</span>
     <span class="kt">float</span> <span class="n">v_speed</span><span class="p">,</span>
     <span class="kt">float</span> <span class="n">v_min</span><span class="p">,</span>
     <span class="kt">float</span> <span class="n">v_max</span><span class="p">,</span>

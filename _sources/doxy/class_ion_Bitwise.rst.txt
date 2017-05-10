@@ -8,6 +8,10 @@ class ion.Bitwise
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionBitwise.h>
 
 
 
@@ -23,7 +27,7 @@ class ion.Bitwise
 
 	// methods
 
-	uint BitsToByte (vector <uint> const& bits)
-	vector <uint> ByteToBits (uint const Byte)
-	uint BitCount (uint i)
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` BitsToByte (vector <:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>`> const& bits)
+	vector <:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>`> ByteToBits (:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const Byte)
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` BitCount (:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` i)
 

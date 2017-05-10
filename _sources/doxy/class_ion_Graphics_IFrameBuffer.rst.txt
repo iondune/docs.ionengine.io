@@ -8,6 +8,10 @@ class ion.Graphics.IFrameBuffer
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IRenderTarget.h>
 
 
 
@@ -28,12 +32,12 @@ class ion.Graphics.IFrameBuffer
 	// methods
 
 	void AttachColorTexture (
-	    SharedPointer <:ref:`ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> Texture,
-	    uint const Attachment
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> Texture,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const Attachment
 	    )
 
-	void AttachDepthTexture (SharedPointer <:ref:`ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> Texture)
-	void AttachDepthBuffer (SharedPointer <:ref:`IDepthBuffer<doxid-classion_1_1Graphics_1_1IDepthBuffer>`> DepthBuffer)
+	void AttachDepthTexture (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> Texture)
+	void AttachDepthBuffer (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IDepthBuffer<doxid-classion_1_1Graphics_1_1IDepthBuffer>`> DepthBuffer)
 	bool CheckCorrectness ()
 	~IFrameBuffer ()
 

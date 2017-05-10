@@ -10,6 +10,10 @@ class ion.CTimeManager
 
 	class_ion_CTimeManager_CUpdateTick.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CTimeManager.h>
 
 
 Overview
@@ -46,15 +50,15 @@ Overview
 	void Start ()
 	void Update ()
 	void SkipElapsedTime ()
-	f64 :ref:`GetElapsedTime<doxid-classion_1_1CTimeManager_1a2b75e0896e81bf009eeddb1dfd0c9ff8>` ()
-	f64 :ref:`GetActualElapsedTime<doxid-classion_1_1CTimeManager_1aa029eaacfdb1ddba3953fb866a4a154a>` ()
-	f64 GetRunTime ()
-	f64 GetTimeMultiplier ()
-	void SetTimeMultiplier (f64 const TimeMultiplier)
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` :ref:`GetElapsedTime<doxid-classion_1_1CTimeManager_1a2b75e0896e81bf009eeddb1dfd0c9ff8>` ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` :ref:`GetActualElapsedTime<doxid-classion_1_1CTimeManager_1aa029eaacfdb1ddba3953fb866a4a154a>` ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` GetRunTime ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` GetTimeMultiplier ()
+	void SetTimeMultiplier (:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const TimeMultiplier)
 
 	:ref:`CUpdateTick<doxid-classion_1_1CTimeManager_1_1CUpdateTick>`* MakeUpdateTick (
-	    f64 const Tick,
-	    f32 const MaxDuration = 1.0
+	    :ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const Tick,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const MaxDuration = 1.0
 	    )
 
 .. _details-doxid-classion_1_1CTimeManager:
@@ -72,7 +76,7 @@ Methods
 .. ref-code-block:: cpp
 	:class: title-code-block
 
-	f64 GetElapsedTime ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` GetElapsedTime ()
 
 Get the time elapsed between this frame and the last frame in seconds.
 
@@ -81,7 +85,7 @@ Get the time elapsed between this frame and the last frame in seconds.
 .. ref-code-block:: cpp
 	:class: title-code-block
 
-	f64 GetActualElapsedTime ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` GetActualElapsedTime ()
 
 Same as ElapsedTime, except before TimeMultiplier is applied.
 

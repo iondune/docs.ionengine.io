@@ -159,6 +159,9 @@
 <span id="cid-slongitudelatitude"></span><span id="doxid-structslongitudelatitude"></span><span id="index-0"></span><h1>struct SLongitudeLatitude &lt;typename T&gt;<a class="headerlink" href="#struct-slongitudelatitude-typename-t" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;SLongitudeLatitude.h&gt;</span>
+</pre>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <pre class="highlight overview-code-block literal-block" id="cid-slongitudelatitude-dmstodecimal-2">
@@ -189,23 +192,23 @@ SLongitudeLatitude<span></span> <span class="p">(</span>SLongitudeLatitude<span>
 <span class="c1">// methods</span>
 
 SLongitudeLatitude<span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> operator=<span></span> <span class="p">(</span>SLongitudeLatitude<span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">vec</span><span class="p">)</span>
-<a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2f</span></a><span></span> <span class="n">Vector</span> <span class="p">()</span>
+vec2f<span></span> <span class="n">Vector</span> <span class="p">()</span>
 
 <span class="n">T</span> <span class="n">DistanceTo</span> <span class="p">(</span>
     SLongitudeLatitude<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Other</span><span class="p">,</span>
-    <span class="n">SharedPointer</span> <span class="o">&lt;</span>IProjectionSystem<span></span><span class="o">&gt;</span> <span class="n">Projection</span> <span class="o">=</span> <span class="n">SharedFromNew</span> <span class="p">(</span><span class="k">new</span> CHaversineProjection<span></span> <span class="p">())</span>
+    SharedPointer<span></span> <span class="o">&lt;</span>IProjectionSystem<span></span><span class="o">&gt;</span> <span class="n">Projection</span> <span class="o">=</span> <span class="n">SharedFromNew</span> <span class="p">(</span><span class="k">new</span> CHaversineProjection<span></span> <span class="p">())</span>
     <span class="p">)</span>
 
 <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">OffsetTo</span> <span class="p">(</span>
     SLongitudeLatitude<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Other</span><span class="p">,</span>
-    <span class="n">SharedPointer</span> <span class="o">&lt;</span>IProjectionSystem<span></span><span class="o">&gt;</span> <span class="n">Projection</span> <span class="o">=</span> <span class="n">SharedFromNew</span> <span class="p">(</span><span class="k">new</span> CHaversineProjection<span></span> <span class="p">())</span>
+    SharedPointer<span></span> <span class="o">&lt;</span>IProjectionSystem<span></span><span class="o">&gt;</span> <span class="n">Projection</span> <span class="o">=</span> <span class="n">SharedFromNew</span> <span class="p">(</span><span class="k">new</span> CHaversineProjection<span></span> <span class="p">())</span>
     <span class="p">)</span>
 
 <span class="n">T</span> <span class="n">DMStoDecimal</span> <span class="p">(</span>
     <span class="n">T</span> <span class="k">const</span> <span class="n">Degrees</span><span class="p">,</span>
     <span class="n">T</span> <span class="k">const</span> <span class="n">Minutes</span><span class="p">,</span>
     <span class="n">T</span> <span class="k">const</span> <span class="n">Seconds</span><span class="p">,</span>
-    <span class="n">ECompassDirection</span> <span class="k">const</span> <span class="n">Direction</span> <span class="o">=</span> <span class="n">ECompassDirection</span><span class="o">::</span><span class="n">N</span>
+    ECompassDirection<span></span> <span class="k">const</span> <span class="n">Direction</span> <span class="o">=</span> ECompassDirection::N<span></span>
     <span class="p">)</span>
 
 <span class="kt">void</span> <span class="n">DecimalToDMS</span> <span class="p">(</span>

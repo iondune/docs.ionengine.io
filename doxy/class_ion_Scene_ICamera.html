@@ -159,17 +159,20 @@
 <span id="cid-ion-scene-icamera"></span><span id="doxid-classion-1-1scene-1-1icamera"></span><span id="index-0"></span><h1>class ion.Scene.ICamera<a class="headerlink" href="#class-ion-scene-icamera" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;ICamera.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-scene-icamera-update">
 <span id="doxid-classion-1-1scene-1-1icamera-1ad141a8f671ef8ddc2867fcb4eaed7ad4"></span><span id="cid-ion-scene-icamera-setlookattarget"></span><span id="doxid-classion-1-1scene-1-1icamera-1ad8a5848abf1c9b01f25801042196dfda"></span><span id="cid-ion-scene-icamera-setlookdirection"></span><span id="doxid-classion-1-1scene-1-1icamera-1a8430cca749c14558f8805f3b122998b2"></span><span id="cid-ion-scene-icamera-setupvector"></span><span id="doxid-classion-1-1scene-1-1icamera-1a3126962f820428b53b9d9aed012669f2"></span><span id="cid-ion-scene-icamera-setposition"></span><span id="doxid-classion-1-1scene-1-1icamera-1ac52c4007ec9f39423b8abb99cf694fcd"></span><span id="cid-ion-scene-icamera-getupvector"></span><span id="doxid-classion-1-1scene-1-1icamera-1a9a2a054fe447e30fdc67ac1f14487148"></span><span id="cid-ion-scene-icamera-getposition"></span><span id="doxid-classion-1-1scene-1-1icamera-1a1d0d8868af676a253ee523ea03a30ed7"></span><span id="cid-ion-scene-icamera-getprojectionmatrix"></span><span id="doxid-classion-1-1scene-1-1icamera-1a32903e67d1148184037f75122158a56e"></span><span id="cid-ion-scene-icamera-getviewmatrix"></span><span id="doxid-classion-1-1scene-1-1icamera-1afffc02c779387063ec90c84f5d6c20f4"></span><span></span><span class="c1">// methods</span>
 
 <span class="n">glm</span><span class="o">::</span><span class="n">mat4</span> <span class="n">GetViewMatrix</span> <span class="p">()</span>
 <span class="n">glm</span><span class="o">::</span><span class="n">mat4</span> <span class="n">GetProjectionMatrix</span> <span class="p">()</span>
-<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">GetPosition</span> <span class="p">()</span>
-<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">GetUpVector</span> <span class="p">()</span>
-<span class="kt">void</span> <span class="n">SetPosition</span> <span class="p">(</span><a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">position</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetUpVector</span> <span class="p">(</span><a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">UpVector</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetLookDirection</span> <span class="p">(</span><a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">lookDirection</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetLookAtTarget</span> <span class="p">(</span><a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">lookAtTarget</span><span class="p">)</span>
+vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">GetPosition</span> <span class="p">()</span>
+vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">GetUpVector</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetPosition</span> <span class="p">(</span>vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">position</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetUpVector</span> <span class="p">(</span>vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">UpVector</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetLookDirection</span> <span class="p">(</span>vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">lookDirection</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetLookAtTarget</span> <span class="p">(</span>vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">lookAtTarget</span><span class="p">)</span>
 <span class="kt">void</span> <span class="n">Update</span> <span class="p">()</span>
 </pre>
 </div>

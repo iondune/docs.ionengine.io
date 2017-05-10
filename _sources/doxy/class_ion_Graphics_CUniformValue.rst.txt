@@ -8,6 +8,10 @@ class ion.Graphics.CUniformValue <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IUniform.h>
 
 
 

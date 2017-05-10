@@ -8,6 +8,10 @@ class SVolume.SConstRowAccess
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVolume.h>
 
 
 
@@ -19,5 +23,5 @@ class SVolume.SConstRowAccess
 
 	// methods
 
-	T const& operator[] (u32 const Z)
+	T const& operator[] (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const Z)
 

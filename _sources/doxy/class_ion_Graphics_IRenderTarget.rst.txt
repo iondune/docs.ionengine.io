@@ -8,6 +8,10 @@ class ion.Graphics.IRenderTarget
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IRenderTarget.h>
 
 
 
@@ -40,13 +44,13 @@ class ion.Graphics.IRenderTarget
 	void ClearColor ()
 	void ClearDepth ()
 	void ClearColorAndDepth ()
-	void SetClearColor (:ref:`color4f<doxid-classSColorA>` const& Color)
+	void SetClearColor (:ref:`color4f<doxid-SColor_8h_1ae5ed10712576bffc1dc1c43bedc57ec0>` const& Color)
 	void Bind ()
 	:ref:`IRenderTarget<doxid-classion_1_1Graphics_1_1IRenderTarget>`* GetCurrentlyBound ()
 
 	void SetViewport (
-	    :ref:`vec2i<doxid-structvec2>` const& Min,
-	    :ref:`vec2i<doxid-structvec2>` const& Max
+	    :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& Min,
+	    :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& Max
 	    )
 
 	void ClearViewport ()

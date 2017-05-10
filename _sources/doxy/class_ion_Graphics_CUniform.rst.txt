@@ -8,6 +8,10 @@ class ion.Graphics.CUniform <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IUniform.h>
 
 
 
@@ -57,7 +61,7 @@ class ion.Graphics.CUniform <typename T>
 
 	// fields
 
-	SharedPointer <:ref:`CUniformValue<doxid-classion_1_1Graphics_1_1CUniformValue>` <T>> Uniform
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`CUniformValue<doxid-classion_1_1Graphics_1_1CUniformValue>` <T>> Uniform
 
 	// methods
 

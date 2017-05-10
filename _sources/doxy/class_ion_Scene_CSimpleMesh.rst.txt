@@ -11,6 +11,10 @@ class ion.Scene.CSimpleMesh
 	struct_ion_Scene_CSimpleMesh_STriangle.rst
 	struct_ion_Scene_CSimpleMesh_SVertex.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CSimpleMesh.h>
 
 
 
@@ -68,17 +72,17 @@ class ion.Scene.CSimpleMesh
 	// methods
 
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* FromAttributes (
-	    vector <uint> Indices,
-	    vector <f32> const& Positions,
-	    vector <f32> const& Normals = vector <f32> (),
-	    vector <f32> const& TexCoords = vector <f32> ()
+	    vector <:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>`> Indices,
+	    vector <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> const& Positions,
+	    vector <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> const& Normals = vector <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> (),
+	    vector <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> const& TexCoords = vector <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> ()
 	    )
 
-	:ref:`SBoundingBox3f<doxid-classSBoundingBox3>` GetBoundingBox ()
+	:ref:`SBoundingBox3f<doxid-SBoundingBox3_8h_1ab5820c61a73b9d285308cf11e586894b>` GetBoundingBox ()
 	void Clear ()
-	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ResizeMesh (:ref:`vec3f<doxid-structvec3>` const& Scale)
-	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ApplyScaleFactor (:ref:`vec3f<doxid-structvec3>` const& Scale)
-	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ApplyOffset (:ref:`vec3f<doxid-structvec3>` const& Offset)
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ResizeMesh (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& Scale)
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ApplyScaleFactor (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& Scale)
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ApplyOffset (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& Offset)
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* ApplyTransformation (glm::mat4 const& Transform)
 	void ReverseFaces ()
 	void SeparateTriangles ()
@@ -86,11 +90,11 @@ class ion.Scene.CSimpleMesh
 
 	void CalculateNormalsPerVertex (
 	    bool CombineNear = true,
-	    f32 const NearTolerance = 0.0001f
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const NearTolerance = 0.0001f
 	    )
 
 	void WriteOBJ (string const& FileName)
-	:ref:`box3f<doxid-classSBoundingBox3>` CalculateBoundingBox ()
-	SharedPointer <:ref:`Graphics::IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> CreateIndexBuffer ()
-	SharedPointer <:ref:`Graphics::IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> CreateVertexBuffer ()
+	:ref:`box3f<doxid-SBoundingBox3_8h_1a05761b645c1d47be621534c0faf74a47>` CalculateBoundingBox ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> CreateIndexBuffer ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> CreateVertexBuffer ()
 

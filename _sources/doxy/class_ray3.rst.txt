@@ -8,6 +8,10 @@ class ray3 <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ray3.h>
 
 
 
@@ -60,11 +64,11 @@ class ray3 <typename T>
 	:ref:`ray3<doxid-classray3>` GetTransformed (glm::mat4 const& Matrix)
 
 	bool IntersectsBox (
-	    :ref:`box3<doxid-classSBoundingBox3>` <T> const& Box,
+	    :ref:`box3<doxid-SBoundingBox3_8h_1a98c8c82895cfb355e588c7611bc0bfb9>` <T> const& Box,
 	    T* Intersection
 	    )
 
-	bool IntersectsBox (:ref:`box3<doxid-classSBoundingBox3>` <T> const& Box)
+	bool IntersectsBox (:ref:`box3<doxid-SBoundingBox3_8h_1a98c8c82895cfb355e588c7611bc0bfb9>` <T> const& Box)
 
 	bool IntersectsSphere (
 	    :ref:`vec3<doxid-structvec3>` <T> const& Center,
@@ -73,9 +77,9 @@ class ray3 <typename T>
 	    )
 
 	bool IntersectsTriangle (
-	    :ref:`vec3f<doxid-structvec3>` const& v0,
-	    :ref:`vec3f<doxid-structvec3>` const& v1,
-	    :ref:`vec3f<doxid-structvec3>` const& v2,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& v0,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& v1,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& v2,
 	    T* Intersection
 	    )
 

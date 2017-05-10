@@ -8,6 +8,10 @@ class ion.Scene.ILight
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ILight.h>
 
 
 
@@ -32,10 +36,10 @@ class ion.Scene.ILight
 	// methods
 
 	ILight ()
-	:ref:`vec3f<doxid-structvec3>` GetPosition ()
-	void SetPosition (:ref:`vec3f<doxid-structvec3>` const& Position)
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` GetPosition ()
+	void SetPosition (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& Position)
 	size_t GetAttributeCount ()
-	map <string, SharedPointer <:ref:`Graphics::IUniform<doxid-classion_1_1Graphics_1_1IUniform>`>> const& GetAttributes ()
-	SharedPointer <:ref:`Graphics::IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> GetAttributeByName (string const& Name)
+	map <string, :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IUniform<doxid-classion_1_1Graphics_1_1IUniform>`>> const& GetAttributes ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> GetAttributeByName (string const& Name)
 	string GetLightType ()
 

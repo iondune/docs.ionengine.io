@@ -13,6 +13,10 @@ struct SVolume <typename T>
 	class_SVolume_SLayerAccess.rst
 	class_SVolume_SRowAccess.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVolume.h>
 
 
 
@@ -74,8 +78,8 @@ struct SVolume <typename T>
 
 	// typedefs
 
-	typedef std::vector <T>::iterator iterator
-	typedef std::vector <T>::const_iterator const_iterator
+	typedef std::vector <T>:::ref:`iterator<doxid-structSVolume_1a181c6208149262be42a40bd4e2899a66>` iterator
+	typedef std::vector <T>:::ref:`const_iterator<doxid-structSVolume_1a58e158c28e42cff9a03ce3a1b48e3323>` const_iterator
 
 	// classes
 
@@ -87,65 +91,65 @@ struct SVolume <typename T>
 	// fields
 
 	std::vector <T> Values
-	:ref:`vec3i<doxid-structvec3>` Dimensions
+	:ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` Dimensions
 
 	// construction
 
-	SVolume (:ref:`vec3i<doxid-structvec3>` const& dimensions = :ref:`vec3i<doxid-structvec3>` ())
+	SVolume (:ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` const& dimensions = :ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` ())
 
 	SVolume (
 	    T const& init,
-	    :ref:`vec3i<doxid-structvec3>` const& dimensions = :ref:`vec3i<doxid-structvec3>` ()
+	    :ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` const& dimensions = :ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` ()
 	    )
 
 	// methods
 
 	void Allocate ()
 	void Allocate (T const& value)
-	bool const InBounds (:ref:`vec3i<doxid-structvec3>` const Index)
+	bool const InBounds (:ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` const Index)
 
 	bool const InBounds (
-	    s32 const X,
-	    s32 const Y,
-	    s32 const Z
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const X,
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const Y,
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const Z
 	    )
 
-	T& Get (:ref:`vec3i<doxid-structvec3>` const Index)
-	T const& Get (:ref:`vec3i<doxid-structvec3>` const Index)
+	T& Get (:ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` const Index)
+	T const& Get (:ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` const Index)
 
 	T& Get (
-	    s32 const X,
-	    s32 const Y,
-	    s32 const Z
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const X,
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const Y,
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const Z
 	    )
 
 	T const& Get (
-	    s32 const X,
-	    s32 const Y,
-	    s32 const Z
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const X,
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const Y,
+	    :ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const Z
 	    )
 
 	T const& GetTricubicInterpolated (
-	    f32 const X,
-	    f32 const Y,
-	    f32 const Z
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const X,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Y,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Z
 	    )
 
 	T const& GetTricubicInterpolatedMember <typename U> (
-	    f32 const X,
-	    f32 const Y,
-	    f32 const Z,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const X,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Y,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Z,
 	    U T::* Member
 	    )
 
-	:ref:`SLayerAccess<doxid-classSVolume_1_1SLayerAccess>` operator[] (u32 const X)
-	:ref:`SConstLayerAccess<doxid-classSVolume_1_1SConstLayerAccess>` operator[] (u32 const X)
-	T& operator[] (:ref:`vec3i<doxid-structvec3>` const& index)
+	:ref:`SLayerAccess<doxid-classSVolume_1_1SLayerAccess>` operator[] (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const X)
+	:ref:`SConstLayerAccess<doxid-classSVolume_1_1SConstLayerAccess>` operator[] (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const X)
+	T& operator[] (:ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` const& index)
 	T& operator[] (glm::ivec3 const& index)
-	T const& operator[] (:ref:`vec3i<doxid-structvec3>` const& index)
+	T const& operator[] (:ref:`vec3i<doxid-SVector3_8h_1a1e8b0cfccc1b146fc597adecf61dee46>` const& index)
 	T const& operator[] (glm::ivec3 const& index)
-	iterator begin ()
-	iterator end ()
-	const_iterator begin ()
-	const_iterator end ()
+	:ref:`iterator<doxid-structSVolume_1a181c6208149262be42a40bd4e2899a66>` begin ()
+	:ref:`iterator<doxid-structSVolume_1a181c6208149262be42a40bd4e2899a66>` end ()
+	:ref:`const_iterator<doxid-structSVolume_1a58e158c28e42cff9a03ce3a1b48e3323>` begin ()
+	:ref:`const_iterator<doxid-structSVolume_1a58e158c28e42cff9a03ce3a1b48e3323>` end ()
 

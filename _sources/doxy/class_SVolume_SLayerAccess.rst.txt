@@ -8,6 +8,10 @@ class SVolume.SLayerAccess
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVolume.h>
 
 
 
@@ -19,5 +23,5 @@ class SVolume.SLayerAccess
 
 	// methods
 
-	:ref:`SRowAccess<doxid-classSVolume_1_1SRowAccess>` operator[] (u32 const Y)
+	:ref:`SRowAccess<doxid-classSVolume_1_1SRowAccess>` operator[] (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const Y)
 

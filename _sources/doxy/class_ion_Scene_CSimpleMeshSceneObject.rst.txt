@@ -8,6 +8,10 @@ class ion.Scene.CSimpleMeshSceneObject
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CSimpleMeshSceneObject.h>
 
 
 

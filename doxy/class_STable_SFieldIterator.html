@@ -159,14 +159,17 @@
 <span id="cid-stable-sfielditerator"></span><span id="doxid-classstable-1-1sfielditerator"></span><span id="index-0"></span><h1>class STable.SFieldIterator<a class="headerlink" href="#class-stable-sfielditerator" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;STable.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="id6">
 <span id="doxid-classstable-1-1sfielditerator-1a47d6c0433c0d01a78d5cb19fa7d9d4e4"></span><span id="id5"></span><span id="doxid-classstable-1-1sfielditerator-1adbadd176ed9fe7382503eb4ffa43d2f9"></span><span id="id4"></span><span id="doxid-classstable-1-1sfielditerator-1a72d65c9ff642742a64b0658d8da70eec"></span><span id="id3"></span><span id="doxid-classstable-1-1sfielditerator-1ac4f25d11ec3de203ba5e6e3cbae1e895"></span><span id="id2"></span><span id="doxid-classstable-1-1sfielditerator-1a3a2ca9b42f094116138bf6dc4a3ec006"></span><span id="id1"></span><span id="doxid-classstable-1-1sfielditerator-1a9f0f27d5e549e3a49d70362faf6226da"></span><span id="cid-stable-sfielditerator-operator-2"></span><span id="doxid-classstable-1-1sfielditerator-1a991c8d573c8ac009651df92a6572a742"></span><span id="cid-stable-sfielditerator-operator"></span><span id="doxid-classstable-1-1sfielditerator-1ad31241f734d317fed25b59c6d6a7c83b"></span><span id="cid-stable-sfielditerator-sfielditerator"></span><span id="doxid-classstable-1-1sfielditerator-1a157b474514810d7f53886d93f65d3672"></span><span id="cid-stable-sfielditerator-reference"></span><span id="doxid-classstable-1-1sfielditerator-1a240b659203ed1c6f91704189e33fa2b1"></span><span id="cid-stable-sfielditerator-pointer"></span><span id="doxid-classstable-1-1sfielditerator-1ac5b90d443373020a207e173c70b11dd4"></span><span id="cid-stable-sfielditerator-difference-type"></span><span id="doxid-classstable-1-1sfielditerator-1aee300b5a068ed316975f2badc6a3dce1"></span><span id="cid-stable-sfielditerator-value-type"></span><span id="doxid-classstable-1-1sfielditerator-1a8f01aa2805d3ff63b304672bd93e42bb"></span><span id="cid-stable-sfielditerator-iterator-category"></span><span id="doxid-classstable-1-1sfielditerator-1a228dad0766ed813c20d9d22f228cd855"></span><span></span><span class="c1">// typedefs</span>
 
 <span class="k">typedef</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span> <span class="o">&lt;</span>SRow<span></span><span class="o">&gt;::</span><span class="n">iterator</span><span class="o">::</span><span class="n">iterator_category</span> <span class="n">iterator_category</span>
-<span class="k">typedef</span> <span class="n">f64</span> <span class="n">value_type</span>
+<span class="k">typedef</span> f64<span></span> <span class="n">value_type</span>
 <span class="k">typedef</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span> <span class="o">&lt;</span>SRow<span></span><span class="o">&gt;::</span><span class="n">iterator</span><span class="o">::</span><span class="n">difference_type</span> <span class="n">difference_type</span>
-<span class="k">typedef</span> <span class="n">f64</span><span class="o">*</span> <span class="n">pointer</span>
-<span class="k">typedef</span> <span class="n">f64</span><span class="o">&amp;</span> <span class="n">reference</span>
+<span class="k">typedef</span> f64<span></span><span class="o">*</span> <span class="n">pointer</span>
+<span class="k">typedef</span> f64<span></span><span class="o">&amp;</span> <span class="n">reference</span>
 
 <span class="c1">// methods</span>
 
@@ -177,10 +180,10 @@
 
 SFieldIterator<span></span><span class="o">&amp;</span> <span class="k">operator</span><span class="o">++</span> <span class="p">()</span>
 SFieldIterator<span></span> <span class="k">operator</span><span class="o">++</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span>
-<span class="n">f64</span> <span class="k">operator</span><span class="o">*</span> <span class="p">()</span>
-<span class="n">f64</span><span class="o">&amp;</span> <span class="k">operator</span><span class="o">*</span> <span class="p">()</span>
-<span class="n">f64</span> <span class="k">const</span><span class="o">*</span> <span class="k">operator</span><span class="o">-&gt;</span> <span class="p">()</span>
-<span class="n">f64</span><span class="o">*</span> <span class="k">operator</span><span class="o">-&gt;</span> <span class="p">()</span>
+f64<span></span> <span class="k">operator</span><span class="o">*</span> <span class="p">()</span>
+f64<span></span><span class="o">&amp;</span> <span class="k">operator</span><span class="o">*</span> <span class="p">()</span>
+f64<span></span> <span class="k">const</span><span class="o">*</span> <span class="k">operator</span><span class="o">-&gt;</span> <span class="p">()</span>
+f64<span></span><span class="o">*</span> <span class="k">operator</span><span class="o">-&gt;</span> <span class="p">()</span>
 <span class="kt">bool</span> <span class="k">operator</span><span class="o">&lt;</span> <span class="p">(</span>SFieldIterator<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span>
 <span class="kt">bool</span> <span class="k">operator</span><span class="o">!=</span> <span class="p">(</span>SFieldIterator<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span>
 </pre>

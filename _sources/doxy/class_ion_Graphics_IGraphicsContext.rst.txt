@@ -8,6 +8,10 @@ class ion.Graphics.IGraphicsContext
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IGraphicsContext.h>
 
 
 
@@ -27,13 +31,13 @@ class ion.Graphics.IGraphicsContext
 
 	// methods
 
-	SharedPointer <:ref:`IRenderTarget<doxid-classion_1_1Graphics_1_1IRenderTarget>`> GetBackBuffer ()
-	SharedPointer <:ref:`IFrameBuffer<doxid-classion_1_1Graphics_1_1IFrameBuffer>`> CreateFrameBuffer ()
-	SharedPointer <:ref:`IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> CreatePipelineState ()
-	void Draw (SharedPointer <:ref:`IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> State)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IRenderTarget<doxid-classion_1_1Graphics_1_1IRenderTarget>`> GetBackBuffer ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IFrameBuffer<doxid-classion_1_1Graphics_1_1IFrameBuffer>`> CreateFrameBuffer ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> CreatePipelineState ()
+	void Draw (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> State)
 
 	void DrawInstanced (
-	    SharedPointer <:ref:`IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> State,
-	    uint const InstanceCount
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> State,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const InstanceCount
 	    )
 

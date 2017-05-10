@@ -159,11 +159,14 @@
 <span id="cid-ion-graphics-gl-cframebuffer"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer"></span><span id="index-0"></span><h1>class ion.Graphics.GL.CFrameBuffer<a class="headerlink" href="#class-ion-graphics-gl-cframebuffer" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;CFrameBuffer.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-graphics-gl-cframebuffer-bind">
 <span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer-1a530e2fc4c2bc5f071dc8e113290f4b33"></span><span id="cid-ion-graphics-gl-cframebuffer-checkcorrectness"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer-1a6ea3cd044b59ccad7dcd5e0ce74e9b07"></span><span id="cid-ion-graphics-gl-cframebuffer-attachdepthbuffer"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer-1a97f3cd496c5272f3ab06d25aa6762846"></span><span id="cid-ion-graphics-gl-cframebuffer-attachdepthtexture"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer-1a3cdce0ffaebf7534296802f0d86454a8"></span><span id="cid-ion-graphics-gl-cframebuffer-attachcolortexture"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer-1ad5494ea3d062eff5b2ddf4f283faab96"></span><span id="id1"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer-1a5f2cccb4c01a78c075500c6bb8bda4c2"></span><span id="cid-ion-graphics-gl-cframebuffer-cframebuffer"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer-1a519a405f2fc78a5c8df826a3d1150824"></span><span id="cid-ion-graphics-gl-cframebuffer-size"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer-1a50cc890c2ac938f9c89bbe4dde428b5a"></span><span id="cid-ion-graphics-gl-cframebuffer-handle"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cframebuffer-1acf3a3f5676327fd4adba3015f61da93b"></span><span></span><span class="c1">// fields</span>
 
-<span class="n">uint</span> <span class="n">Handle</span>
-<a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2u</span></a><span></span> <span class="n">Size</span>
+uint<span></span> <span class="n">Handle</span>
+vec2u<span></span> <span class="n">Size</span>
 
 <span class="c1">// methods</span>
 
@@ -171,12 +174,12 @@
 <span class="o">~</span><span class="n">CFrameBuffer</span> <span class="p">()</span>
 
 <span class="kt">void</span> <span class="n">AttachColorTexture</span> <span class="p">(</span>
-    <span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">Texture</span><span class="p">,</span>
-    <span class="n">uint</span> <span class="k">const</span> <span class="n">Attachment</span>
+    SharedPointer<span></span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">Texture</span><span class="p">,</span>
+    uint<span></span> <span class="k">const</span> <span class="n">Attachment</span>
     <span class="p">)</span>
 
-<span class="kt">void</span> <span class="n">AttachDepthTexture</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">Texture</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">AttachDepthBuffer</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>IDepthBuffer<span></span><span class="o">&gt;</span> <span class="n">DepthBuffer</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">AttachDepthTexture</span> <span class="p">(</span>SharedPointer<span></span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">Texture</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">AttachDepthBuffer</span> <span class="p">(</span>SharedPointer<span></span> <span class="o">&lt;</span>IDepthBuffer<span></span><span class="o">&gt;</span> <span class="n">DepthBuffer</span><span class="p">)</span>
 <span class="kt">bool</span> <span class="n">CheckCorrectness</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">Bind</span> <span class="p">()</span>
 </pre>

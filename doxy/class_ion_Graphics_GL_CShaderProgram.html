@@ -159,19 +159,22 @@
 <span id="cid-ion-graphics-gl-cshaderprogram"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cshaderprogram"></span><span id="index-0"></span><h1>class ion.Graphics.GL.CShaderProgram<a class="headerlink" href="#class-ion-graphics-gl-cshaderprogram" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;CShaderProgram.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-graphics-gl-cshaderprogram-link">
 <span id="doxid-classion-1-1graphics-1-1gl-1-1cshaderprogram-1a6d2c6a0e301a1a7221ab44cc5076ddaf"></span><span id="cid-ion-graphics-gl-cshaderprogram-setpixelstage"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cshaderprogram-1a570c2cab24c76d69befdebbcbeea2834"></span><span id="cid-ion-graphics-gl-cshaderprogram-setgeometrystage"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cshaderprogram-1a5ee9a9dae9d462a1f8e64fbef04a7bc0"></span><span id="cid-ion-graphics-gl-cshaderprogram-setvertexstage"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cshaderprogram-1a481671777d2eb72b045ce8d2ff7a70d9"></span><span id="cid-ion-graphics-gl-cshaderprogram-uniforms"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cshaderprogram-1acf798b0ac01fde31decd227e33628a60"></span><span id="cid-ion-graphics-gl-cshaderprogram-attributes"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cshaderprogram-1a8d9a3255440282cddf33c541c3f65127"></span><span id="cid-ion-graphics-gl-cshaderprogram-linked"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cshaderprogram-1a044fbdc5a550fce5c62a3bc8d40771ea"></span><span id="cid-ion-graphics-gl-cshaderprogram-handle"></span><span id="doxid-classion-1-1graphics-1-1gl-1-1cshaderprogram-1addd42f211083a94388112a44937e96b4"></span><span></span><span class="c1">// fields</span>
 
-<span class="n">uint</span> <span class="n">Handle</span>
+uint<span></span> <span class="n">Handle</span>
 <span class="kt">bool</span> <span class="n">Linked</span>
-<span class="n">map</span> <span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> <span class="n">pair</span> <span class="o">&lt;</span><span class="n">uint</span><span class="p">,</span> <span class="n">uint</span><span class="o">&gt;&gt;</span> <span class="n">Attributes</span>
-<span class="n">map</span> <span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> <span class="n">uint</span><span class="o">&gt;</span> <span class="n">Uniforms</span>
+<span class="n">map</span> <span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> <span class="n">pair</span> <span class="o">&lt;</span>uint<span></span><span class="p">,</span> uint<span></span><span class="o">&gt;&gt;</span> <span class="n">Attributes</span>
+<span class="n">map</span> <span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> uint<span></span><span class="o">&gt;</span> <span class="n">Uniforms</span>
 
 <span class="c1">// methods</span>
 
-<span class="kt">void</span> <span class="n">SetVertexStage</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>IVertexShader<span></span><span class="o">&gt;</span> <span class="n">VertexShader</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetGeometryStage</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>IGeometryShader<span></span><span class="o">&gt;</span> <span class="n">GeometryShader</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetPixelStage</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>IPixelShader<span></span><span class="o">&gt;</span> <span class="n">PixelShader</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetVertexStage</span> <span class="p">(</span>SharedPointer<span></span> <span class="o">&lt;</span>IVertexShader<span></span><span class="o">&gt;</span> <span class="n">VertexShader</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetGeometryStage</span> <span class="p">(</span>SharedPointer<span></span> <span class="o">&lt;</span>IGeometryShader<span></span><span class="o">&gt;</span> <span class="n">GeometryShader</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetPixelStage</span> <span class="p">(</span>SharedPointer<span></span> <span class="o">&lt;</span>IPixelShader<span></span><span class="o">&gt;</span> <span class="n">PixelShader</span><span class="p">)</span>
 <span class="kt">void</span> <span class="n">Link</span> <span class="p">()</span>
 </pre>
 </div>

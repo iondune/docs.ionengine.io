@@ -8,6 +8,10 @@ class IRandomGenerator
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionRand.h>
 
 
 
@@ -37,38 +41,38 @@ class IRandomGenerator
 
 	// methods
 
-	u32 const Generate ()
-	void Seed (u32 const seed)
-	u32 const Generate (u32 const max)
+	:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const Generate ()
+	void Seed (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const seed)
+	:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const Generate (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const max)
 
-	u32 const Generate (
-	    u32 const min,
-	    u32 const max
+	:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const Generate (
+	    :ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const min,
+	    :ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const max
 	    )
 
-	f32 const Generatef32 (u32 const modulus = 100000)
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Generatef32 (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const modulus = 100000)
 
-	f32 const Generatef32 (
-	    f32 const max,
-	    u32 const modulus = 100000
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Generatef32 (
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const max,
+	    :ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const modulus = 100000
 	    )
 
-	f32 const Generatef32 (
-	    f32 const min,
-	    f32 const max,
-	    u32 const modulus = 100000
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Generatef32 (
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const min,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const max,
+	    :ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const modulus = 100000
 	    )
 
-	f64 const Generatef64 (u32 const modulus = 100000)
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const Generatef64 (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const modulus = 100000)
 
-	f64 const Generatef64 (
-	    f64 const max,
-	    u32 const modulus = 100000
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const Generatef64 (
+	    :ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const max,
+	    :ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const modulus = 100000
 	    )
 
-	f64 const Generatef64 (
-	    f64 const min,
-	    f64 const max,
-	    u32 const modulus = 100000
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const Generatef64 (
+	    :ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const min,
+	    :ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const max,
+	    :ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const modulus = 100000
 	    )
 

@@ -10,6 +10,10 @@ class SPlane3 <typename T, typename Vector = vec3<T>>
 
 	enum_SPlane3_EIntersectionRelation.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SPlane3.h>
 
 
 Overview
@@ -98,7 +102,7 @@ Overview
 	    Vector& outIntersection
 	    )
 
-	f32 :ref:`GetKnownIntersectionWithLine<doxid-classSPlane3_1a63a92e1065fc99ca21340f0494804af8>` (
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` :ref:`GetKnownIntersectionWithLine<doxid-classSPlane3_1a63a92e1065fc99ca21340f0494804af8>` (
 	    const Vector& linePoint1,
 	    const Vector& linePoint2
 	    )
@@ -109,7 +113,7 @@ Overview
 	    Vector& outIntersection
 	    )
 
-	EIntersectionRelation :ref:`ClassifyPointRelation<doxid-classSPlane3_1acc97b58b90126474eb7840f58a764369>` (const Vector& point)
+	:ref:`EIntersectionRelation<doxid-classSPlane3_1a4561ac733fbd6b49ae37d2f4e28abd01>` :ref:`ClassifyPointRelation<doxid-classSPlane3_1acc97b58b90126474eb7840f58a764369>` (const Vector& point)
 	void :ref:`RecalculateD<doxid-classSPlane3_1a4d33c66e4c539e4ce3d652887063cc72>` (const Vector& MPoint)
 	Vector :ref:`GetMemberPoint<doxid-classSPlane3_1a54a45cfdaed3e5b097f5f7f8646f9a8a>` ()
 	bool :ref:`ExistsIntersection<doxid-classSPlane3_1a65b20213b45257fb2ae89ec01e62c0d2>` (const :ref:`SPlane3<doxid-classSPlane3>` <T>& other)
@@ -206,7 +210,7 @@ True if there was an intersection, false if there was not.
 .. ref-code-block:: cpp
 	:class: title-code-block
 
-	f32 GetKnownIntersectionWithLine (
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetKnownIntersectionWithLine (
 	    const Vector& linePoint1,
 	    const Vector& linePoint2
 	    )
@@ -284,7 +288,7 @@ True if there was an intersection, false if there was not.
 .. ref-code-block:: cpp
 	:class: title-code-block
 
-	EIntersectionRelation ClassifyPointRelation (const Vector& point)
+	:ref:`EIntersectionRelation<doxid-classSPlane3_1a4561ac733fbd6b49ae37d2f4e28abd01>` ClassifyPointRelation (const Vector& point)
 
 Classifies the relation of a point to this plane.
 

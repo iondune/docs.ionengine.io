@@ -8,6 +8,10 @@ class IState
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IState.h>
 
 
 
@@ -25,5 +29,5 @@ class IState
 
 	void Begin ()
 	void End ()
-	void Update (f32 const ElapsedTime)
+	void Update (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const ElapsedTime)
 

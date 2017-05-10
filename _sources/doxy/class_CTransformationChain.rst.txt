@@ -10,6 +10,10 @@ class CTransformationChain
 
 	class_CTransformationChain_CStage.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <STransformation3.h>
 
 
 
@@ -35,7 +39,7 @@ class CTransformationChain
 
 	void SetStageTransformationOrder (
 	    string const& Name,
-	    ETransformationOrder TransformationOrder
+	    :ref:`ETransformationOrder<doxid-STransformation3_8h_1ad55879292d49039e900abcdcf9415199>` TransformationOrder
 	    )
 
 	:ref:`STransformation3<doxid-classSTransformation3>`& GetStageTransformation (string const& Name)

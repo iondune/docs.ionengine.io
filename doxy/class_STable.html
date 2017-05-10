@@ -159,6 +159,9 @@
 <span id="cid-stable"></span><span id="doxid-classstable"></span><span id="index-0"></span><h1>class STable<a class="headerlink" href="#class-stable" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;STable.h&gt;</span>
+</pre>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <pre class="highlight overview-code-block literal-block" id="cid-stable-readfromfile">
@@ -175,17 +178,17 @@ SRow<span></span><span class="o">&amp;</span> <span class="n">AddRow</span> <spa
 <span class="kt">void</span> <span class="n">AddField</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Field</span><span class="p">)</span>
 <span class="kt">bool</span> <span class="n">HasField</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Field</span><span class="p">)</span>
 
-SRange<span></span> <span class="o">&lt;</span><span class="n">f64</span><span class="o">&gt;</span> GetFieldRange<span></span> <span class="p">(</span>
+SRange<span></span> <span class="o">&lt;</span>f64<span></span><span class="o">&gt;</span> GetFieldRange<span></span> <span class="p">(</span>
     <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Field</span><span class="p">,</span>
     <span class="kt">double</span> <span class="k">const</span> <span class="n">OutlierCutoff</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span>
-    SRange<span></span> <span class="o">&lt;</span><span class="n">f64</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">acceptedValues</span> <span class="o">=</span> SRange<span></span> <span class="o">&lt;</span><span class="n">f64</span><span class="o">&gt;::</span><span class="n">Full</span>
+    SRange<span></span> <span class="o">&lt;</span>f64<span></span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">acceptedValues</span> <span class="o">=</span> SRange<span></span> <span class="o">&lt;</span>f64<span></span><span class="o">&gt;::</span><span class="n">Full</span>
     <span class="p">)</span>
 
 SFieldIterator<span></span> <span class="n">Begin</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Field</span><span class="p">)</span>
 SFieldIterator<span></span> <span class="n">End</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Field</span><span class="p">)</span>
 <span class="n">vector</span> <span class="o">&lt;</span>SRow<span></span><span class="o">&gt;::</span><span class="n">iterator</span> <span class="n">begin</span> <span class="p">()</span>
 <span class="n">vector</span> <span class="o">&lt;</span>SRow<span></span><span class="o">&gt;::</span><span class="n">iterator</span> <span class="n">end</span> <span class="p">()</span>
-<span class="n">u64</span> <span class="n">Size</span> <span class="p">()</span>
+u64<span></span> <span class="n">Size</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">Clear</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">WriteToFile</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">ofstream</span><span class="o">&amp;</span> <span class="n">File</span><span class="p">)</span>
 <span class="kt">void</span> <span class="n">ReadFromFile</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">ifstream</span><span class="o">&amp;</span> <span class="n">File</span><span class="p">)</span>
@@ -196,10 +199,10 @@ SFieldIterator<span></span> <span class="n">End</span> <span class="p">(</span><
 <div class="section" id="methods">
 <h3>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
 <pre class="highlight title-code-block literal-block" id="cid-stable-getfieldrange">
-<span id="doxid-classstable-1a3110d9a274e0878fe2a03089596de942"></span>SRange<span></span> <span class="o">&lt;</span><span class="n">f64</span><span class="o">&gt;</span> <span class="n">GetFieldRange</span> <span class="p">(</span>
+<span id="doxid-classstable-1a3110d9a274e0878fe2a03089596de942"></span>SRange<span></span> <span class="o">&lt;</span>f64<span></span><span class="o">&gt;</span> <span class="n">GetFieldRange</span> <span class="p">(</span>
     <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Field</span><span class="p">,</span>
     <span class="kt">double</span> <span class="k">const</span> <span class="n">OutlierCutoff</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span>
-    SRange<span></span> <span class="o">&lt;</span><span class="n">f64</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">acceptedValues</span> <span class="o">=</span> SRange<span></span> <span class="o">&lt;</span><span class="n">f64</span><span class="o">&gt;::</span><span class="n">Full</span>
+    SRange<span></span> <span class="o">&lt;</span>f64<span></span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">acceptedValues</span> <span class="o">=</span> SRange<span></span> <span class="o">&lt;</span>f64<span></span><span class="o">&gt;::</span><span class="n">Full</span>
     <span class="p">)</span>
 </pre>
 <p class="rubric">Parameters:</p>

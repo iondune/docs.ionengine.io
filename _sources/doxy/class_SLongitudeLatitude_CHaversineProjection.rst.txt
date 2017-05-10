@@ -10,6 +10,10 @@ class SLongitudeLatitude.CHaversineProjection
 
 	enum_SLongitudeLatitude_CHaversineProjection_EOffsetMode.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SLongitudeLatitude.h>
 
 
 
@@ -33,7 +37,7 @@ class SLongitudeLatitude.CHaversineProjection
 
 	// fields
 
-	EOffsetMode OffsetMode
+	:ref:`EOffsetMode<doxid-classSLongitudeLatitude_1_1CHaversineProjection_1a7b6c8e3fce61cce01c93bf6faec6467a>` OffsetMode
 
 	// methods
 
@@ -48,5 +52,5 @@ class SLongitudeLatitude.CHaversineProjection
 	    )
 
 	CHaversineProjection ()
-	CHaversineProjection (EOffsetMode const offsetMode)
+	CHaversineProjection (:ref:`EOffsetMode<doxid-classSLongitudeLatitude_1_1CHaversineProjection_1a7b6c8e3fce61cce01c93bf6faec6467a>` const offsetMode)
 

@@ -8,6 +8,10 @@ class ion.CStateManager
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CStateManager.h>
 
 
 
@@ -29,7 +33,7 @@ class ion.CStateManager
 
 	void SetState (:ref:`IState<doxid-classIState>`* State)
 	void DoStateChange ()
-	void Update (f32 const ElapsedTime)
+	void Update (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const ElapsedTime)
 	void Connect (:ref:`CWindow<doxid-classion_1_1CWindow>`* Window)
 	void ShutDown ()
 

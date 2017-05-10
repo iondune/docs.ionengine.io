@@ -8,6 +8,10 @@ class STransformation3
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <STransformation3.h>
 
 
 
@@ -57,15 +61,15 @@ class STransformation3
 	glm::mat4 const Get ()
 	void Update ()
 	void SetRotation (glm::mat4 const& rotation)
-	void SetRotation (:ref:`vec3f<doxid-structvec3>` const& rotation)
-	:ref:`vec3f<doxid-structvec3>` GetRotation ()
-	void SetScale (:ref:`vec3f<doxid-structvec3>` const& scale)
-	:ref:`vec3f<doxid-structvec3>` GetScale ()
-	void SetTranslation (:ref:`vec3f<doxid-structvec3>` const& translation)
-	:ref:`vec3f<doxid-structvec3>` GetTranslation ()
+	void SetRotation (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& rotation)
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` GetRotation ()
+	void SetScale (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& scale)
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` GetScale ()
+	void SetTranslation (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& translation)
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` GetTranslation ()
 	void Set (glm::mat4 const& Transformation)
-	void SetRotationOrder (ERotationOrder const RotationOrder)
-	ERotationOrder GetRotationOrder ()
-	void SetOrder (ETransformationOrder const TransformationOrder)
-	ETransformationOrder GetOrder ()
+	void SetRotationOrder (:ref:`ERotationOrder<doxid-STransformation3_8h_1a0f52acd0ddbd7c3b492ba9ed57139e4e>` const RotationOrder)
+	:ref:`ERotationOrder<doxid-STransformation3_8h_1a0f52acd0ddbd7c3b492ba9ed57139e4e>` GetRotationOrder ()
+	void SetOrder (:ref:`ETransformationOrder<doxid-STransformation3_8h_1ad55879292d49039e900abcdcf9415199>` const TransformationOrder)
+	:ref:`ETransformationOrder<doxid-STransformation3_8h_1ad55879292d49039e900abcdcf9415199>` GetOrder ()
 

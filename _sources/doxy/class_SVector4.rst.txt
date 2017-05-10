@@ -8,6 +8,10 @@ class SVector4 <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVector4.h>
 
 
 Overview

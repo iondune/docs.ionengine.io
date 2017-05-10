@@ -8,6 +8,10 @@ class ion.CSceneManager
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CSceneManager.h>
 
 
 

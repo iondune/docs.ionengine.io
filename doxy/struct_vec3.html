@@ -159,6 +159,9 @@
 <span id="cid-vec3"></span><span id="doxid-structvec3"></span><span id="index-0"></span><h1>struct vec3 &lt;typename T&gt;<a class="headerlink" href="#struct-vec3-typename-t" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;SVector3.h&gt;</span>
+</pre>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <pre class="highlight overview-code-block literal-block" id="cid-vec3-fromglm-2">
@@ -237,17 +240,17 @@
 
 <span class="kt">void</span> <span class="n">Transform</span> <span class="p">(</span>
     <span class="n">glm</span><span class="o">::</span><span class="n">mat4</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">mat</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">TranslateComponent</span> <span class="o">=</span> <span class="mi">1</span>
+    f32<span></span> <span class="k">const</span> <span class="n">TranslateComponent</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="p">)</span>
 
 <a class="reference internal" href="#doxid-structvec3"><span class="std std-ref">vec3</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">GetTransformed</span> <span class="p">(</span>
     <span class="n">glm</span><span class="o">::</span><span class="n">mat4</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">mat</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">TranslateComponent</span> <span class="o">=</span> <span class="mi">1</span>
+    f32<span></span> <span class="k">const</span> <span class="n">TranslateComponent</span> <span class="o">=</span> <span class="mi">1</span>
     <span class="p">)</span>
 
 <a class="reference internal" href="#doxid-structvec3"><span class="std std-ref">vec3</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">RotateAround</span> <span class="p">(</span>
     <a class="reference internal" href="#doxid-structvec3"><span class="std std-ref">vec3</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">radians</span>
+    f32<span></span> <span class="k">const</span> <span class="n">radians</span>
     <span class="p">)</span>
 
 <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2</span></a><span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">XY</span> <span class="p">()</span>

@@ -542,83 +542,83 @@ Overview
 	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <T> boundingbox3
 	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <T> bbox3
 	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <T> box3
-	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <f32> SBoundingBox3f
-	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <f64> SBoundingBox3d
-	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <s32> SBoundingBox3i
-	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <f32> box3f
-	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <f64> box3d
-	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <s32> box3i
-	typedef :ref:`color3<doxid-classcolor3>` <u8> SColori
-	typedef :ref:`color3<doxid-classcolor3>` <u8> SColorc
-	typedef :ref:`SColorA<doxid-classSColorA>` <u8> SColorAi
-	typedef :ref:`SColorA<doxid-classSColorA>` <u8> SColorAc
-	typedef :ref:`color3<doxid-classcolor3>` <u8> SColor24
-	typedef :ref:`SColorA<doxid-classSColorA>` <u8> SColor32
-	typedef :ref:`color3<doxid-classcolor3>` <f32> SColorf
-	typedef :ref:`SColorA<doxid-classSColorA>` <f32> SColorAf
-	typedef :ref:`color3<doxid-classcolor3>` <f32> SColor72
-	typedef :ref:`SColorA<doxid-classSColorA>` <f32> SColor96
-	typedef :ref:`color3<doxid-classcolor3>` <f64> SColord
-	typedef :ref:`SColorA<doxid-classSColorA>` <f64> SColorAd
-	typedef :ref:`color3<doxid-classcolor3>` <f64> SColor192
-	typedef :ref:`SColorA<doxid-classSColorA>` <f64> SColor256
-	typedef :ref:`SColori<doxid-classcolor3>` color3i
-	typedef :ref:`SColorf<doxid-classcolor3>` color3f
-	typedef :ref:`SColorAi<doxid-classSColorA>` color4i
-	typedef :ref:`SColorAf<doxid-classSColorA>` color4f
-	typedef :ref:`SLine3<doxid-classSLine3>` <f32> SLine3f
-	typedef :ref:`SLine3<doxid-classSLine3>` <f64> SLine3d
-	typedef :ref:`SLine3<doxid-classSLine3>` <s32> SLine3i
-	typedef :ref:`SLine3<doxid-classSLine3>` <f32> line3f
-	typedef :ref:`SLine3<doxid-classSLine3>` <f64> line3d
-	typedef :ref:`SLine3<doxid-classSLine3>` <s32> line3i
-	typedef :ref:`SPlane3<doxid-classSPlane3>` <f32> plane3f
-	typedef :ref:`SPlane3<doxid-classSPlane3>` <s32> plane3i
-	typedef :ref:`SRect2<doxid-classSRect2>` <f32> SRect2f
-	typedef :ref:`SRect2<doxid-classSRect2>` <f64> SRect2d
-	typedef :ref:`SRect2<doxid-classSRect2>` <s32> SRect2i
-	typedef :ref:`SRect2<doxid-classSRect2>` <u32> SRect2u
-	typedef :ref:`SRect2f<doxid-classSRect2>` rect2f
-	typedef :ref:`SRect2d<doxid-classSRect2>` rect2d
-	typedef :ref:`SRect2i<doxid-classSRect2>` rect2i
-	typedef :ref:`SRect2u<doxid-classSRect2>` rect2u
-	typedef :ref:`STriangle2<doxid-classSTriangle2>` <f32> STriangle2f
-	typedef :ref:`STriangle2<doxid-classSTriangle2>` <f64> STriangle2d
-	typedef :ref:`STriangle2<doxid-classSTriangle2>` <s32> STriangle2i
-	typedef :ref:`STriangle2<doxid-classSTriangle2>` <u32> STriangle2u
-	typedef :ref:`STriangle2f<doxid-classSTriangle2>` tri2f
-	typedef :ref:`STriangle2d<doxid-classSTriangle2>` tri2d
-	typedef :ref:`STriangle2i<doxid-classSTriangle2>` tri2i
-	typedef :ref:`STriangle2u<doxid-classSTriangle2>` tri2u
-	typedef :ref:`STriangle3<doxid-classSTriangle3>` <f32> STriangle3f
-	typedef :ref:`STriangle3<doxid-classSTriangle3>` <f64> STriangle3d
-	typedef :ref:`STriangle3<doxid-classSTriangle3>` <s32> STriangle3i
-	typedef :ref:`STriangle3<doxid-classSTriangle3>` <u32> STriangle3u
-	typedef :ref:`STriangle3f<doxid-classSTriangle3>` tri3f
-	typedef :ref:`STriangle3d<doxid-classSTriangle3>` tri3d
-	typedef :ref:`STriangle3i<doxid-classSTriangle3>` tri3i
-	typedef :ref:`STriangle3u<doxid-classSTriangle3>` tri3u
-	typedef :ref:`vec2<doxid-structvec2>` <f32> vec2f
-	typedef :ref:`vec2<doxid-structvec2>` <f64> vec2d
-	typedef :ref:`vec2<doxid-structvec2>` <s32> vec2i
-	typedef :ref:`vec2<doxid-structvec2>` <u32> vec2u
-	typedef :ref:`vec3<doxid-structvec3>` <f32> vec3f
-	typedef :ref:`vec3<doxid-structvec3>` <f64> vec3d
-	typedef :ref:`vec3<doxid-structvec3>` <s32> vec3i
-	typedef :ref:`vec3<doxid-structvec3>` <u32> vec3u
-	typedef :ref:`SVector4<doxid-classSVector4>` <f32> SVector4f
-	typedef :ref:`SVector4<doxid-classSVector4>` <f64> SVector4d
-	typedef :ref:`SVector4<doxid-classSVector4>` <s32> SVector4i
-	typedef :ref:`SVector4<doxid-classSVector4>` <u32> SVector4u
-	typedef :ref:`SVector4f<doxid-classSVector4>` vec4f
-	typedef :ref:`SVector4d<doxid-classSVector4>` vec4d
-	typedef :ref:`SVector4i<doxid-classSVector4>` vec4i
-	typedef :ref:`SVector4u<doxid-classSVector4>` vec4u
+	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> SBoundingBox3f
+	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> SBoundingBox3d
+	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> SBoundingBox3i
+	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> box3f
+	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> box3d
+	typedef :ref:`SBoundingBox3<doxid-classSBoundingBox3>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> box3i
+	typedef :ref:`color3<doxid-classcolor3>` <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`> SColori
+	typedef :ref:`color3<doxid-classcolor3>` <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`> SColorc
+	typedef :ref:`SColorA<doxid-classSColorA>` <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`> SColorAi
+	typedef :ref:`SColorA<doxid-classSColorA>` <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`> SColorAc
+	typedef :ref:`color3<doxid-classcolor3>` <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`> SColor24
+	typedef :ref:`SColorA<doxid-classSColorA>` <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`> SColor32
+	typedef :ref:`color3<doxid-classcolor3>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> SColorf
+	typedef :ref:`SColorA<doxid-classSColorA>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> SColorAf
+	typedef :ref:`color3<doxid-classcolor3>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> SColor72
+	typedef :ref:`SColorA<doxid-classSColorA>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> SColor96
+	typedef :ref:`color3<doxid-classcolor3>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> SColord
+	typedef :ref:`SColorA<doxid-classSColorA>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> SColorAd
+	typedef :ref:`color3<doxid-classcolor3>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> SColor192
+	typedef :ref:`SColorA<doxid-classSColorA>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> SColor256
+	typedef :ref:`SColori<doxid-SColor_8h_1a7a88e3841cc316742ab233ee207d3a40>` color3i
+	typedef :ref:`SColorf<doxid-SColor_8h_1a65161ce2161777c1c9b8cfefa0a4eec5>` color3f
+	typedef :ref:`SColorAi<doxid-SColor_8h_1a90259a7a4c5b60675fc1c7d35d0d92e9>` color4i
+	typedef :ref:`SColorAf<doxid-SColor_8h_1ad2d779604d98262524e93f4903f2c7d9>` color4f
+	typedef :ref:`SLine3<doxid-classSLine3>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> SLine3f
+	typedef :ref:`SLine3<doxid-classSLine3>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> SLine3d
+	typedef :ref:`SLine3<doxid-classSLine3>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> SLine3i
+	typedef :ref:`SLine3<doxid-classSLine3>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> line3f
+	typedef :ref:`SLine3<doxid-classSLine3>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> line3d
+	typedef :ref:`SLine3<doxid-classSLine3>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> line3i
+	typedef :ref:`SPlane3<doxid-classSPlane3>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> plane3f
+	typedef :ref:`SPlane3<doxid-classSPlane3>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> plane3i
+	typedef :ref:`SRect2<doxid-classSRect2>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> SRect2f
+	typedef :ref:`SRect2<doxid-classSRect2>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> SRect2d
+	typedef :ref:`SRect2<doxid-classSRect2>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> SRect2i
+	typedef :ref:`SRect2<doxid-classSRect2>` <:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>`> SRect2u
+	typedef :ref:`SRect2f<doxid-SRect2_8h_1aee9514400455062b232a020f6ae22912>` rect2f
+	typedef :ref:`SRect2d<doxid-SRect2_8h_1ab0bf8d569786d1c1a6211720f4e4f686>` rect2d
+	typedef :ref:`SRect2i<doxid-SRect2_8h_1ab66f40468766b659251b6820b914415c>` rect2i
+	typedef :ref:`SRect2u<doxid-SRect2_8h_1a9194d4fe8790c4c7556157a6e4e28a0c>` rect2u
+	typedef :ref:`STriangle2<doxid-classSTriangle2>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> STriangle2f
+	typedef :ref:`STriangle2<doxid-classSTriangle2>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> STriangle2d
+	typedef :ref:`STriangle2<doxid-classSTriangle2>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> STriangle2i
+	typedef :ref:`STriangle2<doxid-classSTriangle2>` <:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>`> STriangle2u
+	typedef :ref:`STriangle2f<doxid-STriangle2_8h_1ab83819f2767fa99760fe6812b0f5c10e>` tri2f
+	typedef :ref:`STriangle2d<doxid-STriangle2_8h_1a65fb8a94cd12a3832cf3e31a840d5e24>` tri2d
+	typedef :ref:`STriangle2i<doxid-STriangle2_8h_1a11ae45a0b71be253006dc371715149c6>` tri2i
+	typedef :ref:`STriangle2u<doxid-STriangle2_8h_1a354a4a9bb81393e4359c79792cb52e99>` tri2u
+	typedef :ref:`STriangle3<doxid-classSTriangle3>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> STriangle3f
+	typedef :ref:`STriangle3<doxid-classSTriangle3>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> STriangle3d
+	typedef :ref:`STriangle3<doxid-classSTriangle3>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> STriangle3i
+	typedef :ref:`STriangle3<doxid-classSTriangle3>` <:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>`> STriangle3u
+	typedef :ref:`STriangle3f<doxid-STriangle3_8h_1a8057e21655e13b4f9c09551578184c7e>` tri3f
+	typedef :ref:`STriangle3d<doxid-STriangle3_8h_1a759c5d6b50f9ca192ee1b35f1faca63a>` tri3d
+	typedef :ref:`STriangle3i<doxid-STriangle3_8h_1a907f20c7807838335fec0fadb45d56f1>` tri3i
+	typedef :ref:`STriangle3u<doxid-STriangle3_8h_1aca74aa886a9cfd151821c5eae1a7254f>` tri3u
+	typedef :ref:`vec2<doxid-structvec2>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> vec2f
+	typedef :ref:`vec2<doxid-structvec2>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> vec2d
+	typedef :ref:`vec2<doxid-structvec2>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> vec2i
+	typedef :ref:`vec2<doxid-structvec2>` <:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>`> vec2u
+	typedef :ref:`vec3<doxid-structvec3>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> vec3f
+	typedef :ref:`vec3<doxid-structvec3>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> vec3d
+	typedef :ref:`vec3<doxid-structvec3>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> vec3i
+	typedef :ref:`vec3<doxid-structvec3>` <:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>`> vec3u
+	typedef :ref:`SVector4<doxid-classSVector4>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> SVector4f
+	typedef :ref:`SVector4<doxid-classSVector4>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> SVector4d
+	typedef :ref:`SVector4<doxid-classSVector4>` <:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>`> SVector4i
+	typedef :ref:`SVector4<doxid-classSVector4>` <:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>`> SVector4u
+	typedef :ref:`SVector4f<doxid-SVector4_8h_1a17e9bf52c6f58db22eb48fad202ec5fc>` vec4f
+	typedef :ref:`SVector4d<doxid-SVector4_8h_1aba582526130100fd8df46ad2653dc774>` vec4d
+	typedef :ref:`SVector4i<doxid-SVector4_8h_1a57b55948ae81d494cc80d238c5504bbc>` vec4i
+	typedef :ref:`SVector4u<doxid-SVector4_8h_1ac81b7fbbe877507e90854e542b99f5d7>` vec4u
 	typedef :ref:`SVolume<doxid-structSVolume>` <:ref:`SMarchingCubesPoint<doxid-structSMarchingCubesPoint>`> SMarchingCubesVolume
-	typedef :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` <f32> SLongitudeLatitudef
-	typedef :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` <f64> SLongitudeLatituded
-	typedef :ref:`SLongitudeLatitudef<doxid-structSLongitudeLatitude>` longlatf
-	typedef :ref:`SLongitudeLatituded<doxid-structSLongitudeLatitude>` longlatd
+	typedef :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> SLongitudeLatitudef
+	typedef :ref:`SLongitudeLatitude<doxid-structSLongitudeLatitude>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> SLongitudeLatituded
+	typedef :ref:`SLongitudeLatitudef<doxid-SLongitudeLatitude_8h_1a10669b0859c205b2da6c4a31e43bc971>` longlatf
+	typedef :ref:`SLongitudeLatituded<doxid-SLongitudeLatitude_8h_1a082a2a9c302fc02d7a6db190a981e134>` longlatd
 
 	// enums
 
@@ -687,34 +687,34 @@ Overview
 
 	// global variables
 
-	f32 const :ref:`RoundingError32<doxid-ionComparison_8h_1afde5ca017516ef0dda6f671f1719665c>`
-	f64 const :ref:`RoundingError64<doxid-ionComparison_8h_1a2f4e95d8140febde9cf09d14e21a6027>`
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const :ref:`RoundingError32<doxid-ionComparison_8h_1afde5ca017516ef0dda6f671f1719665c>`
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const :ref:`RoundingError64<doxid-ionComparison_8h_1a2f4e95d8140febde9cf09d14e21a6027>`
 	int const DefaultColorTableCount
 	int DefaultColorTable [DefaultColorTableCount][3]
-	s32 const TriTable [256][16]
-	u32 const EdgeTable [256]
-	u32 const EdgeTable [256]
-	s32 const TriTable [256][16]
+	:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const TriTable [256][16]
+	:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const EdgeTable [256]
+	:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const EdgeTable [256]
+	:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` const TriTable [256][16]
 	The MIT free of charge
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without restriction
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to use
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to copy
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to modify
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to merge
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to publish
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to distribute
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to sublicense
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the Software
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do so
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do subject to the following conditions
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do subject to the following WITHOUT WARRANTY OF ANY KIND
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR IMPLIED
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES OR OTHER WHETHER IN AN ACTION OF CONTRACT
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES OR OTHER WHETHER IN AN ACTION OF TORT OR OTHERWISE
-	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the and to permit persons to whom the Software is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES OR OTHER WHETHER IN AN ACTION OF TORT OR ARISING FROM
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without restriction
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to use
+	The MIT free of to any person obtaining a copy of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to copy
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to modify
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to merge
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to publish
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to distribute
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to sublicense
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the Software without including without limitation the rights to and or sell copies of the Software
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do so
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do subject to the following conditions
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do subject to the following WITHOUT WARRANTY OF ANY KIND
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR IMPLIED
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES OR OTHER WHETHER IN AN ACTION OF CONTRACT
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES OR OTHER WHETHER IN AN ACTION OF TORT OR OTHERWISE
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation to deal in the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` without including without limitation the rights to and or sell copies of the and to permit persons to whom the :ref:`Software<doxid-LICENSE_8txt_1a22a1529885b3e9d66b0c72fe604fc3dc>` is furnished to do subject to the following WITHOUT WARRANTY OF ANY EXPRESS OR INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES OR OTHER WHETHER IN AN ACTION OF TORT OR ARISING FROM
 
 	// global functions
 
@@ -826,16 +826,16 @@ Overview
 
 	float frand ()
 	float nrand ()
-	SharedPointer <T> SharedFromNew <typename T> (T*const t)
-	SharedPointer <T> MakeShared <typename T, typename... Args> (Args&&... args)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <T> SharedFromNew <typename T> (T*const t)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <T> MakeShared <typename T, typename... Args> (Args&&... args)
 
 	U* ConditionalMapAccess <typename T, typename U> (
 	    map <T, U*> const& Map,
 	    T const Key
 	    )
 
-	SharedPointer <U> ConditionalMapAccess <typename T, typename U> (
-	    map <T, SharedPointer <U>> const& Map,
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <U> ConditionalMapAccess <typename T, typename U> (
+	    map <T, :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <U>> const& Map,
 	    T const Key
 	    )
 
@@ -855,7 +855,7 @@ Overview
 	    U& Value
 	    )
 
-	set <T> KeySet <typename T, typename U> (map <T, U> const& Map)
+	:ref:`set<doxid-CMakeLists_8txt_1ac9ac42ec0c4bee9c9949dfbfd1383760>` <T> KeySet <typename T, typename U> (map <T, U> const& Map)
 
 	void AddAtEnd <typename T> (
 	    vector <T>& A,
@@ -902,7 +902,7 @@ Overview
 	    )
 
 	T MakeEven <typename T> (T const i)
-	s32 Sign <typename T> (T const& val)
+	:ref:`s32<doxid-ionTypes_8h_1a19ec9c0153bbfa7825d003a20d4ef310>` Sign <typename T> (T const& val)
 	T ToggleBool <typename T> (T& Condition)
 	void PrintShaderInfoLog (GLint const Shader)
 	void PrintProgramInfoLog (GLint const Shader)
@@ -976,10 +976,10 @@ Overview
 	    T sigma
 	    )
 
-	void CalculateGradient (:ref:`SMarchingCubesVolume<doxid-structSVolume>`& Volume)
-	:ref:`ion::Scene::CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* MarchingCubes (:ref:`SMarchingCubesVolume<doxid-structSVolume>`& Volume)
-	void CalculateGradient (:ref:`SMarchingCubesVolume<doxid-structSVolume>`& Volume)
-	:ref:`ion::Scene::CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* MarchingCubes (:ref:`SMarchingCubesVolume<doxid-structSVolume>`& Volume)
+	void CalculateGradient (:ref:`SMarchingCubesVolume<doxid-MarchingCubes_8h_1a2263a6f93d844a69548267b5671f9478>`& Volume)
+	:ref:`ion::Scene::CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* MarchingCubes (:ref:`SMarchingCubesVolume<doxid-MarchingCubes_8h_1a2263a6f93d844a69548267b5671f9478>`& Volume)
+	void CalculateGradient (:ref:`SMarchingCubesVolume<doxid-MarchingCubes_8h_1a2263a6f93d844a69548267b5671f9478>`& Volume)
+	:ref:`ion::Scene::CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* MarchingCubes (:ref:`SMarchingCubesVolume<doxid-MarchingCubes_8h_1a2263a6f93d844a69548267b5671f9478>`& Volume)
 
 	Iterator MaximumRealElement <class Iterator> (
 	    Iterator First,
@@ -992,7 +992,7 @@ Overview
 	    )
 
 	The MIT License (MIT)
-	The MIT free of to any person obtaining a copy of this software and associated documentation files (the"Software")
+	The MIT free of to any person obtaining a :ref:`copy<doxid-LICENSE_8txt_1aff1d4c6b756ebf691fa44a0904f68658>` of this software and associated documentation files (the"Software")
 
 	// macros
 
@@ -1019,7 +1019,7 @@ Global Variables
 .. ref-code-block:: cpp
 	:class: title-code-block
 
-	f32 const RoundingError32
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const RoundingError32
 
 Global constant for 32bit floating-point epsilon.
 
@@ -1028,7 +1028,7 @@ Global constant for 32bit floating-point epsilon.
 .. ref-code-block:: cpp
 	:class: title-code-block
 
-	f64 const RoundingError64
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const RoundingError64
 
 Global constant for 64bit floating-point epsilon.
 

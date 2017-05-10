@@ -8,6 +8,10 @@ class SVolume.SConstLayerAccess
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVolume.h>
 
 
 
@@ -19,5 +23,5 @@ class SVolume.SConstLayerAccess
 
 	// methods
 
-	:ref:`SConstRowAccess<doxid-classSVolume_1_1SConstRowAccess>` operator[] (u32 const Y)
+	:ref:`SConstRowAccess<doxid-classSVolume_1_1SConstRowAccess>` operator[] (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const Y)
 

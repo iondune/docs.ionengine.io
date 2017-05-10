@@ -8,6 +8,10 @@ class IEntity <typename TComponent>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionComponent.h>
 
 
 Overview

@@ -8,6 +8,10 @@ struct ion.Scene.SSimpleMaterial
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CSimpleMesh.h>
 
 
 
@@ -37,14 +41,14 @@ struct ion.Scene.SSimpleMaterial
 
 	// fields
 
-	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`color3f<doxid-classcolor3>`> Ambient
-	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`color3f<doxid-classcolor3>`> Diffuse
-	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`color3f<doxid-classcolor3>`> Specular
-	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <f32> Shininess
+	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`color3f<doxid-SColor_8h_1a3b7aefaabad9501bb8428eeeb1e6e4df>`> Ambient
+	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`color3f<doxid-SColor_8h_1a3b7aefaabad9501bb8428eeeb1e6e4df>`> Diffuse
+	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`color3f<doxid-SColor_8h_1a3b7aefaabad9501bb8428eeeb1e6e4df>`> Specular
+	:ref:`Graphics::CUniform<doxid-classion_1_1Graphics_1_1CUniform>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`> Shininess
 	:ref:`CImage<doxid-classion_1_1CImage>`* DiffuseImage
 	:ref:`CImage<doxid-classion_1_1CImage>`* AmbientImage
-	SharedPointer <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> DiffuseTexture
-	SharedPointer <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> AmbientTexture
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> DiffuseTexture
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> AmbientTexture
 
 	// methods
 

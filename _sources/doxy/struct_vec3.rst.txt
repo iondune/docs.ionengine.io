@@ -8,6 +8,10 @@ struct vec3 <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVector3.h>
 
 
 Overview
@@ -169,17 +173,17 @@ Overview
 
 	void Transform (
 	    glm::mat4 const& mat,
-	    f32 const TranslateComponent = 1
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const TranslateComponent = 1
 	    )
 
 	:ref:`vec3<doxid-structvec3>` <T> GetTransformed (
 	    glm::mat4 const& mat,
-	    f32 const TranslateComponent = 1
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const TranslateComponent = 1
 	    )
 
 	:ref:`vec3<doxid-structvec3>` <T> RotateAround (
 	    :ref:`vec3<doxid-structvec3>` <T> const& other,
-	    f32 const radians
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const radians
 	    )
 
 	:ref:`vec2<doxid-structvec2>` <T> XY ()

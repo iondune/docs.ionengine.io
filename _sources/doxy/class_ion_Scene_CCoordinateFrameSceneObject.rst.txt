@@ -8,6 +8,10 @@ class ion.Scene.CCoordinateFrameSceneObject
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CCoordinateFrameSceneObject.h>
 
 
 
@@ -31,5 +35,5 @@ class ion.Scene.CCoordinateFrameSceneObject
 	~CCoordinateFrameSceneObject ()
 	void Load (:ref:`CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`* RenderPass)
 	void Draw (:ref:`CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`* RenderPass)
-	void SetShader (SharedPointer <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> Shader)
+	void SetShader (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> Shader)
 

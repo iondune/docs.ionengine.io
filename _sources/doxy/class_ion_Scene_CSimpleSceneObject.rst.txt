@@ -8,6 +8,10 @@ class ion.Scene.CSimpleSceneObject
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CSimpleSceneObject.h>
 
 
 
@@ -54,35 +58,35 @@ class ion.Scene.CSimpleSceneObject
 	~CSimpleSceneObject ()
 	void Load (:ref:`CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`* RenderPass)
 	void Draw (:ref:`CRenderPass<doxid-classion_1_1Scene_1_1CRenderPass>`* RenderPass)
-	void SetIndexBuffer (SharedPointer <:ref:`Graphics::IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> IndexBuffer)
+	void SetIndexBuffer (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> IndexBuffer)
 
 	void SetVertexBuffer (
-	    uint const Index,
-	    SharedPointer <:ref:`Graphics::IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> VertexBuffer
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const Index,
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> VertexBuffer
 	    )
 
-	void SetShader (SharedPointer <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> Shader)
+	void SetShader (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> Shader)
 
 	void SetTexture (
 	    string const& Name,
-	    SharedPointer <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
 	    )
 
 	void SetUniform (
 	    string const& Name,
-	    SharedPointer <:ref:`Graphics::IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
 	    )
 
 	void SetFeatureEnabled (
-	    Graphics::EDrawFeature const Feature,
+	    :ref:`Graphics::EDrawFeature<doxid-namespaceion_1_1Graphics_1a5e576a7b5e19dd1eb42f99e9baff1624>` const Feature,
 	    bool const Enabled
 	    )
 
 	void SetPolygonOffsetAmount (float const Amount)
-	void SetBlendMode (Graphics::EBlendMode const BlendMode)
-	void SetPrimitiveType (Graphics::EPrimitiveType const PrimitiveType)
-	void SetRenderCategory (uint const Category)
-	void SetInstanceCount (uint const InstanceCount)
+	void SetBlendMode (:ref:`Graphics::EBlendMode<doxid-namespaceion_1_1Graphics_1a34af4cbb53768ca7b9f8563f855811fa>` const BlendMode)
+	void SetPrimitiveType (:ref:`Graphics::EPrimitiveType<doxid-namespaceion_1_1Graphics_1abaf78fc03c5ec5232f8c60d745978576>` const PrimitiveType)
+	void SetRenderCategory (:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const Category)
+	void SetInstanceCount (:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const InstanceCount)
 	:ref:`SSimpleMaterial<doxid-struction_1_1Scene_1_1SSimpleMaterial>`& GetMaterial ()
 	:ref:`SSimpleMaterial<doxid-struction_1_1Scene_1_1SSimpleMaterial>` const& GetMaterial ()
 	void SetMaterial (:ref:`SSimpleMaterial<doxid-struction_1_1Scene_1_1SSimpleMaterial>` const& Material)

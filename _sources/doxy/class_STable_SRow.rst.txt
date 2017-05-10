@@ -8,6 +8,10 @@ class STable.SRow
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <STable.h>
 
 
 
@@ -23,7 +27,7 @@ class STable.SRow
 
 	// methods
 
-	f64 GetField (std::string const& Field)
-	f64& GetField (std::string const& Field)
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` GetField (std::string const& Field)
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`& GetField (std::string const& Field)
 	:ref:`SRow<doxid-classSTable_1_1SRow>` operator= (:ref:`SRow<doxid-classSTable_1_1SRow>` const& Other)
 

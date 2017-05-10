@@ -10,6 +10,10 @@ class ion.CGUIManager
 
 	struct_ion_CGUIManager_SDrawText.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CGUIManager.h>
 
 
 
@@ -53,15 +57,15 @@ class ion.CGUIManager
 	void Draw ()
 
 	void Text <typename... Args> (
-	    :ref:`vec2i<doxid-structvec2>` const& Position,
-	    :ref:`color3i<doxid-classcolor3>` const& Color,
+	    :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& Position,
+	    :ref:`color3i<doxid-SColor_8h_1a3206d645bbb469ff0b2119f9b5ba4730>` const& Color,
 	    char const*const Format,
 	    Args const&... args
 	    )
 
 	void TextUnformatted (
-	    :ref:`vec2i<doxid-structvec2>` const& Position,
-	    :ref:`color3i<doxid-classcolor3>` const& Color,
+	    :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& Position,
+	    :ref:`color3i<doxid-SColor_8h_1a3206d645bbb469ff0b2119f9b5ba4730>` const& Color,
 	    string const& Text
 	    )
 
@@ -72,5 +76,5 @@ class ion.CGUIManager
 	    float const Size
 	    )
 
-	ImTextureID GetTextureID (SharedPointer <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> const Texture)
+	ImTextureID GetTextureID (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> const Texture)
 

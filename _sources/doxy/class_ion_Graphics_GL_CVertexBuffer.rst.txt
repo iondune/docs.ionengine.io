@@ -8,6 +8,10 @@ class ion.Graphics.GL.CVertexBuffer
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CVertexBuffer.h>
 
 
 
@@ -33,7 +37,7 @@ class ion.Graphics.GL.CVertexBuffer
 
 	// fields
 
-	uint Handle
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` Handle
 	vector <:ref:`SInputLayoutElement<doxid-struction_1_1Graphics_1_1SInputLayoutElement>`> InputLayout
 	bool Instancing
 

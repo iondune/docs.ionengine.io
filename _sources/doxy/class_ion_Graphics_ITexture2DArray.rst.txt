@@ -8,6 +8,10 @@ class ion.Graphics.ITexture2DArray
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ITexture.h>
 
 
 
@@ -23,16 +27,16 @@ class ion.Graphics.ITexture2DArray
 
 	void Upload (
 	    void const*const Data,
-	    :ref:`vec3u<doxid-structvec3>` const& Size,
-	    EFormatComponents const Components,
-	    EScalarType const Type
+	    :ref:`vec3u<doxid-SVector3_8h_1a8149c3d5a288bb1fe7ffda7eb3178345>` const& Size,
+	    :ref:`EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>` const Components,
+	    :ref:`EScalarType<doxid-namespaceion_1_1Graphics_1a72ee6ac395e628ee8a47b5baa965e611>` const Type
 	    )
 
 	void UploadSubRegion (
 	    void const*const Data,
-	    :ref:`vec3u<doxid-structvec3>` const& Offset,
-	    :ref:`vec3u<doxid-structvec3>` const& Size,
-	    EFormatComponents const Components,
-	    EScalarType const Type
+	    :ref:`vec3u<doxid-SVector3_8h_1a8149c3d5a288bb1fe7ffda7eb3178345>` const& Offset,
+	    :ref:`vec3u<doxid-SVector3_8h_1a8149c3d5a288bb1fe7ffda7eb3178345>` const& Size,
+	    :ref:`EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>` const Components,
+	    :ref:`EScalarType<doxid-namespaceion_1_1Graphics_1a72ee6ac395e628ee8a47b5baa965e611>` const Type
 	    )
 

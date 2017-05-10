@@ -8,6 +8,10 @@ class ion.Graphics.GL.CIndexBuffer
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CIndexBuffer.h>
 
 
 
@@ -25,7 +29,7 @@ class ion.Graphics.GL.CIndexBuffer
 
 	// fields
 
-	uint Handle
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` Handle
 	size_t Size
 
 	// methods
@@ -35,6 +39,6 @@ class ion.Graphics.GL.CIndexBuffer
 	void UploadData (
 	    void const* Data,
 	    size_t const Elements,
-	    EValueType const ValueType
+	    :ref:`EValueType<doxid-namespaceion_1_1Graphics_1ad56369fcca16f9b9920d81b3c5811955>` const ValueType
 	    )
 

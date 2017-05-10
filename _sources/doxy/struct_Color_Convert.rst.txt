@@ -8,6 +8,10 @@ struct Color.Convert <typename T, typename U>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SColor.h>
 
 
 

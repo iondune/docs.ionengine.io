@@ -8,6 +8,10 @@ struct vec2 <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVector2.h>
 
 
 Overview

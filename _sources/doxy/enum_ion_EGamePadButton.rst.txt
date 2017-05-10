@@ -1,5 +1,5 @@
 .. index:: pair: enum; ion.EGamePadButton
-.. _doxid-CGamePad_8h_1a7556e2f50eb5cb19ff72747595655e01:
+.. _doxid-namespaceion_1a7556e2f50eb5cb19ff72747595655e01:
 .. _cid-ion.egamepadbutton:
 
 enum ion.EGamePadButton

@@ -8,6 +8,10 @@ struct Color.Full <f32>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SColor.h>
 
 
 
@@ -19,5 +23,5 @@ struct Color.Full <f32>
 
 	// methods
 
-	f32 Value ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` Value ()
 

@@ -8,6 +8,10 @@ class ion.Scene.ICamera
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ICamera.h>
 
 
 
@@ -37,11 +41,11 @@ class ion.Scene.ICamera
 
 	glm::mat4 GetViewMatrix ()
 	glm::mat4 GetProjectionMatrix ()
-	:ref:`vec3f<doxid-structvec3>` const& GetPosition ()
-	:ref:`vec3f<doxid-structvec3>` const& GetUpVector ()
-	void SetPosition (:ref:`vec3f<doxid-structvec3>` const& position)
-	void SetUpVector (:ref:`vec3f<doxid-structvec3>` const& UpVector)
-	void SetLookDirection (:ref:`vec3f<doxid-structvec3>` const& lookDirection)
-	void SetLookAtTarget (:ref:`vec3f<doxid-structvec3>` const& lookAtTarget)
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& GetPosition ()
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& GetUpVector ()
+	void SetPosition (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& position)
+	void SetUpVector (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& UpVector)
+	void SetLookDirection (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& lookDirection)
+	void SetLookAtTarget (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& lookAtTarget)
 	void Update ()
 

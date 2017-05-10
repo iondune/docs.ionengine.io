@@ -8,6 +8,10 @@ struct ion.Scene.CSimpleMesh.SVertex
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CSimpleMesh.h>
 
 
 
@@ -31,20 +35,20 @@ struct ion.Scene.CSimpleMesh.SVertex
 
 	// fields
 
-	:ref:`vec3f<doxid-structvec3>` Position
-	:ref:`vec3f<doxid-structvec3>` Normal
-	:ref:`color3f<doxid-classcolor3>` Color
-	:ref:`vec3f<doxid-structvec3>` Tangent
-	:ref:`vec2f<doxid-structvec2>` TextureCoordinates
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Position
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Normal
+	:ref:`color3f<doxid-SColor_8h_1a3b7aefaabad9501bb8428eeeb1e6e4df>` Color
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Tangent
+	:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` TextureCoordinates
 
 	// methods
 
 	SVertex ()
 
 	SVertex (
-	    :ref:`vec3f<doxid-structvec3>` const& position,
-	    :ref:`vec3f<doxid-structvec3>` const& normal = :ref:`vec3f<doxid-structvec3>` (),
-	    :ref:`vec2f<doxid-structvec2>` const& texture = :ref:`vec2f<doxid-structvec2>` (),
-	    :ref:`vec3f<doxid-structvec3>` const& tangent = :ref:`vec3f<doxid-structvec3>` ()
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& position,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& normal = :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` (),
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& texture = :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` (),
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& tangent = :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` ()
 	    )
 

@@ -8,6 +8,10 @@ class ion.Graphics.GL.CDepthBuffer
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CDepthBuffer.h>
 
 
 
@@ -23,10 +27,10 @@ class ion.Graphics.GL.CDepthBuffer
 
 	// fields
 
-	uint Handle
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` Handle
 
 	// methods
 
-	CDepthBuffer (:ref:`vec2i<doxid-structvec2>` const& Size)
+	CDepthBuffer (:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& Size)
 	~CDepthBuffer ()
 

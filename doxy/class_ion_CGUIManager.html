@@ -159,6 +159,9 @@
 <span id="cid-ion-cguimanager"></span><span id="doxid-classion-1-1cguimanager"></span><span id="index-0"></span><h1>class ion.CGUIManager<a class="headerlink" href="#class-ion-cguimanager" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;CGUIManager.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-cguimanager-gettextureid">
 <span id="doxid-classion-1-1cguimanager-1a185c4965070008234fb310645a6d44db"></span><span id="cid-ion-cguimanager-addfontfromfile"></span><span id="doxid-classion-1-1cguimanager-1afdb89ba739fefd259cd2aa54494122b7"></span><span id="cid-ion-cguimanager-onevent"></span><span id="doxid-classion-1-1cguimanager-1a85851d145514cf1388079cd1cef1955a"></span><span id="cid-ion-cguimanager-textunformatted"></span><span id="doxid-classion-1-1cguimanager-1a0f36a7a60dee60543a91b3dbd6695e9c"></span><span id="cid-ion-cguimanager-text"></span><span id="doxid-classion-1-1cguimanager-1ab36006acfd5dd51876f11de42f42743e"></span><span id="cid-ion-cguimanager-draw"></span><span id="doxid-classion-1-1cguimanager-1a4d99983d5a64f5b839ddfba69fd982a5"></span><span id="cid-ion-cguimanager-newframe"></span><span id="doxid-classion-1-1cguimanager-1a71227bed5dbdbe4bde8110768d1250d5"></span><span id="cid-ion-cguimanager-shutdown"></span><span id="doxid-classion-1-1cguimanager-1aaf1d47f72a36acecb82f0313548ac0aa"></span><span id="cid-ion-cguimanager-init"></span><span id="doxid-classion-1-1cguimanager-1a0d6b28ef77459bd57924bea4ec7b3d3b"></span><span id="cid-ion-cguimanager-io"></span><span id="doxid-classion-1-1cguimanager-1aed01b274534bcabe573c2ee5beff533a"></span><span></span><span class="c1">// structs</span>
 
@@ -176,15 +179,15 @@
 <span class="kt">void</span> <span class="n">Draw</span> <span class="p">()</span>
 
 <span class="kt">void</span> <span class="n">Text</span> <span class="o">&lt;</span><span class="k">typename</span><span class="p">...</span> <span class="n">Args</span><span class="o">&gt;</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2i</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Position</span><span class="p">,</span>
-    <a class="reference internal" href="class_color3.html#doxid-classcolor3"><span class="std std-ref">color3i</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Color</span><span class="p">,</span>
+    vec2i<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Position</span><span class="p">,</span>
+    color3i<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Color</span><span class="p">,</span>
     <span class="kt">char</span> <span class="k">const</span><span class="o">*</span><span class="k">const</span> <span class="n">Format</span><span class="p">,</span>
     <span class="n">Args</span> <span class="k">const</span><span class="o">&amp;</span><span class="p">...</span> <span class="n">args</span>
     <span class="p">)</span>
 
 <span class="kt">void</span> <span class="n">TextUnformatted</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2i</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Position</span><span class="p">,</span>
-    <a class="reference internal" href="class_color3.html#doxid-classcolor3"><span class="std std-ref">color3i</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Color</span><span class="p">,</span>
+    vec2i<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Position</span><span class="p">,</span>
+    color3i<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Color</span><span class="p">,</span>
     <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Text</span>
     <span class="p">)</span>
 
@@ -195,7 +198,7 @@
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Size</span>
     <span class="p">)</span>
 
-<span class="n">ImTextureID</span> <span class="n">GetTextureID</span> <span class="p">(</span><span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::ITexture2D<span></span><span class="o">&gt;</span> <span class="k">const</span> <span class="n">Texture</span><span class="p">)</span>
+<span class="n">ImTextureID</span> <span class="n">GetTextureID</span> <span class="p">(</span>SharedPointer<span></span> <span class="o">&lt;</span>Graphics::ITexture2D<span></span><span class="o">&gt;</span> <span class="k">const</span> <span class="n">Texture</span><span class="p">)</span>
 </pre>
 </div>
 

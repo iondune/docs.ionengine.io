@@ -159,26 +159,29 @@
 <span id="cid-ion-scene-cperspectivecamera"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera"></span><span id="index-0"></span><h1>class ion.Scene.CPerspectiveCamera<a class="headerlink" href="#class-ion-scene-cperspectivecamera" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;CPerspectiveCamera.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-scene-cperspectivecamera-setprojectiontype">
 <span id="doxid-classion-1-1scene-1-1cperspectivecamera-1a8eaa5714ea7cbe627abd74f5bfcec501"></span><span id="cid-ion-scene-cperspectivecamera-getprojectiontype"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1a12e7778bc2f23321a8abd42e92970b34"></span><span id="cid-ion-scene-cperspectivecamera-update"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1ab6155c8f62d6ac648ad8eecfef16c104"></span><span id="cid-ion-scene-cperspectivecamera-recalculateprojectionmatrix"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1ac6aab4b9bcb9af0977b81f6cabd75222"></span><span id="cid-ion-scene-cperspectivecamera-setaspectratio"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1a881b4fd4661942caf0848ec5f301ae90"></span><span id="cid-ion-scene-cperspectivecamera-setfocallength"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1aee98f982077cb5a8a419fd00e16ffdfa"></span><span id="cid-ion-scene-cperspectivecamera-setfieldofview"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1a96702e00579d4fe449fc2148f7e465c4"></span><span id="cid-ion-scene-cperspectivecamera-getaspectratio"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1a70ca9865053e0cba9f1d79b36f0410a9"></span><span id="cid-ion-scene-cperspectivecamera-getfocallength"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1a8755d7841b9f62eeff91c1b96acb2e4f"></span><span id="cid-ion-scene-cperspectivecamera-getfieldofview"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1a609429f0e741277b86116b378992e74f"></span><span id="cid-ion-scene-cperspectivecamera-cperspectivecamera"></span><span id="doxid-classion-1-1scene-1-1cperspectivecamera-1ab02d029109c650b05ad48fd4c49a248c"></span><span></span><span class="c1">// methods</span>
 
 <span class="n">CPerspectiveCamera</span> <span class="p">(</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">aspectRatio</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">nearPlane</span> <span class="o">=</span> <span class="mf">0.1f</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">farPlane</span> <span class="o">=</span> <span class="mf">100.f</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">focalLength</span> <span class="o">=</span> <span class="mf">0.13f</span>
+    f32<span></span> <span class="k">const</span> <span class="n">aspectRatio</span><span class="p">,</span>
+    f32<span></span> <span class="k">const</span> <span class="n">nearPlane</span> <span class="o">=</span> <span class="mf">0.1f</span><span class="p">,</span>
+    f32<span></span> <span class="k">const</span> <span class="n">farPlane</span> <span class="o">=</span> <span class="mf">100.f</span><span class="p">,</span>
+    f32<span></span> <span class="k">const</span> <span class="n">focalLength</span> <span class="o">=</span> <span class="mf">0.13f</span>
     <span class="p">)</span>
 
-<span class="n">f32</span> <span class="n">GetFieldOfView</span> <span class="p">()</span>
-<span class="n">f32</span> <span class="n">GetFocalLength</span> <span class="p">()</span>
-<span class="n">f32</span> <span class="n">GetAspectRatio</span> <span class="p">()</span>
-<span class="kt">void</span> <span class="n">SetFieldOfView</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">fieldOfView</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetFocalLength</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">focalLength</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetAspectRatio</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">aspectRatio</span><span class="p">)</span>
+f32<span></span> <span class="n">GetFieldOfView</span> <span class="p">()</span>
+f32<span></span> <span class="n">GetFocalLength</span> <span class="p">()</span>
+f32<span></span> <span class="n">GetAspectRatio</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetFieldOfView</span> <span class="p">(</span>f32<span></span> <span class="k">const</span> <span class="n">fieldOfView</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetFocalLength</span> <span class="p">(</span>f32<span></span> <span class="k">const</span> <span class="n">focalLength</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetAspectRatio</span> <span class="p">(</span>f32<span></span> <span class="k">const</span> <span class="n">aspectRatio</span><span class="p">)</span>
 <span class="kt">void</span> <span class="n">RecalculateProjectionMatrix</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">Update</span> <span class="p">()</span>
-<span class="n">EProjectionType</span> <span class="n">GetProjectionType</span> <span class="p">()</span>
-<span class="kt">void</span> <span class="n">SetProjectionType</span> <span class="p">(</span><span class="n">EProjectionType</span> <span class="k">const</span> <span class="n">Type</span><span class="p">)</span>
+EProjectionType<span></span> <span class="n">GetProjectionType</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetProjectionType</span> <span class="p">(</span>EProjectionType<span></span> <span class="k">const</span> <span class="n">Type</span><span class="p">)</span>
 </pre>
 </div>
 

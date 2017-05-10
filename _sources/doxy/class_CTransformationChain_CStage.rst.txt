@@ -8,6 +8,10 @@ class CTransformationChain.CStage
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <STransformation3.h>
 
 
 

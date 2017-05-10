@@ -11,6 +11,10 @@ class STable
 	class_STable_SFieldIterator.rst
 	class_STable_SRow.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <STable.h>
 
 
 Overview
@@ -60,17 +64,17 @@ Overview
 	void AddField (std::string const& Field)
 	bool HasField (std::string const& Field)
 
-	:ref:`SRange<doxid-structSRange>` <f64> :ref:`GetFieldRange<doxid-classSTable_1a3110d9a274e0878fe2a03089596de942>` (
+	:ref:`SRange<doxid-structSRange>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> :ref:`GetFieldRange<doxid-classSTable_1a3110d9a274e0878fe2a03089596de942>` (
 	    std::string const& Field,
 	    double const OutlierCutoff = 5,
-	    :ref:`SRange<doxid-structSRange>` <f64> const& acceptedValues = :ref:`SRange<doxid-structSRange>` <f64>::Full
+	    :ref:`SRange<doxid-structSRange>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> const& acceptedValues = :ref:`SRange<doxid-structSRange>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`>::Full
 	    )
 
 	:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>` Begin (std::string const& Field)
 	:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>` End (std::string const& Field)
 	vector <:ref:`SRow<doxid-classSTable_1_1SRow>`>::iterator begin ()
 	vector <:ref:`SRow<doxid-classSTable_1_1SRow>`>::iterator end ()
-	u64 Size ()
+	:ref:`u64<doxid-ionTypes_8h_1aec722a97a95f870f432725c51a194290>` Size ()
 	void Clear ()
 	void WriteToFile (std::ofstream& File)
 	void ReadFromFile (std::ifstream& File)
@@ -90,10 +94,10 @@ Methods
 .. ref-code-block:: cpp
 	:class: title-code-block
 
-	:ref:`SRange<doxid-structSRange>` <f64> GetFieldRange (
+	:ref:`SRange<doxid-structSRange>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> GetFieldRange (
 	    std::string const& Field,
 	    double const OutlierCutoff = 5,
-	    :ref:`SRange<doxid-structSRange>` <f64> const& acceptedValues = :ref:`SRange<doxid-structSRange>` <f64>::Full
+	    :ref:`SRange<doxid-structSRange>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> const& acceptedValues = :ref:`SRange<doxid-structSRange>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`>::Full
 	    )
 
 

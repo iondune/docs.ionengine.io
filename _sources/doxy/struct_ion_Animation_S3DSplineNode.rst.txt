@@ -8,6 +8,10 @@ struct ion.Animation.S3DSplineNode
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SSplineNode.h>
 
 
 
@@ -37,9 +41,9 @@ struct ion.Animation.S3DSplineNode
 
 	// fields
 
-	:ref:`vec3f<doxid-structvec3>` Position
-	:ref:`vec3f<doxid-structvec3>` Normal
-	:ref:`vec3f<doxid-structvec3>` Tangent
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Position
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Normal
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Tangent
 
 	// methods
 
@@ -47,7 +51,7 @@ struct ion.Animation.S3DSplineNode
 	:ref:`S3DSplineNode<doxid-struction_1_1Animation_1_1S3DSplineNode>` operator- (:ref:`S3DSplineNode<doxid-struction_1_1Animation_1_1S3DSplineNode>` const& v)
 	:ref:`S3DSplineNode<doxid-struction_1_1Animation_1_1S3DSplineNode>` operator* (float const& s)
 	:ref:`S3DSplineNode<doxid-struction_1_1Animation_1_1S3DSplineNode>` operator/ (float const& s)
-	:ref:`S3DSplineNode<doxid-struction_1_1Animation_1_1S3DSplineNode>` operator+ (:ref:`vec3f<doxid-structvec3>` const& v)
-	:ref:`S3DSplineNode<doxid-struction_1_1Animation_1_1S3DSplineNode>` operator- (:ref:`vec3f<doxid-structvec3>` const& v)
+	:ref:`S3DSplineNode<doxid-struction_1_1Animation_1_1S3DSplineNode>` operator+ (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& v)
+	:ref:`S3DSplineNode<doxid-struction_1_1Animation_1_1S3DSplineNode>` operator- (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& v)
 	float GetLength ()
 

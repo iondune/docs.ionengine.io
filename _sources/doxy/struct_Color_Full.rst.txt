@@ -8,6 +8,10 @@ struct Color.Full <u8>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SColor.h>
 
 
 
@@ -19,5 +23,5 @@ struct Color.Full <u8>
 
 	// methods
 
-	u8 Value ()
+	:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>` Value ()
 

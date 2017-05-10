@@ -8,6 +8,10 @@ class ion.Scene.CGeometryCreator
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CGeometryCreator.h>
 
 
 
@@ -41,43 +45,43 @@ class ion.Scene.CGeometryCreator
 
 	// methods
 
-	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateCube (:ref:`vec3f<doxid-structvec3>` const& Size = :ref:`vec3f<doxid-structvec3>` (1.f))
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateCube (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& Size = :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` (1.f))
 
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateCylinder (
-	    f32 const baseRadius = 0.2f,
-	    f32 const topRadius = 0.2f,
-	    f32 const height = 1.f,
-	    uint const slices = 32,
-	    uint const stacks = 4
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const baseRadius = 0.2f,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const topRadius = 0.2f,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const height = 1.f,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const slices = 32,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const stacks = 4
 	    )
 
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateDisc (
-	    f32 const innerRadius = 0.1f,
-	    f32 const outerRadius = 0.5f,
-	    f32 const height = 0.2f,
-	    uint const slices = 32,
-	    uint const stacks = 4
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const innerRadius = 0.1f,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const outerRadius = 0.5f,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const height = 0.2f,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const slices = 32,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const stacks = 4
 	    )
 
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateTorus (
-	    f32 const centralRadius = 1.f,
-	    f32 const innerRadius = 0.25f,
-	    uint const slices = 16,
-	    uint const stacks = 20
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const centralRadius = 1.f,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const innerRadius = 0.25f,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const slices = 16,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const stacks = 20
 	    )
 
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateSphere (
-	    :ref:`vec3f<doxid-structvec3>` const& Radii = :ref:`vec3f<doxid-structvec3>` (0.5f),
-	    uint const Slices = 32,
-	    uint const Stacks = 16
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& Radii = :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` (0.5f),
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const Slices = 32,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const Stacks = 16
 	    )
 
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateSkySphere ()
-	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreatePlane (:ref:`vec2f<doxid-structvec2>` const& Size = :ref:`vec2f<doxid-structvec2>` (1.f))
+	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreatePlane (:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& Size = :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` (1.f))
 
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateWafer (
-	    f32 const radius = 0.5f,
-	    uint const Slices = 40
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const radius = 0.5f,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const Slices = 40
 	    )
 
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* CreateScreenTriangle ()
@@ -85,14 +89,14 @@ class ion.Scene.CGeometryCreator
 	:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* Intersect (
 	    :ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>` const* A,
 	    :ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>` const* B,
-	    :ref:`vec3f<doxid-structvec3>` const& AOffset = 0,
-	    :ref:`vec3f<doxid-structvec3>` const& BOffset = 0
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& AOffset = 0,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& BOffset = 0
 	    )
 
 	void IntersectAndDelete (
 	    :ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* A,
 	    :ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>` const* B,
-	    :ref:`vec3f<doxid-structvec3>` const& BOffset = 0
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& BOffset = 0
 	    )
 
 	vector <:ref:`CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`*> LoadOBJFile (

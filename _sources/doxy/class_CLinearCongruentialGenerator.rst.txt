@@ -8,6 +8,10 @@ class CLinearCongruentialGenerator
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionRand.h>
 
 
 
@@ -23,10 +27,10 @@ class CLinearCongruentialGenerator
 
 	// construction
 
-	CLinearCongruentialGenerator (u32 const seed = 0)
+	CLinearCongruentialGenerator (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const seed = 0)
 
 	// methods
 
-	u32 const Generate ()
-	void Seed (u32 const seed)
+	:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const Generate ()
+	void Seed (:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const seed)
 

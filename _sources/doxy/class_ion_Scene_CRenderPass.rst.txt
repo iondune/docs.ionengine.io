@@ -8,6 +8,10 @@ class ion.Scene.CRenderPass
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CRenderPass.h>
 
 
 
@@ -55,11 +59,11 @@ class ion.Scene.CRenderPass
 
 	// methods
 
-	CRenderPass (SharedPointer <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GraphicsContext)
-	void SetRenderTarget (SharedPointer <:ref:`Graphics::IRenderTarget<doxid-classion_1_1Graphics_1_1IRenderTarget>`> RenderTarget)
+	CRenderPass (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GraphicsContext)
+	void SetRenderTarget (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IRenderTarget<doxid-classion_1_1Graphics_1_1IRenderTarget>`> RenderTarget)
 	string const& GetName ()
 	:ref:`CGraphicsAPI<doxid-classion_1_1CGraphicsAPI>`* GetGraphicsAPI ()
-	SharedPointer <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GetGraphicsContext ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GetGraphicsContext ()
 	:ref:`ICamera<doxid-classion_1_1Scene_1_1ICamera>`* GetActiveCamera ()
 	:ref:`ICamera<doxid-classion_1_1Scene_1_1ICamera>` const* GetActiveCamera ()
 	void SetActiveCamera (:ref:`ICamera<doxid-classion_1_1Scene_1_1ICamera>`* Camera)
@@ -70,12 +74,12 @@ class ion.Scene.CRenderPass
 
 	void SetUniform (
 	    string const& Name,
-	    SharedPointer <:ref:`Graphics::IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
 	    )
 
 	void SetTexture (
 	    string const& Name,
-	    SharedPointer <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
 	    )
 
 	void Load ()
@@ -83,14 +87,14 @@ class ion.Scene.CRenderPass
 	void ReloadAll ()
 
 	void PreparePipelineStateForRendering (
-	    SharedPointer <:ref:`Graphics::IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> PipelineState,
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> PipelineState,
 	    :ref:`ISceneObject<doxid-classion_1_1Scene_1_1ISceneObject>`* SceneObject
 	    )
 
 	void SubmitPipelineStateForRendering (
-	    SharedPointer <:ref:`Graphics::IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> PipelineState,
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IPipelineState<doxid-classion_1_1Graphics_1_1IPipelineState>`> PipelineState,
 	    :ref:`ISceneObject<doxid-classion_1_1Scene_1_1ISceneObject>`* SceneObject,
-	    uint const InstanceCount = 1,
-	    uint const RenderCategory = 0
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const InstanceCount = 1,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const RenderCategory = 0
 	    )
 

@@ -8,6 +8,10 @@ class ion.Graphics.GL.CTexture2D
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CTexture.h>
 
 
 
@@ -29,32 +33,32 @@ class ion.Graphics.GL.CTexture2D
 
 	// fields
 
-	:ref:`vec2u<doxid-structvec2>` TextureSize
+	:ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` TextureSize
 
 	// methods
 
 	void Upload (
 	    void const*const Data,
-	    :ref:`vec2u<doxid-structvec2>` const& Size,
-	    EFormatComponents const Components,
-	    EScalarType const Type
+	    :ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` const& Size,
+	    :ref:`EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>` const Components,
+	    :ref:`EScalarType<doxid-namespaceion_1_1Graphics_1a72ee6ac395e628ee8a47b5baa965e611>` const Type
 	    )
 
 	void UploadSubRegion (
 	    void const*const Data,
-	    :ref:`vec2u<doxid-structvec2>` const& Offset,
-	    :ref:`vec2u<doxid-structvec2>` const& Size,
-	    EFormatComponents const Components,
-	    EScalarType const Type
+	    :ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` const& Offset,
+	    :ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` const& Size,
+	    :ref:`EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>` const Components,
+	    :ref:`EScalarType<doxid-namespaceion_1_1Graphics_1a72ee6ac395e628ee8a47b5baa965e611>` const Type
 	    )
 
 	void GetData (
 	    void*const Data,
-	    :ref:`vec2u<doxid-structvec2>` const& Size,
-	    EFormatComponents const Components,
-	    EScalarType const Type
+	    :ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` const& Size,
+	    :ref:`EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>` const Components,
+	    :ref:`EScalarType<doxid-namespaceion_1_1Graphics_1a72ee6ac395e628ee8a47b5baa965e611>` const Type
 	    )
 
-	uint GetGLBindTextureTarget ()
-	uint GetGLTextureBindingEnum ()
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` GetGLBindTextureTarget ()
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` GetGLTextureBindingEnum ()
 

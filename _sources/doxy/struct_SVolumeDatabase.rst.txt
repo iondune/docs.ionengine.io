@@ -8,6 +8,10 @@ struct SVolumeDatabase <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVolumeDatabase.h>
 
 
 
@@ -48,7 +52,7 @@ struct SVolumeDatabase <typename T>
 	    )
 
 	void MakeOpenGLVolume (
-	    u32 const VolumeHandle,
+	    :ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const VolumeHandle,
 	    :ref:`IColorMapper<doxid-classIColorMapper>`* ColorMapper
 	    )
 

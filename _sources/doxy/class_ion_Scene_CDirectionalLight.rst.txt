@@ -8,6 +8,10 @@ class ion.Scene.CDirectionalLight
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CDirectionalLight.h>
 
 
 
@@ -30,9 +34,9 @@ class ion.Scene.CDirectionalLight
 	// methods
 
 	CDirectionalLight ()
-	:ref:`color3f<doxid-classcolor3>` GetColor ()
-	:ref:`vec3f<doxid-structvec3>` GetDirection ()
-	void SetColor (:ref:`color3f<doxid-classcolor3>` const& Color)
-	void SetDirection (:ref:`vec3f<doxid-structvec3>` const& Direction)
+	:ref:`color3f<doxid-SColor_8h_1a3b7aefaabad9501bb8428eeeb1e6e4df>` GetColor ()
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` GetDirection ()
+	void SetColor (:ref:`color3f<doxid-SColor_8h_1a3b7aefaabad9501bb8428eeeb1e6e4df>` const& Color)
+	void SetDirection (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& Direction)
 	string GetLightType ()
 

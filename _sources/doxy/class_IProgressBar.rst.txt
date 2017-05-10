@@ -10,6 +10,10 @@ class IProgressBar
 
 	class_IProgressBar_CTask.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IProgressBar.h>
 
 
 
@@ -34,8 +38,8 @@ class IProgressBar
 	// methods
 
 	void BeginProgress ()
-	void SetProgress (f32 const progress)
-	void SetProgress (f64 const progress)
+	void SetProgress (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const progress)
+	void SetProgress (:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const progress)
 	void EndProgress ()
-	:ref:`CTask<doxid-classIProgressBar_1_1CTask>`* NewTask (f32 const value)
+	:ref:`CTask<doxid-classIProgressBar_1_1CTask>`* NewTask (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const value)
 

@@ -110,11 +110,11 @@ Documentation of the ionGraphics module.
 
 	// global functions
 
-	size_t ion.Graphics.GetValueTypeSize (EValueType const ValueType)
-	string ion.Graphics.GetValueTypeString (EValueType const ValueType)
-	size_t ion.Graphics.GetAttributeTypeSize (EAttributeType const AttributeType)
-	string ion.Graphics.GetAttributeTypeString (EAttributeType const AttributeType)
-	string ion.Graphics.GetUniformTypeString (EUniformType const UniformType)
+	size_t ion.Graphics.GetValueTypeSize (:ref:`EValueType<doxid-namespaceion_1_1Graphics_1ad56369fcca16f9b9920d81b3c5811955>` const ValueType)
+	string ion.Graphics.GetValueTypeString (:ref:`EValueType<doxid-namespaceion_1_1Graphics_1ad56369fcca16f9b9920d81b3c5811955>` const ValueType)
+	size_t ion.Graphics.GetAttributeTypeSize (:ref:`EAttributeType<doxid-namespaceion_1_1Graphics_1a070026c778aa94db28cdb1c061f616b2>` const AttributeType)
+	string ion.Graphics.GetAttributeTypeString (:ref:`EAttributeType<doxid-namespaceion_1_1Graphics_1a070026c778aa94db28cdb1c061f616b2>` const AttributeType)
+	string ion.Graphics.GetUniformTypeString (:ref:`EUniformType<doxid-namespaceion_1_1Graphics_1addb5c086fd0778aac8df05438e372cca>` const UniformType)
 
 	void ion.Graphics.DebugMessageCallback (
 	    GLenum source,

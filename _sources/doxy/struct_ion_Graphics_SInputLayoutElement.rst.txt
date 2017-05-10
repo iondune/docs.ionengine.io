@@ -8,6 +8,10 @@ struct ion.Graphics.SInputLayoutElement
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IVertexBuffer.h>
 
 
 
@@ -27,13 +31,13 @@ struct ion.Graphics.SInputLayoutElement
 
 	string Name
 	int Components
-	EAttributeType Type
+	:ref:`EAttributeType<doxid-namespaceion_1_1Graphics_1a070026c778aa94db28cdb1c061f616b2>` Type
 
 	// methods
 
 	SInputLayoutElement (
 	    string const& Name,
 	    int const Components,
-	    EAttributeType const Type
+	    :ref:`EAttributeType<doxid-namespaceion_1_1Graphics_1a070026c778aa94db28cdb1c061f616b2>` const Type
 	    )
 

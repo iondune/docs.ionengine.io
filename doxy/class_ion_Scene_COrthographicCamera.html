@@ -159,24 +159,27 @@
 <span id="cid-ion-scene-corthographiccamera"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera"></span><span id="index-0"></span><h1>class ion.Scene.COrthographicCamera<a class="headerlink" href="#class-ion-scene-corthographiccamera" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;COrthographicCamera.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-scene-corthographiccamera-update">
 <span id="doxid-classion-1-1scene-1-1corthographiccamera-1ae934fdcbba99ca33381b44c1530dac88"></span><span id="cid-ion-scene-corthographiccamera-recalculateprojectionmatrix"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1a18916fb36bdbb28af135150a32e88ab4"></span><span id="cid-ion-scene-corthographiccamera-setright"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1ae1e7c0ff5a5f27270c5feadca7358e5a"></span><span id="cid-ion-scene-corthographiccamera-setleft"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1a674ec21ce31bb12f5d3da7c402aebe1e"></span><span id="cid-ion-scene-corthographiccamera-setbottom"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1a3dcbb3f7454e371615bbbe3e40c99189"></span><span id="cid-ion-scene-corthographiccamera-settop"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1a324e362649768625596707d04e451fea"></span><span id="cid-ion-scene-corthographiccamera-getright"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1a232c3ccc32e33784d87be779f2272f54"></span><span id="cid-ion-scene-corthographiccamera-getleft"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1ae202bb947ee7de61cc9ab0048fe52f2d"></span><span id="cid-ion-scene-corthographiccamera-getbottom"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1a67e33cb77a677bbdcfd102f0cfb7bba8"></span><span id="cid-ion-scene-corthographiccamera-gettop"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1a345c6d94244b981dd4e727997bffd274"></span><span id="cid-ion-scene-corthographiccamera-corthographiccamera"></span><span id="doxid-classion-1-1scene-1-1corthographiccamera-1aafddc57f8d964f6b43e10529d45c51ff"></span><span></span><span class="c1">// methods</span>
 
 <span class="n">COrthographicCamera</span> <span class="p">(</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">left</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">right</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">bottom</span><span class="p">,</span>
-    <span class="n">f32</span> <span class="k">const</span> <span class="n">top</span>
+    f32<span></span> <span class="k">const</span> <span class="n">left</span><span class="p">,</span>
+    f32<span></span> <span class="k">const</span> <span class="n">right</span><span class="p">,</span>
+    f32<span></span> <span class="k">const</span> <span class="n">bottom</span><span class="p">,</span>
+    f32<span></span> <span class="k">const</span> <span class="n">top</span>
     <span class="p">)</span>
 
-<span class="n">f32</span> <span class="n">GetTop</span> <span class="p">()</span>
-<span class="n">f32</span> <span class="n">GetBottom</span> <span class="p">()</span>
-<span class="n">f32</span> <span class="n">GetLeft</span> <span class="p">()</span>
-<span class="n">f32</span> <span class="n">GetRight</span> <span class="p">()</span>
-<span class="kt">void</span> <span class="n">SetTop</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">top</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetBottom</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">bottom</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetLeft</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">left</span><span class="p">)</span>
-<span class="kt">void</span> <span class="n">SetRight</span> <span class="p">(</span><span class="n">f32</span> <span class="k">const</span> <span class="n">right</span><span class="p">)</span>
+f32<span></span> <span class="n">GetTop</span> <span class="p">()</span>
+f32<span></span> <span class="n">GetBottom</span> <span class="p">()</span>
+f32<span></span> <span class="n">GetLeft</span> <span class="p">()</span>
+f32<span></span> <span class="n">GetRight</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetTop</span> <span class="p">(</span>f32<span></span> <span class="k">const</span> <span class="n">top</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetBottom</span> <span class="p">(</span>f32<span></span> <span class="k">const</span> <span class="n">bottom</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetLeft</span> <span class="p">(</span>f32<span></span> <span class="k">const</span> <span class="n">left</span><span class="p">)</span>
+<span class="kt">void</span> <span class="n">SetRight</span> <span class="p">(</span>f32<span></span> <span class="k">const</span> <span class="n">right</span><span class="p">)</span>
 <span class="kt">void</span> <span class="n">RecalculateProjectionMatrix</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">Update</span> <span class="p">()</span>
 </pre>

@@ -8,6 +8,10 @@ struct SMarchingCubesPoint
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <MarchingCubes.h>
 
 
 
@@ -25,11 +29,11 @@ struct SMarchingCubesPoint
 
 	// fields
 
-	f32 Value
-	:ref:`vec3f<doxid-structvec3>` Gradient
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` Value
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Gradient
 
 	// construction
 
 	SMarchingCubesPoint ()
-	SMarchingCubesPoint (f32 const& value)
+	SMarchingCubesPoint (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const& value)
 

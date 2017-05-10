@@ -8,6 +8,10 @@ class STriangle2 <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <STriangle2.h>
 
 
 

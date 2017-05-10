@@ -8,6 +8,10 @@ class ion.Graphics.IShaderProgram
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IShaderProgram.h>
 
 
 
@@ -23,7 +27,7 @@ class ion.Graphics.IShaderProgram
 
 	// methods
 
-	void SetVertexStage (SharedPointer <:ref:`IVertexShader<doxid-classion_1_1Graphics_1_1IVertexShader>`> VertexShader)
-	void SetGeometryStage (SharedPointer <:ref:`IGeometryShader<doxid-classion_1_1Graphics_1_1IGeometryShader>`> GeometryShader)
-	void SetPixelStage (SharedPointer <:ref:`IPixelShader<doxid-classion_1_1Graphics_1_1IPixelShader>`> PixelShader)
+	void SetVertexStage (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IVertexShader<doxid-classion_1_1Graphics_1_1IVertexShader>`> VertexShader)
+	void SetGeometryStage (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IGeometryShader<doxid-classion_1_1Graphics_1_1IGeometryShader>`> GeometryShader)
+	void SetPixelStage (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IPixelShader<doxid-classion_1_1Graphics_1_1IPixelShader>`> PixelShader)
 

@@ -159,6 +159,9 @@
 <span id="cid-ion-graphics-itexture"></span><span id="doxid-classion-1-1graphics-1-1itexture"></span><span id="index-0"></span><h1>class ion.Graphics.ITexture<a class="headerlink" href="#class-ion-graphics-itexture" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;ITexture.h&gt;</span>
+</pre>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-graphics-itexture-getanisotropy">
@@ -172,15 +175,15 @@
 
 <span class="c1">// methods</span>
 
-<span class="kt">void</span> SetMinFilter<span></span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MinFilter</span><span class="p">)</span>
-<span class="kt">void</span> SetMagFilter<span></span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MagFilter</span><span class="p">)</span>
-<span class="kt">void</span> SetMipMapFilter<span></span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MipMapFilter</span><span class="p">)</span>
-<span class="kt">void</span> SetWrapMode<span></span> <span class="p">(</span><span class="n">EWrapMode</span> <span class="k">const</span> <span class="n">WrapMode</span><span class="p">)</span>
+<span class="kt">void</span> SetMinFilter<span></span> <span class="p">(</span>EFilter<span></span> <span class="k">const</span> <span class="n">MinFilter</span><span class="p">)</span>
+<span class="kt">void</span> SetMagFilter<span></span> <span class="p">(</span>EFilter<span></span> <span class="k">const</span> <span class="n">MagFilter</span><span class="p">)</span>
+<span class="kt">void</span> SetMipMapFilter<span></span> <span class="p">(</span>EFilter<span></span> <span class="k">const</span> <span class="n">MipMapFilter</span><span class="p">)</span>
+<span class="kt">void</span> SetWrapMode<span></span> <span class="p">(</span>EWrapMode<span></span> <span class="k">const</span> <span class="n">WrapMode</span><span class="p">)</span>
 <span class="kt">void</span> SetAnisotropy<span></span> <span class="p">(</span><span class="kt">float</span> <span class="k">const</span> <span class="n">Anisotropy</span><span class="p">)</span>
-<span class="n">EFilter</span> <span class="n">GetMinFilter</span> <span class="p">()</span>
-<span class="n">EFilter</span> <span class="n">GetMagFilter</span> <span class="p">()</span>
-<span class="n">EFilter</span> <span class="n">GetMipMapFilter</span> <span class="p">()</span>
-<span class="n">EWrapMode</span> <span class="n">GetWrapMode</span> <span class="p">()</span>
+EFilter<span></span> <span class="n">GetMinFilter</span> <span class="p">()</span>
+EFilter<span></span> <span class="n">GetMagFilter</span> <span class="p">()</span>
+EFilter<span></span> <span class="n">GetMipMapFilter</span> <span class="p">()</span>
+EWrapMode<span></span> <span class="n">GetWrapMode</span> <span class="p">()</span>
 <span class="kt">float</span> <span class="n">GetAnisotropy</span> <span class="p">()</span>
 </pre>
 </div>
@@ -189,21 +192,21 @@
 <div class="section" id="methods">
 <h3>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h3>
 <pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setminfilter">
-<span id="doxid-classion-1-1graphics-1-1itexture-1af267e182935d2c18207a24938589c49d"></span><span></span><span class="kt">void</span> <span class="n">SetMinFilter</span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MinFilter</span><span class="p">)</span>
+<span id="doxid-classion-1-1graphics-1-1itexture-1af267e182935d2c18207a24938589c49d"></span><span></span><span class="kt">void</span> <span class="n">SetMinFilter</span> <span class="p">(</span>EFilter<span></span> <span class="k">const</span> <span class="n">MinFilter</span><span class="p">)</span>
 </pre>
-<p>Sets the minimizing filter for this texture Default is EFilter::Linear</p>
+<p>Sets the minimizing filter for this texture Default is <span class="xref std std-ref">EFilter::Linear</span></p>
 <pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setmagfilter">
-<span id="doxid-classion-1-1graphics-1-1itexture-1ae7d50a3a491076371001bde150620871"></span><span></span><span class="kt">void</span> <span class="n">SetMagFilter</span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MagFilter</span><span class="p">)</span>
+<span id="doxid-classion-1-1graphics-1-1itexture-1ae7d50a3a491076371001bde150620871"></span><span></span><span class="kt">void</span> <span class="n">SetMagFilter</span> <span class="p">(</span>EFilter<span></span> <span class="k">const</span> <span class="n">MagFilter</span><span class="p">)</span>
 </pre>
-<p>Sets the maximizing filter for this texture Default is EFilter::Linear</p>
+<p>Sets the maximizing filter for this texture Default is <span class="xref std std-ref">EFilter::Linear</span></p>
 <pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setmipmapfilter">
-<span id="doxid-classion-1-1graphics-1-1itexture-1aea985baf7fcb64879c2048785bafd631"></span><span></span><span class="kt">void</span> <span class="n">SetMipMapFilter</span> <span class="p">(</span><span class="n">EFilter</span> <span class="k">const</span> <span class="n">MipMapFilter</span><span class="p">)</span>
+<span id="doxid-classion-1-1graphics-1-1itexture-1aea985baf7fcb64879c2048785bafd631"></span><span></span><span class="kt">void</span> <span class="n">SetMipMapFilter</span> <span class="p">(</span>EFilter<span></span> <span class="k">const</span> <span class="n">MipMapFilter</span><span class="p">)</span>
 </pre>
-<p>Sets the mip map filter for this texture Default is EFilter::Linear</p>
+<p>Sets the mip map filter for this texture Default is <span class="xref std std-ref">EFilter::Linear</span></p>
 <pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setwrapmode">
-<span id="doxid-classion-1-1graphics-1-1itexture-1a8253054ec0af0554d52f9e5bf75f3d48"></span><span></span><span class="kt">void</span> <span class="n">SetWrapMode</span> <span class="p">(</span><span class="n">EWrapMode</span> <span class="k">const</span> <span class="n">WrapMode</span><span class="p">)</span>
+<span id="doxid-classion-1-1graphics-1-1itexture-1a8253054ec0af0554d52f9e5bf75f3d48"></span><span></span><span class="kt">void</span> <span class="n">SetWrapMode</span> <span class="p">(</span>EWrapMode<span></span> <span class="k">const</span> <span class="n">WrapMode</span><span class="p">)</span>
 </pre>
-<p>Sets the wrap mode for this texture Default is EWrapMode::Repeat</p>
+<p>Sets the wrap mode for this texture Default is <span class="xref std std-ref">EWrapMode::Repeat</span></p>
 <pre class="highlight title-code-block literal-block" id="cid-ion-graphics-itexture-setanisotropy">
 <span id="doxid-classion-1-1graphics-1-1itexture-1ab605ebc931098e6f8019e02554eef8a4"></span><span></span><span class="kt">void</span> <span class="n">SetAnisotropy</span> <span class="p">(</span><span class="kt">float</span> <span class="k">const</span> <span class="n">Anisotropy</span><span class="p">)</span>
 </pre>

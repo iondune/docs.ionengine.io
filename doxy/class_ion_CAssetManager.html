@@ -159,36 +159,39 @@
 <span id="cid-ion-cassetmanager"></span><span id="doxid-classion-1-1cassetmanager"></span><span id="index-0"></span><h1>class ion.CAssetManager<a class="headerlink" href="#class-ion-cassetmanager" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;CAssetManager.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-cassetmanager-parseshadersource">
 <span id="doxid-classion-1-1cassetmanager-1afc9344707265659fd40fe645ffdcbd47"></span><span id="cid-ion-cassetmanager-setmeshpath"></span><span id="doxid-classion-1-1cassetmanager-1a322fe299d104baa67cf988aef7b9bf54"></span><span id="cid-ion-cassetmanager-setshaderpath"></span><span id="doxid-classion-1-1cassetmanager-1a9d1fc75649c3bdc1feb090e94beaf142"></span><span id="cid-ion-cassetmanager-settexturepath"></span><span id="doxid-classion-1-1cassetmanager-1ac37c5eb62ab35e023b58742a7c9c0eba"></span><span id="cid-ion-cassetmanager-addassetpath"></span><span id="doxid-classion-1-1cassetmanager-1ae79f13582eef323233e491ee8315f518"></span><span id="cid-ion-cassetmanager-loadmeshes"></span><span id="doxid-classion-1-1cassetmanager-1a878b3404d6d0e0a7369e60a9ae33c465"></span><span id="cid-ion-cassetmanager-loadmeshmerged"></span><span id="doxid-classion-1-1cassetmanager-1a210a872567e4d73f0099a913cf3f87da"></span><span id="cid-ion-cassetmanager-loadmesh"></span><span id="doxid-classion-1-1cassetmanager-1ac27d27a721977498789757235ffb9caa"></span><span id="cid-ion-cassetmanager-loadcubemaptexture"></span><span id="doxid-classion-1-1cassetmanager-1a36ce0b6f056d36d955944a84ba20a5a1"></span><span id="cid-ion-cassetmanager-load2dtexturearray"></span><span id="doxid-classion-1-1cassetmanager-1a621adf23b792c0e0dd776b4092ab56b4"></span><span id="cid-ion-cassetmanager-load3dtexture"></span><span id="doxid-classion-1-1cassetmanager-1a2ad22b9493543ecbbbe81552cfc16a28"></span><span id="cid-ion-cassetmanager-loadtexture"></span><span id="doxid-classion-1-1cassetmanager-1a18d80b96540a5e6fc3858a1f1886fd19"></span><span id="cid-ion-cassetmanager-loadimage"></span><span id="doxid-classion-1-1cassetmanager-1a89c69aefdac42fdda059b1ea34072139"></span><span id="cid-ion-cassetmanager-loadshader"></span><span id="doxid-classion-1-1cassetmanager-1a8f3fd18606fb7a24cf53129ae29d1b09"></span><span id="cid-ion-cassetmanager-init"></span><span id="doxid-classion-1-1cassetmanager-1ae42ba4e0e68fd5188c931487369c2ddc"></span><span></span><span class="c1">// methods</span>
 
 <span class="kt">void</span> <span class="n">Init</span> <span class="p">(</span>CGraphicsAPI<span></span><span class="o">*</span> <span class="n">GraphicsAPI</span><span class="p">)</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::IShaderProgram<span></span><span class="o">&gt;</span> <span class="n">LoadShader</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">)</span>
+SharedPointer<span></span> <span class="o">&lt;</span>Graphics::IShaderProgram<span></span><span class="o">&gt;</span> <span class="n">LoadShader</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">)</span>
 CImage<span></span><span class="o">*</span> <span class="n">LoadImage</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileName</span><span class="p">)</span>
 
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::ITexture2D<span></span><span class="o">&gt;</span> <span class="n">LoadTexture</span> <span class="p">(</span>
+SharedPointer<span></span> <span class="o">&lt;</span>Graphics::ITexture2D<span></span><span class="o">&gt;</span> <span class="n">LoadTexture</span> <span class="p">(</span>
     <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileName</span><span class="p">,</span>
-    <span class="n">Graphics</span><span class="o">::</span><span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span> <span class="k">const</span> <span class="n">MipMaps</span> <span class="o">=</span> <span class="n">Graphics</span><span class="o">::</span><span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span><span class="o">::</span><span class="n">True</span>
+    Graphics::ITexture::EMipMaps<span></span> <span class="k">const</span> <span class="n">MipMaps</span> <span class="o">=</span> Graphics::ITexture::EMipMaps::True<span></span>
     <span class="p">)</span>
 
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::ITexture3D<span></span><span class="o">&gt;</span> <span class="n">Load3DTexture</span> <span class="p">(</span>
+SharedPointer<span></span> <span class="o">&lt;</span>Graphics::ITexture3D<span></span><span class="o">&gt;</span> <span class="n">Load3DTexture</span> <span class="p">(</span>
     <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span> <span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;&amp;</span> <span class="n">fileName</span><span class="p">,</span>
-    <span class="n">Graphics</span><span class="o">::</span><span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span> <span class="k">const</span> <span class="n">MipMaps</span> <span class="o">=</span> <span class="n">Graphics</span><span class="o">::</span><span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span><span class="o">::</span><span class="n">True</span>
+    Graphics::ITexture::EMipMaps<span></span> <span class="k">const</span> <span class="n">MipMaps</span> <span class="o">=</span> Graphics::ITexture::EMipMaps::True<span></span>
     <span class="p">)</span>
 
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::ITexture2DArray<span></span><span class="o">&gt;</span> <span class="n">Load2DTextureArray</span> <span class="p">(</span>
+SharedPointer<span></span> <span class="o">&lt;</span>Graphics::ITexture2DArray<span></span><span class="o">&gt;</span> <span class="n">Load2DTextureArray</span> <span class="p">(</span>
     <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span> <span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;&amp;</span> <span class="n">fileName</span><span class="p">,</span>
-    <span class="n">Graphics</span><span class="o">::</span><span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span> <span class="k">const</span> <span class="n">MipMaps</span> <span class="o">=</span> <span class="n">Graphics</span><span class="o">::</span><span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span><span class="o">::</span><span class="n">True</span>
+    Graphics::ITexture::EMipMaps<span></span> <span class="k">const</span> <span class="n">MipMaps</span> <span class="o">=</span> Graphics::ITexture::EMipMaps::True<span></span>
     <span class="p">)</span>
 
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::ITextureCubeMap<span></span><span class="o">&gt;</span> <span class="n">LoadCubeMapTexture</span> <span class="p">(</span>
+SharedPointer<span></span> <span class="o">&lt;</span>Graphics::ITextureCubeMap<span></span><span class="o">&gt;</span> <span class="n">LoadCubeMapTexture</span> <span class="p">(</span>
     <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileNameLeft</span><span class="p">,</span>
     <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileNameRight</span><span class="p">,</span>
     <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileNameUp</span><span class="p">,</span>
     <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileNameDown</span><span class="p">,</span>
     <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileNameFront</span><span class="p">,</span>
     <span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileNameBack</span><span class="p">,</span>
-    <span class="n">Graphics</span><span class="o">::</span><span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span> <span class="k">const</span> <span class="n">MipMaps</span> <span class="o">=</span> <span class="n">Graphics</span><span class="o">::</span><span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span><span class="o">::</span><span class="n">True</span>
+    Graphics::ITexture::EMipMaps<span></span> <span class="k">const</span> <span class="n">MipMaps</span> <span class="o">=</span> Graphics::ITexture::EMipMaps::True<span></span>
     <span class="p">)</span>
 
 Scene::CSimpleMesh<span></span><span class="o">*</span> <span class="n">LoadMesh</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">FileName</span><span class="p">)</span>

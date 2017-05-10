@@ -8,6 +8,10 @@ class ion.Animation.ISplineInterpolator <typename TSplineNode>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ISplineInterpolator.h>
 
 
 

@@ -8,6 +8,10 @@ class ion.Graphics.IIndexBuffer
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IIndexBuffer.h>
 
 
 
@@ -35,10 +39,10 @@ class ion.Graphics.IIndexBuffer
 	void UploadData (
 	    void const* Data,
 	    size_t const Elements,
-	    EValueType const ValueType
+	    :ref:`EValueType<doxid-namespaceion_1_1Graphics_1ad56369fcca16f9b9920d81b3c5811955>` const ValueType
 	    )
 
-	void UploadData (vector <u8> const& Data)
-	void UploadData (vector <u16> const& Data)
-	void UploadData (vector <u32> const& Data)
+	void UploadData (vector <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`> const& Data)
+	void UploadData (vector <:ref:`u16<doxid-ionTypes_8h_1a09764c0ef38a16fe834cbecdc53fab16>`> const& Data)
+	void UploadData (vector <:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>`> const& Data)
 

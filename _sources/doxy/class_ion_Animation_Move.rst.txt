@@ -8,6 +8,10 @@ class ion.Animation.Move
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <Move.h>
 
 
 
@@ -35,9 +39,9 @@ class ion.Animation.Move
 	    float const Clamp = 0.05f
 	    )
 
-	:ref:`vec3f<doxid-structvec3>` Linear (
-	    :ref:`vec3f<doxid-structvec3>` From,
-	    :ref:`vec3f<doxid-structvec3>` const& To,
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Linear (
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` From,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& To,
 	    float const Elapsed,
 	    float const Speed,
 	    float const Clamp = 0.05f
@@ -51,17 +55,17 @@ class ion.Animation.Move
 	    float const Clamp = 0.05f
 	    )
 
-	:ref:`vec3f<doxid-structvec3>` Quadratic (
-	    :ref:`vec3f<doxid-structvec3>` From,
-	    :ref:`vec3f<doxid-structvec3>` const& To,
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Quadratic (
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` From,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& To,
 	    float const Elapsed,
 	    float const Speed,
 	    float const Clamp = 0.05f
 	    )
 
-	:ref:`vec3f<doxid-structvec3>` Cubic (
-	    :ref:`vec3f<doxid-structvec3>` From,
-	    :ref:`vec3f<doxid-structvec3>` const& To,
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Cubic (
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` From,
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& To,
 	    float const Elapsed,
 	    float const Speed,
 	    float const Clamp = 0.05f

@@ -8,6 +8,10 @@ class Log.StandardOutput
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionLogger.h>
 
 
 

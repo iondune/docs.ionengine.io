@@ -8,6 +8,10 @@ class ion.Graphics.GL.CPipelineState
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CPipelineState.h>
 
 
 
@@ -92,17 +96,17 @@ class ion.Graphics.GL.CPipelineState
 	// fields
 
 	:ref:`CWindow<doxid-classion_1_1CWindow>`* Window
-	SharedPointer <:ref:`CShaderProgram<doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram>`> ShaderProgram
-	vector <SharedPointer <:ref:`CVertexBuffer<doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer>`>> VertexBuffers
-	SharedPointer <:ref:`CIndexBuffer<doxid-classion_1_1Graphics_1_1GL_1_1CIndexBuffer>`> IndexBuffer
-	uint VertexArrayHandle
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`CShaderProgram<doxid-classion_1_1Graphics_1_1GL_1_1CShaderProgram>`> ShaderProgram
+	vector <:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`CVertexBuffer<doxid-classion_1_1Graphics_1_1GL_1_1CVertexBuffer>`>> VertexBuffers
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`CIndexBuffer<doxid-classion_1_1Graphics_1_1GL_1_1CIndexBuffer>`> IndexBuffer
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` VertexArrayHandle
 	bool Loaded
-	map <string, SharedPointer <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>` const>> Uniforms
-	map <uint, SharedPointer <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>` const>> BoundUniforms
-	map <string, SharedPointer <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>` const>> Textures
-	map <u32, SharedPointer <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>` const>> BoundTextures
-	set <string> UnboundUniforms
-	set <string> UnboundAttributes
+	map <string, :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>` const>> Uniforms
+	map <:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>`, :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>` const>> BoundUniforms
+	map <string, :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>` const>> Textures
+	map <:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>`, :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>` const>> BoundTextures
+	:ref:`set<doxid-CMakeLists_8txt_1ac9ac42ec0c4bee9c9949dfbfd1383760>` <string> UnboundUniforms
+	:ref:`set<doxid-CMakeLists_8txt_1ac9ac42ec0c4bee9c9949dfbfd1383760>` <string> UnboundAttributes
 	bool DrawWireframe
 	bool CullFront
 	bool CullBack
@@ -110,53 +114,53 @@ class ion.Graphics.GL.CPipelineState
 	bool DisableDepthWrite
 	bool PolygonOffset
 	float PolygonOffsetAmount
-	EBlendMode BlendMode
-	uint PrimitiveType
+	:ref:`EBlendMode<doxid-namespaceion_1_1Graphics_1a34af4cbb53768ca7b9f8563f855811fa>` BlendMode
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` PrimitiveType
 
 	// methods
 
 	CPipelineState (:ref:`CWindow<doxid-classion_1_1CWindow>`* Window)
 	~CPipelineState ()
-	void SetProgram (SharedPointer <:ref:`IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> ShaderProgram)
+	void SetProgram (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> ShaderProgram)
 
 	void SetVertexBuffer (
-	    uint const Index,
-	    SharedPointer <:ref:`IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> VertexBuffer
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const Index,
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> VertexBuffer
 	    )
 
-	void SetIndexBuffer (SharedPointer <:ref:`IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> IndexBuffer)
+	void SetIndexBuffer (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> IndexBuffer)
 
 	void SetUniform (
 	    string const& Name,
-	    SharedPointer <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
 	    )
 
 	void SetTexture (
 	    string const& Name,
-	    SharedPointer <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
 	    )
 
-	void SetPrimitiveType (EPrimitiveType const PrimitiveType)
+	void SetPrimitiveType (:ref:`EPrimitiveType<doxid-namespaceion_1_1Graphics_1abaf78fc03c5ec5232f8c60d745978576>` const PrimitiveType)
 
 	void SetFeatureEnabled (
-	    EDrawFeature const Feature,
+	    :ref:`EDrawFeature<doxid-namespaceion_1_1Graphics_1a5e576a7b5e19dd1eb42f99e9baff1624>` const Feature,
 	    bool const Enabled
 	    )
 
 	void SetPolygonOffsetAmount (float const Amount)
-	void SetBlendMode (EBlendMode const BlendMode)
+	void SetBlendMode (:ref:`EBlendMode<doxid-namespaceion_1_1Graphics_1a34af4cbb53768ca7b9f8563f855811fa>` const BlendMode)
 
 	void OfferUniform (
 	    string const& Name,
-	    SharedPointer <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
 	    )
 
 	void OfferTexture (
 	    string const& Name,
-	    SharedPointer <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
 	    )
 
 	void IgnoreUniform (string const& Name)
-	set <string> GetUnboundUniforms ()
+	:ref:`set<doxid-CMakeLists_8txt_1ac9ac42ec0c4bee9c9949dfbfd1383760>` <string> GetUnboundUniforms ()
 	void Load ()
 

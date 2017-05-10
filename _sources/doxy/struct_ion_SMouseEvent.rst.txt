@@ -11,6 +11,10 @@ struct ion.SMouseEvent
 	enum_ion_SMouseEvent_EButton.rst
 	enum_ion_SMouseEvent_EType.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SMouseEvent.h>
 
 
 
@@ -39,10 +43,10 @@ struct ion.SMouseEvent
 
 	// fields
 
-	:ref:`vec2f<doxid-structvec2>` Location
-	:ref:`vec2f<doxid-structvec2>` Movement
-	EButton Button
-	EType Type
+	:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` Location
+	:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` Movement
+	:ref:`EButton<doxid-struction_1_1SMouseEvent_1a6bc94f1b06d84884dd789f82eecbefcb>` Button
+	:ref:`EType<doxid-struction_1_1SMouseEvent_1aa84a1beb737e0ac12cd0af4398276f03>` Type
 	bool Pressed
 	:ref:`CWindow<doxid-classion_1_1CWindow>`* Window
 

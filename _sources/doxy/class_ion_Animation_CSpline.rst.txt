@@ -8,6 +8,10 @@ class ion.Animation.CSpline <typename TSplineNode>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CSpline.h>
 
 
 
@@ -50,29 +54,29 @@ class ion.Animation.CSpline <typename TSplineNode>
 	void AddNode (TSplineNode const& Node)
 	void SetLooping (bool const looping)
 	bool IsLooping ()
-	void SetDefaultInterpolator (SharedPointer <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> defaultInterpolator)
-	SharedPointer <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> GetDefaultInterpolator ()
+	void SetDefaultInterpolator (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> defaultInterpolator)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> GetDefaultInterpolator ()
 	int SanitizeIndex (int Index)
 	TSplineNode const& GetNode (int const Index)
 
 	TSplineNode GetNodeInterpolated (
 	    float const Intermediate,
-	    SharedPointer <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> Interpolator = 0
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> Interpolator = 0
 	    )
 
 	float BuildDistanceTable (
 	    float const Increment = 0.1f,
-	    SharedPointer <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> Interpolator = 0
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> Interpolator = 0
 	    )
 
 	float GetIntermediateFromDistance (
 	    float const Distance,
-	    SharedPointer <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> Interpolator = 0
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> Interpolator = 0
 	    )
 
 	TSplineNode GetNodeFromDistance (
 	    float const Distance,
-	    SharedPointer <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> Interpolator = 0
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ISplineInterpolator<doxid-classion_1_1Animation_1_1ISplineInterpolator>` <TSplineNode>> Interpolator = 0
 	    )
 
 	float GetTotalPathLength ()

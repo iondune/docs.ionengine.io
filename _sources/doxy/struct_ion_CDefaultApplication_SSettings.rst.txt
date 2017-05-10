@@ -8,6 +8,10 @@ struct ion.CDefaultApplication.SSettings
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CDefaultApplication.h>
 
 
 
@@ -30,9 +34,9 @@ struct ion.CDefaultApplication.SSettings
 	// fields
 
 	int WindowMonitor
-	:ref:`vec2i<doxid-structvec2>` WindowSize
-	:ref:`vec2i<doxid-structvec2>` WindowPosition
-	EWindowType WindowType
+	:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` WindowSize
+	:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` WindowPosition
+	:ref:`EWindowType<doxid-namespaceion_1ab40a9db3eacbb4cf19e714158dac71d5>` WindowType
 	float FontSize
 	float UIScale
 

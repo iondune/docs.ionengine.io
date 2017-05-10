@@ -8,6 +8,10 @@ class SVector <typename T, int Size, typename Implementation>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SVector.h>
 
 
 Overview

@@ -159,6 +159,9 @@
 <span id="cid-ion-cwindowmanager"></span><span id="doxid-classion-1-1cwindowmanager"></span><span id="index-0"></span><h1>class ion.CWindowManager<a class="headerlink" href="#class-ion-cwindowmanager" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;CWindowManager.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-cwindowmanager-createwindowonmonitor">
 <span id="doxid-classion-1-1cwindowmanager-1a9b0846c7de83975b9caf08b67807133d"></span><span id="cid-ion-cwindowmanager-createwindow"></span><span id="doxid-classion-1-1cwindowmanager-1a39eb1ff641d3999fef7f6d05d8402a6e"></span><span id="cid-ion-cwindowmanager-run"></span><span id="doxid-classion-1-1cwindowmanager-1a18a3f1304d5216687f6ba150f54ec7f6"></span><span id="cid-ion-cwindowmanager-shouldclose"></span><span id="doxid-classion-1-1cwindowmanager-1aa4b2af4fe3a09855cc536464b7043698"></span><span id="cid-ion-cwindowmanager-pollevents"></span><span id="doxid-classion-1-1cwindowmanager-1abd3b0c9118f65d8a06b331ca589e39ac"></span><span id="cid-ion-cwindowmanager-init"></span><span id="doxid-classion-1-1cwindowmanager-1ae6be9681baa5dff6055cdc5565d2c203"></span><span></span><span class="c1">// methods</span>
 
@@ -168,9 +171,9 @@
 <span class="kt">bool</span> <span class="n">Run</span> <span class="p">()</span>
 
 CWindow<span></span><span class="o">*</span> <span class="n">CreateWindow</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2i</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
+    vec2i<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
     <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Title</span><span class="p">,</span>
-    <span class="n">EWindowType</span> <span class="k">const</span> <span class="n">Type</span>
+    <a class="reference internal" href="enum_ion_EWindowType.html#doxid-namespaceion-1ab40a9db3eacbb4cf19e714158dac71d5"><span class="std std-ref">EWindowType</span></a><span></span> <span class="k">const</span> <span class="n">Type</span>
     <span class="p">)</span>
 
 CWindow<span></span><span class="o">*</span> <span class="n">CreateWindowOnMonitor</span> <span class="p">(</span>

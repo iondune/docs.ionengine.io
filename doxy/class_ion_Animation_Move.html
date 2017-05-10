@@ -159,6 +159,9 @@
 <span id="cid-ion-animation-move"></span><span id="doxid-classion-1-1animation-1-1move"></span><span id="index-0"></span><h1>class ion.Animation.Move<a class="headerlink" href="#class-ion-animation-move" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;Move.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-animation-move-cubic">
 <span id="doxid-classion-1-1animation-1-1move-1a36d3437ef9784cd760cc9cc6e60fdddc"></span><span id="cid-ion-animation-move-quadratic-2"></span><span id="doxid-classion-1-1animation-1-1move-1a1ae6273d5ff5cbc1caf4847fdc00c099"></span><span id="cid-ion-animation-move-quadratic"></span><span id="doxid-classion-1-1animation-1-1move-1a7a2b54a5f9c076589cd422a021a37745"></span><span id="cid-ion-animation-move-linear-2"></span><span id="doxid-classion-1-1animation-1-1move-1ab0126b80f29c016a3a7fa273428d3645"></span><span id="cid-ion-animation-move-linear"></span><span id="doxid-classion-1-1animation-1-1move-1a7018aa419d117bb1d8ea64c763d9f106"></span><span></span><span class="c1">// methods</span>
 
@@ -170,9 +173,9 @@
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Clamp</span> <span class="o">=</span> <span class="mf">0.05f</span>
     <span class="p">)</span>
 
-<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="n">Linear</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="n">From</span><span class="p">,</span>
-    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">To</span><span class="p">,</span>
+vec3f<span></span> <span class="n">Linear</span> <span class="p">(</span>
+    vec3f<span></span> <span class="n">From</span><span class="p">,</span>
+    vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">To</span><span class="p">,</span>
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Elapsed</span><span class="p">,</span>
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Speed</span><span class="p">,</span>
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Clamp</span> <span class="o">=</span> <span class="mf">0.05f</span>
@@ -186,17 +189,17 @@
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Clamp</span> <span class="o">=</span> <span class="mf">0.05f</span>
     <span class="p">)</span>
 
-<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="n">Quadratic</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="n">From</span><span class="p">,</span>
-    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">To</span><span class="p">,</span>
+vec3f<span></span> <span class="n">Quadratic</span> <span class="p">(</span>
+    vec3f<span></span> <span class="n">From</span><span class="p">,</span>
+    vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">To</span><span class="p">,</span>
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Elapsed</span><span class="p">,</span>
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Speed</span><span class="p">,</span>
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Clamp</span> <span class="o">=</span> <span class="mf">0.05f</span>
     <span class="p">)</span>
 
-<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="n">Cubic</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="n">From</span><span class="p">,</span>
-    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">To</span><span class="p">,</span>
+vec3f<span></span> <span class="n">Cubic</span> <span class="p">(</span>
+    vec3f<span></span> <span class="n">From</span><span class="p">,</span>
+    vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">To</span><span class="p">,</span>
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Elapsed</span><span class="p">,</span>
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Speed</span><span class="p">,</span>
     <span class="kt">float</span> <span class="k">const</span> <span class="n">Clamp</span> <span class="o">=</span> <span class="mf">0.05f</span>

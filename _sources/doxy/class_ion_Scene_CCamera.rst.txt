@@ -8,6 +8,10 @@ class ion.Scene.CCamera
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CCamera.h>
 
 
 
@@ -62,31 +66,31 @@ class ion.Scene.CCamera
 	CCamera ()
 	void RecalculateViewMatrix ()
 	void Update ()
-	:ref:`vec3f<doxid-structvec3>` const& GetPosition ()
-	:ref:`vec3f<doxid-structvec3>` const& GetLookDirecton ()
-	:ref:`vec3f<doxid-structvec3>` GetLookAtTarget ()
-	:ref:`vec3f<doxid-structvec3>` const& GetUpVector ()
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& GetPosition ()
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& GetLookDirecton ()
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` GetLookAtTarget ()
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& GetUpVector ()
 	glm::mat4 GetViewMatrix ()
 	glm::mat4 GetProjectionMatrix ()
-	void SetPosition (:ref:`vec3f<doxid-structvec3>` const& position)
-	void SetLookDirection (:ref:`vec3f<doxid-structvec3>` const& lookDirection)
-	void SetLookAtTarget (:ref:`vec3f<doxid-structvec3>` const& lookAtTarget)
-	void SetUpVector (:ref:`vec3f<doxid-structvec3>` const& UpVector)
+	void SetPosition (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& position)
+	void SetLookDirection (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& lookDirection)
+	void SetLookAtTarget (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& lookAtTarget)
+	void SetUpVector (:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& UpVector)
 	void SetViewMatrix (glm::mat4 const& viewMatrix)
 	void SetProjectionMatrix (glm::mat4 const& projectionMatrix)
-	f32 GetNearPlane ()
-	f32 GetFarPlane ()
-	void SetNearPlane (f32 const nearPlane)
-	void SetFarPlane (f32 const farPlane)
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetNearPlane ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetFarPlane ()
+	void SetNearPlane (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const nearPlane)
+	void SetFarPlane (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const farPlane)
 
-	:ref:`vec2i<doxid-structvec2>` GetScreenCoordinates (
-	    :ref:`vec3f<doxid-structvec3>` const& WorldPosition,
-	    :ref:`vec2f<doxid-structvec2>` const& WindowSize,
+	:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` GetScreenCoordinates (
+	    :ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& WorldPosition,
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& WindowSize,
 	    bool* InFront = nullptr
 	    )
 
-	:ref:`ray3f<doxid-classray3>` GetPickingRay (
-	    :ref:`vec2i<doxid-structvec2>` const& Pixel,
-	    :ref:`vec2f<doxid-structvec2>` const& WindowSize
+	:ref:`ray3f<doxid-ray3_8h_1a04ab5a9d9a763e77ea5ccebda6478287>` GetPickingRay (
+	    :ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& Pixel,
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& WindowSize
 	    )
 

@@ -159,15 +159,18 @@
 <span id="cid-ion-scene-ilight"></span><span id="doxid-classion-1-1scene-1-1ilight"></span><span id="index-0"></span><h1>class ion.Scene.ILight<a class="headerlink" href="#class-ion-scene-ilight" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;ILight.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-scene-ilight-getlighttype">
 <span id="doxid-classion-1-1scene-1-1ilight-1a99d03b2f45d9aed968e241497b52bd3c"></span><span id="cid-ion-scene-ilight-getattributebyname"></span><span id="doxid-classion-1-1scene-1-1ilight-1a4b652d204e425f7d734cd138ff4d1388"></span><span id="cid-ion-scene-ilight-getattributes"></span><span id="doxid-classion-1-1scene-1-1ilight-1a7f794e712c7b66344817630c62b86cf6"></span><span id="cid-ion-scene-ilight-getattributecount"></span><span id="doxid-classion-1-1scene-1-1ilight-1a2192c91f35d7bbbffc56c677d9340f91"></span><span id="cid-ion-scene-ilight-setposition"></span><span id="doxid-classion-1-1scene-1-1ilight-1a0e1fec6ae31533a5f71469bde6cf29cc"></span><span id="cid-ion-scene-ilight-getposition"></span><span id="doxid-classion-1-1scene-1-1ilight-1aeb0c2fe82ce1e7388453e82abe5162f4"></span><span id="cid-ion-scene-ilight-ilight"></span><span id="doxid-classion-1-1scene-1-1ilight-1a327441b27d114bb1b939c39aeb6135d1"></span><span></span><span class="c1">// methods</span>
 
 <span class="n">ILight</span> <span class="p">()</span>
-<a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="n">GetPosition</span> <span class="p">()</span>
-<span class="kt">void</span> <span class="n">SetPosition</span> <span class="p">(</span><a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3f</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Position</span><span class="p">)</span>
+vec3f<span></span> <span class="n">GetPosition</span> <span class="p">()</span>
+<span class="kt">void</span> <span class="n">SetPosition</span> <span class="p">(</span>vec3f<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Position</span><span class="p">)</span>
 <span class="kt">size_t</span> <span class="n">GetAttributeCount</span> <span class="p">()</span>
-<span class="n">map</span> <span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> <span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::IUniform<span></span><span class="o">&gt;&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">GetAttributes</span> <span class="p">()</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::IUniform<span></span><span class="o">&gt;</span> <span class="n">GetAttributeByName</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">)</span>
+<span class="n">map</span> <span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> SharedPointer<span></span> <span class="o">&lt;</span>Graphics::IUniform<span></span><span class="o">&gt;&gt;</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">GetAttributes</span> <span class="p">()</span>
+SharedPointer<span></span> <span class="o">&lt;</span>Graphics::IUniform<span></span><span class="o">&gt;</span> <span class="n">GetAttributeByName</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Name</span><span class="p">)</span>
 <span class="n">string</span> <span class="n">GetLightType</span> <span class="p">()</span>
 </pre>
 </div>

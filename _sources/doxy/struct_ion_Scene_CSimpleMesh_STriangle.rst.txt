@@ -8,6 +8,10 @@ struct ion.Scene.CSimpleMesh.STriangle
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CSimpleMesh.h>
 
 
 
@@ -25,16 +29,16 @@ struct ion.Scene.CSimpleMesh.STriangle
 
 	// fields
 
-	uint Indices [3]
-	:ref:`vec3f<doxid-structvec3>` Normal
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` Indices [3]
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` Normal
 
 	// methods
 
 	STriangle ()
 
 	STriangle (
-	    uint const index0,
-	    uint const index1,
-	    uint const index2
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const index0,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const index1,
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const index2
 	    )
 

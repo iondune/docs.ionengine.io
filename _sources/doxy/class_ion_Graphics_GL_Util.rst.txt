@@ -8,6 +8,10 @@ class ion.Graphics.GL.Util
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <Utilities.h>
 
 
 
@@ -25,8 +29,8 @@ class ion.Graphics.GL.Util
 
 	// fields
 
-	u32 const ScalarTypeMatrix [9]
-	u64 const SizeMatrix [7]
+	:ref:`u32<doxid-ionTypes_8h_1a3a310cdfa4b079e559e07e819c06498d>` const ScalarTypeMatrix [9]
+	:ref:`u64<doxid-ionTypes_8h_1aec722a97a95f870f432725c51a194290>` const SizeMatrix [7]
 	string const ScalarTypeStringMatrix [9]
 	string const SizeStringMatrix [7]
 

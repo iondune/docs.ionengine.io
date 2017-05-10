@@ -8,6 +8,10 @@ class SColorA <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SColor.h>
 
 
 Overview
@@ -83,7 +87,7 @@ Overview
 	    T const r,
 	    T const g,
 	    T const b,
-	    T const a = Full
+	    T const a = :ref:`Full<doxid-classSColorA_1a7165b6063df1752cd7968c95bf62630d>`
 	    )
 
 	SColorA (:ref:`SColorA<doxid-classSColorA>` <T> const& vec)
@@ -97,15 +101,15 @@ Overview
 	:ref:`SColorA<doxid-classSColorA>` <T>& operator= (:ref:`color3<doxid-classcolor3>` <T> const& col)
 	:ref:`SColorA<doxid-classSColorA>` <T>& operator= <typename U> (:ref:`color3<doxid-classcolor3>` <U> const& col)
 	void set <typename U, u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <U, OtherDimension> const& other)
-	void set <u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <u8, OtherDimension> const& other)
-	void set <u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <f32, OtherDimension> const& other)
-	void set <u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <f64, OtherDimension> const& other)
+	void set <u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`, OtherDimension> const& other)
+	void set <u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`, OtherDimension> const& other)
+	void set <u32 OtherDimension> (:ref:`SVectorBase<doxid-classSVectorBase>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`, OtherDimension> const& other)
 	operator color3< T > ()
-	u8 const Full ()
-	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <u8, OtherDimension> const& other)
-	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <u8, OtherDimension> const& other)
-	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <f32, OtherDimension> const& other)
-	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <f64, OtherDimension> const& other)
+	:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>` const Full ()
+	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`, OtherDimension> const& other)
+	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>`, OtherDimension> const& other)
+	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>`, OtherDimension> const& other)
+	void set (:ref:`SVectorBase<doxid-classSVectorBase>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`, OtherDimension> const& other)
 
 .. _details-doxid-classSColorA:
 

@@ -8,6 +8,10 @@ class ion.CAssetManager
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CAssetManager.h>
 
 
 
@@ -48,32 +52,32 @@ class ion.CAssetManager
 	// methods
 
 	void Init (:ref:`CGraphicsAPI<doxid-classion_1_1CGraphicsAPI>`* GraphicsAPI)
-	SharedPointer <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> LoadShader (string const& Name)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> LoadShader (string const& Name)
 	:ref:`CImage<doxid-classion_1_1CImage>`* LoadImage (string const& FileName)
 
-	SharedPointer <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> LoadTexture (
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> LoadTexture (
 	    string const& FileName,
-	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps = :ref:`Graphics::ITexture::EMipMaps::True<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dcaf827cf462f62848df37c5e1e94a4da74>`
 	    )
 
-	SharedPointer <:ref:`Graphics::ITexture3D<doxid-classion_1_1Graphics_1_1ITexture3D>`> Load3DTexture (
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture3D<doxid-classion_1_1Graphics_1_1ITexture3D>`> Load3DTexture (
 	    const std::vector <std::string>& fileName,
-	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps = :ref:`Graphics::ITexture::EMipMaps::True<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dcaf827cf462f62848df37c5e1e94a4da74>`
 	    )
 
-	SharedPointer <:ref:`Graphics::ITexture2DArray<doxid-classion_1_1Graphics_1_1ITexture2DArray>`> Load2DTextureArray (
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture2DArray<doxid-classion_1_1Graphics_1_1ITexture2DArray>`> Load2DTextureArray (
 	    const std::vector <std::string>& fileName,
-	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps = :ref:`Graphics::ITexture::EMipMaps::True<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dcaf827cf462f62848df37c5e1e94a4da74>`
 	    )
 
-	SharedPointer <:ref:`Graphics::ITextureCubeMap<doxid-classion_1_1Graphics_1_1ITextureCubeMap>`> LoadCubeMapTexture (
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITextureCubeMap<doxid-classion_1_1Graphics_1_1ITextureCubeMap>`> LoadCubeMapTexture (
 	    string const& FileNameLeft,
 	    string const& FileNameRight,
 	    string const& FileNameUp,
 	    string const& FileNameDown,
 	    string const& FileNameFront,
 	    string const& FileNameBack,
-	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps = :ref:`Graphics::ITexture::EMipMaps::True<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dcaf827cf462f62848df37c5e1e94a4da74>`
 	    )
 
 	:ref:`Scene::CSimpleMesh<doxid-classion_1_1Scene_1_1CSimpleMesh>`* LoadMesh (string const& FileName)

@@ -35,7 +35,7 @@ Variant of :ref:`ITreeNode <doxid-classITreeNode>` that doesn't require a single
 
 	// methods
 
-	std::set <Implementation*> const& GetChildren ()
+	:ref:`std::set<doxid-CMakeLists_8txt_1ac9ac42ec0c4bee9c9949dfbfd1383760>` <Implementation*> const& GetChildren ()
 	void AddChild (Implementation* Child)
 	void RemoveChild (Implementation* Child)
 	void RemoveAllChildren ()

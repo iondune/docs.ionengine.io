@@ -23,5 +23,5 @@ Template specialization of :ref:`RoundingError <doxid-structRoundingError>` for 
 
 	// methods
 
-	f64 Value ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` Value ()
 

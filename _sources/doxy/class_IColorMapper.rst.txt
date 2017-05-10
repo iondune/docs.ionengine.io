@@ -8,6 +8,10 @@ class IColorMapper
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IColorMapper.h>
 
 
 
@@ -21,6 +25,6 @@ class IColorMapper
 
 	// methods
 
-	:ref:`SColorAf<doxid-classSColorA>` const GetColor (:ref:`IDataRecord<doxid-classIDataRecord>` <f64> const& DataRecord)
-	void PreProcessValues (:ref:`IDatabase<doxid-classIDatabase>` <f64>& Database)
+	:ref:`SColorAf<doxid-SColor_8h_1ad2d779604d98262524e93f4903f2c7d9>` const GetColor (:ref:`IDataRecord<doxid-classIDataRecord>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`> const& DataRecord)
+	void PreProcessValues (:ref:`IDatabase<doxid-classIDatabase>` <:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`>& Database)
 

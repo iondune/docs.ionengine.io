@@ -159,6 +159,9 @@
 <span id="cid-ion-graphics-copenglimplementation"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation"></span><span id="index-0"></span><h1>class ion.Graphics.COpenGLImplementation<a class="headerlink" href="#class-ion-graphics-copenglimplementation" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;COpenGLImplementation.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-graphics-copenglimplementation-getwindowcontext">
 <span id="doxid-classion-1-1graphics-1-1copenglimplementation-1acd88cc92b6c4b5e851ac8959b8cde56d"></span><span id="cid-ion-graphics-copenglimplementation-createtexturecubemap"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1a8700236b703b067f11332f314f5f083f"></span><span id="cid-ion-graphics-copenglimplementation-createtexture2darray"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1ae455ab373ae42358a82cb9d064d06d4a"></span><span id="cid-ion-graphics-copenglimplementation-createtexture3d"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1a4a814caf701d3252ab534f30664134d7"></span><span id="cid-ion-graphics-copenglimplementation-createtexture2d"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1abf65320170b2626e597d75465ddc4089"></span><span id="cid-ion-graphics-copenglimplementation-createdrawcontext"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1a7bde841cb2318aad33941c6e18220b06"></span><span id="cid-ion-graphics-copenglimplementation-createdepthbuffer"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1a95c47804fe5a50043960c3a6e6c49971"></span><span id="cid-ion-graphics-copenglimplementation-createindexbuffer"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1af7a39506692eb282af490070fbf461be"></span><span id="cid-ion-graphics-copenglimplementation-createvertexbuffer"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1ac6d593c089e77d3b0d0e4ea19a3f2f77"></span><span id="cid-ion-graphics-copenglimplementation-createshaderprogram"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1a0013cfac04646d4bb620be613c3bd35f"></span><span id="cid-ion-graphics-copenglimplementation-createpixelshaderfromsource"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1aca7f6062c9835dc13490a63799d48c44"></span><span id="cid-ion-graphics-copenglimplementation-creategeometryshaderfromsource"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1af92b40f8eff2840e0deeebf163307f67"></span><span id="cid-ion-graphics-copenglimplementation-createvertexshaderfromsource"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1accdd2da6a092d8d27ccd0b527a4dc4e9"></span><span id="cid-ion-graphics-copenglimplementation-postwindowcreationsetup"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1aa35de91b275791c5621e3c923b9e0880"></span><span id="cid-ion-graphics-copenglimplementation-prewindowcreationsetup"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1a349107007c1e72a766677925fa29e90f"></span><span id="cid-ion-graphics-copenglimplementation-isreversedepth"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1ab5ecf8b19bd3abfa47d78025376edbc5"></span><span id="cid-ion-graphics-copenglimplementation-usereversedepth"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1afa3b6e4078fed0593358af94ca4578d4"></span><span id="cid-ion-graphics-copenglimplementation-copenglimplementation"></span><span id="doxid-classion-1-1graphics-1-1copenglimplementation-1a074d3ee1732f7a4dc31292757b38dfff"></span><span></span><span class="c1">// methods</span>
 
@@ -167,44 +170,44 @@
 <span class="kt">bool</span> <span class="n">IsReverseDepth</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">PreWindowCreationSetup</span> <span class="p">()</span>
 <span class="kt">void</span> <span class="n">PostWindowCreationSetup</span> <span class="p">()</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>IVertexShader<span></span><span class="o">&gt;</span> <span class="n">CreateVertexShaderFromSource</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Source</span><span class="p">)</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>IGeometryShader<span></span><span class="o">&gt;</span> <span class="n">CreateGeometryShaderFromSource</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Source</span><span class="p">)</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>IPixelShader<span></span><span class="o">&gt;</span> <span class="n">CreatePixelShaderFromSource</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Source</span><span class="p">)</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>IShaderProgram<span></span><span class="o">&gt;</span> <span class="n">CreateShaderProgram</span> <span class="p">()</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>IVertexBuffer<span></span><span class="o">&gt;</span> <span class="n">CreateVertexBuffer</span> <span class="p">()</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>IIndexBuffer<span></span><span class="o">&gt;</span> <span class="n">CreateIndexBuffer</span> <span class="p">()</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::IDepthBuffer<span></span><span class="o">&gt;</span> <span class="n">CreateDepthBuffer</span> <span class="p">(</span><a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2u</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">)</span>
+SharedPointer<span></span> <span class="o">&lt;</span>IVertexShader<span></span><span class="o">&gt;</span> <span class="n">CreateVertexShaderFromSource</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Source</span><span class="p">)</span>
+SharedPointer<span></span> <span class="o">&lt;</span>IGeometryShader<span></span><span class="o">&gt;</span> <span class="n">CreateGeometryShaderFromSource</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Source</span><span class="p">)</span>
+SharedPointer<span></span> <span class="o">&lt;</span>IPixelShader<span></span><span class="o">&gt;</span> <span class="n">CreatePixelShaderFromSource</span> <span class="p">(</span><span class="n">string</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Source</span><span class="p">)</span>
+SharedPointer<span></span> <span class="o">&lt;</span>IShaderProgram<span></span><span class="o">&gt;</span> <span class="n">CreateShaderProgram</span> <span class="p">()</span>
+SharedPointer<span></span> <span class="o">&lt;</span>IVertexBuffer<span></span><span class="o">&gt;</span> <span class="n">CreateVertexBuffer</span> <span class="p">()</span>
+SharedPointer<span></span> <span class="o">&lt;</span>IIndexBuffer<span></span><span class="o">&gt;</span> <span class="n">CreateIndexBuffer</span> <span class="p">()</span>
+SharedPointer<span></span> <span class="o">&lt;</span>Graphics::IDepthBuffer<span></span><span class="o">&gt;</span> <span class="n">CreateDepthBuffer</span> <span class="p">(</span>vec2u<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">)</span>
 Graphics::IDrawContext<span></span><span class="o">*</span> <span class="n">CreateDrawContext</span> <span class="p">()</span>
 
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">CreateTexture2D</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2u</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span> <span class="k">const</span> <span class="n">MipMaps</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EFormatComponents</span> <span class="k">const</span> <span class="n">Components</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EInternalFormatType</span> <span class="k">const</span> <span class="n">Type</span>
+SharedPointer<span></span> <span class="o">&lt;</span>ITexture2D<span></span><span class="o">&gt;</span> <span class="n">CreateTexture2D</span> <span class="p">(</span>
+    vec2u<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
+    ITexture::EMipMaps<span></span> <span class="k">const</span> <span class="n">MipMaps</span><span class="p">,</span>
+    ITexture::EFormatComponents<span></span> <span class="k">const</span> <span class="n">Components</span><span class="p">,</span>
+    ITexture::EInternalFormatType<span></span> <span class="k">const</span> <span class="n">Type</span>
     <span class="p">)</span>
 
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture3D<span></span><span class="o">&gt;</span> <span class="n">CreateTexture3D</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3u</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span> <span class="k">const</span> <span class="n">MipMaps</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EFormatComponents</span> <span class="k">const</span> <span class="n">Components</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EInternalFormatType</span> <span class="k">const</span> <span class="n">Type</span>
+SharedPointer<span></span> <span class="o">&lt;</span>ITexture3D<span></span><span class="o">&gt;</span> <span class="n">CreateTexture3D</span> <span class="p">(</span>
+    vec3u<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
+    ITexture::EMipMaps<span></span> <span class="k">const</span> <span class="n">MipMaps</span><span class="p">,</span>
+    ITexture::EFormatComponents<span></span> <span class="k">const</span> <span class="n">Components</span><span class="p">,</span>
+    ITexture::EInternalFormatType<span></span> <span class="k">const</span> <span class="n">Type</span>
     <span class="p">)</span>
 
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>ITexture2DArray<span></span><span class="o">&gt;</span> <span class="n">CreateTexture2DArray</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3u</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span> <span class="k">const</span> <span class="n">MipMaps</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EFormatComponents</span> <span class="k">const</span> <span class="n">Components</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EInternalFormatType</span> <span class="k">const</span> <span class="n">Type</span>
+SharedPointer<span></span> <span class="o">&lt;</span>ITexture2DArray<span></span><span class="o">&gt;</span> <span class="n">CreateTexture2DArray</span> <span class="p">(</span>
+    vec3u<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
+    ITexture::EMipMaps<span></span> <span class="k">const</span> <span class="n">MipMaps</span><span class="p">,</span>
+    ITexture::EFormatComponents<span></span> <span class="k">const</span> <span class="n">Components</span><span class="p">,</span>
+    ITexture::EInternalFormatType<span></span> <span class="k">const</span> <span class="n">Type</span>
     <span class="p">)</span>
 
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>ITextureCubeMap<span></span><span class="o">&gt;</span> <span class="n">CreateTextureCubeMap</span> <span class="p">(</span>
-    <a class="reference internal" href="struct_vec2.html#doxid-structvec2"><span class="std std-ref">vec2u</span></a><span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EMipMaps</span> <span class="k">const</span> <span class="n">MipMaps</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EFormatComponents</span> <span class="k">const</span> <span class="n">Components</span><span class="p">,</span>
-    <span class="n">ITexture</span><span class="o">::</span><span class="n">EInternalFormatType</span> <span class="k">const</span> <span class="n">Type</span>
+SharedPointer<span></span> <span class="o">&lt;</span>ITextureCubeMap<span></span><span class="o">&gt;</span> <span class="n">CreateTextureCubeMap</span> <span class="p">(</span>
+    vec2u<span></span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">Size</span><span class="p">,</span>
+    ITexture::EMipMaps<span></span> <span class="k">const</span> <span class="n">MipMaps</span><span class="p">,</span>
+    ITexture::EFormatComponents<span></span> <span class="k">const</span> <span class="n">Components</span><span class="p">,</span>
+    ITexture::EInternalFormatType<span></span> <span class="k">const</span> <span class="n">Type</span>
     <span class="p">)</span>
 
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>IGraphicsContext<span></span><span class="o">&gt;</span> <span class="n">GetWindowContext</span> <span class="p">(</span>CWindow<span></span><span class="o">*</span> <span class="n">Window</span><span class="p">)</span>
+SharedPointer<span></span> <span class="o">&lt;</span>IGraphicsContext<span></span><span class="o">&gt;</span> <span class="n">GetWindowContext</span> <span class="p">(</span>CWindow<span></span><span class="o">*</span> <span class="n">Window</span><span class="p">)</span>
 </pre>
 </div>
 

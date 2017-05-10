@@ -159,17 +159,20 @@
 <span id="cid-ion-scene-ssimplematerial"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial"></span><span id="index-0"></span><h1>struct ion.Scene.SSimpleMaterial<a class="headerlink" href="#struct-ion-scene-ssimplematerial" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;CSimpleMesh.h&gt;</span>
+</pre>
 <pre class="highlight overview-code-block literal-block" id="cid-ion-scene-ssimplematerial-loadtextures">
 <span id="doxid-struction-1-1scene-1-1ssimplematerial-1ac923c6a1f71a50bef02240f80b7d5b8d"></span><span id="cid-ion-scene-ssimplematerial-ssimplematerial"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial-1a38c9b3a2ba4aee02beb7dab1f3c347d7"></span><span id="cid-ion-scene-ssimplematerial-ambienttexture"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial-1aadf79859134defc9d4d32a6ced2a5453"></span><span id="cid-ion-scene-ssimplematerial-diffusetexture"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial-1a294c661aacc1ff7e6cd6a03a6b7a30dd"></span><span id="cid-ion-scene-ssimplematerial-ambientimage"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial-1a7f779460b7dc4a737f65080a08b8b09e"></span><span id="cid-ion-scene-ssimplematerial-diffuseimage"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial-1a4e2263349b394a8c7abd9335d4f12f67"></span><span id="cid-ion-scene-ssimplematerial-shininess"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial-1a8e72498e7865167f0f531a48ba647236"></span><span id="cid-ion-scene-ssimplematerial-specular"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial-1ae9b385c8a2f21e72011d199378680e62"></span><span id="cid-ion-scene-ssimplematerial-diffuse"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial-1a9318675c33f7ef759ff173661de861ed"></span><span id="cid-ion-scene-ssimplematerial-ambient"></span><span id="doxid-struction-1-1scene-1-1ssimplematerial-1ad5a2c891f80e4b792f150c4c7e1f0ad7"></span><span></span><span class="c1">// fields</span>
 
-Graphics::CUniform<span></span> <span class="o">&lt;</span><a class="reference internal" href="class_color3.html#doxid-classcolor3"><span class="std std-ref">color3f</span></a><span></span><span class="o">&gt;</span> <span class="n">Ambient</span>
-Graphics::CUniform<span></span> <span class="o">&lt;</span><a class="reference internal" href="class_color3.html#doxid-classcolor3"><span class="std std-ref">color3f</span></a><span></span><span class="o">&gt;</span> <span class="n">Diffuse</span>
-Graphics::CUniform<span></span> <span class="o">&lt;</span><a class="reference internal" href="class_color3.html#doxid-classcolor3"><span class="std std-ref">color3f</span></a><span></span><span class="o">&gt;</span> <span class="n">Specular</span>
-Graphics::CUniform<span></span> <span class="o">&lt;</span><span class="n">f32</span><span class="o">&gt;</span> <span class="n">Shininess</span>
+Graphics::CUniform<span></span> <span class="o">&lt;</span>color3f<span></span><span class="o">&gt;</span> <span class="n">Ambient</span>
+Graphics::CUniform<span></span> <span class="o">&lt;</span>color3f<span></span><span class="o">&gt;</span> <span class="n">Diffuse</span>
+Graphics::CUniform<span></span> <span class="o">&lt;</span>color3f<span></span><span class="o">&gt;</span> <span class="n">Specular</span>
+Graphics::CUniform<span></span> <span class="o">&lt;</span>f32<span></span><span class="o">&gt;</span> <span class="n">Shininess</span>
 CImage<span></span><span class="o">*</span> <span class="n">DiffuseImage</span>
 CImage<span></span><span class="o">*</span> <span class="n">AmbientImage</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::ITexture<span></span><span class="o">&gt;</span> <span class="n">DiffuseTexture</span>
-<span class="n">SharedPointer</span> <span class="o">&lt;</span>Graphics::ITexture<span></span><span class="o">&gt;</span> <span class="n">AmbientTexture</span>
+SharedPointer<span></span> <span class="o">&lt;</span>Graphics::ITexture<span></span><span class="o">&gt;</span> <span class="n">DiffuseTexture</span>
+SharedPointer<span></span> <span class="o">&lt;</span>Graphics::ITexture<span></span><span class="o">&gt;</span> <span class="n">AmbientTexture</span>
 
 <span class="c1">// methods</span>
 

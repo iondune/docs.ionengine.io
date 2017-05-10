@@ -8,6 +8,10 @@ struct ion.CGUIManager.SDrawText
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CGUIManager.h>
 
 
 
@@ -23,7 +27,7 @@ struct ion.CGUIManager.SDrawText
 
 	// fields
 
-	:ref:`vec2i<doxid-structvec2>` Position
-	:ref:`color3i<doxid-classcolor3>` Color
+	:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` Position
+	:ref:`color3i<doxid-SColor_8h_1a3206d645bbb469ff0b2119f9b5ba4730>` Color
 	string Text
 

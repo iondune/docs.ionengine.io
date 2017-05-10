@@ -159,6 +159,9 @@
 <span id="cid-splane3"></span><span id="doxid-classsplane3"></span><span id="index-0"></span><h1>class SPlane3 &lt;typename T, typename Vector = vec3&lt;T&gt;&gt;<a class="headerlink" href="#class-splane3-typename-t-typename-vector-vec3-t" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<pre class="highlight overview-code-block literal-block">
+<span></span><span class="cp">#include</span> <span class="cpf">&lt;SPlane3.h&gt;</span>
+</pre>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <pre class="highlight overview-code-block literal-block" id="cid-splane3-setplane-3">
@@ -224,7 +227,7 @@
     <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">outIntersection</span>
     <span class="p">)</span>
 
-<span class="n">f32</span> GetKnownIntersectionWithLine<span></span> <span class="p">(</span>
+f32<span></span> GetKnownIntersectionWithLine<span></span> <span class="p">(</span>
     <span class="k">const</span> <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">linePoint1</span><span class="p">,</span>
     <span class="k">const</span> <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">linePoint2</span>
     <span class="p">)</span>
@@ -235,7 +238,7 @@
     <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">outIntersection</span>
     <span class="p">)</span>
 
-<span class="n">EIntersectionRelation</span> ClassifyPointRelation<span></span> <span class="p">(</span><span class="k">const</span> <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">point</span><span class="p">)</span>
+EIntersectionRelation<span></span> ClassifyPointRelation<span></span> <span class="p">(</span><span class="k">const</span> <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">point</span><span class="p">)</span>
 <span class="kt">void</span> RecalculateD<span></span> <span class="p">(</span><span class="k">const</span> <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">MPoint</span><span class="p">)</span>
 <span class="n">Vector</span> GetMemberPoint<span></span> <span class="p">()</span>
 <span class="kt">bool</span> ExistsIntersection<span></span> <span class="p">(</span><span class="k">const</span> SPlane3<span></span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="n">other</span><span class="p">)</span>
@@ -300,7 +303,7 @@
 <p class="rubric">Returns:</p>
 <p>True if there was an intersection, false if there was not.</p>
 <pre class="highlight title-code-block literal-block" id="cid-splane3-getknownintersectionwithline">
-<span id="doxid-classsplane3-1a63a92e1065fc99ca21340f0494804af8"></span><span></span><span class="n">f32</span> <span class="n">GetKnownIntersectionWithLine</span> <span class="p">(</span>
+<span id="doxid-classsplane3-1a63a92e1065fc99ca21340f0494804af8"></span>f32<span></span> <span class="n">GetKnownIntersectionWithLine</span> <span class="p">(</span>
     <span class="k">const</span> <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">linePoint1</span><span class="p">,</span>
     <span class="k">const</span> <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">linePoint2</span>
     <span class="p">)</span>
@@ -353,7 +356,7 @@
 <p class="rubric">Returns:</p>
 <p>True if there was an intersection, false if there was not.</p>
 <pre class="highlight title-code-block literal-block" id="cid-splane3-classifypointrelation">
-<span id="doxid-classsplane3-1acc97b58b90126474eb7840f58a764369"></span><span></span><span class="n">EIntersectionRelation</span> <span class="n">ClassifyPointRelation</span> <span class="p">(</span><span class="k">const</span> <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">point</span><span class="p">)</span>
+<span id="doxid-classsplane3-1acc97b58b90126474eb7840f58a764369"></span>EIntersectionRelation<span></span> <span class="n">ClassifyPointRelation</span> <span class="p">(</span><span class="k">const</span> <span class="n">Vector</span><span class="o">&amp;</span> <span class="n">point</span><span class="p">)</span>
 </pre>
 <p>Classifies the relation of a point to this plane.</p>
 <p class="rubric">Parameters:</p>

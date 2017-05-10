@@ -8,6 +8,10 @@ class ion.CCameraController
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CCameraController.h>
 
 
 
@@ -47,16 +51,16 @@ class ion.CCameraController
 
 	CCameraController (:ref:`Scene::ICamera<doxid-classion_1_1Scene_1_1ICamera>`* Camera)
 	void OnEvent (:ref:`IEvent<doxid-classIEvent>`& Event)
-	void Update (f64 const TickTime)
-	:ref:`vec3f<doxid-structvec3>` const& GetPosition ()
-	f32 GetPhi ()
-	f32 GetTheta ()
-	f32 GetVelocity ()
+	void Update (:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const TickTime)
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` const& GetPosition ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetPhi ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetTheta ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetVelocity ()
 	:ref:`Scene::ICamera<doxid-classion_1_1Scene_1_1ICamera>` const* GetCamera ()
 	:ref:`Scene::ICamera<doxid-classion_1_1Scene_1_1ICamera>`* GetCamera ()
-	:ref:`vec3f<doxid-structvec3>` GetCurrentSpeed ()
+	:ref:`vec3f<doxid-SVector3_8h_1a400d9a5341c55fbcfcc87208c2707775>` GetCurrentSpeed ()
 	void SetVelocity (float const Velocity)
-	void SetPhi (f32 const Phi)
-	void SetTheta (f32 const Theta)
+	void SetPhi (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Phi)
+	void SetTheta (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Theta)
 	void SetActive (bool const Active)
 

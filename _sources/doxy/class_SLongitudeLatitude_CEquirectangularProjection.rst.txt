@@ -8,6 +8,10 @@ class SLongitudeLatitude.CEquirectangularProjection
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SLongitudeLatitude.h>
 
 
 

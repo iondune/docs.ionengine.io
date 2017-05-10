@@ -8,6 +8,10 @@ class ion.CGraphicsAPI
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CGraphicsAPI.h>
 
 
 
@@ -62,55 +66,55 @@ class ion.CGraphicsAPI
 	void Init (:ref:`IGraphicsImplementation<doxid-classion_1_1IGraphicsImplementation>`* Implementation)
 	void PreWindowCreationSetup ()
 	void PostWindowCreationSetup ()
-	SharedPointer <:ref:`Graphics::IVertexShader<doxid-classion_1_1Graphics_1_1IVertexShader>`> CreateVertexShaderFromFile (string const& FileName)
-	SharedPointer <:ref:`Graphics::IGeometryShader<doxid-classion_1_1Graphics_1_1IGeometryShader>`> CreateGeometryShaderFromFile (string const& FileName)
-	SharedPointer <:ref:`Graphics::IPixelShader<doxid-classion_1_1Graphics_1_1IPixelShader>`> CreatePixelShaderFromFile (string const& FileName)
-	SharedPointer <:ref:`Graphics::IVertexShader<doxid-classion_1_1Graphics_1_1IVertexShader>`> CreateVertexShaderFromSource (string const& Source)
-	SharedPointer <:ref:`Graphics::IGeometryShader<doxid-classion_1_1Graphics_1_1IGeometryShader>`> CreateGeometryShaderFromSource (string const& Source)
-	SharedPointer <:ref:`Graphics::IPixelShader<doxid-classion_1_1Graphics_1_1IPixelShader>`> CreatePixelShaderFromSource (string const& Source)
-	SharedPointer <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> CreateShaderProgram ()
-	SharedPointer <:ref:`Graphics::IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> CreateVertexBuffer ()
-	SharedPointer <:ref:`Graphics::IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> CreateIndexBuffer ()
-	SharedPointer <:ref:`Graphics::IDepthBuffer<doxid-classion_1_1Graphics_1_1IDepthBuffer>`> CreateDepthBuffer (:ref:`vec2u<doxid-structvec2>` const& Size)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IVertexShader<doxid-classion_1_1Graphics_1_1IVertexShader>`> CreateVertexShaderFromFile (string const& FileName)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IGeometryShader<doxid-classion_1_1Graphics_1_1IGeometryShader>`> CreateGeometryShaderFromFile (string const& FileName)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IPixelShader<doxid-classion_1_1Graphics_1_1IPixelShader>`> CreatePixelShaderFromFile (string const& FileName)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IVertexShader<doxid-classion_1_1Graphics_1_1IVertexShader>`> CreateVertexShaderFromSource (string const& Source)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IGeometryShader<doxid-classion_1_1Graphics_1_1IGeometryShader>`> CreateGeometryShaderFromSource (string const& Source)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IPixelShader<doxid-classion_1_1Graphics_1_1IPixelShader>`> CreatePixelShaderFromSource (string const& Source)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> CreateShaderProgram ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> CreateVertexBuffer ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> CreateIndexBuffer ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IDepthBuffer<doxid-classion_1_1Graphics_1_1IDepthBuffer>`> CreateDepthBuffer (:ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` const& Size)
 	:ref:`Graphics::IDrawContext<doxid-classion_1_1Graphics_1_1IDrawContext>`* CreateDrawContext ()
 
-	SharedPointer <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> CreateTexture2D (
-	    :ref:`vec2u<doxid-structvec2>` const& Size,
-	    Graphics::ITexture::EMipMaps const MipMaps,
-	    Graphics::ITexture::EFormatComponents const Components,
-	    Graphics::ITexture::EInternalFormatType const Type
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> CreateTexture2D (
+	    :ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` const& Size,
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps,
+	    :ref:`Graphics::ITexture::EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>` const Components,
+	    :ref:`Graphics::ITexture::EInternalFormatType<doxid-classion_1_1Graphics_1_1ITexture_1aa2d2690e95cba9a405b9ee2498ac2014>` const Type
 	    )
 
-	SharedPointer <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> CreateTexture2D (
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture2D<doxid-classion_1_1Graphics_1_1ITexture2D>`> CreateTexture2D (
 	    :ref:`CImage<doxid-classion_1_1CImage>`* Image,
-	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps = :ref:`Graphics::ITexture::EMipMaps::True<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dcaf827cf462f62848df37c5e1e94a4da74>`
 	    )
 
-	SharedPointer <:ref:`Graphics::ITexture3D<doxid-classion_1_1Graphics_1_1ITexture3D>`> CreateTexture3D (
-	    :ref:`vec3u<doxid-structvec3>` const& Size,
-	    Graphics::ITexture::EMipMaps const MipMaps,
-	    Graphics::ITexture::EFormatComponents const Components,
-	    Graphics::ITexture::EInternalFormatType const Type
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture3D<doxid-classion_1_1Graphics_1_1ITexture3D>`> CreateTexture3D (
+	    :ref:`vec3u<doxid-SVector3_8h_1a8149c3d5a288bb1fe7ffda7eb3178345>` const& Size,
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps,
+	    :ref:`Graphics::ITexture::EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>` const Components,
+	    :ref:`Graphics::ITexture::EInternalFormatType<doxid-classion_1_1Graphics_1_1ITexture_1aa2d2690e95cba9a405b9ee2498ac2014>` const Type
 	    )
 
-	SharedPointer <:ref:`Graphics::ITexture2DArray<doxid-classion_1_1Graphics_1_1ITexture2DArray>`> CreateTexture2DArray (
-	    :ref:`vec3u<doxid-structvec3>` const& Size,
-	    Graphics::ITexture::EMipMaps const MipMaps,
-	    Graphics::ITexture::EFormatComponents const Components,
-	    Graphics::ITexture::EInternalFormatType const Type
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITexture2DArray<doxid-classion_1_1Graphics_1_1ITexture2DArray>`> CreateTexture2DArray (
+	    :ref:`vec3u<doxid-SVector3_8h_1a8149c3d5a288bb1fe7ffda7eb3178345>` const& Size,
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps,
+	    :ref:`Graphics::ITexture::EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>` const Components,
+	    :ref:`Graphics::ITexture::EInternalFormatType<doxid-classion_1_1Graphics_1_1ITexture_1aa2d2690e95cba9a405b9ee2498ac2014>` const Type
 	    )
 
-	SharedPointer <:ref:`Graphics::ITextureCubeMap<doxid-classion_1_1Graphics_1_1ITextureCubeMap>`> CreateTextureCubeMap (
-	    :ref:`vec2u<doxid-structvec2>` const& Size,
-	    Graphics::ITexture::EMipMaps const MipMaps,
-	    Graphics::ITexture::EFormatComponents const Components,
-	    Graphics::ITexture::EInternalFormatType const Type
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITextureCubeMap<doxid-classion_1_1Graphics_1_1ITextureCubeMap>`> CreateTextureCubeMap (
+	    :ref:`vec2u<doxid-SVector2_8h_1a0aa5a46ab046aa6c5fbde2791c84161a>` const& Size,
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps,
+	    :ref:`Graphics::ITexture::EFormatComponents<doxid-classion_1_1Graphics_1_1ITexture_1a0aa213cca864eb6993704ec907deeb76>` const Components,
+	    :ref:`Graphics::ITexture::EInternalFormatType<doxid-classion_1_1Graphics_1_1ITexture_1aa2d2690e95cba9a405b9ee2498ac2014>` const Type
 	    )
 
-	SharedPointer <:ref:`Graphics::ITextureCubeMap<doxid-classion_1_1Graphics_1_1ITextureCubeMap>`> CreateTextureCubeMap (
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::ITextureCubeMap<doxid-classion_1_1Graphics_1_1ITextureCubeMap>`> CreateTextureCubeMap (
 	    vector <:ref:`CImage<doxid-classion_1_1CImage>`*> const& Images,
-	    Graphics::ITexture::EMipMaps const MipMaps = Graphics::ITexture::EMipMaps::True
+	    :ref:`Graphics::ITexture::EMipMaps<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dc>` const MipMaps = :ref:`Graphics::ITexture::EMipMaps::True<doxid-classion_1_1Graphics_1_1ITexture_1abb2c588a190578a0d5483151f00a82dcaf827cf462f62848df37c5e1e94a4da74>`
 	    )
 
-	SharedPointer <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GetWindowContext (:ref:`CWindow<doxid-classion_1_1CWindow>`* Window)
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GetWindowContext (:ref:`CWindow<doxid-classion_1_1CWindow>`* Window)
 

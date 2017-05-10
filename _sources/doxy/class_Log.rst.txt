@@ -12,6 +12,10 @@ class Log
 	class_Log_Output.rst
 	class_Log_StandardOutput.rst
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionLogger.h>
 
 
 
@@ -65,17 +69,17 @@ class Log
 	    )
 
 	void Write <typename... Args> (
-	    ELogChannel const Channel,
+	    :ref:`ELogChannel<doxid-ionLogger_8h_1ad06dbea5ea06657a165783d466cc3f95>` const Channel,
 	    char const*const Format,
 	    Args const&... args
 	    )
 
 	vector <string> const& GetMessages ()
-	vector <string> const& GetMessages (ELogChannel const Which)
-	vector <pair <string, int>> const& GetMessagesDetail (ELogChannel const Which)
+	vector <string> const& GetMessages (:ref:`ELogChannel<doxid-ionLogger_8h_1ad06dbea5ea06657a165783d466cc3f95>` const Which)
+	vector <pair <string, int>> const& GetMessagesDetail (:ref:`ELogChannel<doxid-ionLogger_8h_1ad06dbea5ea06657a165783d466cc3f95>` const Which)
 
 	void AddOutput (
-	    ELogChannel const Which,
+	    :ref:`ELogChannel<doxid-ionLogger_8h_1ad06dbea5ea06657a165783d466cc3f95>` const Which,
 	    :ref:`Output<doxid-classLog_1_1Output>`* Out
 	    )
 

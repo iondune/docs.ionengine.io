@@ -8,6 +8,10 @@ class SLine3 <typename T, typename Vector = vec3<T>>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SLine3.h>
 
 
 

@@ -8,6 +8,10 @@ class STable.SFieldIterator
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <STable.h>
 
 
 
@@ -46,10 +50,10 @@ class STable.SFieldIterator
 	// typedefs
 
 	typedef std::vector <:ref:`SRow<doxid-classSTable_1_1SRow>`>::iterator::iterator_category iterator_category
-	typedef f64 value_type
+	typedef :ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` value_type
 	typedef std::vector <:ref:`SRow<doxid-classSTable_1_1SRow>`>::iterator::difference_type difference_type
-	typedef f64* pointer
-	typedef f64& reference
+	typedef :ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`* pointer
+	typedef :ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`& reference
 
 	// methods
 
@@ -60,10 +64,10 @@ class STable.SFieldIterator
 
 	:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>`& operator++ ()
 	:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>` operator++ (int)
-	f64 operator* ()
-	f64& operator* ()
-	f64 const* operator-> ()
-	f64* operator-> ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` operator* ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`& operator* ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` const* operator-> ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>`* operator-> ()
 	bool operator< (:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>` const& other)
 	bool operator!= (:ref:`SFieldIterator<doxid-classSTable_1_1SFieldIterator>` const& other)
 

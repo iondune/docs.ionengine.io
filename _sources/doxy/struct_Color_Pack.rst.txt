@@ -8,6 +8,10 @@ struct Color.Pack
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SColor.h>
 
 
 
@@ -19,5 +23,5 @@ struct Color.Pack
 
 	// methods
 
-	uint Bits24 (:ref:`color3i<doxid-classcolor3>` const& Color)
+	:ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` Bits24 (:ref:`color3i<doxid-SColor_8h_1a3206d645bbb469ff0b2119f9b5ba4730>` const& Color)
 

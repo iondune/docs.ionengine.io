@@ -8,6 +8,10 @@ class ion.Animation.ISpline <typename TSplineNode>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ISpline.h>
 
 
 

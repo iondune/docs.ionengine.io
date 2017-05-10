@@ -8,6 +8,10 @@ class ion.Scene.CPerspectiveCamera
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CPerspectiveCamera.h>
 
 
 
@@ -40,20 +44,20 @@ class ion.Scene.CPerspectiveCamera
 	// methods
 
 	CPerspectiveCamera (
-	    f32 const aspectRatio,
-	    f32 const nearPlane = 0.1f,
-	    f32 const farPlane = 100.f,
-	    f32 const focalLength = 0.13f
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const aspectRatio,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const nearPlane = 0.1f,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const farPlane = 100.f,
+	    :ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const focalLength = 0.13f
 	    )
 
-	f32 GetFieldOfView ()
-	f32 GetFocalLength ()
-	f32 GetAspectRatio ()
-	void SetFieldOfView (f32 const fieldOfView)
-	void SetFocalLength (f32 const focalLength)
-	void SetAspectRatio (f32 const aspectRatio)
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetFieldOfView ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetFocalLength ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetAspectRatio ()
+	void SetFieldOfView (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const fieldOfView)
+	void SetFocalLength (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const focalLength)
+	void SetAspectRatio (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const aspectRatio)
 	void RecalculateProjectionMatrix ()
 	void Update ()
-	EProjectionType GetProjectionType ()
-	void SetProjectionType (EProjectionType const Type)
+	:ref:`EProjectionType<doxid-namespaceion_1_1Scene_1a86061092cee81233af1eab19c8b32f82>` GetProjectionType ()
+	void SetProjectionType (:ref:`EProjectionType<doxid-namespaceion_1_1Scene_1a86061092cee81233af1eab19c8b32f82>` const Type)
 

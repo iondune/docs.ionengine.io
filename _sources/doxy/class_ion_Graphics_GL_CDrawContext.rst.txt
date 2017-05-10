@@ -8,6 +8,10 @@ class ion.Graphics.GL.CDrawContext
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CDrawContext.h>
 
 
 
@@ -46,35 +50,35 @@ class ion.Graphics.GL.CDrawContext
 	// methods
 
 	CDrawContext ()
-	void SetProgram (SharedPointer <:ref:`IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> ShaderProgram)
+	void SetProgram (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IShaderProgram<doxid-classion_1_1Graphics_1_1IShaderProgram>`> ShaderProgram)
 
 	void SetVertexBuffer (
-	    uint const Index,
-	    SharedPointer <:ref:`IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> VertexBuffer
+	    :ref:`uint<doxid-ionTypes_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14>` const Index,
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IVertexBuffer<doxid-classion_1_1Graphics_1_1IVertexBuffer>`> VertexBuffer
 	    )
 
-	void SetIndexBuffer (SharedPointer <:ref:`IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> IndexBuffer)
+	void SetIndexBuffer (:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IIndexBuffer<doxid-classion_1_1Graphics_1_1IIndexBuffer>`> IndexBuffer)
 
 	void SetUniform (
 	    string const& Name,
-	    SharedPointer <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`IUniform<doxid-classion_1_1Graphics_1_1IUniform>`> Uniform
 	    )
 
 	void SetTexture (
 	    string const& Name,
-	    SharedPointer <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
+	    :ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`ITexture<doxid-classion_1_1Graphics_1_1ITexture>`> Texture
 	    )
 
-	void SetPrimitiveType (EPrimitiveType const PrimitiveType)
+	void SetPrimitiveType (:ref:`EPrimitiveType<doxid-namespaceion_1_1Graphics_1abaf78fc03c5ec5232f8c60d745978576>` const PrimitiveType)
 
 	void SetFeatureEnabled (
-	    EDrawFeature const Feature,
+	    :ref:`EDrawFeature<doxid-namespaceion_1_1Graphics_1a5e576a7b5e19dd1eb42f99e9baff1624>` const Feature,
 	    bool const Enabled
 	    )
 
-	void SetBlendMode (EBlendMode const BlendMode)
+	void SetBlendMode (:ref:`EBlendMode<doxid-namespaceion_1_1Graphics_1a34af4cbb53768ca7b9f8563f855811fa>` const BlendMode)
 	void SetInstancingEnabled (bool const Enabled)
-	set <string> GetUnboundUniforms ()
+	:ref:`set<doxid-CMakeLists_8txt_1ac9ac42ec0c4bee9c9949dfbfd1383760>` <string> GetUnboundUniforms ()
 	void Draw (:ref:`IDrawConfig<doxid-classion_1_1Graphics_1_1IDrawConfig>`* DrawConfig)
 	:ref:`IDrawConfig<doxid-classion_1_1Graphics_1_1IDrawConfig>`* CreateDrawConfig ()
 	void Invalidate ()

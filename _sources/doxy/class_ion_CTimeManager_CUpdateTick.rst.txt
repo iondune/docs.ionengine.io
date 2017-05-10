@@ -8,6 +8,10 @@ class ion.CTimeManager.CUpdateTick
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CTimeManager.h>
 
 
 
@@ -25,8 +29,8 @@ class ion.CTimeManager.CUpdateTick
 
 	// methods
 
-	f64 GetTick ()
-	f64 GetElapsedTime ()
-	f64 GetMaxDuration ()
-	f64 GetAccumulator ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` GetTick ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` GetElapsedTime ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` GetMaxDuration ()
+	:ref:`f64<doxid-ionTypes_8h_1a94dab5770726ccbef8c7d026cfbdf8e5>` GetAccumulator ()
 

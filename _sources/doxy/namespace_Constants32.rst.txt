@@ -12,15 +12,15 @@ namespace Constants32
 
 
 
-.. _doxid-Constants_8h_1a5db6cf8eadc4320f47ee7fd9a2bfc066:
+.. _doxid-namespaceConstants32_1a5db6cf8eadc4320f47ee7fd9a2bfc066:
 .. _cid-constants32.pi:
-.. _doxid-Constants_8h_1aed5d0816a87410b4ab934916bc8ba5ee:
+.. _doxid-namespaceConstants32_1aed5d0816a87410b4ab934916bc8ba5ee:
 .. _cid-constants32.e:
 .. ref-code-block:: cpp
 	:class: overview-code-block
 
 	// global variables
 
-	f32 const Constants32.Pi
-	f32 const Constants32.e
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Constants32.Pi
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Constants32.e
 

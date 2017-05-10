@@ -8,6 +8,10 @@ class IEvent
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <IEvent.h>
 
 
 

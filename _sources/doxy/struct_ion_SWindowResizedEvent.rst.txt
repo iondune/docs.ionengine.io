@@ -8,6 +8,10 @@ struct ion.SWindowResizedEvent
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <SWindowResizedEvent.h>
 
 
 
@@ -23,7 +27,7 @@ struct ion.SWindowResizedEvent
 
 	// fields
 
-	:ref:`vec2i<doxid-structvec2>` Size
+	:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` Size
 	:ref:`CWindow<doxid-classion_1_1CWindow>`* Window
 
 	// methods

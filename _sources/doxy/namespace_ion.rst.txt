@@ -42,41 +42,41 @@ namespace ion
 
 
 
-.. _doxid-CGUIManager_8cpp_1ac794e1f24580f26dca4bac1642fba71b:
+.. _doxid-namespaceion_1ac794e1f24580f26dca4bac1642fba71b:
 .. _cid-ion.toimgui:
-.. _doxid-CGUIManager_8cpp_1a324c62ea49f23798c5a0146502c82890:
+.. _doxid-namespaceion_1a324c62ea49f23798c5a0146502c82890:
 .. _cid-ion.toion:
-.. _doxid-CGUIManager_8cpp_1a14b8038faa738db66afbc294847a2491:
+.. _doxid-namespaceion_1a14b8038faa738db66afbc294847a2491:
 .. _cid-ion.imgui_implglfwgl3_renderdrawlists:
-.. _doxid-CGUIManager_8cpp_1a8ab7b1859f11a0867d38b95b91919c48:
+.. _doxid-namespaceion_1a8ab7b1859f11a0867d38b95b91919c48:
 .. _cid-ion.imgui_implglfwgl3_getclipboardtext:
-.. _doxid-CGUIManager_8cpp_1a971369ebdcc4c59533217d64259284e9:
+.. _doxid-namespaceion_1a971369ebdcc4c59533217d64259284e9:
 .. _cid-ion.imgui_implglfwgl3_setclipboardtext:
-.. _doxid-ionGUI_2ionGUI_8h_1a3ee0f960aaaab2f06d1a488e91023b97:
+.. _doxid-namespaceion_1a3ee0f960aaaab2f06d1a488e91023b97:
 .. _cid-ion.booltostring:
-.. _doxid-EarClipping_8cpp_1a50ab7bb7af75b0212c05a53ff6903db5:
+.. _doxid-namespaceion_1a50ab7bb7af75b0212c05a53ff6903db5:
 .. _cid-ion.determinant:
-.. _doxid-EarClipping_8cpp_1a29610bafaa081bcca1d15c288bc91e84:
+.. _doxid-namespaceion_1a29610bafaa081bcca1d15c288bc91e84:
 .. _cid-ion.ispointintriangle:
-.. _doxid-EarClipping_8cpp_1af94b9678743011769358c0a82f39e71a:
+.. _doxid-namespaceion_1af94b9678743011769358c0a82f39e71a:
 .. _cid-ion.ispointinorontriangle:
-.. _doxid-EarClipping_8cpp_1a40beae5cfa79eb58406727b5a7c2d4f7:
+.. _doxid-namespaceion_1a40beae5cfa79eb58406727b5a7c2d4f7:
 .. _cid-ion.determinant-2:
-.. _doxid-EarClipping_8cpp_1a42f4842a44dbbf81b6864fdb28b2ed8c:
+.. _doxid-namespaceion_1a42f4842a44dbbf81b6864fdb28b2ed8c:
 .. _cid-ion.ispointintriangle-2:
-.. _doxid-EarClipping_8cpp_1ab5c37e3668f413264507b5ce31892177:
+.. _doxid-namespaceion_1ab5c37e3668f413264507b5ce31892177:
 .. _cid-ion.ispointinorontriangle-2:
-.. _doxid-EarClipping_8cpp_1a6a2f3e656a0e3b231d99216edd58dc66:
+.. _doxid-namespaceion_1a6a2f3e656a0e3b231d99216edd58dc66:
 .. _cid-ion.triangulateearclipping_implementation:
-.. _doxid-EarClipping_8cpp_1affce91b3c2a7e80c55beb7ccc626e833:
+.. _doxid-namespaceion_1affce91b3c2a7e80c55beb7ccc626e833:
 .. _cid-ion.triangulateearclipping:
-.. _doxid-EarClipping_8cpp_1a72d9395c3e4b35fdd973b1eebf11a191:
+.. _doxid-namespaceion_1a72d9395c3e4b35fdd973b1eebf11a191:
 .. _cid-ion.triangulateearclipping-2:
-.. _doxid-CGamePad_8cpp_1acbeb89b05a0452adfe8f8497242cc522:
+.. _doxid-namespaceion_1acbeb89b05a0452adfe8f8497242cc522:
 .. _cid-ion.gamepadstick:
-.. _doxid-CGamePad_8cpp_1a476881ac15cd4569f880f89ffb8d2ed3:
+.. _doxid-namespaceion_1a476881ac15cd4569f880f89ffb8d2ed3:
 .. _cid-ion.gamepadtrigger:
-.. _doxid-ConvertGLFWKeyCode_8cpp_1a4cf039ae702fe080f3bfeeaaef2be6bf:
+.. _doxid-namespaceion_1a4cf039ae702fe080f3bfeeaaef2be6bf:
 .. _cid-ion.convertglfwkeycode:
 .. ref-code-block:: cpp
 	:class: overview-code-block
@@ -91,9 +91,9 @@ namespace ion
 
 	// enums
 
-	enum :ref:`EGamePadButton<doxid-CGamePad_8h_1a7556e2f50eb5cb19ff72747595655e01>`
-	enum :ref:`EKey<doxid-EKey_8h_1a26c62ef1a9d4bae5f8a1863922baf037>`
-	enum :ref:`EWindowType<doxid-CWindowManager_8h_1ab40a9db3eacbb4cf19e714158dac71d5>`
+	enum :ref:`EGamePadButton<doxid-namespaceion_1a7556e2f50eb5cb19ff72747595655e01>`
+	enum :ref:`EKey<doxid-namespaceion_1a26c62ef1a9d4bae5f8a1863922baf037>`
+	enum :ref:`EWindowType<doxid-namespaceion_1ab40a9db3eacbb4cf19e714158dac71d5>`
 
 	// structs
 
@@ -125,55 +125,55 @@ namespace ion
 
 	// global functions
 
-	ImVec2 ion.ToImGui (:ref:`vec2f<doxid-structvec2>` const& v)
-	:ref:`vec2f<doxid-structvec2>` ion.ToIon (ImVec2 const& v)
+	ImVec2 ion.ToImGui (:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& v)
+	:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` ion.ToIon (ImVec2 const& v)
 	void ion.ImGui_ImplGlfwGL3_RenderDrawLists (ImDrawData* draw_data)
 	char const* ion.ImGui_ImplGlfwGL3_GetClipboardText ()
 	void ion.ImGui_ImplGlfwGL3_SetClipboardText (const char* text)
 	char const* ion.BoolToString (bool const B)
 
 	float ion.Determinant (
-	    :ref:`vec2f<doxid-structvec2>` const& u,
-	    :ref:`vec2f<doxid-structvec2>` const& v
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& u,
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& v
 	    )
 
 	bool ion.IsPointInTriangle (
-	    :ref:`vec2f<doxid-structvec2>` const& a,
-	    :ref:`vec2f<doxid-structvec2>` const& b,
-	    :ref:`vec2f<doxid-structvec2>` const& c,
-	    :ref:`vec2f<doxid-structvec2>` const& point
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& a,
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& b,
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& c,
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& point
 	    )
 
 	bool ion.IsPointInOrOnTriangle (
-	    :ref:`vec2f<doxid-structvec2>` const& a,
-	    :ref:`vec2f<doxid-structvec2>` const& b,
-	    :ref:`vec2f<doxid-structvec2>` const& c,
-	    :ref:`vec2f<doxid-structvec2>` const& point
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& a,
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& b,
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& c,
+	    :ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& point
 	    )
 
 	double ion.Determinant (
-	    :ref:`vec2d<doxid-structvec2>` const& u,
-	    :ref:`vec2d<doxid-structvec2>` const& v
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& u,
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& v
 	    )
 
 	bool ion.IsPointInTriangle (
-	    :ref:`vec2d<doxid-structvec2>` const& a,
-	    :ref:`vec2d<doxid-structvec2>` const& b,
-	    :ref:`vec2d<doxid-structvec2>` const& c,
-	    :ref:`vec2d<doxid-structvec2>` const& point
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& a,
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& b,
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& c,
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& point
 	    )
 
 	bool ion.IsPointInOrOnTriangle (
-	    :ref:`vec2d<doxid-structvec2>` const& a,
-	    :ref:`vec2d<doxid-structvec2>` const& b,
-	    :ref:`vec2d<doxid-structvec2>` const& c,
-	    :ref:`vec2d<doxid-structvec2>` const& point
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& a,
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& b,
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& c,
+	    :ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>` const& point
 	    )
 
 	vector <:ref:`STriangle2D<doxid-struction_1_1STriangle2D>` <T>> ion.TriangulateEarClipping_Implementation <typename T> (vector <:ref:`vec2<doxid-structvec2>` <T>> const& OriginalPoints)
-	vector <:ref:`STriangle2D<doxid-struction_1_1STriangle2D>` <float>> ion.TriangulateEarClipping (vector <:ref:`vec2f<doxid-structvec2>`> const& OriginalPoints)
-	vector <:ref:`STriangle2D<doxid-struction_1_1STriangle2D>` <double>> ion.TriangulateEarClipping (vector <:ref:`vec2d<doxid-structvec2>`> const& OriginalPoints)
-	f32 ion.GamepadStick (s16 in)
-	f32 ion.GamepadTrigger (u8 in)
-	EKey const ion.ConvertGLFWKeyCode (int const Code)
+	vector <:ref:`STriangle2D<doxid-struction_1_1STriangle2D>` <float>> ion.TriangulateEarClipping (vector <:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>`> const& OriginalPoints)
+	vector <:ref:`STriangle2D<doxid-struction_1_1STriangle2D>` <double>> ion.TriangulateEarClipping (vector <:ref:`vec2d<doxid-SVector2_8h_1a6f40b23efdae070dfbc013807645937b>`> const& OriginalPoints)
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` ion.GamepadStick (:ref:`s16<doxid-ionTypes_8h_1a01c1160d3a3ce93ae2020e83d238f346>` in)
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` ion.GamepadTrigger (:ref:`u8<doxid-ionTypes_8h_1ac337d5634fd0f8076b938d55e856e3bc>` in)
+	:ref:`EKey<doxid-namespaceion_1a26c62ef1a9d4bae5f8a1863922baf037>` const ion.ConvertGLFWKeyCode (int const Code)
 

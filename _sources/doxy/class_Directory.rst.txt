@@ -8,6 +8,10 @@ class Directory
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionDirectory.h>
 
 
 

@@ -8,6 +8,10 @@ class ion.Animation.CLinearSplineInterpolator <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CLinearSplineInterpolator.h>
 
 
 

@@ -8,6 +8,10 @@ class Random
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <ionRand.h>
 
 
 

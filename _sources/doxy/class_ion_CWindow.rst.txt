@@ -8,6 +8,10 @@ class ion.CWindow
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CWindow.h>
 
 
 
@@ -62,22 +66,22 @@ class ion.CWindow
 	void MakeContextCurrent ()
 	bool ShouldClose ()
 	void Close ()
-	:ref:`vec2i<doxid-structvec2>` const& GetSize ()
-	:ref:`vec2i<doxid-structvec2>` const& GetFrameBufferSize ()
-	f32 GetAspectRatio ()
+	:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& GetSize ()
+	:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& GetFrameBufferSize ()
+	:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` GetAspectRatio ()
 	void SwapBuffers ()
-	:ref:`vec2i<doxid-structvec2>` GetPosition ()
-	void SetPosition (:ref:`vec2i<doxid-structvec2>` const& Position)
-	bool IsKeyDown (EKey const Key)
-	bool IsMouseDown (SMouseEvent::EButton const Button)
-	:ref:`vec2f<doxid-structvec2>` const& GetCursorLocation ()
-	void SetCursorLocation (:ref:`vec2f<doxid-structvec2>` const& position)
+	:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` GetPosition ()
+	void SetPosition (:ref:`vec2i<doxid-SVector2_8h_1ab941cf09d5e5805b4ce98588ebc91d23>` const& Position)
+	bool IsKeyDown (:ref:`EKey<doxid-namespaceion_1a26c62ef1a9d4bae5f8a1863922baf037>` const Key)
+	bool IsMouseDown (:ref:`SMouseEvent::EButton<doxid-struction_1_1SMouseEvent_1a6bc94f1b06d84884dd789f82eecbefcb>` const Button)
+	:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& GetCursorLocation ()
+	void SetCursorLocation (:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& position)
 	void SetCursorVisible (bool const Visible)
-	:ref:`vec2f<doxid-structvec2>` GetRelativeCursorLocation ()
-	void SetRelativeCursorLocation (:ref:`vec2f<doxid-structvec2>` const& position)
+	:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` GetRelativeCursorLocation ()
+	void SetRelativeCursorLocation (:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& position)
 	GLFWwindow*const GetHandle ()
 	string GetClipboardText ()
 	void SetClipboardText (string const& Text)
 	bool IsFocused ()
-	SharedPointer <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GetContext ()
+	:ref:`SharedPointer<doxid-ionSmartPointer_8h_1a536cc349b9d52657c9d01d3f09c4633e>` <:ref:`Graphics::IGraphicsContext<doxid-classion_1_1Graphics_1_1IGraphicsContext>`> GetContext ()
 

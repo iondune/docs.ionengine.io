@@ -8,6 +8,10 @@ struct ion.STriangle2D <typename T>
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <EarClipping.h>
 
 
 
@@ -23,7 +27,7 @@ struct ion.STriangle2D <typename T>
 
 	// fields
 
-	:ref:`vec2<doxid-structvec2>` <T> A
-	:ref:`vec2<doxid-structvec2>` <T> B
-	:ref:`vec2<doxid-structvec2>` <T> C
+	:ref:`vec2<doxid-structvec2>` <:ref:`T<doxid-namespaceion_1a26c62ef1a9d4bae5f8a1863922baf037ab9ece18c950afbfa6b0fdbfa4ff731d3>`> A
+	:ref:`vec2<doxid-structvec2>` <:ref:`T<doxid-namespaceion_1a26c62ef1a9d4bae5f8a1863922baf037ab9ece18c950afbfa6b0fdbfa4ff731d3>`> B
+	:ref:`vec2<doxid-structvec2>` <:ref:`T<doxid-namespaceion_1a26c62ef1a9d4bae5f8a1863922baf037ab9ece18c950afbfa6b0fdbfa4ff731d3>`> C
 

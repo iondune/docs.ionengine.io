@@ -8,6 +8,10 @@ class ion.Graphics.GL.CVertexShader
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CVertexShader.h>
 
 
 

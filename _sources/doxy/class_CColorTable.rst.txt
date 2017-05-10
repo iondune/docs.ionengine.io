@@ -8,6 +8,10 @@ class CColorTable
 .. toctree::
 	:hidden:
 
+.. code-block:: cpp
+	:class: overview-code-block
+
+	#include <CColorTable.h>
 
 
 
@@ -19,5 +23,5 @@ class CColorTable
 
 	// methods
 
-	:ref:`color3i<doxid-classcolor3>` const& Get (f32 const Value)
+	:ref:`color3i<doxid-SColor_8h_1a3206d645bbb469ff0b2119f9b5ba4730>` const& Get (:ref:`f32<doxid-ionTypes_8h_1a5f6906312a689f27d70e9d086649d3fd>` const Value)
 
