@@ -88,11 +88,12 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Module ionGL</a></li>
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">Modules</a></li>
 </ul>
-</div>
+
             
           
         </div>
@@ -169,55 +170,55 @@
 <p>The ionGL Module is contained in the ion::GL namespace. An example of basic usage can be found in TestGL/Main.cpp and an example of more advanced usage can be found in TestAsset/Main.cpp.</p>
 <p class="rubric" id="doxid-modulegl-1example">Example:</p>
 <p>Consider the below example which shows the initialization of a VAO with a position VBO and an index buffer.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">//</span> <span class="n">Initiale</span> <span class="n">a</span> <span class="n">vertex</span> <span class="n">buffer</span> <span class="nb">object</span>
-<span class="n">ion</span><span class="p">::</span><span class="n">GL</span><span class="p">::</span><span class="n">VertexBuffer</span> <span class="o">*</span> <span class="n">vbo</span> <span class="o">=</span> <span class="n">new</span> <span class="n">ion</span><span class="p">::</span><span class="n">GL</span><span class="p">::</span><span class="n">VertexBuffer</span><span class="p">();</span>
+<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="c1">// Initiale a vertex buffer object</span>
+<span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">VertexBuffer</span> <span class="o">*</span> <span class="n">vbo</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">VertexBuffer</span><span class="p">();</span>
 <span class="n">vbo</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">(</span><span class="n">Vertices</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
 
-<span class="o">//</span> <span class="n">Initial</span> <span class="n">an</span> <span class="n">index</span> <span class="n">buffer</span> <span class="nb">object</span>
-<span class="n">ion</span><span class="p">::</span><span class="n">GL</span><span class="p">::</span><span class="n">IndexBuffer</span> <span class="o">*</span> <span class="n">ibo</span> <span class="o">=</span> <span class="n">new</span> <span class="n">ion</span><span class="p">::</span><span class="n">GL</span><span class="p">::</span><span class="n">IndexBuffer</span><span class="p">();</span>
+<span class="c1">// Initial an index buffer object</span>
+<span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">IndexBuffer</span> <span class="o">*</span> <span class="n">ibo</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">IndexBuffer</span><span class="p">();</span>
 <span class="n">ibo</span><span class="o">-&gt;</span><span class="n">Data</span><span class="p">(</span><span class="n">Indices</span><span class="p">);</span>
 
-<span class="o">//</span> <span class="n">Bind</span> <span class="n">the</span> <span class="n">vertex</span> <span class="n">buffer</span> <span class="ow">and</span> <span class="n">index</span> <span class="n">buffer</span> <span class="n">onto</span> <span class="n">a</span> <span class="n">new</span> <span class="n">vertex</span> <span class="n">array</span> <span class="nb">object</span>
-<span class="n">ion</span><span class="p">::</span><span class="n">GL</span><span class="p">::</span><span class="n">VertexArray</span> <span class="o">*</span> <span class="n">vao</span> <span class="o">=</span> <span class="n">new</span> <span class="n">ion</span><span class="p">::</span><span class="n">GL</span><span class="p">::</span><span class="n">VertexArray</span><span class="p">();</span>
+<span class="c1">// Bind the vertex buffer and index buffer onto a new vertex array object</span>
+<span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">VertexArray</span> <span class="o">*</span> <span class="n">vao</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">VertexArray</span><span class="p">();</span>
 <span class="n">vao</span><span class="o">-&gt;</span><span class="n">SetIndexBuffer</span><span class="p">(</span><span class="n">ibo</span><span class="p">);</span>
 <span class="n">vao</span><span class="o">-&gt;</span><span class="n">BindAttribute</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">vbo</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>The next example shows how to initialize a shader program with Vertex and Fragment stages.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>// Create a vertex shader and compile from source
-ion::GL::VertexShader * vert = new ion::GL::VertexShader();
-vert-&gt;Source(VertexShaderSource);
+<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="c1">// Create a vertex shader and compile from source</span>
+<span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">VertexShader</span> <span class="o">*</span> <span class="n">vert</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">VertexShader</span><span class="p">();</span>
+<span class="n">vert</span><span class="o">-&gt;</span><span class="n">Source</span><span class="p">(</span><span class="n">VertexShaderSource</span><span class="p">);</span>
 
-if (! vert-&gt;Compile())
-    std::cerr &lt;&lt; &quot;Failed to compile vertex shader!&quot; &lt;&lt; std::endl &lt;&lt; vert-&gt;InfoLog() &lt;&lt; std::endl;
+<span class="k">if</span> <span class="p">(</span><span class="o">!</span> <span class="n">vert</span><span class="o">-&gt;</span><span class="n">Compile</span><span class="p">())</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cerr</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Failed to compile vertex shader!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span> <span class="o">&lt;&lt;</span> <span class="n">vert</span><span class="o">-&gt;</span><span class="n">InfoLog</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
 
-// Create a fragment shader and compile from source
-ion::GL::FragmentShader * frag = new ion::GL::FragmentShader();
-frag-&gt;Source(FragmentShaderSource);
+<span class="c1">// Create a fragment shader and compile from source</span>
+<span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">FragmentShader</span> <span class="o">*</span> <span class="n">frag</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">FragmentShader</span><span class="p">();</span>
+<span class="n">frag</span><span class="o">-&gt;</span><span class="n">Source</span><span class="p">(</span><span class="n">FragmentShaderSource</span><span class="p">);</span>
 
-if (! frag-&gt;Compile())
-    std::cerr &lt;&lt; &quot;Failed to compile vertex shader!&quot; &lt;&lt; std::endl &lt;&lt; frag-&gt;InfoLog() &lt;&lt; std::endl;
+<span class="k">if</span> <span class="p">(</span><span class="o">!</span> <span class="n">frag</span><span class="o">-&gt;</span><span class="n">Compile</span><span class="p">())</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cerr</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Failed to compile vertex shader!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span> <span class="o">&lt;&lt;</span> <span class="n">frag</span><span class="o">-&gt;</span><span class="n">InfoLog</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
 
-// Link the vertex and fragment shader stages into a new shader program object
-ion::GL::Program * shader = new ion::GL::Program();
-shader-&gt;AttachShader(vert);
-shader-&gt;AttachShader(frag);
-shader-&gt;Link();
-shader-&gt;BindAttributeLocation(0, &quot;position&quot; );
+<span class="c1">// Link the vertex and fragment shader stages into a new shader program object</span>
+<span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">Program</span> <span class="o">*</span> <span class="n">shader</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">Program</span><span class="p">();</span>
+<span class="n">shader</span><span class="o">-&gt;</span><span class="n">AttachShader</span><span class="p">(</span><span class="n">vert</span><span class="p">);</span>
+<span class="n">shader</span><span class="o">-&gt;</span><span class="n">AttachShader</span><span class="p">(</span><span class="n">frag</span><span class="p">);</span>
+<span class="n">shader</span><span class="o">-&gt;</span><span class="n">Link</span><span class="p">();</span>
+<span class="n">shader</span><span class="o">-&gt;</span><span class="n">BindAttributeLocation</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s">&quot;position&quot;</span> <span class="p">);</span>
 </pre></div>
 </div>
 <p>Finally, the below example shows how to implement a simple draw loop.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">//</span> <span class="n">Clear</span> <span class="n">the</span> <span class="n">color</span> <span class="ow">and</span> <span class="n">depth</span> <span class="n">buffers</span>
-<span class="n">ion</span><span class="p">::</span><span class="n">GL</span><span class="p">::</span><span class="n">Context</span><span class="p">::</span><span class="n">Clear</span><span class="p">({</span> <span class="n">EBuffer</span><span class="p">::</span><span class="n">Color</span><span class="p">,</span> <span class="n">EBuffer</span><span class="p">::</span><span class="n">Depth</span> <span class="p">});</span>
+<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="c1">// Clear the color and depth buffers</span>
+<span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">Context</span><span class="o">::</span><span class="n">Clear</span><span class="p">({</span> <span class="n">EBuffer</span><span class="o">::</span><span class="n">Color</span><span class="p">,</span> <span class="n">EBuffer</span><span class="o">::</span><span class="n">Depth</span> <span class="p">});</span>
 
-<span class="o">//</span> <span class="n">Use</span> <span class="n">the</span> <span class="n">shader</span> <span class="n">we</span> <span class="n">compiled</span>
+<span class="c1">// Use the shader we compiled</span>
 <span class="n">shader</span><span class="o">-&gt;</span><span class="n">Use</span><span class="p">();</span>
 
-<span class="o">//</span> <span class="n">Draw</span> <span class="n">the</span> <span class="n">vertex</span> <span class="n">array</span> <span class="n">we</span> <span class="n">created</span>
+<span class="c1">// Draw the vertex array we created</span>
 <span class="n">vao</span><span class="o">-&gt;</span><span class="n">Draw</span><span class="p">();</span>
 
-<span class="o">//</span> <span class="n">End</span> <span class="n">the</span> <span class="n">draw</span> <span class="n">stage</span>
-<span class="n">ion</span><span class="p">::</span><span class="n">GL</span><span class="p">::</span><span class="n">Program</span><span class="p">::</span><span class="n">End</span><span class="p">();</span>
+<span class="c1">// End the draw stage</span>
+<span class="n">ion</span><span class="o">::</span><span class="n">GL</span><span class="o">::</span><span class="n">Program</span><span class="o">::</span><span class="n">End</span><span class="p">();</span>
 </pre></div>
 </div>
 </div>

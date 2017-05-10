@@ -35,7 +35,9 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="ionEngine 0.4.1 documentation" href="index.html"/> 
+    <link rel="top" title="ionEngine 0.4.1 documentation" href="index.html"/>
+        <link rel="next" title="Modules" href="modules.html"/>
+        <link rel="prev" title="Dependencies" href="dependencies.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -88,16 +90,21 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Installation</a><ul>
-<li><a class="reference internal" href="#windows">Windows</a></li>
-<li><a class="reference internal" href="#linux">Linux</a></li>
-<li><a class="reference internal" href="#os-x">OS X</a></li>
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#linux">Linux</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ubuntu-16-04">Ubuntu 16.04</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ubuntu-14-04">Ubuntu 14.04</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#os-x">OS X</a></li>
 </ul>
-</div>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Modules</a></li>
+</ul>
+
             
           
         </div>
@@ -161,63 +168,90 @@
             
   <div class="section" id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
 <div class="section" id="windows">
 <h2>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h2>
 <p>First you need to get all of the &#8220;header only&#8221; dependencies, which are:</p>
 <ul class="simple">
-<li>stb - <cite>https://github.com/nothings/stb</cite></li>
-<li>tinyformat - <cite>https://github.com/c42f/tinyformat</cite></li>
-<li>glm - <cite>https://github.com/g-truc/glm</cite></li>
-<li>imgui - <cite>https://github.com/ocornut/imgui</cite></li>
-<li>Catch - <cite>https://github.com/philsquared/Catch</cite></li>
-<li>glad - <cite>https://github.com/iondune/glad</cite></li>
-<li>dirent - <cite>https://github.com/tronkko/dirent</cite></li>
+<li>stb - <a class="reference external" href="https://github.com/nothings/stb">https://github.com/nothings/stb</a></li>
+<li>tinyformat - <a class="reference external" href="https://github.com/c42f/tinyformat">https://github.com/c42f/tinyformat</a></li>
+<li>glm - <a class="reference external" href="https://github.com/g-truc/glm">https://github.com/g-truc/glm</a></li>
+<li>imgui - <a class="reference external" href="https://github.com/ocornut/imgui">https://github.com/ocornut/imgui</a></li>
+<li>Catch - <a class="reference external" href="https://github.com/philsquared/Catch">https://github.com/philsquared/Catch</a></li>
+<li>glad - <a class="reference external" href="https://github.com/iondune/glad">https://github.com/iondune/glad</a></li>
+<li>dirent - <a class="reference external" href="https://github.com/tronkko/dirent">https://github.com/tronkko/dirent</a></li>
 </ul>
-<p>The easiest way to do this is to navigate to the <cite>Dependencies/</cite> folder and run <cite>Clone.bat</cite>. Make sure that you have <cite>git</cite> in your path.</p>
+<p>The easiest way to do this is to navigate to the <code class="docutils literal"><span class="pre">Dependencies/</span></code> folder and run <code class="docutils literal"><span class="pre">Clone.bat</span></code>.
+Make sure that you have <code class="docutils literal"><span class="pre">git</span></code> in your path.</p>
 <p>Next we need to get <code class="docutils literal"><span class="pre">glfw</span></code>, the only binary dependency.
-The engine currently uses version <cite>3.1.2</cite>.
-You can download pre-built binaries at [this link](<a class="reference external" href="https://github.com/glfw/glfw/releases/download/3.1.2/glfw-3.1.2.bin.WIN64.zip">https://github.com/glfw/glfw/releases/download/3.1.2/glfw-3.1.2.bin.WIN64.zip</a>) or by finding the link on [<a class="reference external" href="http://www.glfw.org/download.html](http://www.glfw.org/download.html">http://www.glfw.org/download.html](http://www.glfw.org/download.html</a>).
-Extract the <cite>glfw-3.1.2.bin.WIN64</cite> folder to the <cite>Dependencies/</cite> folder alongside the other dependencies.</p>
+The easiest way to do this is using <a class="reference external" href="https://github.com/Microsoft/vcpkg">vcpkg</a>.
+Install that, then install the <code class="docutils literal"><span class="pre">glfw:x64-windows</span></code> triplet.</p>
 </div>
 <div class="section" id="linux">
 <h2>Linux<a class="headerlink" href="#linux" title="Permalink to this headline">¶</a></h2>
-<p>These instructions are tailored for Ubuntu 14.04 but the same principles should apply to most Linux distros and in particular to any similar version of Ubuntu.</p>
+<p>These instructions are tailored for Ubuntu but the same principles should apply to most Linux distros (in terms of using your flavor of package manager to install binary deps, and using bash/cmake for the rest).</p>
 <p>Thankfully all dependencies are available as packages or are header-only.</p>
-<p>You will need <cite>g++</cite> and &#8216;cmake&#8217; for compilation.</p>
-<p>You&#8217;ll also need to install both GLEW and GLFW3. Unfortunately, at time of this writing the Ubuntu GLFW package is prohibitively out of date so we need to install a ppa to provide an up-to-date version:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">add</span><span class="o">-</span><span class="n">apt</span><span class="o">-</span><span class="n">repository</span> <span class="n">ppa</span><span class="p">:</span><span class="n">keithw</span><span class="o">/</span><span class="n">glfw3</span> <span class="o">-</span><span class="n">y</span>
-<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">qq</span> <span class="n">update</span>
+<p>You will need <code class="docutils literal"><span class="pre">g++</span></code> and <code class="docutils literal"><span class="pre">cmake</span></code> for compilation.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>&gt; sudo apt-get -y install g++ cmake
+</pre></div>
+</div>
+<p>You&#8217;ll also need to install GLFW3 and X.Org development packages.
+On older distros a sufficiently recent version of GLFW is not available as a native package, so this is where instructions diverge depending on version.</p>
+<div class="section" id="ubuntu-16-04">
+<h3>Ubuntu 16.04<a class="headerlink" href="#ubuntu-16-04" title="Permalink to this headline">¶</a></h3>
+<p>Simply install the packages <code class="docutils literal"><span class="pre">xorg-dev</span></code> and <code class="docutils literal"><span class="pre">libglfw3-dev</span></code>.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>&gt; sudo apt-get -y install xorg-dev libglfw3-dev
+</pre></div>
+</div>
+</div>
+<div class="section" id="ubuntu-14-04">
+<h3>Ubuntu 14.04<a class="headerlink" href="#ubuntu-14-04" title="Permalink to this headline">¶</a></h3>
+<p>The Ubuntu GLFW package is prohibitively out of date so we need to install a ppa to provide an up-to-date version.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>&gt; sudo add-apt-repository ppa:keithw/glfw3 -y
+&gt; sudo apt-get update
 </pre></div>
 </div>
 <p>With that done we can now install all of our package-based dependencies:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">qq</span> <span class="n">install</span> <span class="n">g</span><span class="o">++</span> <span class="n">cmake</span> <span class="n">libglew</span><span class="o">-</span><span class="n">dev</span> <span class="n">xorg</span><span class="o">-</span><span class="n">dev</span> <span class="n">libglfw3</span><span class="o">-</span><span class="n">dev</span> <span class="o">-</span><span class="n">y</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>::
 </pre></div>
 </div>
-<p>Finally, install the header-only dependencies by running this script from the ionEngine project root directory:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">UpdateDependencies</span><span class="o">.</span><span class="n">bash</span>
+<blockquote>
+<div>&gt; sudo apt-get -y install xorg-dev libglfw3-dev</div></blockquote>
+<p>Next, install the header-only dependencies by running <code class="docutils literal"><span class="pre">Clone.bash</span></code> in the <code class="docutils literal"><span class="pre">Dependencies/</span></code> folder.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>&gt; ./Clone.bash
 </pre></div>
 </div>
-<p>With that we are ready to build ionEngine. From that same directory, run cmake:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cmake</span> <span class="o">.</span>
-<span class="n">make</span>
+<p>With that we are ready to build ionEngine.
+Make a directory called <code class="docutils literal"><span class="pre">build</span></code> and <code class="docutils literal"><span class="pre">cd</span></code> to it.
+From that directory, run <code class="docutils literal"><span class="pre">cmake</span></code>.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>&gt; mkdir build
+&gt; <span class="nb">cd</span> build
+&gt; cmake ..
+&gt; make
 </pre></div>
+</div>
 </div>
 </div>
 <div class="section" id="os-x">
 <h2>OS X<a class="headerlink" href="#os-x" title="Permalink to this headline">¶</a></h2>
 <p>These instructions are for OS X 10.9.5 but should hopefully apply pretty universally.</p>
-<p>First, make sure that you have both [Xcode](<a class="reference external" href="https://developer.apple.com/xcode/download/">https://developer.apple.com/xcode/download/</a>) and [Homebrew](<a class="reference external" href="http://brew.sh/">http://brew.sh/</a>) installed.</p>
-<p>Next, install CMake, GLEW, and GLFW3 through homebrew:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">cmake</span> <span class="n">glew</span> <span class="n">glfw3</span>
+<p>First, make sure that you have both <a class="reference external" href="https://developer.apple.com/xcode/download/">Xcode</a> and <a class="reference external" href="http://brew.sh/">Homebrew</a> installed.</p>
+<p>Next, install <code class="docutils literal"><span class="pre">CMake</span></code> and <code class="docutils literal"><span class="pre">GLFW3</span></code> through homebrew.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>&gt; brew install cmake glew glfw3
 </pre></div>
 </div>
-<p>Finally, install the header-only dependencies by running this script from the ionEngine project root directory:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">UpdateDependencies</span><span class="o">.</span><span class="n">bash</span>
+<p>Next, install the header-only dependencies by running <code class="docutils literal"><span class="pre">Clone.bash</span></code> in the <code class="docutils literal"><span class="pre">Dependencies/</span></code> folder.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>&gt; ./Clone.bash
 </pre></div>
 </div>
-<p>With that we are ready to build ionEngine. From that same directory, run cmake:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cmake</span> <span class="o">.</span>
-<span class="n">make</span>
+<p>With that we are ready to build ionEngine.
+Make a directory called <code class="docutils literal"><span class="pre">build</span></code> and <code class="docutils literal"><span class="pre">cd</span></code> to it.
+From that directory, run <code class="docutils literal"><span class="pre">cmake</span></code>.</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>&gt; mkdir build
+&gt; <span class="nb">cd</span> build
+&gt; cmake ..
+&gt; make
 </pre></div>
 </div>
 </div>
@@ -230,6 +264,15 @@ Extract the <cite>glfw-3.1.2.bin.WIN64</cite> folder to the <cite>Dependencies/<
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="modules.html" class="btn btn-neutral float-right" title="Modules" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="dependencies.html" class="btn btn-neutral" title="Dependencies" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
