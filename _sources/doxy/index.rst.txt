@@ -4,23 +4,13 @@ My Project Documentation
 .. toctree::
 	:hidden:
 
-	page_dependencies.rst
-	page_installation.rst
-	page_moduleCore.rst
-	page_moduleGL.rst
-	page_modules.rst
+	page_md__home_ian_projects_ionEngine_README.rst
 	page_md_Readme.rst
-	page_index.rst
 
 .. rubric:: Related Pages:
 
-|	:doc:`page_dependencies`
-|	:doc:`page_installation`
-|	:doc:`page_moduleCore`
-|	:doc:`page_moduleGL`
-|	:doc:`page_modules`
+|	:doc:`page_md__home_ian_projects_ionEngine_README`
 |	:doc:`page_md_Readme`
-|	:doc:`page_index`
 
 
 .. rubric:: Reference and Index:

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Dependencies &mdash; ionEngine 0.4.1 documentation</title>
+  <title>README &mdash; ionEngine 0.4.1 documentation</title>
   
 
   
@@ -136,13 +136,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Dependencies</li>
+      <li>README</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/doxy/page_dependencies.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/doxy/page_md__home_ian_projects_ionEngine_README.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -155,81 +155,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="dependencies">
-<span id="doxid-dependencies"></span><span id="index-0"></span><h1>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h1>
-<p>ionEngine depends on the following external libraries:</p>
-<ul>
-<li><p class="first"><strong>Header Only</strong></p>
-<blockquote>
-<div><ul>
-<li><p class="first">stb</p>
-<blockquote>
-<div><ul class="simple">
-<li>Image loading/writing, integer divide methods</li>
+  <div class="section" id="readme">
+<span id="doxid-md-home-ian-projects-ionengine-readme"></span><span id="index-0"></span><h1>README<a class="headerlink" href="#readme" title="Permalink to this headline">¶</a></h1>
+<p class="rubric">ionEngine</p>
+<p class="rubric">Overview</p>
+<p>ionEngine is a C++ application framework designed to aid in the creation of high-performance rendering applications. It is modular and generic, designed for use in both game engines and scientific data visualization. The primary goal of ionEngine is to improve the DX (Developer Experience) of writing graphics programs, from small education examples to full production game engines.</p>
+<p>ionEngine includes many modular components, for example:</p>
+<ul class="simple">
+<li>ionCore: basic typedefs and boilerplate, some string and file helpers, standard library helpers</li>
+<li>ionMath: vector classes for 2, 3, and 4 dimensions. A custom “color” class that encapsulates a <a class="reference internal" href="struct_vec3.html#doxid-structvec3"><span class="std std-ref">vec3</span></a> or vec4 with implicit conversions between float and byte colors. Other geometric primitives including rays, lines, boxes, triangles, etc.</li>
+<li>ionWindow: generic interface and helpers for operating system utilities, in particular window/context creation</li>
+<li>ionGraphics: generic and modular interface for any rendering API, in particular for OpenGL</li>
+<li>ionScene: scene interface that provides basic mesh loading, encapsulated renderable objects, and extensibility to add multipass rendering and other advanced functionality</li>
+<li>ionScience: algorithm implementations useful for various scientific applications, including long/lat classes, marching cubes, ear clipping, volumetric data rendering</li>
 </ul>
-</div></blockquote>
-</li>
-<li><p class="first">tinyformat</p>
-<blockquote>
-<div><ul class="simple">
-<li>Typesafe C++11 printf-style string formatting</li>
+<p class="rubric">Features</p>
+<p>ionEngine provides features through a large number of optional modules so that only the necessary components need to be included in a project.</p>
+<p>Features included in ionEngine or additional modules are:</p>
+<ul class="simple">
+<li>Component-entity based scene graph which is renderer-agnostic to maximize extendability</li>
+<li>Forward and deferred lighting systems implemented using OpenGL</li>
+<li>Bloom, SSAO, depth-of-field, and other post-processing effects</li>
+<li>Volumetric utilities such as a shader-based raycast volume renderer and marching cubes implementation</li>
+<li>GUI elements provided through dear imgui</li>
+<li>Windowing and input provided through GLFW</li>
 </ul>
-</div></blockquote>
-</li>
-<li><p class="first">GLM</p>
-<blockquote>
-<div><ul class="simple">
-<li>Vector and matrix math</li>
-</ul>
-</div></blockquote>
-</li>
-<li><p class="first">imgui</p>
-<blockquote>
-<div><ul class="simple">
-<li>GUI components</li>
-</ul>
-</div></blockquote>
-</li>
-<li><p class="first">Catch</p>
-<blockquote>
-<div><ul class="simple">
-<li>Unit testing (only necessary to build/run unit tests)</li>
-</ul>
-</div></blockquote>
-</li>
-<li><p class="first">GLAD</p>
-<blockquote>
-<div><ul class="simple">
-<li>OpenGL extension loading</li>
-</ul>
-</div></blockquote>
-</li>
-<li><p class="first">dirent</p>
-<blockquote>
-<div><ul class="simple">
-<li><a class="reference internal" href="class_Directory.html#doxid-classdirectory"><span class="std std-ref">Directory</span></a> navigation</li>
-<li>Only on windows (UNIX-variants have it by default)</li>
-</ul>
-</div></blockquote>
-</li>
-</ul>
-</div></blockquote>
-</li>
-<li><p class="first"><strong>Binary</strong></p>
-<blockquote>
-<div><ul>
-<li><p class="first">GLFW</p>
-<blockquote>
-<div><ul class="simple">
-<li>Windowing and other OS functions</li>
-</ul>
-</div></blockquote>
-</li>
-</ul>
-</div></blockquote>
-</li>
-</ul>
-<p>For instructions on how to build and install, see the <a class="reference internal" href="page_installation.html#doxid-installation"><span class="std std-ref">Installation</span></a> page.</p>
+<p class="rubric">Distribution</p>
+<p>Source code distributions are available at Bitbucket and GitHub</p>
+<p>Further information can be found at ionengine.io .</p>
+<p>Documentation can be found at docs.ionengine.io .</p>
+<p class="rubric">License</p>
+<p>The ionEngine is licensed under the MIT license</p>
 </div>
 
 

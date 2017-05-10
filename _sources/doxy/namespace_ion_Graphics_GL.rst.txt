@@ -112,5 +112,5 @@ Detailed Documentation
 
 Documentation of the ionGraphicsGL module.
 
-Further documentation can be found at the :ref:`Module ionGL <doxid-moduleGL>` page.
+Further documentation can be found at the moduleGL page.
 

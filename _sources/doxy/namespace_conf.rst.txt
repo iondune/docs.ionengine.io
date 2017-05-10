@@ -38,8 +38,12 @@ namespace conf
 .. _cid-conf.pygments_style:
 .. _doxid-conf_8py_1a8fe7f0d85f975f4ecba5cb6066959a09:
 .. _cid-conf.todo_include_todos:
+.. _doxid-conf_8py_1a3117edf4443d9b8c70a9f0f44294ba79:
+.. _cid-conf.highlight_language:
 .. _doxid-conf_8py_1a6c3bfcc1a44546c1c75ce20f55bd0fd6:
 .. _cid-conf.html_theme:
+.. _doxid-conf_8py_1a4960231f83b1b44a1ffcd212903b62e8:
+.. _cid-conf.html_theme_path:
 .. _doxid-conf_8py_1af4fb5d8851ccaade135c2668dd3ced41:
 .. _cid-conf.html_static_path:
 .. _doxid-conf_8py_1aab7fddb2766ce3c430d8246fbfdbc7b1:
@@ -70,7 +74,9 @@ namespace conf
 	list conf.exclude_patterns
 	string conf.pygments_style
 	bool conf.todo_include_todos
+	string conf.highlight_language
 	string conf.html_theme
+	list conf.html_theme_path
 	list conf.html_static_path
 	string conf.htmlhelp_basename
 	dictionary conf.latex_elements
