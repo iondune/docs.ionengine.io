@@ -48,9 +48,9 @@ namespace ion
 .. _cid-ion.toion:
 .. _doxid-namespaceion_1a14b8038faa738db66afbc294847a2491:
 .. _cid-ion.imgui_implglfwgl3_renderdrawlists:
-.. _doxid-namespaceion_1a8ab7b1859f11a0867d38b95b91919c48:
+.. _doxid-namespaceion_1a20498120cc6f5fa8b7c6ab1a7e2926ce:
 .. _cid-ion.imgui_implglfwgl3_getclipboardtext:
-.. _doxid-namespaceion_1a971369ebdcc4c59533217d64259284e9:
+.. _doxid-namespaceion_1ac5080660ed7ea6f1b74731df03e6c798:
 .. _cid-ion.imgui_implglfwgl3_setclipboardtext:
 .. _doxid-namespaceion_1a3ee0f960aaaab2f06d1a488e91023b97:
 .. _cid-ion.booltostring:
@@ -128,8 +128,13 @@ namespace ion
 	ImVec2 ion.ToImGui (:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` const& v)
 	:ref:`vec2f<doxid-SVector2_8h_1a8263133ed1bb838f65f3dea566a224cc>` ion.ToIon (ImVec2 const& v)
 	void ion.ImGui_ImplGlfwGL3_RenderDrawLists (ImDrawData* draw_data)
-	char const* ion.ImGui_ImplGlfwGL3_GetClipboardText ()
-	void ion.ImGui_ImplGlfwGL3_SetClipboardText (const char* text)
+	char const* ion.ImGui_ImplGlfwGL3_GetClipboardText (void* user_data)
+
+	void ion.ImGui_ImplGlfwGL3_SetClipboardText (
+	    void* user_data,
+	    char const* text
+	    )
+
 	char const* ion.BoolToString (bool const B)
 
 	float ion.Determinant (
