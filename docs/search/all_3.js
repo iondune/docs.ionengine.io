@@ -8,7 +8,7 @@ var searchData=
   ['decimaltodms',['DecimalToDMS',['../structSLongitudeLatitude.html#ab839d1248ba4c492b2627677feedc8ca',1,'SLongitudeLatitude']]],
   ['defaultcolortable_2eh',['DefaultColorTable.h',['../DefaultColorTable_8h.html',1,'']]],
   ['defaultinterpolator',['DefaultInterpolator',['../classion_1_1Animation_1_1CSpline.html#a8572cb5ed6f3db462e2390f47012ab5d',1,'ion::Animation::CSpline']]],
-  ['degtorad',['DegToRad',['../ionMath_2Utilities_8h.html#a7106469a2f45818ccc6fa0da7484b8ce',1,'Utilities.h']]],
+  ['degtorad',['DegToRad',['../group__ionMath.html#ga7106469a2f45818ccc6fa0da7484b8ce',1,'Utilities.h']]],
   ['delete',['Delete',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037af2a6c498fb90ee345d997f888fce3b18',1,'ion']]],
   ['deleteandclear',['DeleteAndClear',['../ionStandardLibrary_8h.html#a34e2afdac172276c430aedc79e7650a0',1,'ionStandardLibrary.h']]],
   ['demoapplication_2ecpp',['DemoApplication.cpp',['../DemoApplication_8cpp.html',1,'']]],

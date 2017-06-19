@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['tan',['Tan',['../ionMath_2Utilities_8h.html#a01d0edd5678b6db26086f84ff73fe6eb',1,'Utilities.h']]],
+  ['tan',['Tan',['../group__ionMath.html#ga01d0edd5678b6db26086f84ff73fe6eb',1,'Utilities.h']]],
   ['text',['Text',['../classion_1_1CGUIManager.html#ab36006acfd5dd51876f11de42f42743e',1,'ion::CGUIManager']]],
   ['textunformatted',['TextUnformatted',['../classion_1_1CGUIManager.html#a0f36a7a60dee60543a91b3dbd6695e9c',1,'ion::CGUIManager']]],
   ['togglebool',['ToggleBool',['../group__ionCore.html#gac10aa769af626213790cbc07ec158696',1,'ionUtils.h']]],

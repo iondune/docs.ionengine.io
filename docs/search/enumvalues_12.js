@@ -1,8 +1,8 @@
 var searchData=
 [
   ['s',['S',['../SLongitudeLatitude_8h.html#a7051cba9d3bfa4a10838646c7114d712a5dbc98dcc983a70728bd082d1a47546e',1,'S():&#160;SLongitudeLatitude.h'],['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a5dbc98dcc983a70728bd082d1a47546e',1,'ion::S()']]],
-  ['scalerotationtranslation',['ScaleRotationTranslation',['../STransformation3_8h.html#ad55879292d49039e900abcdcf9415199a8582046466565d496f721f53614cd54d',1,'STransformation3.h']]],
-  ['scaletranslationrotation',['ScaleTranslationRotation',['../STransformation3_8h.html#ad55879292d49039e900abcdcf9415199a021d33d490bf43dcf606292c4c631dbb',1,'STransformation3.h']]],
+  ['scalerotationtranslation',['ScaleRotationTranslation',['../group__ionMath.html#ggad55879292d49039e900abcdcf9415199a8582046466565d496f721f53614cd54d',1,'STransformation3.h']]],
+  ['scaletranslationrotation',['ScaleTranslationRotation',['../group__ionMath.html#ggad55879292d49039e900abcdcf9415199a021d33d490bf43dcf606292c4c631dbb',1,'STransformation3.h']]],
   ['scroll',['Scroll',['../struction_1_1SMouseEvent.html#aa84a1beb737e0ac12cd0af4398276f03a105078d294d30c978ca2badf7f376934',1,'ion::SMouseEvent']]],
   ['scrollock',['Scrollock',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037aa28abeb40cbf4d11ce539387c0fec175',1,'ion']]],
   ['semicolon',['Semicolon',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a9806fa37a3ecd39bf637c203aa011ed0',1,'ion']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['a',['A',['../struction_1_1STriangle2D.html#aa0dbd82a0c4366e64a733d49e8a4692a',1,'ion::STriangle2D::A()'],['../namespaceion.html#a7556e2f50eb5cb19ff72747595655e01a7fc56270e7a70fa81a5935b72eacbe29',1,'ion::A()'],['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a7fc56270e7a70fa81a5935b72eacbe29',1,'ion::A()']]],
-  ['abs',['Abs',['../ionMath_2Utilities_8h.html#abcafee65a2aa60aae57ec87e278248e4',1,'Utilities.h']]],
+  ['abs',['Abs',['../group__ionMath.html#gabcafee65a2aa60aae57ec87e278248e4',1,'Utilities.h']]],
   ['accumulator',['Accumulator',['../classion_1_1CTimeManager_1_1CUpdateTick.html#aea50a5b2421c589bba5d066307bf112e',1,'ion::CTimeManager::CUpdateTick']]],
   ['active',['Active',['../classion_1_1CCameraController.html#a70825bad0523afc8628899df75637c5f',1,'ion::CCameraController']]],
   ['activecamera',['ActiveCamera',['../classion_1_1Scene_1_1CRenderPass.html#a0885bffc2c5b31cef0308e4df0176e4d',1,'ion::Scene::CRenderPass']]],
@@ -38,7 +38,7 @@ var searchData=
   ['applyparams',['ApplyParams',['../classion_1_1Graphics_1_1GL_1_1CTexture.html#ade4fa7ac15efd9c9f1761252976a1a21',1,'ion::Graphics::GL::CTexture']]],
   ['applyscalefactor',['ApplyScaleFactor',['../classion_1_1Scene_1_1CSimpleMesh.html#ae7f42627da16bae001e2c62bc4f085a0',1,'ion::Scene::CSimpleMesh']]],
   ['applytransformation',['ApplyTransformation',['../classion_1_1Scene_1_1CSimpleMesh.html#ab02d604f2757ec3ed621191fc74b5088',1,'ion::Scene::CSimpleMesh']]],
-  ['arctan',['ArcTan',['../ionMath_2Utilities_8h.html#ae692c8352e89969f461cebf6d1e62297',1,'ArcTan(T const value):&#160;Utilities.h'],['../ionMath_2Utilities_8h.html#a1c5890e7a456c610822957e885a9110b',1,'ArcTan(T const y, T const x):&#160;Utilities.h']]],
+  ['arctan',['ArcTan',['../group__ionMath.html#gae692c8352e89969f461cebf6d1e62297',1,'ArcTan(T const value):&#160;Utilities.h'],['../group__ionMath.html#ga1c5890e7a456c610822957e885a9110b',1,'ArcTan(T const y, T const x):&#160;Utilities.h']]],
   ['as',['As',['../group__ionCore.html#ga2cbb69b6ca4f7b7e839f1b68f5da6875',1,'As(U *Object):&#160;ionClass.h'],['../group__ionCore.html#ga0669da0ec3529f0a0a12be849df403ef',1,'As(U const *Object):&#160;ionClass.h'],['../group__ionCore.html#ga65898b055e3afa33f8709b32b87d10ac',1,'As(U &amp;Object):&#160;ionClass.h'],['../group__ionCore.html#ga4ca1391989156577a32052637f05edb4',1,'As(U const &amp;Object):&#160;ionClass.h']]],
   ['aspectratio',['AspectRatio',['../classion_1_1Scene_1_1CPerspectiveCamera.html#a15f5aa44f3f03437092b591661c4cd4a',1,'ion::Scene::CPerspectiveCamera']]],
   ['assetpaths',['AssetPaths',['../classion_1_1CAssetManager.html#a824b5026ad8ea014f38f30ae372eb043',1,'ion::CAssetManager']]],

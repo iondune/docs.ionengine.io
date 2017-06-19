@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['radtodeg',['RadToDeg',['../ionMath_2Utilities_8h.html#a4e9e036eeefc6e2a58bc83a47f4505e8',1,'Utilities.h']]],
+  ['radtodeg',['RadToDeg',['../group__ionMath.html#ga4e9e036eeefc6e2a58bc83a47f4505e8',1,'Utilities.h']]],
   ['ray3',['ray3',['../classray3.html#ae118bea843e9bc72d38f821b686f9e72',1,'ray3::ray3()'],['../classray3.html#a32bd0fdac085bb9e71038ec9f2842c41',1,'ray3::ray3(vec3&lt; T &gt; const &amp;Origin, vec3&lt; T &gt; const &amp;Direction)']]],
   ['read',['Read',['../classDirectory.html#a09f59fc0269cde284535bdf2ca835893',1,'Directory']]],
   ['readasstring',['ReadAsString',['../classFile.html#a084c9f29d1ecf494bd35c80285f31936',1,'File']]],

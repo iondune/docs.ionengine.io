@@ -17,6 +17,6 @@ var searchData=
   ['rightshoulder',['RightShoulder',['../namespaceion.html#a7556e2f50eb5cb19ff72747595655e01a27a5390f2d1b44a43f74d57703f8d354',1,'ion']]],
   ['rightsuper',['RightSuper',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a0cc5a9f113dc1147c8eeae2f0199f9f2',1,'ion']]],
   ['rightthumb',['RightThumb',['../namespaceion.html#a7556e2f50eb5cb19ff72747595655e01ae499bf8bc6e897455b94cabc7a5c2da7',1,'ion']]],
-  ['rotationscaletranslation',['RotationScaleTranslation',['../STransformation3_8h.html#ad55879292d49039e900abcdcf9415199a77503ec9f14b278f38139aa3333b4d45',1,'STransformation3.h']]],
-  ['rotationtranslationscale',['RotationTranslationScale',['../STransformation3_8h.html#ad55879292d49039e900abcdcf9415199a72937cf0b097e4bba7f14a378f4c81d0',1,'STransformation3.h']]]
+  ['rotationscaletranslation',['RotationScaleTranslation',['../group__ionMath.html#ggad55879292d49039e900abcdcf9415199a77503ec9f14b278f38139aa3333b4d45',1,'STransformation3.h']]],
+  ['rotationtranslationscale',['RotationTranslationScale',['../group__ionMath.html#ggad55879292d49039e900abcdcf9415199a72937cf0b097e4bba7f14a378f4c81d0',1,'STransformation3.h']]]
 ];

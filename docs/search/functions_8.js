@@ -36,7 +36,7 @@ var searchData=
   ['isloaded',['IsLoaded',['../classion_1_1Scene_1_1ISceneObject.html#a2ed3263861ddc0645a1caba0f5dd765c',1,'ion::Scene::ISceneObject']]],
   ['islooping',['IsLooping',['../classion_1_1Animation_1_1CSpline.html#a573ad6e2ba1144484c7de829f658f671',1,'ion::Animation::CSpline::IsLooping()'],['../classion_1_1Animation_1_1ISpline.html#aba0299831f7ff86d81643f91e12ca720',1,'ion::Animation::ISpline::IsLooping()']]],
   ['ismousedown',['IsMouseDown',['../classion_1_1CWindow.html#a1249927835911a6b4085b523530eaba3',1,'ion::CWindow']]],
-  ['isnan',['IsNaN',['../ionMath_2Utilities_8h.html#a647f749d100ba55cec76e36e480126de',1,'Utilities.h']]],
+  ['isnan',['IsNaN',['../group__ionMath.html#ga647f749d100ba55cec76e36e480126de',1,'Utilities.h']]],
   ['ispointinorontriangle',['IsPointInOrOnTriangle',['../namespaceion.html#af94b9678743011769358c0a82f39e71a',1,'ion::IsPointInOrOnTriangle(vec2f const &amp;a, vec2f const &amp;b, vec2f const &amp;c, vec2f const &amp;point)'],['../namespaceion.html#ab5c37e3668f413264507b5ce31892177',1,'ion::IsPointInOrOnTriangle(vec2d const &amp;a, vec2d const &amp;b, vec2d const &amp;c, vec2d const &amp;point)']]],
   ['ispointinside',['IsPointInside',['../classSBoundingBox3.html#a10652467b2b5017914dfbfdb3b0cf23d',1,'SBoundingBox3::IsPointInside()'],['../classSRect2.html#a8f067e602465dabeb1c4018b3740b7cb',1,'SRect2::IsPointInside()']]],
   ['ispointinsideoron',['IsPointInsideOrOn',['../classSRect2.html#add03d3bf336fc7e9b849cc4c4b43e359',1,'SRect2']]],

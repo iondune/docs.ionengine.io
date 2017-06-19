@@ -1,7 +1,7 @@
 var searchData=
 [
   ['sanitizeindex',['SanitizeIndex',['../classion_1_1Animation_1_1CSpline.html#a53f9b2ad354c8e21f69997a54e17cafe',1,'ion::Animation::CSpline::SanitizeIndex()'],['../classion_1_1Animation_1_1ISpline.html#a26f5caed6f9f4f9af1db25ce0b3ef9a1',1,'ion::Animation::ISpline::SanitizeIndex()']]],
-  ['saturate',['Saturate',['../ionMath_2Utilities_8h.html#a51eb836cde07923cbe8cfe81bc381d30',1,'Utilities.h']]],
+  ['saturate',['Saturate',['../group__ionMath.html#ga51eb836cde07923cbe8cfe81bc381d30',1,'Utilities.h']]],
   ['sboundingbox3',['SBoundingBox3',['../classSBoundingBox3.html#abc72053b0aef14dda0df8c03a78fab39',1,'SBoundingBox3::SBoundingBox3()'],['../classSBoundingBox3.html#a2f57835d4d364ba28ff8454a3c893e54',1,'SBoundingBox3::SBoundingBox3(Vector const &amp;min, Vector const &amp;max)'],['../classSBoundingBox3.html#ad43e7b890866be925192e6774788b44a',1,'SBoundingBox3::SBoundingBox3(Vector const &amp;v)']]],
   ['scolora',['SColorA',['../classSColorA.html#a9735c6517d25cbaecbea1580d5752df0',1,'SColorA::SColorA()'],['../classSColorA.html#ac36b59ff0d4f605f8d48de1b2950f5c6',1,'SColorA::SColorA(T const in)'],['../classSColorA.html#a4e89626a786359bef235bc2ac1d33dfa',1,'SColorA::SColorA(T const r, T const g, T const b, T const a=Full)'],['../classSColorA.html#a86373d087a840bf5dbb564bbe87530d7',1,'SColorA::SColorA(SColorA&lt; T &gt; const &amp;vec)'],['../classSColorA.html#a1b4eeccf6235ce7f4ff1e622db936cca',1,'SColorA::SColorA(SVector&lt; U, otherDimension, otherImplementation &gt; const &amp;vec)'],['../classSColorA.html#a8d29ff18772cdbfe7a9ae8a39c7aee9e',1,'SColorA::SColorA(color3&lt; T &gt; const &amp;Other)']]],
   ['scoped_5fid',['scoped_id',['../classImGui_1_1scoped__id.html#ac5ce831d0bc67e3c96e422f22d9159c3',1,'ImGui::scoped_id::scoped_id(char const *const str_id)'],['../classImGui_1_1scoped__id.html#a2b1c8a3330803e1b8cad9092a54be3e6',1,'ImGui::scoped_id::scoped_id(int const int_id)']]],
@@ -92,7 +92,7 @@ var searchData=
   ['shouldclose',['ShouldClose',['../classion_1_1CWindow.html#acb80e67df7d700f2bcc7d42f2ceccd40',1,'ion::CWindow::ShouldClose()'],['../classion_1_1CWindowManager.html#aa4b2af4fe3a09855cc536464b7043698',1,'ion::CWindowManager::ShouldClose()']]],
   ['shutdown',['Shutdown',['../classion_1_1CGUIManager.html#aaf1d47f72a36acecb82f0313548ac0aa',1,'ion::CGUIManager::Shutdown()'],['../classion_1_1CStateManager.html#a47df16937783af21492fe579908250ca',1,'ion::CStateManager::ShutDown()']]],
   ['sign',['Sign',['../classSTriangle2.html#a97855e919da119fcd1aa7628007c29ab',1,'STriangle2::Sign()'],['../group__ionCore.html#ga9b5f7a3ce424c6ec75145dc2bf8f5aab',1,'Sign():&#160;ionUtils.h']]],
-  ['sin',['Sin',['../ionMath_2Utilities_8h.html#a8ec714352d407f953ba24bfa4e6b9bdc',1,'Utilities.h']]],
+  ['sin',['Sin',['../group__ionMath.html#ga8ec714352d407f953ba24bfa4e6b9bdc',1,'Utilities.h']]],
   ['singleton',['Singleton',['../classSingleton.html#a4f79d6e021c7b703f9ea35a574c221f5',1,'Singleton']]],
   ['sinputlayoutelement',['SInputLayoutElement',['../struction_1_1Graphics_1_1SInputLayoutElement.html#a3229c5d8f69c963c2d4f3581cb49408a',1,'ion::Graphics::SInputLayoutElement']]],
   ['size',['Size',['../structSRange.html#a6a3e09570acb44bb534aa12f1f42c3db',1,'SRange::Size()'],['../classSTable.html#acc0f64e4ec7f401d7cdef94c1eba4f95',1,'STable::Size()']]],
@@ -104,7 +104,7 @@ var searchData=
   ['smouseevent',['SMouseEvent',['../struction_1_1SMouseEvent.html#ac33a8dc613a0a9a0f60e08ba846f1a1c',1,'ion::SMouseEvent']]],
   ['splane3',['SPlane3',['../classSPlane3.html#a9ae7d7c186dfc998418501def6a649e2',1,'SPlane3::SPlane3()'],['../classSPlane3.html#a6fda29d5d0eb3603cdc6c57fc7863daa',1,'SPlane3::SPlane3(const Vector &amp;MPoint, const Vector &amp;Normal)'],['../classSPlane3.html#a4b7e861bf49718e92d9288cdf80da94d',1,'SPlane3::SPlane3(T px, T py, T pz, T nx, T ny, T nz)'],['../classSPlane3.html#a86a2819e30efadaae2e4be1f5ef7a5ad',1,'SPlane3::SPlane3(const Vector &amp;point1, const Vector &amp;point2, const Vector &amp;point3)'],['../classSPlane3.html#a05a5b9b3c86a7891e5c522d95064de27',1,'SPlane3::SPlane3(const Vector &amp;normal, const T d)']]],
   ['sq',['Sq',['../group__ionCore.html#ga5c7d77546c723f86cf404d317137f05d',1,'ionUtils.h']]],
-  ['sqrt',['Sqrt',['../ionMath_2Utilities_8h.html#aafda93aed8a8fb1dc871c3cf3f02b96e',1,'Utilities.h']]],
+  ['sqrt',['Sqrt',['../group__ionMath.html#gaafda93aed8a8fb1dc871c3cf3f02b96e',1,'Utilities.h']]],
   ['srange',['SRange',['../structSRange.html#afabec7861059fdc4e8b6f6bffbdc7d6c',1,'SRange::SRange()'],['../structSRange.html#a552bbaf4c74fd7a42a9dbb9ddb159fc0',1,'SRange::SRange(T const minimum, T const maximum)']]],
   ['srect2',['SRect2',['../classSRect2.html#a358a23cb91a4f9e8877dd0125f166ba4',1,'SRect2::SRect2()'],['../classSRect2.html#a04175764b5ce1ca9c9847b870b7858bd',1,'SRect2::SRect2(vec2&lt; T &gt; const &amp;position, vec2&lt; T &gt; const &amp;size)'],['../classSRect2.html#a7b2bd84a9e1980bdfe945ac7d3f88b2b',1,'SRect2::SRect2(T const x, T const y, T const w, T const h)']]],
   ['srow',['SRow',['../classSTable_1_1SRow.html#a8f42899cb120107be3a0ea5cdfa3eae6',1,'STable::SRow']]],

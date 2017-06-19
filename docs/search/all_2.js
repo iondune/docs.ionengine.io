@@ -179,7 +179,7 @@ var searchData=
   ['corthographiccamera',['COrthographicCamera',['../classion_1_1Scene_1_1COrthographicCamera.html#aafddc57f8d964f6b43e10529d45c51ff',1,'ion::Scene::COrthographicCamera']]],
   ['corthographiccamera_2ecpp',['COrthographicCamera.cpp',['../COrthographicCamera_8cpp.html',1,'']]],
   ['corthographiccamera_2eh',['COrthographicCamera.h',['../COrthographicCamera_8h.html',1,'']]],
-  ['cos',['Cos',['../ionMath_2Utilities_8h.html#a9aeb337b9a07affd800f3a962d2426ad',1,'Utilities.h']]],
+  ['cos',['Cos',['../group__ionMath.html#ga9aeb337b9a07affd800f3a962d2426ad',1,'Utilities.h']]],
   ['count',['Count',['../classion_1_1CCameraController.html#a356473ac4872e4c8a87e22c32f2c6487ae93f994f01c537c4e2f7d8528c3eb5e9',1,'ion::CCameraController::Count()'],['../struction_1_1SMouseEvent.html#a6bc94f1b06d84884dd789f82eecbefcbae93f994f01c537c4e2f7d8528c3eb5e9',1,'ion::SMouseEvent::Count()'],['../namespaceion.html#a7556e2f50eb5cb19ff72747595655e01ae93f994f01c537c4e2f7d8528c3eb5e9',1,'ion::Count()'],['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037ae93f994f01c537c4e2f7d8528c3eb5e9',1,'ion::Count()']]],
   ['cperspectivecamera',['CPerspectiveCamera',['../classion_1_1Scene_1_1CPerspectiveCamera.html',1,'ion::Scene']]],
   ['cperspectivecamera',['CPerspectiveCamera',['../classion_1_1Scene_1_1CPerspectiveCamera.html#ab02d029109c650b05ad48fd4c49a248c',1,'ion::Scene::CPerspectiveCamera']]],

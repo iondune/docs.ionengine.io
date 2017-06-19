@@ -44,7 +44,7 @@ var searchData=
   ['convertglfwkeycode',['ConvertGLFWKeyCode',['../namespaceion.html#a4cf039ae702fe080f3bfeeaaef2be6bf',1,'ion']]],
   ['copenglimplementation',['COpenGLImplementation',['../classion_1_1Graphics_1_1COpenGLImplementation.html#a074d3ee1732f7a4dc31292757b38dfff',1,'ion::Graphics::COpenGLImplementation']]],
   ['corthographiccamera',['COrthographicCamera',['../classion_1_1Scene_1_1COrthographicCamera.html#aafddc57f8d964f6b43e10529d45c51ff',1,'ion::Scene::COrthographicCamera']]],
-  ['cos',['Cos',['../ionMath_2Utilities_8h.html#a9aeb337b9a07affd800f3a962d2426ad',1,'Utilities.h']]],
+  ['cos',['Cos',['../group__ionMath.html#ga9aeb337b9a07affd800f3a962d2426ad',1,'Utilities.h']]],
   ['cperspectivecamera',['CPerspectiveCamera',['../classion_1_1Scene_1_1CPerspectiveCamera.html#ab02d029109c650b05ad48fd4c49a248c',1,'ion::Scene::CPerspectiveCamera']]],
   ['cpipelinestate',['CPipelineState',['../classion_1_1Graphics_1_1GL_1_1CPipelineState.html#a18b96cfa0d8b48c9e92d08afe52f2427',1,'ion::Graphics::GL::CPipelineState']]],
   ['cpointlight',['CPointLight',['../classion_1_1Scene_1_1CPointLight.html#a878f11fa7a82c41978069ffaa71f9b38',1,'ion::Scene::CPointLight']]],

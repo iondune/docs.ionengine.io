@@ -4,6 +4,6 @@
 <area shape="rect" id="node5" href="$classSVector.html" title="SVector\&lt; T, 4, SColorA\l\&lt; T \&gt; \&gt;" alt="" coords="240,122,409,163"/>
 <area shape="rect" id="node7" href="$classSVector.html" title="SVector\&lt; T, 4, SVector4\l\&lt; T \&gt; \&gt;" alt="" coords="237,187,413,229"/>
 <area shape="rect" id="node4" href="$structSLongitudeLatitude.html" title="SLongitudeLatitude\&lt; T \&gt;" alt="" coords="468,64,651,91"/>
-<area shape="rect" id="node6" href="$classSColorA.html" title="SColorA\&lt; T \&gt;" alt="" coords="504,129,615,156"/>
-<area shape="rect" id="node8" href="$classSVector4.html" title="SVector4\&lt; T \&gt;" alt="" coords="501,195,618,221"/>
+<area shape="rect" id="node6" href="$classSColorA.html" title="Customized variant of vec4 that intelligently handles conversion between floating point and integer c..." alt="" coords="504,129,615,156"/>
+<area shape="rect" id="node8" href="$classSVector4.html" title="4D vector " alt="" coords="501,195,618,221"/>
 </map>

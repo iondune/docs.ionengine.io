@@ -2,7 +2,7 @@ var searchData=
 [
   ['debugmessagecallback',['DebugMessageCallback',['../namespaceion_1_1Graphics.html#abb67ce71f31ac3e7101b6a9a4a52a351',1,'ion::Graphics']]],
   ['decimaltodms',['DecimalToDMS',['../structSLongitudeLatitude.html#ab839d1248ba4c492b2627677feedc8ca',1,'SLongitudeLatitude']]],
-  ['degtorad',['DegToRad',['../ionMath_2Utilities_8h.html#a7106469a2f45818ccc6fa0da7484b8ce',1,'Utilities.h']]],
+  ['degtorad',['DegToRad',['../group__ionMath.html#ga7106469a2f45818ccc6fa0da7484b8ce',1,'Utilities.h']]],
   ['deleteandclear',['DeleteAndClear',['../ionStandardLibrary_8h.html#a34e2afdac172276c430aedc79e7650a0',1,'ionStandardLibrary.h']]],
   ['determinant',['Determinant',['../namespaceion.html#a50ab7bb7af75b0212c05a53ff6903db5',1,'ion::Determinant(vec2f const &amp;u, vec2f const &amp;v)'],['../namespaceion.html#a40beae5cfa79eb58406727b5a7c2d4f7',1,'ion::Determinant(vec2d const &amp;u, vec2d const &amp;v)']]],
   ['distancebetween',['DistanceBetween',['../classSLongitudeLatitude_1_1IProjectionSystem.html#a9acb04f61c59101013babd0984cec146',1,'SLongitudeLatitude::IProjectionSystem::DistanceBetween()'],['../classSLongitudeLatitude_1_1CHaversineProjection.html#aa350015a4e506b39472fe5e254bb34cf',1,'SLongitudeLatitude::CHaversineProjection::DistanceBetween()'],['../classSLongitudeLatitude_1_1CVincentyProjection.html#abd1b000b07e995fe92a3436fba4e9bc9',1,'SLongitudeLatitude::CVincentyProjection::DistanceBetween()'],['../classSLongitudeLatitude_1_1CEquirectangularProjection.html#a2530d22c2f72dd4345d679bf2625be18',1,'SLongitudeLatitude::CEquirectangularProjection::DistanceBetween()']]],
