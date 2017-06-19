@@ -13,7 +13,7 @@ var searchData=
   ['einternalformattype',['EInternalFormatType',['../classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014',1,'ion::Graphics::ITexture']]],
   ['eintersectionrelation',['EIntersectionRelation',['../classSPlane3.html#a4561ac733fbd6b49ae37d2f4e28abd01',1,'SPlane3']]],
   ['ekey',['EKey',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037',1,'ion']]],
-  ['elogchannel',['ELogChannel',['../ionLogger_8h.html#ad06dbea5ea06657a165783d466cc3f95',1,'ionLogger.h']]],
+  ['elogchannel',['ELogChannel',['../group__ionCore.html#gad06dbea5ea06657a165783d466cc3f95',1,'ionLogger.h']]],
   ['emipmaps',['EMipMaps',['../classion_1_1Graphics_1_1ITexture.html#abb2c588a190578a0d5483151f00a82dc',1,'ion::Graphics::ITexture']]],
   ['emode',['EMode',['../classion_1_1Animation_1_1CCatmullRomAdvancedSplineInterpolator.html#a804c34d2927da650c6f05b599154eb80',1,'ion::Animation::CCatmullRomAdvancedSplineInterpolator']]],
   ['eoffsetmode',['EOffsetMode',['../classSLongitudeLatitude_1_1CHaversineProjection.html#a7b6c8e3fce61cce01c93bf6faec6467a',1,'SLongitudeLatitude::CHaversineProjection']]],

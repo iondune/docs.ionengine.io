@@ -25,6 +25,6 @@ var searchData=
   ['num7',['Num7',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a4911ceac5c68b5a3f1499d68b27b0938',1,'ion']]],
   ['num8',['Num8',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a894e7d9b7dcced78e8007ba2d38b8dd2',1,'ion']]],
   ['num9',['Num9',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037ad7b1dbe22119bc7acf6e4a1afcc06e46',1,'ion']]],
-  ['numericlimits',['NumericLimits',['../ionStandardLibrary_8h.html#a4702ccace53b4de15452fec19ca02a91',1,'ionStandardLibrary.h']]],
+  ['numericlimits',['NumericLimits',['../group__ionCore.html#ga4702ccace53b4de15452fec19ca02a91',1,'ionStandardLibrary.h']]],
   ['numlock',['Numlock',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a19ba26a55fd08e68d9be73917f0fa0a4',1,'ion']]]
 ];

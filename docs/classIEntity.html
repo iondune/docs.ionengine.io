@@ -89,9 +89,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classIEntity-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IEntity&lt; TComponent &gt; Class Template Reference</div>  </div>
+<div class="title">IEntity&lt; TComponent &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__ionCore.html">ionCore</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base class for Component-Entity design pattern implementation.  
+ <a href="classIEntity.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="ionComponent_8h_source.html">ionComponent.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -126,7 +129,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a2ae2ab7e48a54c6f17ac55bba9b03ed8"><td class="memItemLeft" align="right" valign="top">multimap&lt; <a class="el" href="structType.html">Type</a>, TComponent * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIEntity.html#a2ae2ab7e48a54c6f17ac55bba9b03ed8">Components</a></td></tr>
 <tr class="separator:a2ae2ab7e48a54c6f17ac55bba9b03ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename TComponent&gt;<br />
+class IEntity&lt; TComponent &gt;</h3>
+
+<p>Base class for Component-Entity design pattern implementation. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="aa777c8fcc6028cf8cb7ea60f8d73026d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +234,7 @@ template&lt;typename T &gt; </div>
 <p>Get the number of components of a given type Note: Does not count elements of a type derived from T. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td><a class="el" href="structType.html">Type</a> of matched components </td></tr>
+    <tr><td class="paramname">T</td><td><a class="el" href="structType.html" title="Lightweight wrapper for std::type_info that enables sorting (e.g. for use in a std::map) ...">Type</a> of matched components </td></tr>
   </table>
   </dd>
 </dl>
@@ -261,7 +269,7 @@ template&lt;typename T &gt; </div>
 <p>Get an iterator range of all components of a given type Note: Does not return elemtns of a type derived from T. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td><a class="el" href="structType.html">Type</a> of matched components </td></tr>
+    <tr><td class="paramname">T</td><td><a class="el" href="structType.html" title="Lightweight wrapper for std::type_info that enables sorting (e.g. for use in a std::map) ...">Type</a> of matched components </td></tr>
   </table>
   </dd>
 </dl>

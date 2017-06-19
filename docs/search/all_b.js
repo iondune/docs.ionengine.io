@@ -52,7 +52,7 @@ var searchData=
   ['loadtextures',['LoadTextures',['../struction_1_1Scene_1_1SSimpleMaterial.html#ac923c6a1f71a50bef02240f80b7d5b8d',1,'ion::Scene::SSimpleMaterial']]],
   ['loadvertexbuffer',['LoadVertexBuffer',['../classion_1_1Graphics_1_1GL_1_1CDrawContext.html#a50c58740cb37a787e4b2ea34b6cb0b0a',1,'ion::Graphics::GL::CDrawContext']]],
   ['location',['Location',['../struction_1_1SMouseEvent.html#a593128942f10d9b0fbda71430fc0985c',1,'ion::SMouseEvent']]],
-  ['lockguard',['LockGuard',['../ionThread_8h.html#a782a0f356006518bf9a21670fb5b6cda',1,'ionThread.h']]],
+  ['lockguard',['LockGuard',['../group__ionCore.html#ga782a0f356006518bf9a21670fb5b6cda',1,'ionThread.h']]],
   ['log',['Log',['../classLog.html',1,'']]],
   ['longitude',['Longitude',['../structSLongitudeLatitude.html#a2bc744417736dfcc8cff27cceacff078',1,'SLongitudeLatitude']]],
   ['longlatd',['longlatd',['../SLongitudeLatitude_8h.html#afe76f38e4716bf94eca59d2050ec956f',1,'SLongitudeLatitude.h']]],

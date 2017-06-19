@@ -1,5 +1,5 @@
 <map id="/home/ian/projects/ionEngine/ionCore/ionStandardLibrary.h" name="/home/ian/projects/ionEngine/ionCore/ionStandardLibrary.h">
-<area shape="rect" id="node2" href="$ionTypes_8h.html" title="ionTypes.h" alt="" coords="483,109,571,136"/>
-<area shape="rect" id="node14" href="$ionSmartPointer_8h.html" title="ionSmartPointer.h" alt="" coords="925,109,1063,136"/>
+<area shape="rect" id="node2" href="$ionTypes_8h.html" title="Defines typedefs for integer and floating point types. " alt="" coords="483,109,571,136"/>
+<area shape="rect" id="node14" href="$ionSmartPointer_8h.html" title="Brings some standard library pointer classes into ion namespace. " alt="" coords="925,109,1063,136"/>
 <area shape="rect" id="node3" href="$ionConfig_8h.html" title="ionConfig.h" alt="" coords="947,184,1041,211"/>
 </map>

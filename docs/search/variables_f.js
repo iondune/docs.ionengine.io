@@ -15,8 +15,8 @@ var searchData=
   ['rotation',['Rotation',['../classSTransformation3.html#a28233bee963c82f26700b967105f5ff3',1,'STransformation3']]],
   ['rotationorder',['RotationOrder',['../classSTransformation3.html#aa7a3c1dd3c23c4496b23bd8456bdc32b',1,'STransformation3']]],
   ['rotationvector',['RotationVector',['../classSTransformation3.html#af495a056d63565a007a50ccdc6ad101a',1,'STransformation3']]],
-  ['roundingerror32',['RoundingError32',['../ionComparison_8h.html#afde5ca017516ef0dda6f671f1719665c',1,'ionComparison.h']]],
-  ['roundingerror64',['RoundingError64',['../ionComparison_8h.html#a2f4e95d8140febde9cf09d14e21a6027',1,'ionComparison.h']]],
+  ['roundingerror32',['RoundingError32',['../group__ionCore.html#gafde5ca017516ef0dda6f671f1719665c',1,'ionComparison.h']]],
+  ['roundingerror64',['RoundingError64',['../group__ionCore.html#ga2f4e95d8140febde9cf09d14e21a6027',1,'ionComparison.h']]],
   ['rows',['Rows',['../classSTable.html#a799850e4ec1391369ed37d8056524d54',1,'STable']]],
   ['runtime',['RunTime',['../classion_1_1CTimeManager.html#a443e5ced30fd36a4768e0ebb635a389f',1,'ion::CTimeManager']]]
 ];
