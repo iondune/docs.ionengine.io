@@ -1,7 +1,6 @@
 var searchData=
 [
   ['sboundingbox3_2eh',['SBoundingBox3.h',['../SBoundingBox3_8h.html',1,'']]],
-  ['scolor_2ecpp',['SColor.cpp',['../SColor_8cpp.html',1,'']]],
   ['scolor_2eh',['SColor.h',['../SColor_8h.html',1,'']]],
   ['sgrid_2eh',['SGrid.h',['../SGrid_8h.html',1,'']]],
   ['skeyboardevent_2eh',['SKeyboardEvent.h',['../SKeyboardEvent_8h.html',1,'']]],
