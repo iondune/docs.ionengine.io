@@ -92,9 +92,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classion_1_1Graphics_1_1IUniform-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ion::Graphics::IUniform Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">ion::Graphics::IUniform Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__ionGraphics.html">ionGraphics</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Abstract interface for anything which can be uploaded as a shader uniform.  
+ <a href="classion_1_1Graphics_1_1IUniform.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="IUniform_8h_source.html">IUniform.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -102,10 +105,10 @@ Inheritance diagram for ion::Graphics::IUniform:</div>
 <div class="dyncontent">
 <div class="center"><img src="classion_1_1Graphics_1_1IUniform__inherit__graph.png" border="0" usemap="#ion_1_1Graphics_1_1IUniform_inherit__map" alt="Inheritance graph"/></div>
 <map name="ion_1_1Graphics_1_1IUniform_inherit__map" id="ion_1_1Graphics_1_1IUniform_inherit__map">
-<area shape="rect" id="node2" href="classion_1_1Graphics_1_1IUniformTyped.html" title="ion::Graphics::IUniformTyped\&lt; T \&gt;" alt="" coords="220,56,460,83"/>
-<area shape="rect" id="node3" href="classion_1_1Graphics_1_1CUniformCallback.html" title="ion::Graphics::CUniformCallback\&lt; T \&gt;" alt="" coords="513,5,776,32"/>
-<area shape="rect" id="node4" href="classion_1_1Graphics_1_1CUniformReference.html" title="ion::Graphics::CUniformReference\&lt; T \&gt;" alt="" coords="508,56,781,83"/>
-<area shape="rect" id="node5" href="classion_1_1Graphics_1_1CUniformValue.html" title="ion::Graphics::CUniformValue\&lt; T \&gt;" alt="" coords="522,107,767,133"/>
+<area shape="rect" id="node2" href="classion_1_1Graphics_1_1IUniformTyped.html" title="Abstract interface for IUniform with known type. " alt="" coords="220,56,460,83"/>
+<area shape="rect" id="node3" href="classion_1_1Graphics_1_1CUniformCallback.html" title="Implementation of IUniformTyped that uses a given lambda callback to provide uniform value..." alt="" coords="513,5,776,32"/>
+<area shape="rect" id="node4" href="classion_1_1Graphics_1_1CUniformReference.html" title="Implementation of IUniformTyped that stores a (non&#45;owning) reference to value. " alt="" coords="508,56,781,83"/>
+<area shape="rect" id="node5" href="classion_1_1Graphics_1_1CUniformValue.html" title="Implementation of IUniformTyped that stores a copy of a given value for uniform upload. " alt="" coords="522,107,767,133"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -113,12 +116,14 @@ Inheritance diagram for ion::Graphics::IUniform:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b7ec373523243e1f0d2efcd460c7e8c"><td class="memItemLeft" align="right" valign="top">virtual void const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IUniform.html#a3b7ec373523243e1f0d2efcd460c7e8c">GetData</a> () const =0</td></tr>
 <tr class="separator:a3b7ec373523243e1f0d2efcd460c7e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7bdc78cf6cf576a206a009f495a17a1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372cca">EUniformType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IUniform.html#af7bdc78cf6cf576a206a009f495a17a1">GetType</a> () const =0</td></tr>
+<tr class="memitem:af7bdc78cf6cf576a206a009f495a17a1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__ionGraphics.html#gaddb5c086fd0778aac8df05438e372cca">EUniformType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IUniform.html#af7bdc78cf6cf576a206a009f495a17a1">GetType</a> () const =0</td></tr>
 <tr class="separator:af7bdc78cf6cf576a206a009f495a17a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0ee4072f1b3fc6dfc197b12cea9a093"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IUniform.html#ad0ee4072f1b3fc6dfc197b12cea9a093">GetSize</a> () const =0</td></tr>
 <tr class="separator:ad0ee4072f1b3fc6dfc197b12cea9a093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Abstract interface for anything which can be uploaded as a shader uniform. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a3b7ec373523243e1f0d2efcd460c7e8c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +182,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372cca">EUniformType</a> ion::Graphics::IUniform::GetType </td>
+          <td class="memname">virtual <a class="el" href="group__ionGraphics.html#gaddb5c086fd0778aac8df05438e372cca">EUniformType</a> ion::Graphics::IUniform::GetType </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -190,7 +195,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a3c880ae5a441bff42afb704fbe8b928d">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a476f24bf74ac9f9dab18a0a1168f7918">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#af26dc929f4028c5cf39eb077776ebec1">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#aa743f4714ee162b9253345fc342a4f79">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a4d4f0aa00eddd1a3c6291bd01600e50f">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a605acec4cfdb24dc07db2045f7d03500">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#ae823888817158f4b9eb92773c19b1bf8">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a948ce6e2237786862f2f175ccc027c12">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#ab7eae5cbdd2527f674c08f042736acd6">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a9a6c19eaecff0e7858a439b8c3421154">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a4f62024fb9947b48252b5a2285de8924">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a47da5ad8fc6bc4610f2b3cbd7b630f9a">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a5c5949b27dd8e9e2f9c62078be1812ed">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a911bc002230808d58e0e47f72a078afb">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#acbcbf63a91c0ceaa975730074ea61bcb">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a5a8902b7a18cfa1e9988ef8bce1f5035">ion::Graphics::IUniformTyped&lt; T &gt;</a>, and <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a7e9adf5ea1e6bf6aa2c2bd41a041a65e">ion::Graphics::IUniformTyped&lt; T &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a3c880ae5a441bff42afb704fbe8b928d">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a476f24bf74ac9f9dab18a0a1168f7918">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#af26dc929f4028c5cf39eb077776ebec1">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#aa743f4714ee162b9253345fc342a4f79">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a4d4f0aa00eddd1a3c6291bd01600e50f">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a605acec4cfdb24dc07db2045f7d03500">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#ae823888817158f4b9eb92773c19b1bf8">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a948ce6e2237786862f2f175ccc027c12">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#ab7eae5cbdd2527f674c08f042736acd6">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a9a6c19eaecff0e7858a439b8c3421154">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a4f62024fb9947b48252b5a2285de8924">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a47da5ad8fc6bc4610f2b3cbd7b630f9a">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a911bc002230808d58e0e47f72a078afb">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a5c5949b27dd8e9e2f9c62078be1812ed">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#acbcbf63a91c0ceaa975730074ea61bcb">ion::Graphics::IUniformTyped&lt; T &gt;</a>, <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a5a8902b7a18cfa1e9988ef8bce1f5035">ion::Graphics::IUniformTyped&lt; T &gt;</a>, and <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html#a7e9adf5ea1e6bf6aa2c2bd41a041a65e">ion::Graphics::IUniformTyped&lt; T &gt;</a>.</p>
 
 </div>
 </div>
@@ -200,7 +205,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Sun Jun 18 2017 for ionEngine v0.4.1
+Generated on Mon Jun 19 2017 for ionEngine v0.4.1
 </p>
 </address>
 </body>

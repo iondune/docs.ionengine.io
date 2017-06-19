@@ -11,7 +11,7 @@ var searchData=
   ['windows',['Windows',['../classion_1_1CWindowManager.html#a576b2b0ff545ca7d195c03983589c135',1,'ion::CWindowManager']]],
   ['windowsize',['WindowSize',['../struction_1_1CDefaultApplication_1_1SSettings.html#a5d89ea21fdebffce5a03d49fa65a9830',1,'ion::CDefaultApplication::SSettings']]],
   ['windowtype',['WindowType',['../struction_1_1CDefaultApplication_1_1SSettings.html#a791b8c877b63ff025cc1b77f6191fa0f',1,'ion::CDefaultApplication::SSettings']]],
-  ['wireframe',['Wireframe',['../namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624a33e42d0f3b166a4c405127e4412fbef2',1,'ion::Graphics']]],
+  ['wireframe',['Wireframe',['../group__ionGraphics.html#gga5e576a7b5e19dd1eb42f99e9baff1624a33e42d0f3b166a4c405127e4412fbef2',1,'ion::Graphics']]],
   ['wrapmode',['WrapMode',['../classion_1_1Graphics_1_1GL_1_1CTexture.html#adf851b446406438434b32ff771d4d265',1,'ion::Graphics::GL::CTexture']]],
   ['write',['Write',['../classLog_1_1Output.html#a3f67f8f5547a194ba5d708ea2226da40',1,'Log::Output::Write()'],['../classLog_1_1StandardOutput.html#a82e76fb19724fecf66b2ec3f4dee090b',1,'Log::StandardOutput::Write()'],['../classLog.html#ab7f3ec18cf029e78d911a254113d5c5e',1,'Log::Write()'],['../classion_1_1CImage.html#a5f27c3fabb8e2b1762915e0999c60429',1,'ion::CImage::Write()']]],
   ['writeinternal',['WriteInternal',['../classLog.html#a43abbb46c4c24fdd309ff4150ab89ee9',1,'Log']]],

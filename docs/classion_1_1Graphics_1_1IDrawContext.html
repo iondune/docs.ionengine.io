@@ -92,9 +92,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classion_1_1Graphics_1_1IDrawContext-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ion::Graphics::IDrawContext Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">ion::Graphics::IDrawContext Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__ionGraphics.html">ionGraphics</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Alternative to Pipeline State rendering. Represents the context for one or many draw calls.  
+ <a href="classion_1_1Graphics_1_1IDrawContext.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="IDrawContext_8h_source.html">IDrawContext.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -120,11 +123,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab9e0e59660057b8a28df15c7cb2915db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd7ce08872bd858c6dc18bdace7eb813"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html#abd7ce08872bd858c6dc18bdace7eb813">SetTexture</a> (string const &amp;Name, <a class="el" href="group__ionCore.html#ga536cc349b9d52657c9d01d3f09c4633e">SharedPointer</a>&lt; <a class="el" href="classion_1_1Graphics_1_1ITexture.html">ITexture</a> &gt; Texture)=0</td></tr>
 <tr class="separator:abd7ce08872bd858c6dc18bdace7eb813"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeca553bc126c3c6dbca73c1a6cc5f1ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html#aeca553bc126c3c6dbca73c1a6cc5f1ed">SetPrimitiveType</a> (<a class="el" href="namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576">EPrimitiveType</a> const PrimitiveType)=0</td></tr>
+<tr class="memitem:aeca553bc126c3c6dbca73c1a6cc5f1ed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html#aeca553bc126c3c6dbca73c1a6cc5f1ed">SetPrimitiveType</a> (<a class="el" href="group__ionGraphics.html#gabaf78fc03c5ec5232f8c60d745978576">EPrimitiveType</a> const PrimitiveType)=0</td></tr>
 <tr class="separator:aeca553bc126c3c6dbca73c1a6cc5f1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69d37556ec2f7a5ff7960f8c6d5b9446"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html#a69d37556ec2f7a5ff7960f8c6d5b9446">SetFeatureEnabled</a> (<a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624">EDrawFeature</a> const Feature, bool const Enabled)=0</td></tr>
+<tr class="memitem:a69d37556ec2f7a5ff7960f8c6d5b9446"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html#a69d37556ec2f7a5ff7960f8c6d5b9446">SetFeatureEnabled</a> (<a class="el" href="group__ionGraphics.html#ga5e576a7b5e19dd1eb42f99e9baff1624">EDrawFeature</a> const Feature, bool const Enabled)=0</td></tr>
 <tr class="separator:a69d37556ec2f7a5ff7960f8c6d5b9446"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85c1971c7e33677cc4dd5759184eaa32"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html#a85c1971c7e33677cc4dd5759184eaa32">SetBlendMode</a> (<a class="el" href="namespaceion_1_1Graphics.html#a34af4cbb53768ca7b9f8563f855811fa">EBlendMode</a> const BlendMode)=0</td></tr>
+<tr class="memitem:a85c1971c7e33677cc4dd5759184eaa32"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html#a85c1971c7e33677cc4dd5759184eaa32">SetBlendMode</a> (<a class="el" href="group__ionGraphics.html#ga34af4cbb53768ca7b9f8563f855811fa">EBlendMode</a> const BlendMode)=0</td></tr>
 <tr class="separator:a85c1971c7e33677cc4dd5759184eaa32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca7810448e09eb26f4cd66a772247699"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html#aca7810448e09eb26f4cd66a772247699">SetInstancingEnabled</a> (bool const Enabled)=0</td></tr>
 <tr class="separator:aca7810448e09eb26f4cd66a772247699"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,7 +138,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aea8fe040dfe01b510a73167e962502e9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classion_1_1Graphics_1_1IDrawConfig.html">IDrawConfig</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html#aea8fe040dfe01b510a73167e962502e9">CreateDrawConfig</a> ()=0</td></tr>
 <tr class="separator:aea8fe040dfe01b510a73167e962502e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Alternative to Pipeline State rendering. Represents the context for one or many draw calls. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="abc6cc00aab4dc0b0965de72548d4d703"></a>
 <div class="memitem">
 <div class="memproto">
@@ -246,7 +251,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void ion::Graphics::IDrawContext::SetBlendMode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceion_1_1Graphics.html#a34af4cbb53768ca7b9f8563f855811fa">EBlendMode</a> const&#160;</td>
+          <td class="paramtype"><a class="el" href="group__ionGraphics.html#ga34af4cbb53768ca7b9f8563f855811fa">EBlendMode</a> const&#160;</td>
           <td class="paramname"><em>BlendMode</em></td><td>)</td>
           <td></td>
         </tr>
@@ -272,7 +277,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void ion::Graphics::IDrawContext::SetFeatureEnabled </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624">EDrawFeature</a> const&#160;</td>
+          <td class="paramtype"><a class="el" href="group__ionGraphics.html#ga5e576a7b5e19dd1eb42f99e9baff1624">EDrawFeature</a> const&#160;</td>
           <td class="paramname"><em>Feature</em>, </td>
         </tr>
         <tr>
@@ -360,7 +365,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void ion::Graphics::IDrawContext::SetPrimitiveType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576">EPrimitiveType</a> const&#160;</td>
+          <td class="paramtype"><a class="el" href="group__ionGraphics.html#gabaf78fc03c5ec5232f8c60d745978576">EPrimitiveType</a> const&#160;</td>
           <td class="paramname"><em>PrimitiveType</em></td><td>)</td>
           <td></td>
         </tr>
@@ -516,7 +521,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Sun Jun 18 2017 for ionEngine v0.4.1
+Generated on Mon Jun 19 2017 for ionEngine v0.4.1
 </p>
 </address>
 </body>

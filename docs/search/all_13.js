@@ -42,7 +42,7 @@ var searchData=
   ['tri3f',['tri3f',['../STriangle3_8h.html#a1e20565bbb471b7a3efceae2a652ff76',1,'STriangle3.h']]],
   ['tri3i',['tri3i',['../STriangle3_8h.html#a0c33996e36a0607614594dafa4e34e29',1,'STriangle3.h']]],
   ['tri3u',['tri3u',['../STriangle3_8h.html#a09b7f8e7cd7d04b6ce1d7e9e30fab9d7',1,'STriangle3.h']]],
-  ['triangle',['Triangle',['../namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576a5e5500cb2b82eb72d550de644bd1b64b',1,'ion::Graphics']]],
+  ['triangle',['Triangle',['../group__ionGraphics.html#ggabaf78fc03c5ec5232f8c60d745978576a5e5500cb2b82eb72d550de644bd1b64b',1,'ion::Graphics']]],
   ['triangles',['Triangles',['../classion_1_1Scene_1_1CSimpleMesh.html#a1ab975d85d6789f66c376482eb5dfed1',1,'ion::Scene::CSimpleMesh']]],
   ['triangulateearclipping',['TriangulateEarClipping',['../namespaceion.html#affce91b3c2a7e80c55beb7ccc626e833',1,'ion::TriangulateEarClipping(vector&lt; vec2f &gt; const &amp;OriginalPoints)'],['../namespaceion.html#a72d9395c3e4b35fdd973b1eebf11a191',1,'ion::TriangulateEarClipping(vector&lt; vec2d &gt; const &amp;OriginalPoints)']]],
   ['triangulateearclipping_5fimplementation',['TriangulateEarClipping_Implementation',['../namespaceion.html#a6a2f3e656a0e3b231d99216edd58dc66',1,'ion']]],

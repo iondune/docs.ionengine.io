@@ -96,7 +96,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Documentation of the ionGraphics module.  
+<p>Contains ionGraphics module and implementations.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -110,18 +110,24 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1COpenGLImplementation.html">COpenGLImplementation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1CUniform.html">CUniform</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper class to easily add a uniform as a member or local variable.  <a href="classion_1_1Graphics_1_1CUniform.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1CUniformCallback.html">CUniformCallback</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html" title="Abstract interface for IUniform with known type. ">IUniformTyped</a> that uses a given lambda callback to provide uniform value.  <a href="classion_1_1Graphics_1_1CUniformCallback.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1CUniformReference.html">CUniformReference</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html" title="Abstract interface for IUniform with known type. ">IUniformTyped</a> that stores a (non-owning) reference to value.  <a href="classion_1_1Graphics_1_1CUniformReference.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1CUniformValue.html">CUniformValue</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html" title="Abstract interface for IUniform with known type. ">IUniformTyped</a> that stores a copy of a given value for uniform upload.  <a href="classion_1_1Graphics_1_1CUniformValue.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDepthBuffer.html">IDepthBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawConfig.html">IDrawConfig</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alternative to Pipeline State rendering. Represents a single draw call.  <a href="classion_1_1Graphics_1_1IDrawConfig.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IDrawContext.html">IDrawContext</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alternative to Pipeline State rendering. Represents the context for one or many draw calls.  <a href="classion_1_1Graphics_1_1IDrawContext.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IFrameBuffer.html">IFrameBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,8 +156,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITextureCubeMap.html">ITextureCubeMap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IUniform.html">IUniform</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface for anything which can be uploaded as a shader uniform.  <a href="classion_1_1Graphics_1_1IUniform.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IUniformTyped.html">IUniformTyped</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface for <a class="el" href="classion_1_1Graphics_1_1IUniform.html" title="Abstract interface for anything which can be uploaded as a shader uniform. ">IUniform</a> with known type.  <a href="classion_1_1Graphics_1_1IUniformTyped.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IVertexBuffer.html">IVertexBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,377 +170,126 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ad56369fcca16f9b9920d81b3c5811955"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955">EValueType</a> { <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955a902b0d55fddef6f8d651fe1035b7d4bd">EValueType::Error</a> = 0, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b">Float</a> = 1, 
-<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955a6694430a2b471b5d2de071f2ef1fdc57">EValueType::Float2</a> = 2, 
-<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955a8a8a1d211464d4bdee46db3c75bfa121">EValueType::Float3</a> = 3, 
+<tr class="memitem:gad56369fcca16f9b9920d81b3c5811955"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#gad56369fcca16f9b9920d81b3c5811955">EValueType</a> { <br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955a902b0d55fddef6f8d651fe1035b7d4bd">EValueType::Error</a> = 0, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b">Float</a> = 1, 
+<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955a6694430a2b471b5d2de071f2ef1fdc57">EValueType::Float2</a> = 2, 
+<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955a8a8a1d211464d4bdee46db3c75bfa121">EValueType::Float3</a> = 3, 
 <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955a33116adc6690289da9b82ea736864eeb">EValueType::Float4</a> = 4, 
-<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955a7fd2e074059a1f9c12d21e8b6a1f4bc6">EValueType::Matrix4x4</a> = 5, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b">Double</a> = 6, 
-<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955a1f1207a99a0672dbff6759a73d2ff2ab">EValueType::SignedInt8</a> = 7, 
+&#160;&#160;<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955a33116adc6690289da9b82ea736864eeb">EValueType::Float4</a> = 4, 
+<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955a7fd2e074059a1f9c12d21e8b6a1f4bc6">EValueType::Matrix4x4</a> = 5, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b">Double</a> = 6, 
+<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955a1f1207a99a0672dbff6759a73d2ff2ab">EValueType::SignedInt8</a> = 7, 
 <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955a67b8d849a0f597fddc00d436ecabd4e3">EValueType::SignedInt16</a> = 8, 
-<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955acbb88da2b43d122a9b2238ff4f82e5ec">EValueType::SignedInt32</a> = 9, 
-<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955a17f8bf41b41a4b9c8a20e1e2eebad547">EValueType::UnsignedInt8</a> = 10, 
-<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955a854c9b463877363ab8aa6303e0d0e0e0">EValueType::UnsignedInt16</a> = 11, 
+&#160;&#160;<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955a67b8d849a0f597fddc00d436ecabd4e3">EValueType::SignedInt16</a> = 8, 
+<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955acbb88da2b43d122a9b2238ff4f82e5ec">EValueType::SignedInt32</a> = 9, 
+<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955a17f8bf41b41a4b9c8a20e1e2eebad547">EValueType::UnsignedInt8</a> = 10, 
+<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955a854c9b463877363ab8aa6303e0d0e0e0">EValueType::UnsignedInt16</a> = 11, 
 <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955ae5c363f122ed4f25a773902639c88456">EValueType::UnsignedInt32</a> = 12
+&#160;&#160;<a class="el" href="group__ionGraphics.html#ggad56369fcca16f9b9920d81b3c5811955ae5c363f122ed4f25a773902639c88456">EValueType::UnsignedInt32</a> = 12
 <br />
- }</td></tr>
-<tr class="separator:ad56369fcca16f9b9920d81b3c5811955"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72ee6ac395e628ee8a47b5baa965e611"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#a72ee6ac395e628ee8a47b5baa965e611">EScalarType</a> { <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#a72ee6ac395e628ee8a47b5baa965e611a902b0d55fddef6f8d651fe1035b7d4bd">EScalarType::Error</a> = 0, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b">Float</a> = 1, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b">Double</a> = 2, 
-<a class="el" href="namespaceion_1_1Graphics.html#a72ee6ac395e628ee8a47b5baa965e611a1f1207a99a0672dbff6759a73d2ff2ab">EScalarType::SignedInt8</a> = 3, 
+ }<tr class="memdesc:gad56369fcca16f9b9920d81b3c5811955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard type enum used through module.  <a href="group__ionGraphics.html#gad56369fcca16f9b9920d81b3c5811955">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:gad56369fcca16f9b9920d81b3c5811955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga72ee6ac395e628ee8a47b5baa965e611"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#ga72ee6ac395e628ee8a47b5baa965e611">EScalarType</a> { <br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#gga72ee6ac395e628ee8a47b5baa965e611a902b0d55fddef6f8d651fe1035b7d4bd">EScalarType::Error</a> = 0, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b">Float</a> = 1, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b">Double</a> = 2, 
+<a class="el" href="group__ionGraphics.html#gga72ee6ac395e628ee8a47b5baa965e611a1f1207a99a0672dbff6759a73d2ff2ab">EScalarType::SignedInt8</a> = 3, 
 <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#a72ee6ac395e628ee8a47b5baa965e611a67b8d849a0f597fddc00d436ecabd4e3">EScalarType::SignedInt16</a> = 4, 
-<a class="el" href="namespaceion_1_1Graphics.html#a72ee6ac395e628ee8a47b5baa965e611acbb88da2b43d122a9b2238ff4f82e5ec">EScalarType::SignedInt32</a> = 5, 
-<a class="el" href="namespaceion_1_1Graphics.html#a72ee6ac395e628ee8a47b5baa965e611a17f8bf41b41a4b9c8a20e1e2eebad547">EScalarType::UnsignedInt8</a> = 6, 
-<a class="el" href="namespaceion_1_1Graphics.html#a72ee6ac395e628ee8a47b5baa965e611a854c9b463877363ab8aa6303e0d0e0e0">EScalarType::UnsignedInt16</a> = 7, 
+&#160;&#160;<a class="el" href="group__ionGraphics.html#gga72ee6ac395e628ee8a47b5baa965e611a67b8d849a0f597fddc00d436ecabd4e3">EScalarType::SignedInt16</a> = 4, 
+<a class="el" href="group__ionGraphics.html#gga72ee6ac395e628ee8a47b5baa965e611acbb88da2b43d122a9b2238ff4f82e5ec">EScalarType::SignedInt32</a> = 5, 
+<a class="el" href="group__ionGraphics.html#gga72ee6ac395e628ee8a47b5baa965e611a17f8bf41b41a4b9c8a20e1e2eebad547">EScalarType::UnsignedInt8</a> = 6, 
+<a class="el" href="group__ionGraphics.html#gga72ee6ac395e628ee8a47b5baa965e611a854c9b463877363ab8aa6303e0d0e0e0">EScalarType::UnsignedInt16</a> = 7, 
 <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#a72ee6ac395e628ee8a47b5baa965e611ae5c363f122ed4f25a773902639c88456">EScalarType::UnsignedInt32</a> = 8
+&#160;&#160;<a class="el" href="group__ionGraphics.html#gga72ee6ac395e628ee8a47b5baa965e611ae5c363f122ed4f25a773902639c88456">EScalarType::UnsignedInt32</a> = 8
 <br />
- }</td></tr>
-<tr class="separator:a72ee6ac395e628ee8a47b5baa965e611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a070026c778aa94db28cdb1c061f616b2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2">EAttributeType</a> { <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2ac2e384360367fe68c1f4b5a4b8709876">Float</a> = 0, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b">Float</a> = 1, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b">Float</a> = 1, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2a8ee6f4f50a60d17e6c84e224bb0d5117">Int</a> = 1, 
+ }<tr class="memdesc:ga72ee6ac395e628ee8a47b5baa965e611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value types that exclude vector types.  <a href="group__ionGraphics.html#ga72ee6ac395e628ee8a47b5baa965e611">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga72ee6ac395e628ee8a47b5baa965e611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga070026c778aa94db28cdb1c061f616b2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#ga070026c778aa94db28cdb1c061f616b2">EAttributeType</a> { <br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2ac2e384360367fe68c1f4b5a4b8709876">Float</a> = 0, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b">Float</a> = 1, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b">Float</a> = 1, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2a8ee6f4f50a60d17e6c84e224bb0d5117">Int</a> = 1, 
 <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2abc73a5d8db064b49fa5afbdd18071e87">UnsignedInt</a> = 2, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2a6122e1ce2e09d3330b3d03606f363efa">Double</a> = 3, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b">Double</a> = 6, 
-<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b">Double</a> = 2
+&#160;&#160;<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2abc73a5d8db064b49fa5afbdd18071e87">UnsignedInt</a> = 2, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2a6122e1ce2e09d3330b3d03606f363efa">Double</a> = 3, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b">Double</a> = 6, 
+<a class="el" href="group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b">Double</a> = 2
 <br />
- }</td></tr>
-<tr class="separator:a070026c778aa94db28cdb1c061f616b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e576a7b5e19dd1eb42f99e9baff1624"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624">EDrawFeature</a> { <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624a33e42d0f3b166a4c405127e4412fbef2">EDrawFeature::Wireframe</a> = 0, 
-<a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624a1c7abafcbbd04fe91a7475fff66f8e24">EDrawFeature::CullFront</a> = 1, 
-<a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624af6e2634615f5586908109de09fe34ad0">EDrawFeature::CullBack</a> = 2, 
-<a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624af70bf282a8bb156a1251f9fc81c59d2e">EDrawFeature::DisableDepthTest</a> = 3, 
+ }<tr class="memdesc:ga070026c778aa94db28cdb1c061f616b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible types for attributes i.e. vertex buffer contents.  <a href="group__ionGraphics.html#ga070026c778aa94db28cdb1c061f616b2">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga070026c778aa94db28cdb1c061f616b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e576a7b5e19dd1eb42f99e9baff1624"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#ga5e576a7b5e19dd1eb42f99e9baff1624">EDrawFeature</a> { <br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#gga5e576a7b5e19dd1eb42f99e9baff1624a33e42d0f3b166a4c405127e4412fbef2">EDrawFeature::Wireframe</a> = 0, 
+<a class="el" href="group__ionGraphics.html#gga5e576a7b5e19dd1eb42f99e9baff1624a1c7abafcbbd04fe91a7475fff66f8e24">EDrawFeature::CullFront</a> = 1, 
+<a class="el" href="group__ionGraphics.html#gga5e576a7b5e19dd1eb42f99e9baff1624af6e2634615f5586908109de09fe34ad0">EDrawFeature::CullBack</a> = 2, 
+<a class="el" href="group__ionGraphics.html#gga5e576a7b5e19dd1eb42f99e9baff1624af70bf282a8bb156a1251f9fc81c59d2e">EDrawFeature::DisableDepthTest</a> = 3, 
 <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624a4529ddc2b13dfe0988411df050993657">EDrawFeature::DisableDepthWrite</a> = 4, 
-<a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624ade54069d8dd9854798c595d2ea1d1ec2">EDrawFeature::PolygonOffset</a> = 5
-<br />
- }</td></tr>
-<tr class="separator:a5e576a7b5e19dd1eb42f99e9baff1624"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34af4cbb53768ca7b9f8563f855811fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#a34af4cbb53768ca7b9f8563f855811fa">EBlendMode</a> { <a class="el" href="namespaceion_1_1Graphics.html#a34af4cbb53768ca7b9f8563f855811faa6adf97f83acf6453d4a6a4b1070f3754">EBlendMode::None</a> = 0, 
-<a class="el" href="namespaceion_1_1Graphics.html#a34af4cbb53768ca7b9f8563f855811faa6132295fcf5570fb8b0a944ef322a598">EBlendMode::Alpha</a> = 1, 
-<a class="el" href="namespaceion_1_1Graphics.html#a34af4cbb53768ca7b9f8563f855811faa3f7b3d8ee7bf0d542bd50821c083888f">EBlendMode::Additive</a> = 2
- }</td></tr>
-<tr class="separator:a34af4cbb53768ca7b9f8563f855811fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaf78fc03c5ec5232f8c60d745978576"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576">EPrimitiveType</a> { <a class="el" href="namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576a5e5500cb2b82eb72d550de644bd1b64b">EPrimitiveType::Triangle</a> = 0, 
-<a class="el" href="namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576a4803e6b9e63dabf04de980788d6a13c4">EPrimitiveType::Line</a> = 1, 
-<a class="el" href="namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576ae7f9e73b8edd21f420a63b3ace5768a2">EPrimitiveType::LineStrip</a> = 2, 
-<a class="el" href="namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576a2a3cd5946cfd317eb99c3d32e35e2d4c">EPrimitiveType::Point</a> = 3
- }</td></tr>
-<tr class="separator:abaf78fc03c5ec5232f8c60d745978576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addb5c086fd0778aac8df05438e372cca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372cca">EUniformType</a> { <br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa22ae0e2b89e5e3d477f988cc36d3272b">EUniformType::Float</a> = 0, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa6694430a2b471b5d2de071f2ef1fdc57">EUniformType::Float2</a> = 1, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa8a8a1d211464d4bdee46db3c75bfa121">EUniformType::Float3</a> = 2, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa33116adc6690289da9b82ea736864eeb">EUniformType::Float4</a> = 3, 
-<br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa1686a6c336b71b36d77354cea19a8b52">EUniformType::Int</a> = 4, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa4c6bc90f2bbdf35523e29c414a57bad3">EUniformType::Int2</a> = 5, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa56bf1b0e694b442bf4145a04b82ea943">EUniformType::Int3</a> = 6, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa1a44f12c3427b3e11c171d09632bad8d">EUniformType::Int4</a> = 7, 
-<br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa7fd2e074059a1f9c12d21e8b6a1f4bc6">EUniformType::Matrix4x4</a> = 8, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaabc79a82fe7b71ebfed2c4d88d5a93afa">EUniformType::FloatArray</a> = 9, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaafa42feba824808c303c088f69d7203d5">EUniformType::Float2Array</a> = 10, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaa65bfab494ca38b8b0c99783ac975b78b">EUniformType::Float3Array</a> = 11, 
-<br />
-&#160;&#160;<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaae1823b02a5c2575bc9baeafb5eeb8fbf">EUniformType::Matrix4x4Array</a> = 12, 
-<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaac26f15e86e3de4c398a8273272aba034">EUniformType::Bool</a> = 13
+&#160;&#160;<a class="el" href="group__ionGraphics.html#gga5e576a7b5e19dd1eb42f99e9baff1624a4529ddc2b13dfe0988411df050993657">EDrawFeature::DisableDepthWrite</a> = 4, 
+<a class="el" href="group__ionGraphics.html#gga5e576a7b5e19dd1eb42f99e9baff1624ade54069d8dd9854798c595d2ea1d1ec2">EDrawFeature::PolygonOffset</a> = 5
 <br />
  }</td></tr>
-<tr class="separator:addb5c086fd0778aac8df05438e372cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ga5e576a7b5e19dd1eb42f99e9baff1624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34af4cbb53768ca7b9f8563f855811fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#ga34af4cbb53768ca7b9f8563f855811fa">EBlendMode</a> { <a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa6adf97f83acf6453d4a6a4b1070f3754">EBlendMode::None</a> = 0, 
+<a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa6132295fcf5570fb8b0a944ef322a598">EBlendMode::Alpha</a> = 1, 
+<a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa3f7b3d8ee7bf0d542bd50821c083888f">EBlendMode::Additive</a> = 2
+ }</td></tr>
+<tr class="separator:ga34af4cbb53768ca7b9f8563f855811fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabaf78fc03c5ec5232f8c60d745978576"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#gabaf78fc03c5ec5232f8c60d745978576">EPrimitiveType</a> { <a class="el" href="group__ionGraphics.html#ggabaf78fc03c5ec5232f8c60d745978576a5e5500cb2b82eb72d550de644bd1b64b">EPrimitiveType::Triangle</a> = 0, 
+<a class="el" href="group__ionGraphics.html#ggabaf78fc03c5ec5232f8c60d745978576a4803e6b9e63dabf04de980788d6a13c4">EPrimitiveType::Line</a> = 1, 
+<a class="el" href="group__ionGraphics.html#ggabaf78fc03c5ec5232f8c60d745978576ae7f9e73b8edd21f420a63b3ace5768a2">EPrimitiveType::LineStrip</a> = 2, 
+<a class="el" href="group__ionGraphics.html#ggabaf78fc03c5ec5232f8c60d745978576a2a3cd5946cfd317eb99c3d32e35e2d4c">EPrimitiveType::Point</a> = 3
+ }</td></tr>
+<tr class="separator:gabaf78fc03c5ec5232f8c60d745978576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaddb5c086fd0778aac8df05438e372cca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#gaddb5c086fd0778aac8df05438e372cca">EUniformType</a> { <br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa22ae0e2b89e5e3d477f988cc36d3272b">EUniformType::Float</a> = 0, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa6694430a2b471b5d2de071f2ef1fdc57">EUniformType::Float2</a> = 1, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa8a8a1d211464d4bdee46db3c75bfa121">EUniformType::Float3</a> = 2, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa33116adc6690289da9b82ea736864eeb">EUniformType::Float4</a> = 3, 
+<br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa1686a6c336b71b36d77354cea19a8b52">EUniformType::Int</a> = 4, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa4c6bc90f2bbdf35523e29c414a57bad3">EUniformType::Int2</a> = 5, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa56bf1b0e694b442bf4145a04b82ea943">EUniformType::Int3</a> = 6, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa1a44f12c3427b3e11c171d09632bad8d">EUniformType::Int4</a> = 7, 
+<br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa7fd2e074059a1f9c12d21e8b6a1f4bc6">EUniformType::Matrix4x4</a> = 8, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaabc79a82fe7b71ebfed2c4d88d5a93afa">EUniformType::FloatArray</a> = 9, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaafa42feba824808c303c088f69d7203d5">EUniformType::Float2Array</a> = 10, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa65bfab494ca38b8b0c99783ac975b78b">EUniformType::Float3Array</a> = 11, 
+<br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaae1823b02a5c2575bc9baeafb5eeb8fbf">EUniformType::Matrix4x4Array</a> = 12, 
+<a class="el" href="group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaac26f15e86e3de4c398a8273272aba034">EUniformType::Bool</a> = 13
+<br />
+ }<tr class="memdesc:gaddb5c086fd0778aac8df05438e372cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible types for uniforms.  <a href="group__ionGraphics.html#gaddb5c086fd0778aac8df05438e372cca">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:gaddb5c086fd0778aac8df05438e372cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af631a06d9eb2e9e3bbe55e31a5689d09"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#af631a06d9eb2e9e3bbe55e31a5689d09">GetValueTypeSize</a> (<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955">EValueType</a> const ValueType)</td></tr>
-<tr class="separator:af631a06d9eb2e9e3bbe55e31a5689d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5876e68cb27a572416a69db5970b6bb8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#a5876e68cb27a572416a69db5970b6bb8">GetValueTypeString</a> (<a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955">EValueType</a> const ValueType)</td></tr>
-<tr class="separator:a5876e68cb27a572416a69db5970b6bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc5c6544534908afed82ca5371737a41"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#acc5c6544534908afed82ca5371737a41">GetAttributeTypeSize</a> (<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2">EAttributeType</a> const AttributeType)</td></tr>
-<tr class="separator:acc5c6544534908afed82ca5371737a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae32e08cbabdc36510d715c4913ba5e20"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#ae32e08cbabdc36510d715c4913ba5e20">GetAttributeTypeString</a> (<a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2">EAttributeType</a> const AttributeType)</td></tr>
-<tr class="separator:ae32e08cbabdc36510d715c4913ba5e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8a6dcf27eb00b28106cb253edd5600b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#ac8a6dcf27eb00b28106cb253edd5600b">GetUniformTypeString</a> (<a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372cca">EUniformType</a> const UniformType)</td></tr>
-<tr class="separator:ac8a6dcf27eb00b28106cb253edd5600b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf631a06d9eb2e9e3bbe55e31a5689d09"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#gaf631a06d9eb2e9e3bbe55e31a5689d09">GetValueTypeSize</a> (<a class="el" href="group__ionGraphics.html#gad56369fcca16f9b9920d81b3c5811955">EValueType</a> const ValueType)</td></tr>
+<tr class="memdesc:gaf631a06d9eb2e9e3bbe55e31a5689d09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the sizeof() for a given type.  <a href="group__ionGraphics.html#gaf631a06d9eb2e9e3bbe55e31a5689d09">More...</a><br /></td></tr>
+<tr class="separator:gaf631a06d9eb2e9e3bbe55e31a5689d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5876e68cb27a572416a69db5970b6bb8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#ga5876e68cb27a572416a69db5970b6bb8">GetValueTypeString</a> (<a class="el" href="group__ionGraphics.html#gad56369fcca16f9b9920d81b3c5811955">EValueType</a> const ValueType)</td></tr>
+<tr class="memdesc:ga5876e68cb27a572416a69db5970b6bb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the string equivalent of the given enum.  <a href="group__ionGraphics.html#ga5876e68cb27a572416a69db5970b6bb8">More...</a><br /></td></tr>
+<tr class="separator:ga5876e68cb27a572416a69db5970b6bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc5c6544534908afed82ca5371737a41"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#gacc5c6544534908afed82ca5371737a41">GetAttributeTypeSize</a> (<a class="el" href="group__ionGraphics.html#ga070026c778aa94db28cdb1c061f616b2">EAttributeType</a> const AttributeType)</td></tr>
+<tr class="memdesc:gacc5c6544534908afed82ca5371737a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the sizeof() for a given attribute type.  <a href="group__ionGraphics.html#gacc5c6544534908afed82ca5371737a41">More...</a><br /></td></tr>
+<tr class="separator:gacc5c6544534908afed82ca5371737a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae32e08cbabdc36510d715c4913ba5e20"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#gae32e08cbabdc36510d715c4913ba5e20">GetAttributeTypeString</a> (<a class="el" href="group__ionGraphics.html#ga070026c778aa94db28cdb1c061f616b2">EAttributeType</a> const AttributeType)</td></tr>
+<tr class="memdesc:gae32e08cbabdc36510d715c4913ba5e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the string equivalent of the given enum.  <a href="group__ionGraphics.html#gae32e08cbabdc36510d715c4913ba5e20">More...</a><br /></td></tr>
+<tr class="separator:gae32e08cbabdc36510d715c4913ba5e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac8a6dcf27eb00b28106cb253edd5600b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#gac8a6dcf27eb00b28106cb253edd5600b">GetUniformTypeString</a> (<a class="el" href="group__ionGraphics.html#gaddb5c086fd0778aac8df05438e372cca">EUniformType</a> const UniformType)</td></tr>
+<tr class="memdesc:gac8a6dcf27eb00b28106cb253edd5600b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts uniform enum to equivalent string form.  <a href="group__ionGraphics.html#gac8a6dcf27eb00b28106cb253edd5600b">More...</a><br /></td></tr>
+<tr class="separator:gac8a6dcf27eb00b28106cb253edd5600b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb67ce71f31ac3e7101b6a9a4a52a351"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceion_1_1Graphics.html#abb67ce71f31ac3e7101b6a9a4a52a351">DebugMessageCallback</a> (GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, const GLchar *message, void const *userParam)</td></tr>
 <tr class="separator:abb67ce71f31ac3e7101b6a9a4a52a351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Documentation of the ionGraphics module. </p>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="a070026c778aa94db28cdb1c061f616b2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2">ion::Graphics::EAttributeType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2ac2e384360367fe68c1f4b5a4b8709876"></a>Float&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b"></a>Float&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b"></a>Float&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2a8ee6f4f50a60d17e6c84e224bb0d5117"></a>Int&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2abc73a5d8db064b49fa5afbdd18071e87"></a>UnsignedInt&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2a6122e1ce2e09d3330b3d03606f363efa"></a>Double&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b"></a>Double&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b"></a>Double&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a class="anchor" id="a34af4cbb53768ca7b9f8563f855811fa"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceion_1_1Graphics.html#a34af4cbb53768ca7b9f8563f855811fa">ion::Graphics::EBlendMode</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a34af4cbb53768ca7b9f8563f855811faa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a34af4cbb53768ca7b9f8563f855811faa6132295fcf5570fb8b0a944ef322a598"></a>Alpha&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a34af4cbb53768ca7b9f8563f855811faa3f7b3d8ee7bf0d542bd50821c083888f"></a>Additive&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a class="anchor" id="a5e576a7b5e19dd1eb42f99e9baff1624"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceion_1_1Graphics.html#a5e576a7b5e19dd1eb42f99e9baff1624">ion::Graphics::EDrawFeature</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a5e576a7b5e19dd1eb42f99e9baff1624a33e42d0f3b166a4c405127e4412fbef2"></a>Wireframe&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5e576a7b5e19dd1eb42f99e9baff1624a1c7abafcbbd04fe91a7475fff66f8e24"></a>CullFront&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5e576a7b5e19dd1eb42f99e9baff1624af6e2634615f5586908109de09fe34ad0"></a>CullBack&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5e576a7b5e19dd1eb42f99e9baff1624af70bf282a8bb156a1251f9fc81c59d2e"></a>DisableDepthTest&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5e576a7b5e19dd1eb42f99e9baff1624a4529ddc2b13dfe0988411df050993657"></a>DisableDepthWrite&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a5e576a7b5e19dd1eb42f99e9baff1624ade54069d8dd9854798c595d2ea1d1ec2"></a>PolygonOffset&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a class="anchor" id="abaf78fc03c5ec5232f8c60d745978576"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576">ion::Graphics::EPrimitiveType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="abaf78fc03c5ec5232f8c60d745978576a5e5500cb2b82eb72d550de644bd1b64b"></a>Triangle&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="abaf78fc03c5ec5232f8c60d745978576a4803e6b9e63dabf04de980788d6a13c4"></a>Line&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="abaf78fc03c5ec5232f8c60d745978576ae7f9e73b8edd21f420a63b3ace5768a2"></a>LineStrip&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="abaf78fc03c5ec5232f8c60d745978576a2a3cd5946cfd317eb99c3d32e35e2d4c"></a>Point&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a class="anchor" id="a72ee6ac395e628ee8a47b5baa965e611"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceion_1_1Graphics.html#a72ee6ac395e628ee8a47b5baa965e611">ion::Graphics::EScalarType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a72ee6ac395e628ee8a47b5baa965e611a902b0d55fddef6f8d651fe1035b7d4bd"></a>Error&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b"></a>Float&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b"></a>Double&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a72ee6ac395e628ee8a47b5baa965e611a1f1207a99a0672dbff6759a73d2ff2ab"></a>SignedInt8&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a72ee6ac395e628ee8a47b5baa965e611a67b8d849a0f597fddc00d436ecabd4e3"></a>SignedInt16&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a72ee6ac395e628ee8a47b5baa965e611acbb88da2b43d122a9b2238ff4f82e5ec"></a>SignedInt32&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a72ee6ac395e628ee8a47b5baa965e611a17f8bf41b41a4b9c8a20e1e2eebad547"></a>UnsignedInt8&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a72ee6ac395e628ee8a47b5baa965e611a854c9b463877363ab8aa6303e0d0e0e0"></a>UnsignedInt16&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a72ee6ac395e628ee8a47b5baa965e611ae5c363f122ed4f25a773902639c88456"></a>UnsignedInt32&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a class="anchor" id="addb5c086fd0778aac8df05438e372cca"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372cca">ion::Graphics::EUniformType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa22ae0e2b89e5e3d477f988cc36d3272b"></a>Float&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa6694430a2b471b5d2de071f2ef1fdc57"></a>Float2&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa8a8a1d211464d4bdee46db3c75bfa121"></a>Float3&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa33116adc6690289da9b82ea736864eeb"></a>Float4&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa1686a6c336b71b36d77354cea19a8b52"></a>Int&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa4c6bc90f2bbdf35523e29c414a57bad3"></a>Int2&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa56bf1b0e694b442bf4145a04b82ea943"></a>Int3&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa1a44f12c3427b3e11c171d09632bad8d"></a>Int4&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa7fd2e074059a1f9c12d21e8b6a1f4bc6"></a>Matrix4x4&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaabc79a82fe7b71ebfed2c4d88d5a93afa"></a>FloatArray&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaafa42feba824808c303c088f69d7203d5"></a>Float2Array&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaa65bfab494ca38b8b0c99783ac975b78b"></a>Float3Array&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaae1823b02a5c2575bc9baeafb5eeb8fbf"></a>Matrix4x4Array&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="addb5c086fd0778aac8df05438e372ccaac26f15e86e3de4c398a8273272aba034"></a>Bool&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955">ion::Graphics::EValueType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955a902b0d55fddef6f8d651fe1035b7d4bd"></a>Error&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b"></a>Float&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955a6694430a2b471b5d2de071f2ef1fdc57"></a>Float2&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955a8a8a1d211464d4bdee46db3c75bfa121"></a>Float3&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955a33116adc6690289da9b82ea736864eeb"></a>Float4&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955a7fd2e074059a1f9c12d21e8b6a1f4bc6"></a>Matrix4x4&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a070026c778aa94db28cdb1c061f616b2ad909d38d705ce75386dd86e611a82f5b"></a>Double&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955a1f1207a99a0672dbff6759a73d2ff2ab"></a>SignedInt8&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955a67b8d849a0f597fddc00d436ecabd4e3"></a>SignedInt16&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955acbb88da2b43d122a9b2238ff4f82e5ec"></a>SignedInt32&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955a17f8bf41b41a4b9c8a20e1e2eebad547"></a>UnsignedInt8&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955a854c9b463877363ab8aa6303e0d0e0e0"></a>UnsignedInt16&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ad56369fcca16f9b9920d81b3c5811955ae5c363f122ed4f25a773902639c88456"></a>UnsignedInt32&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+<div class="textblock"><p>Contains ionGraphics module and implementations. </p>
+<p>Further documentation can be found at the <a class="el" href="group__ionGraphics.html">ionGraphics</a> page. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="abb67ce71f31ac3e7101b6a9a4a52a351"></a>
 <div class="memitem">
 <div class="memproto">
@@ -589,90 +346,10 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acc5c6544534908afed82ca5371737a41"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t ion::Graphics::GetAttributeTypeSize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2">EAttributeType</a> const&#160;</td>
-          <td class="paramname"><em>AttributeType</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae32e08cbabdc36510d715c4913ba5e20"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string ion::Graphics::GetAttributeTypeString </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceion_1_1Graphics.html#a070026c778aa94db28cdb1c061f616b2">EAttributeType</a> const&#160;</td>
-          <td class="paramname"><em>AttributeType</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac8a6dcf27eb00b28106cb253edd5600b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string ion::Graphics::GetUniformTypeString </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372cca">EUniformType</a> const&#160;</td>
-          <td class="paramname"><em>UniformType</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af631a06d9eb2e9e3bbe55e31a5689d09"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t ion::Graphics::GetValueTypeSize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955">EValueType</a> const&#160;</td>
-          <td class="paramname"><em>ValueType</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5876e68cb27a572416a69db5970b6bb8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string ion::Graphics::GetValueTypeString </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceion_1_1Graphics.html#ad56369fcca16f9b9920d81b3c5811955">EValueType</a> const&#160;</td>
-          <td class="paramname"><em>ValueType</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Sun Jun 18 2017 for ionEngine v0.4.1
+Generated on Mon Jun 19 2017 for ionEngine v0.4.1
 </p>
 </address>
 </body>

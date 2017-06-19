@@ -5,6 +5,6 @@ var searchData=
   ['backquote',['Backquote',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a242f46f77c7bc68feb14704514de1079',1,'ion']]],
   ['backslash',['BackSlash',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a3ca274eeb43af8abc2e20aaf69003282',1,'ion']]],
   ['backspace',['Backspace',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037acd7d13ceea728b08555f7c818cfb13ef',1,'ion']]],
-  ['bool',['Bool',['../namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaac26f15e86e3de4c398a8273272aba034',1,'ion::Graphics']]],
+  ['bool',['Bool',['../group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaac26f15e86e3de4c398a8273272aba034',1,'ion::Graphics']]],
   ['break',['Break',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037ae4c38d6d45baf080943d323dd51a2ce8',1,'ion']]]
 ];

@@ -1,4 +1,4 @@
 <map id="ion::Graphics::CUniformCallback&lt; T &gt;" name="ion::Graphics::CUniformCallback&lt; T &gt;">
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1IUniformTyped.html" title="ion::Graphics::IUniformTyped\&lt; T \&gt;" alt="" coords="17,80,257,107"/>
-<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1IUniform.html" title="ion::Graphics::IUniform" alt="" coords="53,5,220,32"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1IUniformTyped.html" title="Abstract interface for IUniform with known type. " alt="" coords="17,80,257,107"/>
+<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1IUniform.html" title="Abstract interface for anything which can be uploaded as a shader uniform. " alt="" coords="53,5,220,32"/>
 </map>

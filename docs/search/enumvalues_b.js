@@ -12,7 +12,7 @@ var searchData=
   ['leftsuper',['LeftSuper',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a4bd45bf12e08f60072b6962e9f7794c2',1,'ion']]],
   ['leftthumb',['LeftThumb',['../namespaceion.html#a7556e2f50eb5cb19ff72747595655e01a2cd349073c4937c593353ffe98956c58',1,'ion']]],
   ['less',['Less',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a1cfdf0e8d0c87a228c1f40d9bee7888b',1,'ion']]],
-  ['line',['Line',['../namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576a4803e6b9e63dabf04de980788d6a13c4',1,'ion::Graphics']]],
+  ['line',['Line',['../group__ionGraphics.html#ggabaf78fc03c5ec5232f8c60d745978576a4803e6b9e63dabf04de980788d6a13c4',1,'ion::Graphics']]],
   ['linear',['Linear',['../classion_1_1Graphics_1_1ITexture.html#a7abc240922acfe5c6782c9302547d735a32a843da6ea40ab3b17a3421ccdf671b',1,'ion::Graphics::ITexture']]],
-  ['linestrip',['LineStrip',['../namespaceion_1_1Graphics.html#abaf78fc03c5ec5232f8c60d745978576ae7f9e73b8edd21f420a63b3ace5768a2',1,'ion::Graphics']]]
+  ['linestrip',['LineStrip',['../group__ionGraphics.html#ggabaf78fc03c5ec5232f8c60d745978576ae7f9e73b8edd21f420a63b3ace5768a2',1,'ion::Graphics']]]
 ];

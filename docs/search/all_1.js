@@ -22,7 +22,7 @@ var searchData=
   ['blendmode',['BlendMode',['../classion_1_1Graphics_1_1GL_1_1CDrawContext.html#a92876fa7823b04b842c2caef888c1458',1,'ion::Graphics::GL::CDrawContext::BlendMode()'],['../classion_1_1Graphics_1_1GL_1_1CPipelineState.html#a38535529133ea2d78d3b588b1dc87b31',1,'ion::Graphics::GL::CPipelineState::BlendMode()'],['../classion_1_1Scene_1_1CSimpleSceneObject.html#a42efa50106342d6bdfc5cd411a569460',1,'ion::Scene::CSimpleSceneObject::BlendMode()']]],
   ['block',['Block',['../classIEvent.html#a23aba89595ebf39ab0aea67b27fbe418',1,'IEvent']]],
   ['blue',['Blue',['../classcolor3.html#abc779d72a8e10387ac5aa071d95af19d',1,'color3::Blue()'],['../classSColorA.html#a4ea9887e60664dea85fc1a3765d105a3',1,'SColorA::Blue()']]],
-  ['bool',['Bool',['../namespaceion_1_1Graphics.html#addb5c086fd0778aac8df05438e372ccaac26f15e86e3de4c398a8273272aba034',1,'ion::Graphics']]],
+  ['bool',['Bool',['../group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaac26f15e86e3de4c398a8273272aba034',1,'ion::Graphics']]],
   ['booltostring',['BoolToString',['../namespaceion.html#a3ee0f960aaaab2f06d1a488e91023b97',1,'ion']]],
   ['bottom',['Bottom',['../classion_1_1Scene_1_1COrthographicCamera.html#ae0ea8d1e123b23f65aa481dbee3a9562',1,'ion::Scene::COrthographicCamera']]],
   ['boundingbox3',['boundingbox3',['../SBoundingBox3_8h.html#ada4e4e469c80f2f39f6b9879173784c8',1,'SBoundingBox3.h']]],
