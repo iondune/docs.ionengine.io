@@ -1,0 +1,6 @@
+<map id="ion::Scene::SSimpleMaterial" name="ion::Scene::SSimpleMaterial">
+<area shape="rect" id="node2" href="$classion_1_1CImage.html" title="ion::CImage" alt="" coords="9,102,108,129"/>
+<area shape="rect" id="node3" href="$structvec2.html" title="vec2\&lt; u32 \&gt;" alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1CUniform.html" title="ion::Graphics::CUniform\l\&lt; color3 \&gt;" alt="" coords="132,95,305,136"/>
+<area shape="rect" id="node5" href="$classion_1_1Graphics_1_1CUniform.html" title="ion::Graphics::CUniform\l\&lt; f32 \&gt;" alt="" coords="329,95,503,136"/>
+</map>

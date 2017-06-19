@@ -1,0 +1,6 @@
+<map id="ion::Scene::CSimpleMesh::SVertex" name="ion::Scene::CSimpleMesh::SVertex">
+<area shape="rect" id="node2" href="$classcolor3.html" title="color3\&lt; T \&gt;" alt="" coords="5,200,104,227"/>
+<area shape="rect" id="node3" href="$structvec3.html" title="vec3\&lt; T \&gt;" alt="" coords="10,124,99,151"/>
+<area shape="rect" id="node5" href="$structvec2.html" title="vec2\&lt; f32 \&gt;" alt="" coords="129,200,231,227"/>
+<area shape="rect" id="node6" href="$structvec3.html" title="vec3\&lt; f32 \&gt;" alt="" coords="287,200,390,227"/>
+</map>

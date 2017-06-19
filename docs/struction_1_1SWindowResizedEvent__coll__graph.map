@@ -1,0 +1,8 @@
+<map id="ion::SWindowResizedEvent" name="ion::SWindowResizedEvent">
+<area shape="rect" id="node2" href="$classIEvent.html" title="IEvent" alt="" coords="5,185,67,212"/>
+<area shape="rect" id="node3" href="$structvec2.html" title="vec2\&lt; s32 \&gt;" alt="" coords="81,81,186,108"/>
+<area shape="rect" id="node4" href="$classion_1_1CWindow.html" title="ion::CWindow" alt="" coords="201,185,306,212"/>
+<area shape="rect" id="node5" href="$classIEventListener.html" title="IEventListener" alt="" coords="219,81,331,108"/>
+<area shape="rect" id="node6" href="$classIMultiTreeNode.html" title="IMultiTreeNode\&lt; IEventListener \&gt;" alt="" coords="157,5,392,32"/>
+<area shape="rect" id="node7" href="$structvec2.html" title="vec2\&lt; f32 \&gt;" alt="" coords="355,81,458,108"/>
+</map>

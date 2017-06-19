@@ -1,0 +1,4 @@
+<map id="ion::Scene::ILight" name="ion::Scene::ILight">
+<area shape="rect" id="node2" href="$classion_1_1Scene_1_1CDirectionalLight.html" title="ion::Scene::CDirectional\lLight" alt="" coords="5,80,180,121"/>
+<area shape="rect" id="node3" href="$classion_1_1Scene_1_1CPointLight.html" title="ion::Scene::CPointLight" alt="" coords="204,87,373,114"/>
+</map>

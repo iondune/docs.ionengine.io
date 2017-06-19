@@ -1,0 +1,6 @@
+<map id="ion::CGamePad" name="ion::CGamePad">
+<area shape="rect" id="node2" href="$classIEventListener.html" title="IEventListener" alt="" coords="67,81,179,108"/>
+<area shape="rect" id="node3" href="$classIMultiTreeNode.html" title="IMultiTreeNode\&lt; IEventListener \&gt;" alt="" coords="5,5,240,32"/>
+<area shape="rect" id="node4" href="$classSingleton.html" title="Singleton\&lt; CGamePad \&gt;" alt="" coords="203,81,386,108"/>
+<area shape="rect" id="node5" href="$structvec2.html" title="vec2\&lt; f32 \&gt;" alt="" coords="410,81,513,108"/>
+</map>

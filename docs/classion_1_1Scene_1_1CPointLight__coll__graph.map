@@ -1,0 +1,6 @@
+<map id="ion::Scene::CPointLight" name="ion::Scene::CPointLight">
+<area shape="rect" id="node2" href="$classion_1_1Scene_1_1ILight.html" title="ion::Scene::ILight" alt="" coords="344,46,475,73"/>
+<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1CUniform.html" title="ion::Graphics::CUniform\l\&lt; vec3 \&gt;" alt="" coords="19,5,193,47"/>
+<area shape="rect" id="node5" href="$classion_1_1Graphics_1_1CUniform.html" title="ion::Graphics::CUniform\l\&lt; float \&gt;" alt="" coords="323,97,496,139"/>
+<area shape="rect" id="node6" href="$classion_1_1Graphics_1_1CUniform.html" title="ion::Graphics::CUniform\l\&lt; color3 \&gt;" alt="" coords="323,163,496,204"/>
+</map>
