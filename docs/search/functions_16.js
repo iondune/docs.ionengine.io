@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['xw',['XW',['../classSVector4.html#af8f18dd6bce0249dff9f823ca9307fc8',1,'SVector4']]],
-  ['xx',['XX',['../structvec2.html#abbfd73b335ae93d01a16b59fde74fe17',1,'vec2']]],
-  ['xy',['XY',['../structvec3.html#af34d39fb7725e3e525e91f0455acea34',1,'vec3::XY()'],['../classSVector4.html#aaf2d88af05a601846b1fe79f5dd194f6',1,'SVector4::XY()']]],
-  ['xyz',['XYZ',['../classSVector4.html#a63c82627a0dbdc5070e92b1daa26fe0d',1,'SVector4']]],
-  ['xz',['XZ',['../structvec3.html#ae1de27ad57591f13730cfd2c4c7788f9',1,'vec3::XZ()'],['../classSVector4.html#ace049e9b7655a53ee9286e2144e3c87f',1,'SVector4::XZ()']]]
+  ['xw',['XW',['../classion_1_1vec4.html#a5926e823b1c2be79ddd55ec5d9d9fe75',1,'ion::vec4']]],
+  ['xx',['XX',['../struction_1_1vec2.html#ae702cd699a824ecc4d249bffab102ff4',1,'ion::vec2']]],
+  ['xy',['XY',['../struction_1_1vec3.html#aa624fb3a6716691b7c6f5ce1eae65a50',1,'ion::vec3::XY()'],['../classion_1_1vec4.html#a9fb6858e01bad923ab31f981a7443bf1',1,'ion::vec4::XY()']]],
+  ['xyz',['XYZ',['../classion_1_1vec4.html#a706e5693a4c23e82d46fed09a0ef3544',1,'ion::vec4']]],
+  ['xz',['XZ',['../struction_1_1vec3.html#aedaa31510c7bb61f1cb4e597051387fe',1,'ion::vec3::XZ()'],['../classion_1_1vec4.html#ae176afd28fe2343e02c20169155982a6',1,'ion::vec4::XZ()']]]
 ];

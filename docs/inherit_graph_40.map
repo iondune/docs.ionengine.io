@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classion_1_1Graphics_1_1IDepthBuffer.html" title="ion::Graphics::IDepthBuffer" alt="" coords="5,13,199,39"/>
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1GL_1_1CDepthBuffer.html" title="ion::Graphics::GL::\lCDepthBuffer" alt="" coords="247,5,385,47"/>
+<area shape="rect" id="node1" href="$classion_1_1Graphics_1_1IDrawContext.html" title="Alternative to Pipeline State rendering. Represents the context for one or many draw calls..." alt="" coords="5,13,193,39"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1GL_1_1CDrawContext.html" title="ion::Graphics::GL::\lCDrawContext" alt="" coords="241,5,373,47"/>
 </map>

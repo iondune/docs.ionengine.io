@@ -1,6 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classion_1_1Graphics_1_1IRenderTarget.html" title="ion::Graphics::IRenderTarget" alt="" coords="5,42,204,69"/>
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1GL_1_1CRenderTarget.html" title="ion::Graphics::GL::\lCRenderTarget" alt="" coords="280,5,419,47"/>
-<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1IFrameBuffer.html" title="ion::Graphics::IFrameBuffer" alt="" coords="252,71,447,98"/>
-<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1GL_1_1CFrameBuffer.html" title="ion::Graphics::GL::\lCFrameBuffer" alt="" coords="495,35,633,76"/>
+<area shape="rect" id="node1" href="$classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="5,134,160,161"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1GL_1_1CTexture.html" title="ion::Graphics::GL::\lCTexture" alt="" coords="247,127,379,168"/>
+<area shape="rect" id="node7" href="$classion_1_1Graphics_1_1ITexture2D.html" title="ion::Graphics::ITexture2D" alt="" coords="227,10,399,37"/>
+<area shape="rect" id="node8" href="$classion_1_1Graphics_1_1ITexture2DArray.html" title="ion::Graphics::ITexture2\lDArray" alt="" coords="232,61,395,103"/>
+<area shape="rect" id="node9" href="$classion_1_1Graphics_1_1ITexture3D.html" title="ion::Graphics::ITexture3D" alt="" coords="227,193,399,219"/>
+<area shape="rect" id="node10" href="$classion_1_1Graphics_1_1ITextureCubeMap.html" title="ion::Graphics::ITextureCubeMap" alt="" coords="208,243,419,270"/>
+<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1GL_1_1CTexture2D.html" title="ion::Graphics::GL::\lCTexture2D" alt="" coords="467,5,599,47"/>
+<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1GL_1_1CTexture2DArray.html" title="ion::Graphics::GL::\lCTexture2DArray" alt="" coords="467,73,599,115"/>
+<area shape="rect" id="node5" href="$classion_1_1Graphics_1_1GL_1_1CTexture3D.html" title="ion::Graphics::GL::\lCTexture3D" alt="" coords="467,143,599,184"/>
+<area shape="rect" id="node6" href="$classion_1_1Graphics_1_1GL_1_1CTextureCubeMap.html" title="ion::Graphics::GL::\lCTextureCubeMap" alt="" coords="467,217,599,259"/>
 </map>

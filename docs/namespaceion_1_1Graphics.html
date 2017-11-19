@@ -131,7 +131,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IFrameBuffer.html">IFrameBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IGeometryShader.html">IGeometryShader</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IGeometryStage.html">IGeometryStage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IGraphicsContext.html">IGraphicsContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,11 +139,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IPipelineState.html">IPipelineState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IPixelShader.html">IPixelShader</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IPixelStage.html">IPixelStage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IRenderTarget.html">IRenderTarget</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IShaderProgram.html">IShaderProgram</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IShader.html">IShader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html">ITexture</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,7 +163,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IVertexBuffer.html">IVertexBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IVertexShader.html">IVertexShader</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1IVertexStage.html">IVertexStage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struction_1_1Graphics_1_1SInputLayoutElement.html">SInputLayoutElement</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,9 +232,14 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:ga5e576a7b5e19dd1eb42f99e9baff1624"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga34af4cbb53768ca7b9f8563f855811fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#ga34af4cbb53768ca7b9f8563f855811fa">EBlendMode</a> { <a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa6adf97f83acf6453d4a6a4b1070f3754">EBlendMode::None</a> = 0, 
+<tr class="memitem:ga34af4cbb53768ca7b9f8563f855811fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#ga34af4cbb53768ca7b9f8563f855811fa">EBlendMode</a> { <br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa6adf97f83acf6453d4a6a4b1070f3754">EBlendMode::None</a> = 0, 
 <a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa6132295fcf5570fb8b0a944ef322a598">EBlendMode::Alpha</a> = 1, 
-<a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa3f7b3d8ee7bf0d542bd50821c083888f">EBlendMode::Additive</a> = 2
+<a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa3f7b3d8ee7bf0d542bd50821c083888f">EBlendMode::Additive</a> = 2, 
+<a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa78d811e98514cd165dda532286610fd2">EBlendMode::Min</a> = 3, 
+<br />
+&#160;&#160;<a class="el" href="group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa6a061313d22e51e0f25b7cd4dc065233">EBlendMode::Max</a> = 4
+<br />
  }</td></tr>
 <tr class="separator:ga34af4cbb53768ca7b9f8563f855811fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabaf78fc03c5ec5232f8c60d745978576"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ionGraphics.html#gabaf78fc03c5ec5232f8c60d745978576">EPrimitiveType</a> { <a class="el" href="group__ionGraphics.html#ggabaf78fc03c5ec5232f8c60d745978576a5e5500cb2b82eb72d550de644bd1b64b">EPrimitiveType::Triangle</a> = 0, 
@@ -349,7 +354,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Mon Jun 19 2017 for ionEngine v0.4.1
+Generated on Sun Nov 19 2017 for ionEngine v0.4.4
 </p>
 </address>
 </body>

@@ -1,20 +1,22 @@
 var searchData=
 [
-  ['n',['N',['../SLongitudeLatitude_8h.html#a7051cba9d3bfa4a10838646c7114d712a8d9c307cb7f3c4a32822a51922d1ceaa',1,'N():&#160;SLongitudeLatitude.h'],['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a8d9c307cb7f3c4a32822a51922d1ceaa',1,'ion::N()']]],
+  ['n',['N',['../namespaceion.html#aa52c64ca8d1b6e0168e7f8037e18914ea8d9c307cb7f3c4a32822a51922d1ceaa',1,'ion::N()'],['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a8d9c307cb7f3c4a32822a51922d1ceaa',1,'ion::N()']]],
   ['name',['Name',['../struction_1_1Graphics_1_1SInputLayoutElement.html#afac5c9013e58c67d15ad83823f02fb12',1,'ion::Graphics::SInputLayoutElement::Name()'],['../classion_1_1Scene_1_1CRenderPass.html#a3634fe305bcf34fc5c4405d3ac62c253',1,'ion::Scene::CRenderPass::Name()']]],
   ['nearest',['Nearest',['../classion_1_1Graphics_1_1ITexture.html#a7abc240922acfe5c6782c9302547d735a60494f02d440f316319dd0fad40ad007',1,'ion::Graphics::ITexture']]],
-  ['nearplane',['NearPlane',['../classion_1_1Scene_1_1CCamera.html#a1b6402802011c24f547c38d1522e2288',1,'ion::Scene::CCamera']]],
+  ['nearestkneighbors',['NearestKNeighbors',['../classion_1_1CKDTreeNode.html#ad702a455c6a00a78b6a2cc5be8759fd0',1,'ion::CKDTreeNode::NearestKNeighbors()'],['../classion_1_1CKDTree.html#a8c856d37785af60c0733f027ee0a1aa0',1,'ion::CKDTree::NearestKNeighbors()']]],
+  ['nearestneighbor',['NearestNeighbor',['../classion_1_1CKDTreeNode.html#ab6dd958e635317920166c20eb17305d3',1,'ion::CKDTreeNode::NearestNeighbor()'],['../classion_1_1CKDTree.html#a63c4484905d64a24a249760288a6c774',1,'ion::CKDTree::NearestNeighbor()']]],
+  ['nearplane',['NearPlane',['../classion_1_1Scene_1_1CCamera.html#a94994ae19068d4dc7f3ba71607b39cbc',1,'ion::Scene::CCamera']]],
   ['needstobeloaded',['NeedsToBeLoaded',['../classion_1_1Graphics_1_1GL_1_1CDrawConfig.html#a2f0f6ca824d3d2e5e828080bb5e0a3a4',1,'ion::Graphics::GL::CDrawConfig']]],
   ['negativex',['NegativeX',['../classion_1_1Graphics_1_1ITextureCubeMap.html#a11b5eaddd3f6d92d3fee7d676e8fbbaaa963a8a64a09d54efc81b136ca6be21b2',1,'ion::Graphics::ITextureCubeMap']]],
   ['negativey',['NegativeY',['../classion_1_1Graphics_1_1ITextureCubeMap.html#a11b5eaddd3f6d92d3fee7d676e8fbbaaae4d5f02ceecd15caf66e9f0b2393c86b',1,'ion::Graphics::ITextureCubeMap']]],
   ['negativez',['NegativeZ',['../classion_1_1Graphics_1_1ITextureCubeMap.html#a11b5eaddd3f6d92d3fee7d676e8fbbaaada76df034cd139bd515761c8bb8e3090',1,'ion::Graphics::ITextureCubeMap']]],
   ['newframe',['NewFrame',['../classion_1_1CGUIManager.html#a71227bed5dbdbe4bde8110768d1250d5',1,'ion::CGUIManager']]],
-  ['newtask',['NewTask',['../classIProgressBar.html#ab34dc1ae1d13f485eb44a49f1fea8251',1,'IProgressBar']]],
+  ['newtask',['NewTask',['../classion_1_1IProgressBar.html#ae5c6976929c7e9ae0ba62be331e93864',1,'ion::IProgressBar']]],
   ['nextstate',['NextState',['../classion_1_1CStateManager.html#a2116cc6d1f390e9508a1b008ad7c697b',1,'ion::CStateManager']]],
   ['nodes',['Nodes',['../classion_1_1Animation_1_1CSpline.html#ab5858298df64b98dd403e4907677e2c8',1,'ion::Animation::CSpline']]],
   ['none',['None',['../group__ionGraphics.html#gga34af4cbb53768ca7b9f8563f855811faa6adf97f83acf6453d4a6a4b1070f3754',1,'ion::Graphics']]],
-  ['normal',['Normal',['../struction_1_1Animation_1_1S3DSplineNode.html#a87a3bf9a80d8d559290428db7736400e',1,'ion::Animation::S3DSplineNode::Normal()'],['../classSPlane3.html#adc0baf37fa68617263d05ecd18ea50c4',1,'SPlane3::Normal()'],['../struction_1_1Scene_1_1CSimpleMesh_1_1SVertex.html#a4e347a33e90097f2b694600e454495ea',1,'ion::Scene::CSimpleMesh::SVertex::Normal()'],['../struction_1_1Scene_1_1CSimpleMesh_1_1STriangle.html#ab2517783a78ca6c4650b2698ae25c636',1,'ion::Scene::CSimpleMesh::STriangle::Normal()']]],
-  ['normalize',['Normalize',['../classSVector.html#a02d6bc8afcb4f7f657839076374bfdb1',1,'SVector::Normalize()'],['../classSVector.html#a1f4448982507b8634dd5aa74bc38d9ec',1,'SVector::Normalize()'],['../structvec2.html#a3c58573bc414b90a0b7e4f237b19594e',1,'vec2::Normalize()'],['../structvec2.html#addc2f78f99f033896dcbb9aa7e421dbc',1,'vec2::Normalize()'],['../structvec3.html#a9eb47ad23b72bb1be4039da57b583465',1,'vec3::Normalize()'],['../structvec3.html#aeb26d9f4fd5216046e17a01da91c4d1e',1,'vec3::Normalize()'],['../structSRange.html#a3fbe1b28d5b9af894cf83121640693b3',1,'SRange::Normalize()']]],
+  ['normal',['Normal',['../struction_1_1Animation_1_1S3DSplineNode.html#a87a3bf9a80d8d559290428db7736400e',1,'ion::Animation::S3DSplineNode::Normal()'],['../classion_1_1SPlane3.html#a5bfb42c2241b64c72711dd8b06652273',1,'ion::SPlane3::Normal()'],['../struction_1_1Scene_1_1CSimpleMesh_1_1SVertex.html#a4e347a33e90097f2b694600e454495ea',1,'ion::Scene::CSimpleMesh::SVertex::Normal()'],['../struction_1_1Scene_1_1CSimpleMesh_1_1STriangle.html#ab2517783a78ca6c4650b2698ae25c636',1,'ion::Scene::CSimpleMesh::STriangle::Normal()']]],
+  ['normalize',['Normalize',['../struction_1_1vec2.html#a8cac2b6d7702000051db4bdb99c2e062',1,'ion::vec2::Normalize()'],['../struction_1_1vec2.html#addc2f78f99f033896dcbb9aa7e421dbc',1,'ion::vec2::Normalize()'],['../struction_1_1vec3.html#a8ef92f0b60870958c5e77a8f3919c55e',1,'ion::vec3::Normalize()'],['../struction_1_1vec3.html#aeb26d9f4fd5216046e17a01da91c4d1e',1,'ion::vec3::Normalize()'],['../classion_1_1vec4.html#a01937ee8c580929758aa63d28dedd0c8',1,'ion::vec4::Normalize()'],['../classion_1_1vec4.html#a17fee9bedac2bb92c915202468f63ebe',1,'ion::vec4::Normalize()'],['../struction_1_1SRange.html#ac3ee4a1eaaff1ad1b17e8bd9dda60ea0',1,'ion::SRange::Normalize()']]],
   ['num0',['Num0',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a845787798a45b48e825e9b99a338537a',1,'ion']]],
   ['num1',['Num1',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037abacb69a042a9fdc268a672919052d1f2',1,'ion']]],
   ['num2',['Num2',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a72bd76d6e2b68a539c8d1a77b564ed72',1,'ion']]],
@@ -25,6 +27,5 @@ var searchData=
   ['num7',['Num7',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a4911ceac5c68b5a3f1499d68b27b0938',1,'ion']]],
   ['num8',['Num8',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a894e7d9b7dcced78e8007ba2d38b8dd2',1,'ion']]],
   ['num9',['Num9',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037ad7b1dbe22119bc7acf6e4a1afcc06e46',1,'ion']]],
-  ['numericlimits',['NumericLimits',['../group__ionCore.html#ga4702ccace53b4de15452fec19ca02a91',1,'ionStandardLibrary.h']]],
-  ['numlock',['Numlock',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a19ba26a55fd08e68d9be73917f0fa0a4',1,'ion']]]
+  ['numlock',['NumLock',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037acf6cc0261135c6d163fd4305375773d2',1,'ion']]]
 ];

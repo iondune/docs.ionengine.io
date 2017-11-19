@@ -1,7 +1,7 @@
 var searchData=
 [
   ['radius',['Radius',['../classion_1_1Scene_1_1CPointLight.html#a50ae7c9a1ea66ddf23451cc2ab7acebe',1,'ion::Scene::CPointLight']]],
-  ['red',['Red',['../classcolor3.html#ad761de096155ee7d3e9ef78f6cc8b247',1,'color3::Red()'],['../classSColorA.html#a32653b64806d21ce42d98add920231ad',1,'SColorA::Red()']]],
+  ['red',['Red',['../struction_1_1Color_1_1Basic.html#aa68a9a671d70350baa4701eaf07d159c',1,'ion::Color::Basic::Red()'],['../classion_1_1color3.html#affb2351ce88f78435dc3ff02847e1952',1,'ion::color3::Red()'],['../classion_1_1color4.html#af8aca552aad81fa161c38248261dd504',1,'ion::color4::Red()']]],
   ['rendercategory',['RenderCategory',['../classion_1_1Scene_1_1CSimpleSceneObject.html#abb313f77c3f70769f6e32ea9d3e58849',1,'ion::Scene::CSimpleSceneObject']]],
   ['renderpasses',['RenderPasses',['../classion_1_1CSceneManager.html#a31d18c56aeb9c25a949f02fbb91cfd42',1,'ion::CSceneManager']]],
   ['renderqueue',['RenderQueue',['../classion_1_1Scene_1_1CRenderPass.html#a0e892b37f7e97faf24a56f1a0dd3bbe5',1,'ion::Scene::CRenderPass']]],
@@ -9,14 +9,16 @@ var searchData=
   ['requireduniforms',['RequiredUniforms',['../classion_1_1Graphics_1_1GL_1_1CDrawConfig.html#aab8f336b9b0ba02d9649a218cc87581f',1,'ion::Graphics::GL::CDrawConfig::RequiredUniforms()'],['../classion_1_1Graphics_1_1GL_1_1CDrawContext.html#abd36dd0f4c25e25cb58fe32132fa0139',1,'ion::Graphics::GL::CDrawContext::RequiredUniforms()']]],
   ['restriction',['restriction',['../LICENSE_8txt.html#ac0e1e4a858a6a19c5392f7f6d29f969c',1,'LICENSE.txt']]],
   ['reversedepth',['ReverseDepth',['../classion_1_1Graphics_1_1COpenGLImplementation.html#acc597f32ebb6a489dd98bbd3673184ae',1,'ion::Graphics::COpenGLImplementation']]],
-  ['right',['Right',['../classion_1_1Scene_1_1COrthographicCamera.html#a1a03bcce37086c72ad8df60a81ed6ee9',1,'ion::Scene::COrthographicCamera']]],
+  ['right',['Right',['../classion_1_1Scene_1_1COrthographicCamera.html#a118be43a2252c509a298f56cf9e336f8',1,'ion::Scene::COrthographicCamera']]],
+  ['rightside',['RightSide',['../classion_1_1CKDTreeNode.html#a03a1697cf8ed822b7280af7108b20458',1,'ion::CKDTreeNode']]],
   ['rightstick',['RightStick',['../classion_1_1CGamePad.html#a119273b3144a9aaf61873abdc795d1a2',1,'ion::CGamePad']]],
-  ['righttrigger',['RightTrigger',['../classion_1_1CGamePad.html#a5b4b67048b42bcdbfc6e9e3cff51b140',1,'ion::CGamePad']]],
-  ['rotation',['Rotation',['../classSTransformation3.html#a28233bee963c82f26700b967105f5ff3',1,'STransformation3']]],
-  ['rotationorder',['RotationOrder',['../classSTransformation3.html#aa7a3c1dd3c23c4496b23bd8456bdc32b',1,'STransformation3']]],
-  ['rotationvector',['RotationVector',['../classSTransformation3.html#af495a056d63565a007a50ccdc6ad101a',1,'STransformation3']]],
-  ['roundingerror32',['RoundingError32',['../group__ionCore.html#gafde5ca017516ef0dda6f671f1719665c',1,'ionComparison.h']]],
-  ['roundingerror64',['RoundingError64',['../group__ionCore.html#ga2f4e95d8140febde9cf09d14e21a6027',1,'ionComparison.h']]],
-  ['rows',['Rows',['../classSTable.html#a799850e4ec1391369ed37d8056524d54',1,'STable']]],
-  ['runtime',['RunTime',['../classion_1_1CTimeManager.html#a443e5ced30fd36a4768e0ebb635a389f',1,'ion::CTimeManager']]]
+  ['righttrigger',['RightTrigger',['../classion_1_1CGamePad.html#a408442bc74acbd01a57ea49df7b891e1',1,'ion::CGamePad']]],
+  ['root',['Root',['../classion_1_1CKDTree.html#a5a6c756cf74bc9a1712fc1b5b1e58c1e',1,'ion::CKDTree']]],
+  ['rotation',['Rotation',['../classion_1_1STransformation3.html#a1f74c357b6895d68d2bbc5961d01bc02',1,'ion::STransformation3']]],
+  ['rotationorder',['RotationOrder',['../classion_1_1STransformation3.html#a27876026a02622059733d68beb23aac5',1,'ion::STransformation3']]],
+  ['rotationvector',['RotationVector',['../classion_1_1STransformation3.html#a35b714546634cd0a8739beaaa25f2112',1,'ion::STransformation3']]],
+  ['roundingerror32',['RoundingError32',['../group__ionCore.html#ga57d7a5b7b72c028d625674743302e102',1,'ion']]],
+  ['roundingerror64',['RoundingError64',['../group__ionCore.html#ga5274bc1bf2f33e7b3989b3c23c270351',1,'ion']]],
+  ['rows',['Rows',['../classion_1_1STable.html#a5fe94b78e3170603dcbbb71d255ea7d9',1,'ion::STable']]],
+  ['runtime',['RunTime',['../classion_1_1CTimeManager.html#a902aa685613c3319d8e19dae7d0d656f',1,'ion::CTimeManager']]]
 ];

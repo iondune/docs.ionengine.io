@@ -1,3 +1,5 @@
 <map id="ion::Graphics::GL::CTexture" name="ion::Graphics::GL::CTexture">
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="5,81,160,108"/>
+<area shape="rect" id="node3" href="$classion_1_1color4.html" title="ion::color4\&lt; float \&gt;" alt="" coords="184,81,315,108"/>
+<area shape="rect" id="node4" href="$classion_1_1vec4.html" title="ion::vec4\&lt; float \&gt;" alt="" coords="187,5,311,32"/>
 </map>

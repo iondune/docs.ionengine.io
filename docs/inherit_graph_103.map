@@ -1,10 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classSVectorBase.html" title="SVectorBase\&lt; T, Size \&gt;" alt="" coords="5,97,181,124"/>
-<area shape="rect" id="node2" href="$classSVector.html" title="SVector\&lt; T, Size, Implementation \&gt;" alt="" coords="229,5,483,32"/>
-<area shape="rect" id="node3" href="$classSVector.html" title="SVector\&lt; T, 2, SLongitude\lLatitude\&lt; T \&gt; \&gt;" alt="" coords="261,57,451,98"/>
-<area shape="rect" id="node5" href="$classSVector.html" title="SVector\&lt; T, 4, SColorA\l\&lt; T \&gt; \&gt;" alt="" coords="271,122,441,163"/>
-<area shape="rect" id="node7" href="$classSVector.html" title="SVector\&lt; T, 4, SVector4\l\&lt; T \&gt; \&gt;" alt="" coords="268,187,444,229"/>
-<area shape="rect" id="node4" href="$structSLongitudeLatitude.html" title="SLongitudeLatitude\&lt; T \&gt;" alt="" coords="531,64,713,91"/>
-<area shape="rect" id="node6" href="$classSColorA.html" title="Customized variant of vec4 that intelligently handles conversion between floating point and integer c..." alt="" coords="567,129,677,156"/>
-<area shape="rect" id="node8" href="$classSVector4.html" title="4D vector " alt="" coords="563,195,681,221"/>
+<area shape="rect" id="node1" href="$classion_1_1STransformation3.html" title="Describes a 3D transformation as a composed translation, rotation, and scale. " alt="" coords="5,5,156,32"/>
 </map>

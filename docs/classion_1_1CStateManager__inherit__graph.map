@@ -1,5 +1,5 @@
 <map id="ion::CStateManager" name="ion::CStateManager">
-<area shape="rect" id="node2" href="$classSingleton.html" title="Singleton\&lt; CStateManager \&gt;" alt="" coords="5,80,217,107"/>
-<area shape="rect" id="node3" href="$classIEventListener.html" title="IEventListener" alt="" coords="241,80,353,107"/>
-<area shape="rect" id="node4" href="$classIMultiTreeNode.html" title="IMultiTreeNode\&lt; IEventListener \&gt;" alt="" coords="179,5,414,32"/>
+<area shape="rect" id="node2" href="$classion_1_1Singleton.html" title="ion::Singleton\&lt; CStateManager \&gt;" alt="" coords="5,95,221,121"/>
+<area shape="rect" id="node3" href="$classIEventListener.html" title="IEventListener" alt="" coords="245,95,352,121"/>
+<area shape="rect" id="node4" href="$classion_1_1IMultiTreeNode.html" title="ion::IMultiTreeNode\l\&lt; IEventListener \&gt;" alt="" coords="231,5,367,47"/>
 </map>

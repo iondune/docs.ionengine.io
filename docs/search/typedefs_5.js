@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['line3d',['line3d',['../SLine3_8h.html#aabdaab17bde465a9f51b64af6fd122c0',1,'SLine3.h']]],
-  ['line3f',['line3f',['../SLine3_8h.html#a2094a5dc4a8bbdb05207cd885cd9db0f',1,'SLine3.h']]],
-  ['line3i',['line3i',['../SLine3_8h.html#ad1745a2aa19e4f36a2da5b94fa2ce0db',1,'SLine3.h']]],
-  ['lockguard',['LockGuard',['../group__ionCore.html#ga782a0f356006518bf9a21670fb5b6cda',1,'ionThread.h']]],
-  ['longlatd',['longlatd',['../SLongitudeLatitude_8h.html#afe76f38e4716bf94eca59d2050ec956f',1,'SLongitudeLatitude.h']]],
-  ['longlatf',['longlatf',['../SLongitudeLatitude_8h.html#a1b9b2ba38d1aa86819b1859384fd526e',1,'SLongitudeLatitude.h']]]
+  ['plane3f',['plane3f',['../namespaceion.html#ad5a3d793b0cd8736f89d5cfc02fc49a1',1,'ion']]],
+  ['plane3i',['plane3i',['../namespaceion.html#a6a73e78cece3c707b31790e7cfd2def4',1,'ion']]],
+  ['pointer',['pointer',['../classion_1_1STable_1_1SFieldIterator.html#a6189794c6bdfc4c46bda437c93cdb2e9',1,'ion::STable::SFieldIterator']]]
 ];

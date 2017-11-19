@@ -1,5 +1,5 @@
 <map id="ion::Graphics::GL::CTextureCubeMap" name="ion::Graphics::GL::CTextureCubeMap">
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1ITextureCubeMap.html" title="ion::Graphics::ITextureCubeMap" alt="" coords="5,87,228,114"/>
-<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="138,5,301,32"/>
-<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1GL_1_1CTexture.html" title="ion::Graphics::GL::\lCTexture" alt="" coords="253,80,391,121"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1ITextureCubeMap.html" title="ion::Graphics::ITextureCubeMap" alt="" coords="5,87,216,114"/>
+<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="131,5,285,32"/>
+<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1GL_1_1CTexture.html" title="ion::Graphics::GL::\lCTexture" alt="" coords="241,80,373,121"/>
 </map>

@@ -1,8 +1,9 @@
 <map id="/home/ian/projects/ionEngine/ionWindow/CWindowManager.cpp" name="/home/ian/projects/ionEngine/ionWindow/CWindowManager.cpp">
-<area shape="rect" id="node2" href="$CWindowManager_8h.html" title="CWindowManager.h" alt="" coords="309,109,454,136"/>
-<area shape="rect" id="node5" href="$CWindow_8h.html" title="CWindow.h" alt="" coords="337,184,426,211"/>
-<area shape="rect" id="node7" href="$SKeyboardEvent_8h.html" title="SKeyboardEvent.h" alt="" coords="419,259,558,285"/>
-<area shape="rect" id="node9" href="$SMouseEvent_8h.html" title="SMouseEvent.h" alt="" coords="222,259,344,285"/>
-<area shape="rect" id="node11" href="$SWindowResizedEvent_8h.html" title="SWindowResizedEvent.h" alt="" coords="24,259,198,285"/>
-<area shape="rect" id="node8" href="$EKey_8h.html" title="EKey.h" alt="" coords="457,333,520,360"/>
+<area shape="rect" id="node2" href="$CWindowManager_8h.html" title="CWindowManager.h" alt="" coords="185,109,325,136"/>
+<area shape="rect" id="node5" href="$CWindow_8h.html" title="CWindow.h" alt="" coords="296,184,387,211"/>
+<area shape="rect" id="node10" href="$SWindowResizedEvent_8h.html" title="SWindowResizedEvent.h" alt="" coords="5,259,176,285"/>
+<area shape="rect" id="node11" href="$SFileDroppedEvent_8h.html" title="SFileDroppedEvent.h" alt="" coords="511,184,657,211"/>
+<area shape="rect" id="node7" href="$SKeyboardEvent_8h.html" title="SKeyboardEvent.h" alt="" coords="517,259,648,285"/>
+<area shape="rect" id="node9" href="$SMouseEvent_8h.html" title="SMouseEvent.h" alt="" coords="379,259,493,285"/>
+<area shape="rect" id="node8" href="$EKey_8h.html" title="EKey.h" alt="" coords="550,333,615,360"/>
 </map>

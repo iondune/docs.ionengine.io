@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classion_1_1Graphics_1_1IDrawConfig.html" title="Alternative to Pipeline State rendering. Represents a single draw call. " alt="" coords="5,13,193,39"/>
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1GL_1_1CDrawConfig.html" title="ion::Graphics::GL::\lCDrawConfig" alt="" coords="241,5,380,47"/>
+<area shape="rect" id="node1" href="$classion_1_1Graphics_1_1IGeometryStage.html" title="ion::Graphics::IGeometry\lStage" alt="" coords="5,5,173,47"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1GL_1_1CGeometryStage.html" title="ion::Graphics::GL::\lCGeometryStage" alt="" coords="221,5,353,47"/>
 </map>

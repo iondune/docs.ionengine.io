@@ -103,8 +103,8 @@ Inheritance diagram for ion::Graphics::ITextureCubeMap:</div>
 <div class="dyncontent">
 <div class="center"><img src="classion_1_1Graphics_1_1ITextureCubeMap__inherit__graph.png" border="0" usemap="#ion_1_1Graphics_1_1ITextureCubeMap_inherit__map" alt="Inheritance graph"/></div>
 <map name="ion_1_1Graphics_1_1ITextureCubeMap_inherit__map" id="ion_1_1Graphics_1_1ITextureCubeMap_inherit__map">
-<area shape="rect" id="node3" href="classion_1_1Graphics_1_1GL_1_1CTextureCubeMap.html" title="ion::Graphics::GL::\lCTextureCubeMap" alt="" coords="47,155,186,196"/>
-<area shape="rect" id="node2" href="classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="35,5,198,32"/>
+<area shape="rect" id="node3" href="classion_1_1Graphics_1_1GL_1_1CTextureCubeMap.html" title="ion::Graphics::GL::\lCTextureCubeMap" alt="" coords="45,155,177,196"/>
+<area shape="rect" id="node2" href="classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="33,5,188,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -112,7 +112,7 @@ Collaboration diagram for ion::Graphics::ITextureCubeMap:</div>
 <div class="dyncontent">
 <div class="center"><img src="classion_1_1Graphics_1_1ITextureCubeMap__coll__graph.png" border="0" usemap="#ion_1_1Graphics_1_1ITextureCubeMap_coll__map" alt="Collaboration graph"/></div>
 <map name="ion_1_1Graphics_1_1ITextureCubeMap_coll__map" id="ion_1_1Graphics_1_1ITextureCubeMap_coll__map">
-<area shape="rect" id="node2" href="classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="35,5,198,32"/>
+<area shape="rect" id="node2" href="classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="33,5,188,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -136,7 +136,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a7abc240922acfe5c6782c9302547d735 inherit pub_types_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cff528866c2b4473a487e3a348e75f5 inherit pub_types_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#a2cff528866c2b4473a487e3a348e75f5">EWrapMode</a> { <a class="el" href="classion_1_1Graphics_1_1ITexture.html#a2cff528866c2b4473a487e3a348e75f5a08825280e3f8137556325061ba67ff8c">EWrapMode::Clamp</a> = 0, 
 <a class="el" href="classion_1_1Graphics_1_1ITexture.html#a2cff528866c2b4473a487e3a348e75f5a2403def5083f02105e7802b3b315681e">EWrapMode::Mirror</a> = 1, 
-<a class="el" href="classion_1_1Graphics_1_1ITexture.html#a2cff528866c2b4473a487e3a348e75f5a7020426cfb0a204051be4b3053d2acc8">EWrapMode::Repeat</a> = 2
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#a2cff528866c2b4473a487e3a348e75f5a7020426cfb0a204051be4b3053d2acc8">EWrapMode::Repeat</a> = 2, 
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#a2cff528866c2b4473a487e3a348e75f5a070554647306343cbea29ebfdd278ba8">EWrapMode::Border</a> = 3
  }</td></tr>
 <tr class="separator:a2cff528866c2b4473a487e3a348e75f5 inherit pub_types_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aa213cca864eb6993704ec907deeb76 inherit pub_types_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#a0aa213cca864eb6993704ec907deeb76">EFormatComponents</a> { <a class="el" href="classion_1_1Graphics_1_1ITexture.html#a0aa213cca864eb6993704ec907deeb76ae1e1d3d40573127e9ee0480caf1283d6">EFormatComponents::R</a> = 0, 
@@ -168,10 +169,10 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a178aeebadc66abdd9db869de65d319c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITextureCubeMap.html#a178aeebadc66abdd9db869de65d319c3">Upload</a> (<a class="el" href="classion_1_1Graphics_1_1ITextureCubeMap.html#a11b5eaddd3f6d92d3fee7d676e8fbbaa">EFace</a> const Face, void const *const Data, <a class="el" href="SVector2_8h.html#a0aa5a46ab046aa6c5fbde2791c84161a">vec2u</a> const &amp;Size, <a class="el" href="classion_1_1Graphics_1_1ITexture.html#a0aa213cca864eb6993704ec907deeb76">EFormatComponents</a> const Components, <a class="el" href="group__ionGraphics.html#ga72ee6ac395e628ee8a47b5baa965e611">EScalarType</a> const <a class="el" href="structType.html">Type</a>)=0</td></tr>
-<tr class="separator:a178aeebadc66abdd9db869de65d319c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8060cf6a30de0832f0583d9a33fa003"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITextureCubeMap.html#ac8060cf6a30de0832f0583d9a33fa003">UploadSubRegion</a> (<a class="el" href="classion_1_1Graphics_1_1ITextureCubeMap.html#a11b5eaddd3f6d92d3fee7d676e8fbbaa">EFace</a> const Face, void const *const Data, <a class="el" href="SVector2_8h.html#a0aa5a46ab046aa6c5fbde2791c84161a">vec2u</a> const &amp;Offset, <a class="el" href="SVector2_8h.html#a0aa5a46ab046aa6c5fbde2791c84161a">vec2u</a> const &amp;Size, <a class="el" href="classion_1_1Graphics_1_1ITexture.html#a0aa213cca864eb6993704ec907deeb76">EFormatComponents</a> const Components, <a class="el" href="group__ionGraphics.html#ga72ee6ac395e628ee8a47b5baa965e611">EScalarType</a> const <a class="el" href="structType.html">Type</a>)=0</td></tr>
-<tr class="separator:ac8060cf6a30de0832f0583d9a33fa003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa197abdda1aec39be71b7528716c38f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITextureCubeMap.html#aa197abdda1aec39be71b7528716c38f6">Upload</a> (<a class="el" href="classion_1_1Graphics_1_1ITextureCubeMap.html#a11b5eaddd3f6d92d3fee7d676e8fbbaa">EFace</a> const Face, void const *const Data, <a class="el" href="namespaceion.html#a87b5132a0709c061888700700c18810e">vec2i</a> const &amp;Size, <a class="el" href="classion_1_1Graphics_1_1ITexture.html#a0aa213cca864eb6993704ec907deeb76">EFormatComponents</a> const Components, <a class="el" href="group__ionGraphics.html#ga72ee6ac395e628ee8a47b5baa965e611">EScalarType</a> const <a class="el" href="struction_1_1Type.html">Type</a>)=0</td></tr>
+<tr class="separator:aa197abdda1aec39be71b7528716c38f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2668dc11127ebc86dfb031173db1dea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITextureCubeMap.html#af2668dc11127ebc86dfb031173db1dea">UploadSubRegion</a> (<a class="el" href="classion_1_1Graphics_1_1ITextureCubeMap.html#a11b5eaddd3f6d92d3fee7d676e8fbbaa">EFace</a> const Face, void const *const Data, <a class="el" href="namespaceion.html#a87b5132a0709c061888700700c18810e">vec2i</a> const &amp;Offset, <a class="el" href="namespaceion.html#a87b5132a0709c061888700700c18810e">vec2i</a> const &amp;Size, <a class="el" href="classion_1_1Graphics_1_1ITexture.html#a0aa213cca864eb6993704ec907deeb76">EFormatComponents</a> const Components, <a class="el" href="group__ionGraphics.html#ga72ee6ac395e628ee8a47b5baa965e611">EScalarType</a> const <a class="el" href="struction_1_1Type.html">Type</a>)=0</td></tr>
+<tr class="separator:af2668dc11127ebc86dfb031173db1dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classion_1_1Graphics_1_1ITexture"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classion_1_1Graphics_1_1ITexture')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classion_1_1Graphics_1_1ITexture.html">ion::Graphics::ITexture</a></td></tr>
 <tr class="memitem:af267e182935d2c18207a24938589c49d inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#af267e182935d2c18207a24938589c49d">SetMinFilter</a> (<a class="el" href="classion_1_1Graphics_1_1ITexture.html#a7abc240922acfe5c6782c9302547d735">EFilter</a> const MinFilter)=0</td></tr>
 <tr class="separator:af267e182935d2c18207a24938589c49d inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,6 +182,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aea985baf7fcb64879c2048785bafd631 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8253054ec0af0554d52f9e5bf75f3d48 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#a8253054ec0af0554d52f9e5bf75f3d48">SetWrapMode</a> (<a class="el" href="classion_1_1Graphics_1_1ITexture.html#a2cff528866c2b4473a487e3a348e75f5">EWrapMode</a> const WrapMode)=0</td></tr>
 <tr class="separator:a8253054ec0af0554d52f9e5bf75f3d48 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52977e1a3e6f9dc88b74421c682a48a4 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#a52977e1a3e6f9dc88b74421c682a48a4">SetBorderColor</a> (<a class="el" href="namespaceion.html#a6bd4ff0994ba6185bfe42a1381e80307">color4f</a> const &amp;BorderColor)=0</td></tr>
+<tr class="separator:a52977e1a3e6f9dc88b74421c682a48a4 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab605ebc931098e6f8019e02554eef8a4 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#ab605ebc931098e6f8019e02554eef8a4">SetAnisotropy</a> (float const Anisotropy)=0</td></tr>
 <tr class="separator:ab605ebc931098e6f8019e02554eef8a4 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2a866bd10a846486fd5b76a36800c9c inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classion_1_1Graphics_1_1ITexture.html#a7abc240922acfe5c6782c9302547d735">EFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#ac2a866bd10a846486fd5b76a36800c9c">GetMinFilter</a> ()=0</td></tr>
@@ -230,7 +233,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a178aeebadc66abdd9db869de65d319c3"></a>
+<a class="anchor" id="aa197abdda1aec39be71b7528716c38f6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -252,7 +255,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="SVector2_8h.html#a0aa5a46ab046aa6c5fbde2791c84161a">vec2u</a> const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceion.html#a87b5132a0709c061888700700c18810e">vec2i</a> const &amp;&#160;</td>
           <td class="paramname"><em>Size</em>, </td>
         </tr>
         <tr>
@@ -280,11 +283,11 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classion_1_1Graphics_1_1GL_1_1CTextureCubeMap.html#ae9e8f8dbcfa223f0f70e6dc016674037">ion::Graphics::GL::CTextureCubeMap</a>.</p>
+<p>Implemented in <a class="el" href="classion_1_1Graphics_1_1GL_1_1CTextureCubeMap.html#ad3bfce43fc2bd6bf32a8b243ee6edcb5">ion::Graphics::GL::CTextureCubeMap</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac8060cf6a30de0832f0583d9a33fa003"></a>
+<a class="anchor" id="af2668dc11127ebc86dfb031173db1dea"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -306,13 +309,13 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="SVector2_8h.html#a0aa5a46ab046aa6c5fbde2791c84161a">vec2u</a> const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceion.html#a87b5132a0709c061888700700c18810e">vec2i</a> const &amp;&#160;</td>
           <td class="paramname"><em>Offset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="SVector2_8h.html#a0aa5a46ab046aa6c5fbde2791c84161a">vec2u</a> const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceion.html#a87b5132a0709c061888700700c18810e">vec2i</a> const &amp;&#160;</td>
           <td class="paramname"><em>Size</em>, </td>
         </tr>
         <tr>
@@ -340,7 +343,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classion_1_1Graphics_1_1GL_1_1CTextureCubeMap.html#a9cc9902f84404a37ef706e72f67b58e0">ion::Graphics::GL::CTextureCubeMap</a>.</p>
+<p>Implemented in <a class="el" href="classion_1_1Graphics_1_1GL_1_1CTextureCubeMap.html#aa2b8c5fe9cab9f381449169c4ecde477">ion::Graphics::GL::CTextureCubeMap</a>.</p>
 
 </div>
 </div>
@@ -350,7 +353,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Mon Jun 19 2017 for ionEngine v0.4.1
+Generated on Sun Nov 19 2017 for ionEngine v0.4.4
 </p>
 </address>
 </body>

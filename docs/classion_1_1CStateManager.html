@@ -104,9 +104,9 @@ Inheritance diagram for ion::CStateManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="classion_1_1CStateManager__inherit__graph.png" border="0" usemap="#ion_1_1CStateManager_inherit__map" alt="Inheritance graph"/></div>
 <map name="ion_1_1CStateManager_inherit__map" id="ion_1_1CStateManager_inherit__map">
-<area shape="rect" id="node2" href="classSingleton.html" title="Singleton\&lt; CStateManager \&gt;" alt="" coords="5,80,217,107"/>
-<area shape="rect" id="node3" href="classIEventListener.html" title="IEventListener" alt="" coords="241,80,353,107"/>
-<area shape="rect" id="node4" href="classIMultiTreeNode.html" title="IMultiTreeNode\&lt; IEventListener \&gt;" alt="" coords="179,5,414,32"/>
+<area shape="rect" id="node2" href="classion_1_1Singleton.html" title="ion::Singleton\&lt; CStateManager \&gt;" alt="" coords="5,95,221,121"/>
+<area shape="rect" id="node3" href="classIEventListener.html" title="IEventListener" alt="" coords="245,95,352,121"/>
+<area shape="rect" id="node4" href="classion_1_1IMultiTreeNode.html" title="ion::IMultiTreeNode\l\&lt; IEventListener \&gt;" alt="" coords="231,5,367,47"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -114,10 +114,10 @@ Collaboration diagram for ion::CStateManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="classion_1_1CStateManager__coll__graph.png" border="0" usemap="#ion_1_1CStateManager_coll__map" alt="Collaboration graph"/></div>
 <map name="ion_1_1CStateManager_coll__map" id="ion_1_1CStateManager_coll__map">
-<area shape="rect" id="node2" href="classSingleton.html" title="Singleton\&lt; CStateManager \&gt;" alt="" coords="5,157,217,184"/>
-<area shape="rect" id="node3" href="classIEventListener.html" title="IEventListener" alt="" coords="214,81,326,108"/>
-<area shape="rect" id="node5" href="classIState.html" title="IState" alt="" coords="292,157,352,184"/>
-<area shape="rect" id="node4" href="classIMultiTreeNode.html" title="IMultiTreeNode\&lt; IEventListener \&gt;" alt="" coords="153,5,387,32"/>
+<area shape="rect" id="node2" href="classion_1_1Singleton.html" title="ion::Singleton\&lt; CStateManager \&gt;" alt="" coords="5,261,221,288"/>
+<area shape="rect" id="node3" href="classIEventListener.html" title="IEventListener" alt="" coords="221,185,328,212"/>
+<area shape="rect" id="node6" href="classIState.html" title="IState" alt="" coords="297,261,354,288"/>
+<area shape="rect" id="node4" href="classion_1_1IMultiTreeNode.html" title="ion::IMultiTreeNode\l\&lt; IEventListener \&gt;" alt="" coords="207,95,343,136"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -127,8 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a99481b15295909bb42ed3c1222020c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f09dfd77b9993e605f51bc78403995b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1CStateManager.html#a2f09dfd77b9993e605f51bc78403995b">DoStateChange</a> ()</td></tr>
 <tr class="separator:a2f09dfd77b9993e605f51bc78403995b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb97bf350841e58d3ba216143797c016"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1CStateManager.html#acb97bf350841e58d3ba216143797c016">Update</a> (<a class="el" href="ionTypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> const ElapsedTime)</td></tr>
-<tr class="separator:acb97bf350841e58d3ba216143797c016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559f846983d2b02c40781c5275e4fe53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1CStateManager.html#a559f846983d2b02c40781c5275e4fe53">Update</a> (float const ElapsedTime)</td></tr>
+<tr class="separator:a559f846983d2b02c40781c5275e4fe53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1e86ddb8da09f08da9054b9677b5d22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1CStateManager.html#ae1e86ddb8da09f08da9054b9677b5d22">Connect</a> (<a class="el" href="classion_1_1CWindow.html">CWindow</a> *Window)</td></tr>
 <tr class="separator:ae1e86ddb8da09f08da9054b9677b5d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47df16937783af21492fe579908250ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1CStateManager.html#a47df16937783af21492fe579908250ca">ShutDown</a> ()</td></tr>
@@ -140,21 +140,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aebe53b697a31e9b3ce1d291462f591fa inherit pub_methods_classIEventListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab75fbfd09725af76e13fb7bd5cd4af27 inherit pub_methods_classIEventListener"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIEventListener.html#ab75fbfd09725af76e13fb7bd5cd4af27">RemoveListener</a> (<a class="el" href="classIEventListener.html">IEventListener</a> *Listener)</td></tr>
 <tr class="separator:ab75fbfd09725af76e13fb7bd5cd4af27 inherit pub_methods_classIEventListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classIMultiTreeNode"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classIMultiTreeNode')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classIMultiTreeNode.html">IMultiTreeNode&lt; IEventListener &gt;</a></td></tr>
-<tr class="memitem:a0a5937b1d003c0db62acf2e11abdfa67 inherit pub_methods_classIMultiTreeNode"><td class="memItemLeft" align="right" valign="top"><a class="el" href="CMakeLists_8txt.html#ac9ac42ec0c4bee9c9949dfbfd1383760">std::set</a>&lt; <a class="el" href="classIEventListener.html">IEventListener</a> * &gt; const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIMultiTreeNode.html#a0a5937b1d003c0db62acf2e11abdfa67">GetChildren</a> () const</td></tr>
-<tr class="separator:a0a5937b1d003c0db62acf2e11abdfa67 inherit pub_methods_classIMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86ad4c944644c97661f2a0aa08886160 inherit pub_methods_classIMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIMultiTreeNode.html#a86ad4c944644c97661f2a0aa08886160">AddChild</a> (<a class="el" href="classIEventListener.html">IEventListener</a> *Child)</td></tr>
-<tr class="separator:a86ad4c944644c97661f2a0aa08886160 inherit pub_methods_classIMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a1545d0ca0071185fba1420b3e28125 inherit pub_methods_classIMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIMultiTreeNode.html#a4a1545d0ca0071185fba1420b3e28125">RemoveChild</a> (<a class="el" href="classIEventListener.html">IEventListener</a> *Child)</td></tr>
-<tr class="separator:a4a1545d0ca0071185fba1420b3e28125 inherit pub_methods_classIMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dd213d9d34e85c0b6c2feee699947fb inherit pub_methods_classIMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIMultiTreeNode.html#a3dd213d9d34e85c0b6c2feee699947fb">RemoveAllChildren</a> ()</td></tr>
-<tr class="separator:a3dd213d9d34e85c0b6c2feee699947fb inherit pub_methods_classIMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa209d31c77e1828a9e9e797670b1174e inherit pub_methods_classIMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIMultiTreeNode.html#aa209d31c77e1828a9e9e797670b1174e">RecurseOnChildren</a> (Return(IEventListener::*Function)())</td></tr>
-<tr class="separator:aa209d31c77e1828a9e9e797670b1174e inherit pub_methods_classIMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42bcff8aba825d67b210badf712b8071 inherit pub_methods_classIMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIMultiTreeNode.html#a42bcff8aba825d67b210badf712b8071">RecurseOnChildren</a> (Return(IEventListener::*Function)(P1), P1 p1)</td></tr>
-<tr class="separator:a42bcff8aba825d67b210badf712b8071 inherit pub_methods_classIMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca96e8aa28272413eb4b50fac1fe253 inherit pub_methods_classIMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIMultiTreeNode.html#a2ca96e8aa28272413eb4b50fac1fe253">RecurseOnChildren</a> (Return(IEventListener::*Function)(P1, P2), P1 p1, P2 p2)</td></tr>
-<tr class="separator:a2ca96e8aa28272413eb4b50fac1fe253 inherit pub_methods_classIMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd3cc736aa5dbe2453bbc9e0fd2eba8 inherit pub_methods_classIEventListener"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIEventListener.html#afdd3cc736aa5dbe2453bbc9e0fd2eba8">TriggerEvent</a> (<a class="el" href="classIEvent.html">IEvent</a> &amp;Event)</td></tr>
+<tr class="separator:afdd3cc736aa5dbe2453bbc9e0fd2eba8 inherit pub_methods_classIEventListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classion_1_1IMultiTreeNode"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classion_1_1IMultiTreeNode')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classion_1_1IMultiTreeNode.html">ion::IMultiTreeNode&lt; IEventListener &gt;</a></td></tr>
+<tr class="memitem:a79b5f189b50f739c9c1ea1dd4f17c90b inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memItemLeft" align="right" valign="top"><a class="el" href="CMakeLists_8txt.html#ac9ac42ec0c4bee9c9949dfbfd1383760">set</a>&lt; <a class="el" href="classIEventListener.html">IEventListener</a> * &gt; const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1IMultiTreeNode.html#a79b5f189b50f739c9c1ea1dd4f17c90b">GetChildren</a> () const</td></tr>
+<tr class="separator:a79b5f189b50f739c9c1ea1dd4f17c90b inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3beb4a9e3c9d922920c38ac2b2605861 inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1IMultiTreeNode.html#a3beb4a9e3c9d922920c38ac2b2605861">AddChild</a> (<a class="el" href="classIEventListener.html">IEventListener</a> *Child)</td></tr>
+<tr class="separator:a3beb4a9e3c9d922920c38ac2b2605861 inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d61ffc8991df5cdb5484a982ee400a inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1IMultiTreeNode.html#a17d61ffc8991df5cdb5484a982ee400a">RemoveChild</a> (<a class="el" href="classIEventListener.html">IEventListener</a> *Child)</td></tr>
+<tr class="separator:a17d61ffc8991df5cdb5484a982ee400a inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a234a9ad2f81131f37aa08ea80f09b559 inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1IMultiTreeNode.html#a234a9ad2f81131f37aa08ea80f09b559">RemoveAllChildren</a> ()</td></tr>
+<tr class="separator:a234a9ad2f81131f37aa08ea80f09b559 inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c99680cab265713872dbe86de681bf2 inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1IMultiTreeNode.html#a6c99680cab265713872dbe86de681bf2">RecurseOnChildren</a> (Return(IEventListener::*Function)())</td></tr>
+<tr class="separator:a6c99680cab265713872dbe86de681bf2 inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad35f2a2ebe285c65e12dc62aa2552fa3 inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1IMultiTreeNode.html#ad35f2a2ebe285c65e12dc62aa2552fa3">RecurseOnChildren</a> (Return(IEventListener::*Function)(P1), P1 p1)</td></tr>
+<tr class="separator:ad35f2a2ebe285c65e12dc62aa2552fa3 inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace76cd01727c1d3ee185d498f6f8dfab inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1IMultiTreeNode.html#ace76cd01727c1d3ee185d498f6f8dfab">RecurseOnChildren</a> (Return(IEventListener::*Function)(P1, P2), P1 p1, P2 p2)</td></tr>
+<tr class="separator:ace76cd01727c1d3ee185d498f6f8dfab inherit pub_methods_classion_1_1IMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -162,9 +164,9 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a81bf15920e7584b56c55c83b1de8d4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2116cc6d1f390e9508a1b008ad7c697b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIState.html">IState</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1CStateManager.html#a2116cc6d1f390e9508a1b008ad7c697b">NextState</a> = nullptr</td></tr>
 <tr class="separator:a2116cc6d1f390e9508a1b008ad7c697b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classIMultiTreeNode"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classIMultiTreeNode')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classIMultiTreeNode.html">IMultiTreeNode&lt; IEventListener &gt;</a></td></tr>
-<tr class="memitem:a6ac246fdc1c0cab110d6872d1087fd9c inherit pro_attribs_classIMultiTreeNode"><td class="memItemLeft" align="right" valign="top"><a class="el" href="CMakeLists_8txt.html#ac9ac42ec0c4bee9c9949dfbfd1383760">std::set</a>&lt; <a class="el" href="classIEventListener.html">IEventListener</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIMultiTreeNode.html#a6ac246fdc1c0cab110d6872d1087fd9c">Children</a></td></tr>
-<tr class="separator:a6ac246fdc1c0cab110d6872d1087fd9c inherit pro_attribs_classIMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classion_1_1IMultiTreeNode"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classion_1_1IMultiTreeNode')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classion_1_1IMultiTreeNode.html">ion::IMultiTreeNode&lt; IEventListener &gt;</a></td></tr>
+<tr class="memitem:aa7209a29ebd6f0851563734f0122fba6 inherit pro_attribs_classion_1_1IMultiTreeNode"><td class="memItemLeft" align="right" valign="top"><a class="el" href="CMakeLists_8txt.html#ac9ac42ec0c4bee9c9949dfbfd1383760">set</a>&lt; <a class="el" href="classIEventListener.html">IEventListener</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1IMultiTreeNode.html#aa7209a29ebd6f0851563734f0122fba6">Children</a></td></tr>
+<tr class="separator:aa7209a29ebd6f0851563734f0122fba6 inherit pro_attribs_classion_1_1IMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -173,20 +175,17 @@ Friends</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_classSingleton"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classSingleton')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classSingleton.html">Singleton&lt; CStateManager &gt;</a></td></tr>
-<tr class="memitem:abca39f41d8be8d997ec8cadf359fb1ca inherit pub_static_methods_classSingleton"><td class="memItemLeft" align="right" valign="top">static CStateManager &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSingleton.html#abca39f41d8be8d997ec8cadf359fb1ca">Get</a> ()</td></tr>
-<tr class="separator:abca39f41d8be8d997ec8cadf359fb1ca inherit pub_static_methods_classSingleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1222bf84e3e66b4663c45880fb48b0df inherit pub_static_methods_classSingleton"><td class="memItemLeft" align="right" valign="top">static CStateManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSingleton.html#a1222bf84e3e66b4663c45880fb48b0df">GetPointer</a> ()</td></tr>
-<tr class="separator:a1222bf84e3e66b4663c45880fb48b0df inherit pub_static_methods_classSingleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classSingleton"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classSingleton')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classSingleton.html">Singleton&lt; CStateManager &gt;</a></td></tr>
-<tr class="memitem:a4f79d6e021c7b703f9ea35a574c221f5 inherit pro_methods_classSingleton"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSingleton.html#a4f79d6e021c7b703f9ea35a574c221f5">Singleton</a> ()</td></tr>
-<tr class="separator:a4f79d6e021c7b703f9ea35a574c221f5 inherit pro_methods_classSingleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classIEventListener"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classIEventListener')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classIEventListener.html">IEventListener</a></td></tr>
-<tr class="memitem:afdd3cc736aa5dbe2453bbc9e0fd2eba8 inherit pro_methods_classIEventListener"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIEventListener.html#afdd3cc736aa5dbe2453bbc9e0fd2eba8">TriggerEvent</a> (<a class="el" href="classIEvent.html">IEvent</a> &amp;Event)</td></tr>
-<tr class="separator:afdd3cc736aa5dbe2453bbc9e0fd2eba8 inherit pro_methods_classIEventListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classIMultiTreeNode"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classIMultiTreeNode')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classIMultiTreeNode.html">IMultiTreeNode&lt; IEventListener &gt;</a></td></tr>
-<tr class="memitem:aa226fa6d57af791e53c240b49ab19086 inherit pro_methods_classIMultiTreeNode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIMultiTreeNode.html#aa226fa6d57af791e53c240b49ab19086">IMultiTreeNode</a> ()</td></tr>
-<tr class="separator:aa226fa6d57af791e53c240b49ab19086 inherit pro_methods_classIMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_classion_1_1Singleton"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classion_1_1Singleton')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classion_1_1Singleton.html">ion::Singleton&lt; CStateManager &gt;</a></td></tr>
+<tr class="memitem:a10e6ed70297b085da0106958e49c4496 inherit pub_static_methods_classion_1_1Singleton"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classion_1_1CStateManager.html">CStateManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Singleton.html#a10e6ed70297b085da0106958e49c4496">Get</a> ()</td></tr>
+<tr class="separator:a10e6ed70297b085da0106958e49c4496 inherit pub_static_methods_classion_1_1Singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0832a146d26e3985d810ae68b71aea0 inherit pub_static_methods_classion_1_1Singleton"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classion_1_1CStateManager.html">CStateManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Singleton.html#af0832a146d26e3985d810ae68b71aea0">GetPointer</a> ()</td></tr>
+<tr class="separator:af0832a146d26e3985d810ae68b71aea0 inherit pub_static_methods_classion_1_1Singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classion_1_1Singleton"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classion_1_1Singleton')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classion_1_1Singleton.html">ion::Singleton&lt; CStateManager &gt;</a></td></tr>
+<tr class="memitem:a1776b3e0c911c9ea4edc62d9ee299001 inherit pro_methods_classion_1_1Singleton"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Singleton.html#a1776b3e0c911c9ea4edc62d9ee299001">Singleton</a> ()</td></tr>
+<tr class="separator:a1776b3e0c911c9ea4edc62d9ee299001 inherit pro_methods_classion_1_1Singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classion_1_1IMultiTreeNode"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classion_1_1IMultiTreeNode')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classion_1_1IMultiTreeNode.html">ion::IMultiTreeNode&lt; IEventListener &gt;</a></td></tr>
+<tr class="memitem:abe2eb6d8ae23cac655df8ddbf3d4f6ba inherit pro_methods_classion_1_1IMultiTreeNode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1IMultiTreeNode.html#abe2eb6d8ae23cac655df8ddbf3d4f6ba">IMultiTreeNode</a> ()</td></tr>
+<tr class="separator:abe2eb6d8ae23cac655df8ddbf3d4f6ba inherit pro_methods_classion_1_1IMultiTreeNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ae1e86ddb8da09f08da9054b9677b5d22"></a>
@@ -251,14 +250,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acb97bf350841e58d3ba216143797c016"></a>
+<a class="anchor" id="a559f846983d2b02c40781c5275e4fe53"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void ion::CStateManager::Update </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="ionTypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> const&#160;</td>
+          <td class="paramtype">float const&#160;</td>
           <td class="paramname"><em>ElapsedTime</em></td><td>)</td>
           <td></td>
         </tr>
@@ -276,7 +275,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="classSingleton.html">Singleton</a>&lt; <a class="el" href="classion_1_1CStateManager.html">CStateManager</a> &gt;</td>
+          <td class="memname">friend class <a class="el" href="classion_1_1Singleton.html">Singleton</a>&lt; <a class="el" href="classion_1_1CStateManager.html">CStateManager</a> &gt;</td>
         </tr>
       </table>
   </td>
@@ -330,13 +329,13 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/ian/projects/ionEngine/ionFramework/<a class="el" href="CStateManager_8h_source.html">CStateManager.h</a></li>
-<li>/home/ian/projects/ionEngine/ionFramework/<a class="el" href="CStateManager_8cpp.html">CStateManager.cpp</a></li>
+<li>/home/ian/projects/ionEngine/ionApplication/<a class="el" href="CStateManager_8h_source.html">CStateManager.h</a></li>
+<li>/home/ian/projects/ionEngine/ionApplication/<a class="el" href="CStateManager_8cpp.html">CStateManager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Mon Jun 19 2017 for ionEngine v0.4.1
+Generated on Sun Nov 19 2017 for ionEngine v0.4.4
 </p>
 </address>
 </body>

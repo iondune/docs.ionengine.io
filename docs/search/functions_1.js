@@ -1,19 +1,18 @@
 var searchData=
 [
-  ['begin',['begin',['../structSGrid.html#af6c1522536059e420e76c9d7bcde770e',1,'SGrid::begin()'],['../structSGrid.html#ad60f9b2d5700773aa9d493d14a0dd9bd',1,'SGrid::begin() const '],['../classSTable.html#aeeeee76a07c6f570eb502d59e17e785f',1,'STable::begin()'],['../structSVolume.html#a0271202f05fadb0b1774a049c6b2c819',1,'SVolume::begin()'],['../structSVolume.html#a326d31c19d2ddf4718e79a04c77b2a0f',1,'SVolume::begin() const '],['../classIState.html#a5a7d9476cee2ff616257dc70e3fbfec2',1,'IState::Begin()'],['../classSTable.html#a6ac96ebc2e720b88b43c148b20bffdb1',1,'STable::Begin()']]],
-  ['beginprogress',['BeginProgress',['../classIProgressBar.html#a618bfccf109537ad22f72f66fc983123',1,'IProgressBar']]],
-  ['beginswith',['BeginsWith',['../classString.html#adaaf1df243e71ec6423770e0a4d56f97',1,'String']]],
-  ['between',['Between',['../classRandom.html#a0368c0d0352950b2f492dac51518ea41',1,'Random::Between(float const Min, float const Max)'],['../classRandom.html#aa583cff0f7c71032c99810b6746fe76e',1,'Random::Between(int const Min, int const Max)']]],
-  ['bicubicinterpolate',['BicubicInterpolate',['../Interpolation_8h.html#a352f7d7c38d6901fdafe164f8dec4594',1,'Interpolation.h']]],
-  ['bilinearinterpolate',['BilinearInterpolate',['../Interpolation_8h.html#a2fe514c323d7d00a607f4acd34535af7',1,'Interpolation.h']]],
+  ['begin',['Begin',['../classIState.html#a5a7d9476cee2ff616257dc70e3fbfec2',1,'IState::Begin()'],['../classion_1_1STable.html#aae60ec582b11ff62d75353a08d281592',1,'ion::STable::Begin()'],['../struction_1_1SGrid.html#a8028aaeba814ac5f291e12763706b6ee',1,'ion::SGrid::begin()'],['../struction_1_1SGrid.html#aa25a57be6cba3d557d234bb2027fea83',1,'ion::SGrid::begin() const '],['../classion_1_1STable.html#a3f03850eb9571f0b1ba38e227aad0d3d',1,'ion::STable::begin()'],['../struction_1_1SVolume.html#a6b84e884ad947768a731b025c31c05ae',1,'ion::SVolume::begin()'],['../struction_1_1SVolume.html#af3e84ffb46c7432cb608b881b0bfe263',1,'ion::SVolume::begin() const ']]],
+  ['beginprogress',['BeginProgress',['../classion_1_1IProgressBar.html#a6d70d73c272e2936ce9da2250d0510a2',1,'ion::IProgressBar']]],
+  ['beginswith',['BeginsWith',['../classion_1_1String.html#a33d82709b807f5844fa41e76e69fd197',1,'ion::String']]],
+  ['between',['Between',['../classion_1_1Random.html#adb0a9564cc530c4b0303789dc88f0730',1,'ion::Random::Between(float const Min, float const Max)'],['../classion_1_1Random.html#ab9bcce9e36b95893239b85456e48d2f4',1,'ion::Random::Between(int const Min, int const Max)']]],
+  ['bicubicinterpolate',['BicubicInterpolate',['../namespaceion.html#a02f27f8dfa4f218e180749147125279f',1,'ion']]],
+  ['bilinearinterpolate',['BilinearInterpolate',['../namespaceion.html#ad996003fce0bd7398a6c422185eb42f9',1,'ion']]],
   ['bind',['Bind',['../classion_1_1Graphics_1_1IRenderTarget.html#a2c18d2ada94f355e972447426d4a879a',1,'ion::Graphics::IRenderTarget::Bind()'],['../classion_1_1Graphics_1_1GL_1_1CFrameBuffer.html#a530e2fc4c2bc5f071dc8e113290f4b33',1,'ion::Graphics::GL::CFrameBuffer::Bind()'],['../classion_1_1Graphics_1_1GL_1_1CRenderTarget.html#ac0b022fdb97c9ba725583a067f686201',1,'ion::Graphics::GL::CRenderTarget::Bind()']]],
-  ['bitcount',['BitCount',['../classion_1_1Bitwise.html#a39a3a0e860537d3474c379e17a19cfa1',1,'ion::Bitwise']]],
-  ['bits24',['Bits24',['../structColor_1_1Pack.html#a9a305bc2ff7daf4eb17f05e9537acfe4',1,'Color::Pack::Bits24()'],['../structColor_1_1Unpack.html#adfe6cbf6e676bb23b9526e758c5ec4ea',1,'Color::Unpack::Bits24()']]],
-  ['bitstobyte',['BitsToByte',['../classion_1_1Bitwise.html#a6b4b290fe16f98a90105a5a2328036d8',1,'ion::Bitwise']]],
+  ['bitcount',['BitCount',['../classion_1_1Bitwise.html#a9f637138db54c2758c35bc30ff3b2b06',1,'ion::Bitwise']]],
+  ['bitstobyte',['BitsToByte',['../classion_1_1Bitwise.html#a12b4bebac11c691e5144d4619657f989',1,'ion::Bitwise']]],
   ['block',['Block',['../classIEvent.html#a23aba89595ebf39ab0aea67b27fbe418',1,'IEvent']]],
   ['booltostring',['BoolToString',['../namespaceion.html#a3ee0f960aaaab2f06d1a488e91023b97',1,'ion']]],
-  ['bounds',['Bounds',['../classSRect2.html#a4b6955b946fac34d0bc4274a7c284b39',1,'SRect2']]],
-  ['build',['Build',['../classString.html#a79562623ec15bc5bbcb5eaf4a45d6981',1,'String']]],
+  ['bounds',['Bounds',['../classion_1_1SRect2.html#a87f8faf9c6c02a8671eff72b857c984e',1,'ion::SRect2']]],
+  ['build',['Build',['../classion_1_1String.html#a366be6d7525844bf08594e344074e2a8',1,'ion::String::Build()'],['../classion_1_1CKDTree.html#a3793e9d507968ee5de41108ba751def1',1,'ion::CKDTree::Build()']]],
   ['builddistancetable',['BuildDistanceTable',['../classion_1_1Animation_1_1CSpline.html#a7b2a92211864fb4a0534df4cca4f6896',1,'ion::Animation::CSpline']]],
-  ['bytetobits',['ByteToBits',['../classion_1_1Bitwise.html#ac94fe3d554b3615a61fc50bf18d772d9',1,'ion::Bitwise']]]
+  ['bytetobits',['ByteToBits',['../classion_1_1Bitwise.html#a0f72066aaf954232b955619038323afc',1,'ion::Bitwise']]]
 ];

@@ -1,5 +1,5 @@
 <map id="ion::CGUIManager" name="ion::CGUIManager">
-<area shape="rect" id="node2" href="$classSingleton.html" title="Singleton\&lt; CGUIManager \&gt;" alt="" coords="5,80,205,107"/>
-<area shape="rect" id="node3" href="$classIEventListener.html" title="IEventListener" alt="" coords="229,80,341,107"/>
-<area shape="rect" id="node4" href="$classIMultiTreeNode.html" title="IMultiTreeNode\&lt; IEventListener \&gt;" alt="" coords="168,5,403,32"/>
+<area shape="rect" id="node2" href="$classion_1_1Singleton.html" title="Base class for Singleton design pattern implementation. " alt="" coords="5,95,215,121"/>
+<area shape="rect" id="node3" href="$classIEventListener.html" title="IEventListener" alt="" coords="239,95,346,121"/>
+<area shape="rect" id="node4" href="$classion_1_1IMultiTreeNode.html" title="ion::IMultiTreeNode\l\&lt; IEventListener \&gt;" alt="" coords="225,5,361,47"/>
 </map>

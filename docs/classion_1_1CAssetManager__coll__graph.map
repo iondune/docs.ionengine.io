@@ -1,4 +1,4 @@
 <map id="ion::CAssetManager" name="ion::CAssetManager">
-<area shape="rect" id="node2" href="$classSingleton.html" title="Singleton\&lt; CAssetManager \&gt;" alt="" coords="5,5,219,32"/>
-<area shape="rect" id="node5" href="$classSingletonPointer.html" title="SingletonPointer\&lt; ion\l::CGraphicsAPI \&gt;" alt="" coords="31,169,193,210"/>
+<area shape="rect" id="node2" href="$classion_1_1Singleton.html" title="ion::Singleton\&lt; CAssetManager \&gt;" alt="" coords="5,5,224,32"/>
+<area shape="rect" id="node5" href="$classion_1_1SingletonPointer.html" title="ion::SingletonPointer\l\&lt; ion::CGraphicsAPI \&gt;" alt="" coords="37,169,192,210"/>
 </map>

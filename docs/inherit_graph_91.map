@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classSingletonPointer.html" title="Wraps a pointer to a singleton object. " alt="" coords="5,5,169,32"/>
+<area shape="rect" id="node1" href="$classion_1_1Singleton.html" title="ion::Singleton\&lt; CTimeManager \&gt;" alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node2" href="$classion_1_1CTimeManager.html" title="ion::CTimeManager" alt="" coords="268,5,404,32"/>
 </map>

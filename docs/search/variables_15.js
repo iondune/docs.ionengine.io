@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x',['X',['../structvec2.html#ac5e03d738148b33eea03f96dc39f71c3',1,'vec2::X()'],['../structvec3.html#a1947e8773ee572e9e519a272d7d8ecb6',1,'vec3::X()'],['../classSVector4.html#a6435c7647bb7f3192c9aa0175568b95e',1,'SVector4::X()']]]
+  ['x',['X',['../struction_1_1vec2.html#a7cb88f769d2e9c29be0d4b284cbef36f',1,'ion::vec2::X()'],['../struction_1_1vec3.html#a6a6c72481fe0def5ec3488db918792ce',1,'ion::vec3::X()'],['../classion_1_1vec4.html#a585966ab6378c8cc7f92a528eaedbe97',1,'ion::vec4::X()']]]
 ];

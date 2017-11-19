@@ -1,6 +1,6 @@
 <map id="ion::CStateManager" name="ion::CStateManager">
-<area shape="rect" id="node2" href="$classSingleton.html" title="Singleton\&lt; CStateManager \&gt;" alt="" coords="5,157,217,184"/>
-<area shape="rect" id="node3" href="$classIEventListener.html" title="IEventListener" alt="" coords="214,81,326,108"/>
-<area shape="rect" id="node5" href="$classIState.html" title="IState" alt="" coords="292,157,352,184"/>
-<area shape="rect" id="node4" href="$classIMultiTreeNode.html" title="IMultiTreeNode\&lt; IEventListener \&gt;" alt="" coords="153,5,387,32"/>
+<area shape="rect" id="node2" href="$classion_1_1Singleton.html" title="ion::Singleton\&lt; CStateManager \&gt;" alt="" coords="5,261,221,288"/>
+<area shape="rect" id="node3" href="$classIEventListener.html" title="IEventListener" alt="" coords="221,185,328,212"/>
+<area shape="rect" id="node6" href="$classIState.html" title="IState" alt="" coords="297,261,354,288"/>
+<area shape="rect" id="node4" href="$classion_1_1IMultiTreeNode.html" title="ion::IMultiTreeNode\l\&lt; IEventListener \&gt;" alt="" coords="207,95,343,136"/>
 </map>

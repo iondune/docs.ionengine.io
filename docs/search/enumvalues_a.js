@@ -11,11 +11,11 @@ var searchData=
   ['keypad7',['KeyPad7',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a39709cdde5a99d138ddea1be5c270aaf',1,'ion']]],
   ['keypad8',['KeyPad8',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a23d1b521346bf1bc629aa815f798ec8c',1,'ion']]],
   ['keypad9',['KeyPad9',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037abd729bc33a03a1c08730bf25094af09c',1,'ion']]],
+  ['keypadadd',['KeyPadAdd',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a108c7a73228aa76f7a3d3b02aaa9ac4c',1,'ion']]],
+  ['keypaddecimal',['KeyPadDecimal',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a198bb1cd1f8b75d1123f40c3e7389b15',1,'ion']]],
   ['keypaddivide',['KeyPadDivide',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037af0e64ba0c711f640309bf75b68c06bef',1,'ion']]],
   ['keypadenter',['KeyPadEnter',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037aad21092f2301563aa6cf0f1dce5a6bf8',1,'ion']]],
   ['keypadequals',['KeyPadEquals',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037ad1aa526f9a9166ee86f29d708075f1d7',1,'ion']]],
-  ['keypadminus',['KeyPadMinus',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a09e3e202e8f72b3af7aa551a011e4aed',1,'ion']]],
   ['keypadmultiply',['KeyPadMultiply',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037aee85b6ffa68f26762d82bfa00b5ca9f0',1,'ion']]],
-  ['keypadperiod',['KeyPadPeriod',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037aff358fa3a82331937f085f45e033f583',1,'ion']]],
-  ['keypadplus',['KeyPadPlus',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a313ebe59f05e2e77b191d1867f884f9d',1,'ion']]]
+  ['keypadsubtract',['KeyPadSubtract',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037aa4c1a1ecde50f32caac8fa3d077b622b',1,'ion']]]
 ];

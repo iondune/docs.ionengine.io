@@ -1,5 +1,5 @@
 <map id="ion::Scene::CCoordinateFrameSceneObject" name="ion::Scene::CCoordinateFrameSceneObject">
-<area shape="rect" id="node2" href="$classion_1_1Scene_1_1ISceneObject.html" title="ion::Scene::ISceneObject" alt="" coords="113,228,294,255"/>
-<area shape="rect" id="node3" href="$classSTransformation3.html" title="Describes a 3D transformation as a composed translation, rotation, and scale. " alt="" coords="5,131,140,158"/>
-<area shape="rect" id="node4" href="$structvec3.html" title="vec3\&lt; f32 \&gt;" alt="" coords="21,5,124,32"/>
+<area shape="rect" id="node2" href="$classion_1_1Scene_1_1ISceneObject.html" title="ion::Scene::ISceneObject" alt="" coords="74,228,245,255"/>
+<area shape="rect" id="node4" href="$classion_1_1STransformation3.html" title="Describes a 3D transformation as a composed translation, rotation, and scale. " alt="" coords="84,131,235,158"/>
+<area shape="rect" id="node5" href="$struction_1_1vec3.html" title="ion::vec3\&lt; float \&gt;" alt="" coords="97,5,221,32"/>
 </map>

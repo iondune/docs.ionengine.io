@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pack',['Pack',['../structColor_1_1Pack.html',1,'Color']]]
+  ['output',['Output',['../classion_1_1Log_1_1Output.html',1,'ion::Log']]]
 ];

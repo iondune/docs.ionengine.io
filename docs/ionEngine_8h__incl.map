@@ -1,51 +1,51 @@
 <map id="/home/ian/projects/ionEngine/Include/ionEngine.h" name="/home/ian/projects/ionEngine/Include/ionEngine.h">
-<area shape="rect" id="node2" href="$ionConfig_8h.html" title="ionConfig.h" alt="" coords="381,483,475,509"/>
-<area shape="rect" id="node3" href="$Include_2ionCore_8h.html" title="ionCore.h" alt="" coords="1164,95,1247,121"/>
-<area shape="rect" id="node17" href="$Include_2ionAnimation_8h.html" title="ionAnimation.h" alt="" coords="2002,95,2121,121"/>
-<area shape="rect" id="node29" href="$Include_2ionApplication_8h.html" title="ionApplication.h" alt="" coords="2389,95,2512,121"/>
-<area shape="rect" id="node34" href="$Include_2ionFramework_8h.html" title="ionFramework.h" alt="" coords="2637,95,2760,121"/>
-<area shape="rect" id="node39" href="$Include_2ionGraphics_8h.html" title="ionGraphics.h" alt="" coords="2833,95,2943,121"/>
-<area shape="rect" id="node41" href="$Include_2ionGraphicsGL_8h.html" title="ionGraphicsGL.h" alt="" coords="2979,95,3106,121"/>
-<area shape="rect" id="node43" href="$Include_2ionGUI_8h.html" title="ionGUI.h" alt="" coords="3155,95,3231,121"/>
-<area shape="rect" id="node45" href="$Include_2ionMath_8h.html" title="ionMath.h" alt="" coords="3305,95,3391,121"/>
-<area shape="rect" id="node47" href="$Include_2ionScene_8h.html" title="ionScene.h" alt="" coords="3513,95,3607,121"/>
-<area shape="rect" id="node49" href="$Include_2ionScience_8h.html" title="ionScience.h" alt="" coords="3829,95,3931,121"/>
-<area shape="rect" id="node4" href="$ionCore_2ionCore_8h.html" title="../ionCore/ionCore.h" alt="" coords="590,169,738,196"/>
-<area shape="rect" id="node5" href="$ionClass_8h.html" title="Methods and classes for rudimentary reflection and other class related functionality. " alt="" coords="43,326,130,353"/>
-<area shape="rect" id="node6" href="$ionComparison_8h.html" title="ionComparison.h" alt="" coords="485,326,616,353"/>
-<area shape="rect" id="node7" href="$ionTypes_8h.html" title="Defines typedefs for integer and floating point types. " alt="" coords="507,408,595,435"/>
-<area shape="rect" id="node8" href="$ionComponent_8h.html" title="Basic component&#45;entity system driven by types. " alt="" coords="196,244,324,271"/>
-<area shape="rect" id="node9" href="$ionStandardLibrary_8h.html" title="Brings a lot of elements from std namespace into the global namespace. " alt="" coords="206,326,359,353"/>
-<area shape="rect" id="node10" href="$ionSmartPointer_8h.html" title="Brings some standard library pointer classes into ion namespace. " alt="" coords="214,408,351,435"/>
-<area shape="rect" id="node11" href="$ionRand_8h.html" title="Random number generators and helpers. " alt="" coords="813,326,899,353"/>
-<area shape="rect" id="node12" href="$ionThread_8h.html" title="Brings some standard library thread classes into ion namespace. " alt="" coords="829,244,926,271"/>
-<area shape="rect" id="node13" href="$ionTreeNode_8h.html" title="ionTreeNode.h" alt="" coords="950,244,1063,271"/>
-<area shape="rect" id="node14" href="$ionUtils_8h.html" title="General helper functions. " alt="" coords="519,244,601,271"/>
-<area shape="rect" id="node15" href="$ionLogger_8h.html" title="Logging class. " alt="" coords="399,244,495,271"/>
-<area shape="rect" id="node16" href="$ionBitwise_8h.html" title="ionBitwise.h" alt="" coords="641,326,738,353"/>
-<area shape="rect" id="node18" href="$ionAnimation_2ionAnimation_8h.html" title="../ionAnimation/ionAnimation.h" alt="" coords="1761,169,1980,196"/>
-<area shape="rect" id="node19" href="$ISpline_8h.html" title="ISpline.h" alt="" coords="1165,483,1241,509"/>
-<area shape="rect" id="node20" href="$ISplineInterpolator_8h.html" title="ISplineInterpolator.h" alt="" coords="1673,408,1823,435"/>
-<area shape="rect" id="node21" href="$SSplineNode_8h.html" title="SSplineNode.h" alt="" coords="1615,244,1731,271"/>
-<area shape="rect" id="node22" href="$CSpline_8h.html" title="CSpline.h" alt="" coords="1280,244,1363,271"/>
-<area shape="rect" id="node23" href="$CLinearSplineInterpolator_8h.html" title="CLinearSplineInterpolator.h" alt="" coords="1291,326,1485,353"/>
-<area shape="rect" id="node24" href="$CCatmullRomSplineInterpolator_8h.html" title="CCatmullRomSplineInterpolator.h" alt="" coords="1509,326,1741,353"/>
-<area shape="rect" id="node25" href="$CCatmullRomAdvancedSplineInterpolator_8h.html" title="CCatmullRomAdvancedSpline\lInterpolator.h" alt="" coords="1765,319,1976,360"/>
-<area shape="rect" id="node26" href="$CKochanekBartelsSplineInterpolator_8h.html" title="CKochanekBartelsSplineInterpolator.h" alt="" coords="2000,326,2261,353"/>
-<area shape="rect" id="node27" href="$CHermiteSplineInterpolator_8h.html" title="CHermiteSplineInterpolator.h" alt="" coords="2286,326,2493,353"/>
-<area shape="rect" id="node28" href="$Move_8h.html" title="Move.h" alt="" coords="2061,244,2129,271"/>
-<area shape="rect" id="node30" href="$ionApplication_2ionApplication_8h.html" title="../ionApplication/ionApplication.h" alt="" coords="2285,169,2513,196"/>
-<area shape="rect" id="node31" href="$CCameraController_8h.html" title="CCameraController.h" alt="" coords="2152,244,2307,271"/>
-<area shape="rect" id="node32" href="$CAssetManager_8h.html" title="CAssetManager.h" alt="" coords="2331,244,2466,271"/>
-<area shape="rect" id="node33" href="$CDefaultApplication_8h.html" title="CDefaultApplication.h" alt="" coords="2490,244,2649,271"/>
-<area shape="rect" id="node35" href="$ionFramework_2ionFramework_8h.html" title="../ionFramework/ionFramework.h" alt="" coords="2537,169,2764,196"/>
-<area shape="rect" id="node36" href="$IEvent_8h.html" title="IEvent.h" alt="" coords="2699,408,2773,435"/>
-<area shape="rect" id="node37" href="$IEventListener_8h.html" title="IEventListener.h" alt="" coords="2724,326,2847,353"/>
-<area shape="rect" id="node38" href="$IState_8h.html" title="IState.h" alt="" coords="2775,244,2847,271"/>
-<area shape="rect" id="node40" href="$ionGraphics_2ionGraphics_8h.html" title="../ionGraphics/ionGraphics.h" alt="" coords="2788,169,2988,196"/>
-<area shape="rect" id="node42" href="$ionGraphicsGL_2ionGraphicsGL_8h.html" title="../ionGraphicsGL/ionGraphicsGL.h" alt="" coords="3012,169,3247,196"/>
-<area shape="rect" id="node44" href="$ionGUI_2ionGUI_8h.html" title="../ionGUI/ionGUI.h" alt="" coords="3271,169,3406,196"/>
-<area shape="rect" id="node46" href="$ionMath_2ionMath_8h.html" title="../ionMath/ionMath.h" alt="" coords="3431,169,3583,196"/>
-<area shape="rect" id="node48" href="$ionScene_2ionScene_8h.html" title="../ionScene/ionScene.h" alt="" coords="3607,169,3775,196"/>
-<area shape="rect" id="node50" href="$ionScience_2ionScience_8h.html" title="../ionScience/ionScience.h" alt="" coords="3799,169,3987,196"/>
+<area shape="rect" id="node2" href="$ionConfig_8h.html" title="ionConfig.h" alt="" coords="1817,841,1905,868"/>
+<area shape="rect" id="node3" href="$Include_2ionCore_8h.html" title="ionCore.h" alt="" coords="1526,95,1605,121"/>
+<area shape="rect" id="node33" href="$Include_2ionAnimation_8h.html" title="ionAnimation.h" alt="" coords="1701,95,1809,121"/>
+<area shape="rect" id="node37" href="$Include_2ionApplication_8h.html" title="ionApplication.h" alt="" coords="1901,95,2016,121"/>
+<area shape="rect" id="node39" href="$Include_2ionGraphics_8h.html" title="ionGraphics.h" alt="" coords="2085,95,2187,121"/>
+<area shape="rect" id="node41" href="$Include_2ionGraphicsGL_8h.html" title="ionGraphicsGL.h" alt="" coords="2223,95,2342,121"/>
+<area shape="rect" id="node43" href="$Include_2ionGUI_8h.html" title="ionGUI.h" alt="" coords="2389,95,2464,121"/>
+<area shape="rect" id="node45" href="$Include_2ionMath_8h.html" title="ionMath.h" alt="" coords="2535,95,2614,121"/>
+<area shape="rect" id="node47" href="$Include_2ionScene_8h.html" title="ionScene.h" alt="" coords="2731,95,2818,121"/>
+<area shape="rect" id="node49" href="$Include_2ionScience_8h.html" title="ionScience.h" alt="" coords="3029,95,3126,121"/>
+<area shape="rect" id="node4" href="$ionCore_2ionCore_8h.html" title="../ionCore/ionCore.h" alt="" coords="1029,169,1168,196"/>
+<area shape="rect" id="node5" href="$ionClass_8h.html" title="Methods and classes for rudimentary reflection and other class related functionality. " alt="" coords="1847,319,1931,345"/>
+<area shape="rect" id="node6" href="$ionComparison_8h.html" title="ionComparison.h" alt="" coords="276,617,396,644"/>
+<area shape="rect" id="node7" href="$ionTypes_8h.html" title="Defines typedefs for integer and floating point types. " alt="" coords="1347,767,1434,793"/>
+<area shape="rect" id="node8" href="$ionConstants_8h.html" title="ionConstants.h" alt="" coords="801,692,911,719"/>
+<area shape="rect" id="node9" href="$ionContainer_8h.html" title="Helper functions for working with std containers such as map and vector. " alt="" coords="1565,244,1672,271"/>
+<area shape="rect" id="node10" href="$ionSmartPointer_8h.html" title="Brings some standard library pointer classes into ion namespace. " alt="" coords="1594,319,1721,345"/>
+<area shape="rect" id="node11" href="$ionMathFunctions_8h.html" title="ionMathFunctions.h" alt="" coords="683,617,819,644"/>
+<area shape="rect" id="node12" href="$ionUtils_8h.html" title="General helper functions. " alt="" coords="1276,468,1353,495"/>
+<area shape="rect" id="node13" href="$ionLogger_8h.html" title="Logging class. " alt="" coords="1451,244,1541,271"/>
+<area shape="rect" id="node14" href="$String_8h.html" title="String.h" alt="" coords="1401,319,1468,345"/>
+<area shape="rect" id="node15" href="$Directory_8h.html" title="Directory.h" alt="" coords="1137,244,1223,271"/>
+<area shape="rect" id="node16" href="$File_8h.html" title="File.h" alt="" coords="1706,543,1761,569"/>
+<area shape="rect" id="node17" href="$Bitwise_8h.html" title="Bitwise.h" alt="" coords="1341,393,1417,420"/>
+<area shape="rect" id="node18" href="$Random_8h.html" title="Random.h" alt="" coords="1899,692,1981,719"/>
+<area shape="rect" id="node19" href="$Singleton_8h.html" title="Singleton.h" alt="" coords="602,319,689,345"/>
+<area shape="rect" id="node20" href="$SingletonPointer_8h.html" title="SingletonPointer.h" alt="" coords="539,244,667,271"/>
+<area shape="rect" id="node21" href="$IEntity_8h.html" title="IEntity.h" alt="" coords="1798,244,1869,271"/>
+<area shape="rect" id="node22" href="$ITreeNode_8h.html" title="ITreeNode.h" alt="" coords="1157,468,1251,495"/>
+<area shape="rect" id="node23" href="$IMultiTreeNode_8h.html" title="IMultiTreeNode.h" alt="" coords="1037,319,1160,345"/>
+<area shape="rect" id="node24" href="$vec2_8h.html" title="vec2.h" alt="" coords="305,543,367,569"/>
+<area shape="rect" id="node25" href="$vec3_8h.html" title="vec3.h" alt="" coords="340,468,401,495"/>
+<area shape="rect" id="node26" href="$vec4_8h.html" title="vec4.h" alt="" coords="272,393,333,420"/>
+<area shape="rect" id="node27" href="$color3_8h.html" title="color3.h" alt="" coords="473,393,541,420"/>
+<area shape="rect" id="node28" href="$color4_8h.html" title="color4.h" alt="" coords="401,319,469,345"/>
+<area shape="rect" id="node29" href="$Color_8h.html" title="Color.h" alt="" coords="451,244,515,271"/>
+<area shape="rect" id="node30" href="$CImage_8h.html" title="CImage.h" alt="" coords="195,244,274,271"/>
+<area shape="rect" id="node31" href="$IEvent_8h.html" title="IEvent.h" alt="" coords="918,319,989,345"/>
+<area shape="rect" id="node32" href="$IEventListener_8h.html" title="IEventListener.h" alt="" coords="944,244,1061,271"/>
+<area shape="rect" id="node34" href="$ionAnimation_2ionAnimation_8h.html" title="../ionAnimation/ionAnimation.h" alt="" coords="1581,169,1779,196"/>
+<area shape="rect" id="node35" href="$ISpline_8h.html" title="ISpline.h" alt="" coords="2099,319,2173,345"/>
+<area shape="rect" id="node36" href="$ISplineInterpolator_8h.html" title="ISplineInterpolator.h" alt="" coords="2108,244,2247,271"/>
+<area shape="rect" id="node38" href="$ionApplication_2ionApplication_8h.html" title="../ionApplication/ionApplication.h" alt="" coords="1803,169,2013,196"/>
+<area shape="rect" id="node40" href="$ionGraphics_2ionGraphics_8h.html" title="../ionGraphics/ionGraphics.h" alt="" coords="2037,169,2224,196"/>
+<area shape="rect" id="node42" href="$ionGraphicsGL_2ionGraphicsGL_8h.html" title="../ionGraphicsGL/ionGraphicsGL.h" alt="" coords="2248,169,2469,196"/>
+<area shape="rect" id="node44" href="$ionGUI_2ionGUI_8h.html" title="../ionGUI/ionGUI.h" alt="" coords="2493,169,2624,196"/>
+<area shape="rect" id="node46" href="$ionMath_2ionMath_8h.html" title="../ionMath/ionMath.h" alt="" coords="2648,169,2789,196"/>
+<area shape="rect" id="node48" href="$ionScene_2ionScene_8h.html" title="../ionScene/ionScene.h" alt="" coords="2813,169,2971,196"/>
+<area shape="rect" id="node50" href="$ionScience_2ionScience_8h.html" title="../ionScience/ionScience.h" alt="" coords="2995,169,3173,196"/>
 </map>

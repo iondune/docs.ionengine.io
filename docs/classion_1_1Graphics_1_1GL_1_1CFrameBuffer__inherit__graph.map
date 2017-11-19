@@ -1,5 +1,5 @@
 <map id="ion::Graphics::GL::CFrameBuffer" name="ion::Graphics::GL::CFrameBuffer">
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1IFrameBuffer.html" title="ion::Graphics::IFrameBuffer" alt="" coords="5,87,200,114"/>
-<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1IRenderTarget.html" title="ion::Graphics::IRenderTarget" alt="" coords="98,5,297,32"/>
-<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1GL_1_1CRenderTarget.html" title="ion::Graphics::GL::\lCRenderTarget" alt="" coords="224,80,363,121"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1IFrameBuffer.html" title="ion::Graphics::IFrameBuffer" alt="" coords="5,87,188,114"/>
+<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1IRenderTarget.html" title="ion::Graphics::IRenderTarget" alt="" coords="92,5,283,32"/>
+<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1GL_1_1CRenderTarget.html" title="ion::Graphics::GL::\lCRenderTarget" alt="" coords="212,80,344,121"/>
 </map>

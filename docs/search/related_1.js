@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['distance',['Distance',['../classSVector.html#a0335bbc516512ba25c59320530e2d2d5',1,'SVector::Distance()'],['../structvec2.html#a776663c6952048edc853c39a3ed86de2',1,'vec2::Distance()'],['../structvec3.html#a7ae20f3616b1fd44671c341c0ccc715d',1,'vec3::Distance()']]],
-  ['distancesq',['DistanceSq',['../classSVector.html#adba21847d0a10519dcae83822e2b0d53',1,'SVector::DistanceSq()'],['../structvec2.html#a8ada21a7230d341794b89e871cda407a',1,'vec2::DistanceSq()'],['../structvec3.html#a1bb05333c114d876af22dccee0bae5e6',1,'vec3::DistanceSq()']]],
-  ['dot',['Dot',['../classSVector.html#a4b5b9c3de9005fe3cf4a195422da0ea0',1,'SVector::Dot()'],['../structvec2.html#a41ae82ac3a461b9b1c4aef2c854f9445',1,'vec2::Dot()'],['../structvec3.html#aa5655762144baa8d435835ec6018cc44',1,'vec3::Dot()']]]
+  ['distance',['Distance',['../struction_1_1vec2.html#a776663c6952048edc853c39a3ed86de2',1,'ion::vec2::Distance()'],['../struction_1_1vec3.html#a7ae20f3616b1fd44671c341c0ccc715d',1,'ion::vec3::Distance()'],['../classion_1_1vec4.html#a4fd9db938290faf48bbeee64c800a1d7',1,'ion::vec4::Distance()']]],
+  ['distancesq',['DistanceSq',['../struction_1_1vec2.html#a8ada21a7230d341794b89e871cda407a',1,'ion::vec2::DistanceSq()'],['../struction_1_1vec3.html#a1bb05333c114d876af22dccee0bae5e6',1,'ion::vec3::DistanceSq()'],['../classion_1_1vec4.html#a46b3d2c71fb6e3c79a317b9591677909',1,'ion::vec4::DistanceSq()']]],
+  ['dot',['Dot',['../struction_1_1vec2.html#a41ae82ac3a461b9b1c4aef2c854f9445',1,'ion::vec2::Dot()'],['../struction_1_1vec3.html#aa5655762144baa8d435835ec6018cc44',1,'ion::vec3::Dot()'],['../classion_1_1vec4.html#aa8cb66fa93d5c9bb57a8826273b8bc94',1,'ion::vec4::Dot()']]]
 ];

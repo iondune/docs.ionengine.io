@@ -1,13 +1,13 @@
 <map id="/home/ian/projects/ionEngine/Include/ionAnimation.h" name="/home/ian/projects/ionEngine/Include/ionAnimation.h">
-<area shape="rect" id="node2" href="$ionAnimation_2ionAnimation_8h.html" title="../ionAnimation/ionAnimation.h" alt="" coords="489,95,708,121"/>
-<area shape="rect" id="node3" href="$ISpline_8h.html" title="ISpline.h" alt="" coords="125,408,201,435"/>
-<area shape="rect" id="node5" href="$ISplineInterpolator_8h.html" title="ISplineInterpolator.h" alt="" coords="349,333,499,360"/>
-<area shape="rect" id="node6" href="$SSplineNode_8h.html" title="SSplineNode.h" alt="" coords="1197,169,1313,196"/>
-<area shape="rect" id="node8" href="$CSpline_8h.html" title="CSpline.h" alt="" coords="37,169,120,196"/>
-<area shape="rect" id="node9" href="$CLinearSplineInterpolator_8h.html" title="CLinearSplineInterpolator.h" alt="" coords="116,251,311,278"/>
-<area shape="rect" id="node10" href="$CCatmullRomSplineInterpolator_8h.html" title="CCatmullRomSplineInterpolator.h" alt="" coords="385,251,617,278"/>
-<area shape="rect" id="node11" href="$CCatmullRomAdvancedSplineInterpolator_8h.html" title="CCatmullRomAdvancedSpline\lInterpolator.h" alt="" coords="641,244,852,285"/>
-<area shape="rect" id="node12" href="$CKochanekBartelsSplineInterpolator_8h.html" title="CKochanekBartelsSplineInterpolator.h" alt="" coords="876,251,1137,278"/>
-<area shape="rect" id="node13" href="$CHermiteSplineInterpolator_8h.html" title="CHermiteSplineInterpolator.h" alt="" coords="966,169,1173,196"/>
-<area shape="rect" id="node14" href="$Move_8h.html" title="Move.h" alt="" coords="1337,169,1405,196"/>
+<area shape="rect" id="node2" href="$ionAnimation_2ionAnimation_8h.html" title="../ionAnimation/ionAnimation.h" alt="" coords="471,95,670,121"/>
+<area shape="rect" id="node3" href="$ISpline_8h.html" title="ISpline.h" alt="" coords="117,408,190,435"/>
+<area shape="rect" id="node5" href="$ISplineInterpolator_8h.html" title="ISplineInterpolator.h" alt="" coords="335,333,473,360"/>
+<area shape="rect" id="node6" href="$SSplineNode_8h.html" title="SSplineNode.h" alt="" coords="1136,169,1245,196"/>
+<area shape="rect" id="node8" href="$CSpline_8h.html" title="CSpline.h" alt="" coords="38,169,117,196"/>
+<area shape="rect" id="node9" href="$CLinearSplineInterpolator_8h.html" title="CLinearSplineInterpolator.h" alt="" coords="115,251,293,278"/>
+<area shape="rect" id="node10" href="$CCatmullRomSplineInterpolator_8h.html" title="CCatmullRomSplineInterpolator.h" alt="" coords="369,251,586,278"/>
+<area shape="rect" id="node11" href="$CCatmullRomAdvancedSplineInterpolator_8h.html" title="CCatmullRomAdvancedSpline\lInterpolator.h" alt="" coords="610,244,809,285"/>
+<area shape="rect" id="node12" href="$CKochanekBartelsSplineInterpolator_8h.html" title="CKochanekBartelsSplineInterpolator.h" alt="" coords="833,251,1076,278"/>
+<area shape="rect" id="node13" href="$CHermiteSplineInterpolator_8h.html" title="CHermiteSplineInterpolator.h" alt="" coords="921,169,1111,196"/>
+<area shape="rect" id="node14" href="$Move_8h.html" title="Move.h" alt="" coords="1270,169,1335,196"/>
 </map>

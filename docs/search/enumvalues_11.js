@@ -7,16 +7,14 @@ var searchData=
   ['rg',['RG',['../classion_1_1Graphics_1_1ITexture.html#a0aa213cca864eb6993704ec907deeb76abac953e88f6d79514b0b6fc42eb6f3b7',1,'ion::Graphics::ITexture']]],
   ['rgb',['RGB',['../classion_1_1Graphics_1_1ITexture.html#a0aa213cca864eb6993704ec907deeb76a889574aebacda6bfd3e534e2b49b8028',1,'ion::Graphics::ITexture']]],
   ['rgba',['RGBA',['../classion_1_1Graphics_1_1ITexture.html#a0aa213cca864eb6993704ec907deeb76aea3495a278957dc58165e48a8945469f',1,'ion::Graphics::ITexture']]],
-  ['right',['Right',['../classion_1_1CCameraController.html#a356473ac4872e4c8a87e22c32f2c6487a92b09c7c48c520c3c55e497875da437c',1,'ion::CCameraController::Right()'],['../classSLongitudeLatitude_1_1CHaversineProjection.html#a7b6c8e3fce61cce01c93bf6faec6467aa92b09c7c48c520c3c55e497875da437c',1,'SLongitudeLatitude::CHaversineProjection::Right()'],['../struction_1_1SMouseEvent.html#a6bc94f1b06d84884dd789f82eecbefcba92b09c7c48c520c3c55e497875da437c',1,'ion::SMouseEvent::Right()'],['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a92b09c7c48c520c3c55e497875da437c',1,'ion::Right()']]],
+  ['right',['Right',['../struction_1_1CCameraController_1_1ECommand.html#ac6c5003a3b1c4c3d02cbe13c556d7109a75a6caaa289a24e5014621b8668da3c2',1,'ion::CCameraController::ECommand::Right()'],['../classion_1_1SLongitudeLatitude_1_1CHaversineProjection.html#ae291400c2247632ca02c48bc6938e329a92b09c7c48c520c3c55e497875da437c',1,'ion::SLongitudeLatitude::CHaversineProjection::Right()'],['../struction_1_1SMouseEvent.html#a6bc94f1b06d84884dd789f82eecbefcba92b09c7c48c520c3c55e497875da437c',1,'ion::SMouseEvent::Right()'],['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a92b09c7c48c520c3c55e497875da437c',1,'ion::Right()']]],
   ['rightalt',['RightAlt',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037ad88bad98046b623323aa6ca28eefa6d5',1,'ion']]],
   ['rightbracket',['RightBracket',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a455364d8991395f71ef9ccc5cc449e5c',1,'ion']]],
   ['rightcontrol',['RightControl',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a857bb13bb233ca520283eb9886509b65',1,'ion']]],
-  ['rightmeta',['RightMeta',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a63d6690468ed218fe6a016bcb485767b',1,'ion']]],
-  ['rightparen',['Rightparen',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a969aee9b620fc12651d011c1c5321b78',1,'ion']]],
   ['rightshift',['RightShift',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a317d4a7487ee62605713987d4a037f83',1,'ion']]],
   ['rightshoulder',['RightShoulder',['../namespaceion.html#a7556e2f50eb5cb19ff72747595655e01a27a5390f2d1b44a43f74d57703f8d354',1,'ion']]],
   ['rightsuper',['RightSuper',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a0cc5a9f113dc1147c8eeae2f0199f9f2',1,'ion']]],
   ['rightthumb',['RightThumb',['../namespaceion.html#a7556e2f50eb5cb19ff72747595655e01ae499bf8bc6e897455b94cabc7a5c2da7',1,'ion']]],
-  ['rotationscaletranslation',['RotationScaleTranslation',['../group__ionMath.html#ggad55879292d49039e900abcdcf9415199a77503ec9f14b278f38139aa3333b4d45',1,'STransformation3.h']]],
-  ['rotationtranslationscale',['RotationTranslationScale',['../group__ionMath.html#ggad55879292d49039e900abcdcf9415199a72937cf0b097e4bba7f14a378f4c81d0',1,'STransformation3.h']]]
+  ['rotationscaletranslation',['RotationScaleTranslation',['../group__ionMath.html#gga1c8d2bda55be93f571bd647edf9c17fda77503ec9f14b278f38139aa3333b4d45',1,'ion']]],
+  ['rotationtranslationscale',['RotationTranslationScale',['../group__ionMath.html#gga1c8d2bda55be93f571bd647edf9c17fda72937cf0b097e4bba7f14a378f4c81d0',1,'ion']]]
 ];

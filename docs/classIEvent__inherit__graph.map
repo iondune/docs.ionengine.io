@@ -1,8 +1,9 @@
 <map id="IEvent" name="IEvent">
-<area shape="rect" id="node2" href="$classion_1_1CTimeManager_1_1CUpdateTick.html" title="ion::CTimeManager::\lCUpdateTick" alt="" coords="137,5,291,47"/>
-<area shape="rect" id="node3" href="$struction_1_1SCharacterEvent.html" title="ion::SCharacterEvent" alt="" coords="135,71,293,98"/>
-<area shape="rect" id="node4" href="$struction_1_1SGamePadButtonEvent.html" title="ion::SGamePadButtonEvent" alt="" coords="115,122,313,149"/>
-<area shape="rect" id="node5" href="$struction_1_1SKeyboardEvent.html" title="ion::SKeyboardEvent" alt="" coords="137,173,291,199"/>
-<area shape="rect" id="node6" href="$struction_1_1SMouseEvent.html" title="ion::SMouseEvent" alt="" coords="146,223,282,250"/>
-<area shape="rect" id="node7" href="$struction_1_1SWindowResizedEvent.html" title="ion::SWindowResizedEvent" alt="" coords="119,274,309,301"/>
+<area shape="rect" id="node2" href="$classion_1_1CTimeManager_1_1CUpdateTick.html" title="ion::CTimeManager::\lCUpdateTick" alt="" coords="135,5,279,47"/>
+<area shape="rect" id="node3" href="$struction_1_1SCharacterEvent.html" title="ion::SCharacterEvent" alt="" coords="133,71,280,98"/>
+<area shape="rect" id="node4" href="$struction_1_1SFileDroppedEvent.html" title="ion::SFileDroppedEvent" alt="" coords="127,122,287,149"/>
+<area shape="rect" id="node5" href="$struction_1_1SGamePadButtonEvent.html" title="ion::SGamePadButtonEvent" alt="" coords="113,173,300,199"/>
+<area shape="rect" id="node6" href="$struction_1_1SKeyboardEvent.html" title="ion::SKeyboardEvent" alt="" coords="134,223,279,250"/>
+<area shape="rect" id="node7" href="$struction_1_1SMouseEvent.html" title="ion::SMouseEvent" alt="" coords="142,274,271,301"/>
+<area shape="rect" id="node8" href="$struction_1_1SWindowResizedEvent.html" title="ion::SWindowResizedEvent" alt="" coords="114,325,299,351"/>
 </map>

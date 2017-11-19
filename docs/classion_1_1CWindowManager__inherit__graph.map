@@ -1,5 +1,5 @@
 <map id="ion::CWindowManager" name="ion::CWindowManager">
-<area shape="rect" id="node2" href="$classSingleton.html" title="Singleton\&lt; CWindowManager \&gt;" alt="" coords="5,80,229,107"/>
-<area shape="rect" id="node3" href="$classIEventListener.html" title="IEventListener" alt="" coords="253,80,365,107"/>
-<area shape="rect" id="node4" href="$classIMultiTreeNode.html" title="IMultiTreeNode\&lt; IEventListener \&gt;" alt="" coords="192,5,427,32"/>
+<area shape="rect" id="node2" href="$classion_1_1Singleton.html" title="Base class for Singleton design pattern implementation. " alt="" coords="5,95,237,121"/>
+<area shape="rect" id="node3" href="$classIEventListener.html" title="IEventListener" alt="" coords="261,95,368,121"/>
+<area shape="rect" id="node4" href="$classion_1_1IMultiTreeNode.html" title="ion::IMultiTreeNode\l\&lt; IEventListener \&gt;" alt="" coords="247,5,383,47"/>
 </map>

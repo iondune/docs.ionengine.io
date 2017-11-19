@@ -1,7 +1,7 @@
 <map id="ion::Scene::CSimpleMesh" name="ion::Scene::CSimpleMesh">
-<area shape="rect" id="node4" href="$struction_1_1Scene_1_1SSimpleMaterial.html" title="ion::Scene::SSimpleMaterial" alt="" coords="508,137,709,163"/>
-<area shape="rect" id="node5" href="$classion_1_1CImage.html" title="ion::CImage" alt="" coords="229,62,328,89"/>
-<area shape="rect" id="node6" href="$structvec2.html" title="vec2\&lt; u32 \&gt;" alt="" coords="5,62,112,89"/>
-<area shape="rect" id="node7" href="$classion_1_1Graphics_1_1CUniform.html" title="ion::Graphics::CUniform\l\&lt; color3 \&gt;" alt="" coords="192,129,365,171"/>
-<area shape="rect" id="node8" href="$classion_1_1Graphics_1_1CUniform.html" title="ion::Graphics::CUniform\l\&lt; f32 \&gt;" alt="" coords="192,195,365,236"/>
+<area shape="rect" id="node4" href="$struction_1_1Scene_1_1SSimpleMaterial.html" title="ion::Scene::SSimpleMaterial" alt="" coords="493,137,680,163"/>
+<area shape="rect" id="node5" href="$classion_1_1Graphics_1_1CUniform.html" title="ion::Graphics::CUniform\l\&lt; float \&gt;" alt="" coords="197,69,360,111"/>
+<area shape="rect" id="node6" href="$classion_1_1CImage.html" title="ion::CImage" alt="" coords="232,137,325,163"/>
+<area shape="rect" id="node7" href="$struction_1_1vec2.html" title="ion::vec2\&lt; int \&gt;" alt="" coords="5,137,119,163"/>
+<area shape="rect" id="node8" href="$classion_1_1Graphics_1_1CUniform.html" title="ion::Graphics::CUniform\l\&lt; ion::color3 \&gt;" alt="" coords="197,204,360,245"/>
 </map>

@@ -1,4 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classion_1_1Graphics_1_1IPipelineState.html" title="ion::Graphics::IPipeline\lState" alt="" coords="5,5,171,47"/>
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1GL_1_1CPipelineState.html" title="ion::Graphics::GL::\lCPipelineState" alt="" coords="219,5,357,47"/>
+<area shape="rect" id="node1" href="$classion_1_1Graphics_1_1IRenderTarget.html" title="ion::Graphics::IRenderTarget" alt="" coords="5,42,196,69"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1GL_1_1CRenderTarget.html" title="ion::Graphics::GL::\lCRenderTarget" alt="" coords="269,5,401,47"/>
+<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1IFrameBuffer.html" title="ion::Graphics::IFrameBuffer" alt="" coords="244,71,427,98"/>
+<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1GL_1_1CFrameBuffer.html" title="ion::Graphics::GL::\lCFrameBuffer" alt="" coords="475,35,607,76"/>
 </map>

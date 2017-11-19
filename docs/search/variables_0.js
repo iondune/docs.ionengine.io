@@ -1,21 +1,22 @@
 var searchData=
 [
   ['a',['A',['../struction_1_1STriangle2D.html#aa0dbd82a0c4366e64a733d49e8a4692a',1,'ion::STriangle2D']]],
-  ['accumulator',['Accumulator',['../classion_1_1CTimeManager_1_1CUpdateTick.html#aea50a5b2421c589bba5d066307bf112e',1,'ion::CTimeManager::CUpdateTick']]],
+  ['accumulator',['Accumulator',['../classion_1_1CTimeManager_1_1CUpdateTick.html#a59ece5ba4652307686ae08adf320756c',1,'ion::CTimeManager::CUpdateTick']]],
   ['active',['Active',['../classion_1_1CCameraController.html#a70825bad0523afc8628899df75637c5f',1,'ion::CCameraController']]],
   ['activecamera',['ActiveCamera',['../classion_1_1Scene_1_1CRenderPass.html#a0885bffc2c5b31cef0308e4df0176e4d',1,'ion::Scene::CRenderPass']]],
-  ['alpha',['Alpha',['../classSColorA.html#a5c030a6209303657c4a7dc1337d46681',1,'SColorA']]],
+  ['alpha',['Alpha',['../classion_1_1color4.html#a2ebb2285d8982acbc6bb8bb73565f491',1,'ion::color4']]],
   ['ambient',['Ambient',['../struction_1_1Scene_1_1SSimpleMaterial.html#ad5a2c891f80e4b792f150c4c7e1f0ad7',1,'ion::Scene::SSimpleMaterial']]],
   ['ambientimage',['AmbientImage',['../struction_1_1Scene_1_1SSimpleMaterial.html#a7f779460b7dc4a737f65080a08b8b09e',1,'ion::Scene::SSimpleMaterial']]],
   ['ambienttexture',['AmbientTexture',['../struction_1_1Scene_1_1SSimpleMaterial.html#aadf79859134defc9d4d32a6ced2a5453',1,'ion::Scene::SSimpleMaterial']]],
-  ['anisotropy',['Anisotropy',['../classion_1_1Graphics_1_1GL_1_1CTexture.html#a2f8cfd47d1248b0a29864445ab2ebcd3',1,'ion::Graphics::GL::CTexture']]],
+  ['anisotropy',['Anisotropy',['../classion_1_1Graphics_1_1GL_1_1CTexture.html#a42abd6a5d2bb48bc78df9c89333831ae',1,'ion::Graphics::GL::CTexture']]],
   ['applicationsettings',['ApplicationSettings',['../classion_1_1CDefaultApplication.html#ad47f2f0eadc4f8df601b2d59575b432e',1,'ion::CDefaultApplication']]],
-  ['aspectratio',['AspectRatio',['../classion_1_1Scene_1_1CPerspectiveCamera.html#a15f5aa44f3f03437092b591661c4cd4a',1,'ion::Scene::CPerspectiveCamera']]],
+  ['arrowcommands',['ArrowCommands',['../classion_1_1CCameraController.html#ad1fd9b1137e4479b36752eee9ca0af46',1,'ion::CCameraController']]],
+  ['aspectratio',['AspectRatio',['../classion_1_1Scene_1_1CPerspectiveCamera.html#a348031b0161796ece2efd8993354aee3',1,'ion::Scene::CPerspectiveCamera']]],
   ['assetpaths',['AssetPaths',['../classion_1_1CAssetManager.html#a824b5026ad8ea014f38f30ae372eb043',1,'ion::CAssetManager']]],
   ['attriblocationcolor',['AttribLocationColor',['../classion_1_1CGUIManager.html#a8411826765273c1036795beb7e69618a',1,'ion::CGUIManager']]],
   ['attriblocationposition',['AttribLocationPosition',['../classion_1_1CGUIManager.html#a5da5285a85ac51cd68dafcc66b8b95d7',1,'ion::CGUIManager']]],
   ['attriblocationprojmtx',['AttribLocationProjMtx',['../classion_1_1CGUIManager.html#abb69d4a19286362c69bc807a3ff4c69c',1,'ion::CGUIManager']]],
   ['attriblocationtex',['AttribLocationTex',['../classion_1_1CGUIManager.html#a84abd91e11701b83e650917ca83718df',1,'ion::CGUIManager']]],
   ['attriblocationuv',['AttribLocationUV',['../classion_1_1CGUIManager.html#aa10d25601da910501be10779dd5ef548',1,'ion::CGUIManager']]],
-  ['attributes',['Attributes',['../classion_1_1Graphics_1_1GL_1_1CShaderProgram.html#a8d9a3255440282cddf33c541c3f65127',1,'ion::Graphics::GL::CShaderProgram::Attributes()'],['../classion_1_1Scene_1_1ILight.html#a0709ee0aee3343160e824b498698970e',1,'ion::Scene::ILight::Attributes()']]]
+  ['attributes',['Attributes',['../classion_1_1Graphics_1_1GL_1_1CShader.html#ae1cb54459b02320540409b6cc6735490',1,'ion::Graphics::GL::CShader::Attributes()'],['../classion_1_1Scene_1_1ILight.html#a0709ee0aee3343160e824b498698970e',1,'ion::Scene::ILight::Attributes()']]]
 ];

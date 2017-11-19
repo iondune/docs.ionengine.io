@@ -1,0 +1,8 @@
+<map id="ion::SFileDroppedEvent" name="ion::SFileDroppedEvent">
+<area shape="rect" id="node2" href="$classIEvent.html" title="IEvent" alt="" coords="5,289,65,316"/>
+<area shape="rect" id="node4" href="$classion_1_1CWindow.html" title="ion::CWindow" alt="" coords="229,289,333,316"/>
+<area shape="rect" id="node5" href="$classIEventListener.html" title="IEventListener" alt="" coords="87,185,194,212"/>
+<area shape="rect" id="node6" href="$classion_1_1IMultiTreeNode.html" title="ion::IMultiTreeNode\l\&lt; IEventListener \&gt;" alt="" coords="73,95,209,136"/>
+<area shape="rect" id="node8" href="$struction_1_1vec2.html" title="ion::vec2\&lt; float \&gt;" alt="" coords="219,185,343,212"/>
+<area shape="rect" id="node9" href="$struction_1_1vec2.html" title="ion::vec2\&lt; int \&gt;" alt="" coords="367,185,480,212"/>
+</map>

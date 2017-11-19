@@ -1,7 +1,7 @@
 <map id="ion::Graphics::GL::CTexture" name="ion::Graphics::GL::CTexture">
-<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1GL_1_1CTexture2D.html" title="ion::Graphics::GL::\lCTexture2D" alt="" coords="403,5,541,47"/>
-<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1GL_1_1CTexture2DArray.html" title="ion::Graphics::GL::\lCTexture2DArray" alt="" coords="403,71,541,112"/>
-<area shape="rect" id="node5" href="$classion_1_1Graphics_1_1GL_1_1CTexture3D.html" title="ion::Graphics::GL::\lCTexture3D" alt="" coords="403,136,541,177"/>
-<area shape="rect" id="node6" href="$classion_1_1Graphics_1_1GL_1_1CTextureCubeMap.html" title="ion::Graphics::GL::\lCTextureCubeMap" alt="" coords="403,201,541,243"/>
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="5,111,168,138"/>
+<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1GL_1_1CTexture2D.html" title="ion::Graphics::GL::\lCTexture2D" alt="" coords="388,5,520,47"/>
+<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1GL_1_1CTexture2DArray.html" title="ion::Graphics::GL::\lCTexture2DArray" alt="" coords="388,71,520,112"/>
+<area shape="rect" id="node5" href="$classion_1_1Graphics_1_1GL_1_1CTexture3D.html" title="ion::Graphics::GL::\lCTexture3D" alt="" coords="388,136,520,177"/>
+<area shape="rect" id="node6" href="$classion_1_1Graphics_1_1GL_1_1CTextureCubeMap.html" title="ion::Graphics::GL::\lCTextureCubeMap" alt="" coords="388,201,520,243"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="5,111,160,138"/>
 </map>

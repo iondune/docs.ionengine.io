@@ -1,7 +1,7 @@
 <map id="/home/ian/projects/ionEngine/ionScene/CSceneManager.h" name="/home/ian/projects/ionEngine/ionScene/CSceneManager.h">
-<area shape="rect" id="node2" href="$ICamera_8h.html" title="ICamera.h" alt="" coords="29,184,117,211"/>
-<area shape="rect" id="node4" href="$CCamera_8h.html" title="CCamera.h" alt="" coords="23,109,117,136"/>
-<area shape="rect" id="node5" href="$ISceneObject_8h.html" title="ISceneObject.h" alt="" coords="235,184,353,211"/>
-<area shape="rect" id="node8" href="$CRenderPass_8h.html" title="CRenderPass.h" alt="" coords="141,109,257,136"/>
-<area shape="rect" id="node9" href="$ILight_8h.html" title="ILight.h" alt="" coords="143,184,211,211"/>
+<area shape="rect" id="node2" href="$ICamera_8h.html" title="ICamera.h" alt="" coords="31,184,114,211"/>
+<area shape="rect" id="node4" href="$CCamera_8h.html" title="CCamera.h" alt="" coords="22,109,112,136"/>
+<area shape="rect" id="node5" href="$ISceneObject_8h.html" title="ISceneObject.h" alt="" coords="230,184,342,211"/>
+<area shape="rect" id="node8" href="$CRenderPass_8h.html" title="CRenderPass.h" alt="" coords="136,109,251,136"/>
+<area shape="rect" id="node9" href="$ILight_8h.html" title="ILight.h" alt="" coords="141,184,206,211"/>
 </map>

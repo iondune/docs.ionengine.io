@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['c8',['c8',['../ionTypes_8h.html#aa1ba8aac9fcd831012308297336ac74b',1,'ionTypes.h']]],
-  ['color3f',['color3f',['../SColor_8h.html#a3b7aefaabad9501bb8428eeeb1e6e4df',1,'SColor.h']]],
-  ['color3i',['color3i',['../SColor_8h.html#a3206d645bbb469ff0b2119f9b5ba4730',1,'SColor.h']]],
-  ['color4f',['color4f',['../SColor_8h.html#ae5ed10712576bffc1dc1c43bedc57ec0',1,'SColor.h']]],
-  ['color4i',['color4i',['../SColor_8h.html#a90b7b9eb3647df840ee64fdab379f15f',1,'SColor.h']]],
-  ['const_5fiterator',['const_iterator',['../structSGrid.html#a417faa3079540a01254c9f70f558f5d5',1,'SGrid::const_iterator()'],['../structSVolume.html#a58e158c28e42cff9a03ce3a1b48e3323',1,'SVolume::const_iterator()']]]
+  ['color3f',['color3f',['../namespaceion.html#adcf3533689543fd16454c0900a5135be',1,'ion']]],
+  ['color3i',['color3i',['../namespaceion.html#a10844e2a6d8526c6488cdd2ffc2d2a05',1,'ion']]],
+  ['color4f',['color4f',['../namespaceion.html#a6bd4ff0994ba6185bfe42a1381e80307',1,'ion']]],
+  ['color4i',['color4i',['../namespaceion.html#aac0819292443732df178fc9f2fcb9aee',1,'ion']]],
+  ['const_5fiterator',['const_iterator',['../struction_1_1SGrid.html#afa0c8bd10aa901159525c200850de251',1,'ion::SGrid::const_iterator()'],['../struction_1_1SVolume.html#a8b5d043084d01f34c45fe3eba6a90e8d',1,'ion::SVolume::const_iterator()']]]
 ];

@@ -92,7 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">imGUI.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;ionMath.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;ionCore.h&gt;</code><br />
 <code>#include &lt;imgui.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for imGUI.h:</div>
@@ -110,6 +110,8 @@ Macros</h2></td></tr>
 <tr class="separator:aa2003642a041a4852fe9f75c0787ec26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef71d1233909fa90cb19ffa2cdeedfa1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="imGUI_8h.html#aef71d1233909fa90cb19ffa2cdeedfa1">IM_VEC4_CLASS_EXTRA</a></td></tr>
 <tr class="separator:aef71d1233909fa90cb19ffa2cdeedfa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89b540f4a157e8c3196d3969df95b5ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="imGUI_8h.html#a89b540f4a157e8c3196d3969df95b5ed">ImDrawIdx</a>&#160;&#160;&#160;unsigned int</td></tr>
+<tr class="separator:a89b540f4a157e8c3196d3969df95b5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="aa2003642a041a4852fe9f75c0787ec26"></a>
@@ -121,10 +123,10 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">ImVec2(<span class="keyword">const</span> <a class="code" href="structvec2.html">vec2f</a>&amp; f) { x = f.<a class="code" href="structvec2.html#ac5e03d738148b33eea03f96dc39f71c3">X</a>; y = f.<a class="code" href="structvec2.html#a606de27e1be0db2211e23e53e56277c3">Y</a>; }                       \</div><div class="line">        operator <a class="code" href="SVector2_8h.html#a8263133ed1bb838f65f3dea566a224cc">vec2f</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="SVector2_8h.html#a8263133ed1bb838f65f3dea566a224cc">vec2f</a>(x,y); }</div><div class="ttc" id="SVector2_8h_html_a8263133ed1bb838f65f3dea566a224cc"><div class="ttname"><a href="SVector2_8h.html#a8263133ed1bb838f65f3dea566a224cc">vec2f</a></div><div class="ttdeci">vec2&lt; f32 &gt; vec2f</div><div class="ttdef"><b>Definition:</b> SVector2.h:558</div></div>
-<div class="ttc" id="structvec2_html"><div class="ttname"><a href="structvec2.html">vec2&lt; f32 &gt;</a></div></div>
-<div class="ttc" id="structvec2_html_ac5e03d738148b33eea03f96dc39f71c3"><div class="ttname"><a href="structvec2.html#ac5e03d738148b33eea03f96dc39f71c3">vec2::X</a></div><div class="ttdeci">T X</div><div class="ttdef"><b>Definition:</b> SVector2.h:14</div></div>
-<div class="ttc" id="structvec2_html_a606de27e1be0db2211e23e53e56277c3"><div class="ttname"><a href="structvec2.html#a606de27e1be0db2211e23e53e56277c3">vec2::Y</a></div><div class="ttdeci">T Y</div><div class="ttdef"><b>Definition:</b> SVector2.h:15</div></div>
+<b>Value:</b><div class="fragment"><div class="line">ImVec2(<span class="keyword">const</span> <a class="code" href="struction_1_1vec2.html">ion::vec2f</a>&amp; f) { x = f.<a class="code" href="struction_1_1vec2.html#a7cb88f769d2e9c29be0d4b284cbef36f">X</a>; y = f.<a class="code" href="struction_1_1vec2.html#a85932c9094ef70d21afc9daee21f456b">Y</a>; }                     \</div><div class="line">        operator <a class="code" href="namespaceion.html#ab27dc1c927926df5e886016f32008536">ion::vec2f</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="namespaceion.html#ab27dc1c927926df5e886016f32008536">ion::vec2f</a>(x,y); }</div><div class="ttc" id="struction_1_1vec2_html"><div class="ttname"><a href="struction_1_1vec2.html">ion::vec2&lt; float &gt;</a></div></div>
+<div class="ttc" id="struction_1_1vec2_html_a7cb88f769d2e9c29be0d4b284cbef36f"><div class="ttname"><a href="struction_1_1vec2.html#a7cb88f769d2e9c29be0d4b284cbef36f">ion::vec2::X</a></div><div class="ttdeci">T X</div><div class="ttdef"><b>Definition:</b> vec2.h:20</div></div>
+<div class="ttc" id="namespaceion_html_ab27dc1c927926df5e886016f32008536"><div class="ttname"><a href="namespaceion.html#ab27dc1c927926df5e886016f32008536">ion::vec2f</a></div><div class="ttdeci">vec2&lt; float &gt; vec2f</div><div class="ttdef"><b>Definition:</b> vec2.h:574</div></div>
+<div class="ttc" id="struction_1_1vec2_html_a85932c9094ef70d21afc9daee21f456b"><div class="ttname"><a href="struction_1_1vec2.html#a85932c9094ef70d21afc9daee21f456b">ion::vec2::Y</a></div><div class="ttdeci">T Y</div><div class="ttdef"><b>Definition:</b> vec2.h:21</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -137,19 +139,31 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">ImVec4(<span class="keyword">const</span> <a class="code" href="classSVector4.html">vec4f</a>&amp; f) { x = f.<a class="code" href="classSVector4.html#a6435c7647bb7f3192c9aa0175568b95e">X</a>; y = f.<a class="code" href="classSVector4.html#a5c418a74099be5740545c25dc90d9dc6">Y</a>; z = f.<a class="code" href="classSVector4.html#a9e8db349b12b966237df76390df3fe0f">Z</a>; w = f.<a class="code" href="classSVector4.html#ae510b87e5e0ac681b7559716cb069f7e">W</a>; }     \</div><div class="line">        operator <a class="code" href="SVector4_8h.html#a37d3898fc9d145f1a48af630829fc1cd">vec4f</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="SVector4_8h.html#a37d3898fc9d145f1a48af630829fc1cd">vec4f</a>(x,y,z,w); }</div><div class="ttc" id="SVector4_8h_html_a37d3898fc9d145f1a48af630829fc1cd"><div class="ttname"><a href="SVector4_8h.html#a37d3898fc9d145f1a48af630829fc1cd">vec4f</a></div><div class="ttdeci">SVector4f vec4f</div><div class="ttdef"><b>Definition:</b> SVector4.h:162</div></div>
-<div class="ttc" id="classSVector4_html_a6435c7647bb7f3192c9aa0175568b95e"><div class="ttname"><a href="classSVector4.html#a6435c7647bb7f3192c9aa0175568b95e">SVector4::X</a></div><div class="ttdeci">T &amp; X</div><div class="ttdef"><b>Definition:</b> SVector4.h:21</div></div>
-<div class="ttc" id="classSVector4_html_a5c418a74099be5740545c25dc90d9dc6"><div class="ttname"><a href="classSVector4.html#a5c418a74099be5740545c25dc90d9dc6">SVector4::Y</a></div><div class="ttdeci">T &amp; Y</div><div class="ttdef"><b>Definition:</b> SVector4.h:21</div></div>
-<div class="ttc" id="classSVector4_html_a9e8db349b12b966237df76390df3fe0f"><div class="ttname"><a href="classSVector4.html#a9e8db349b12b966237df76390df3fe0f">SVector4::Z</a></div><div class="ttdeci">T &amp; Z</div><div class="ttdef"><b>Definition:</b> SVector4.h:21</div></div>
-<div class="ttc" id="classSVector4_html"><div class="ttname"><a href="classSVector4.html">SVector4</a></div><div class="ttdoc">4D vector </div><div class="ttdef"><b>Definition:</b> SVector4.h:13</div></div>
-<div class="ttc" id="classSVector4_html_ae510b87e5e0ac681b7559716cb069f7e"><div class="ttname"><a href="classSVector4.html#ae510b87e5e0ac681b7559716cb069f7e">SVector4::W</a></div><div class="ttdeci">T &amp; W</div><div class="ttdef"><b>Definition:</b> SVector4.h:21</div></div>
+<b>Value:</b><div class="fragment"><div class="line">ImVec4(<span class="keyword">const</span> <a class="code" href="classion_1_1vec4.html">ion::vec4f</a>&amp; f) { x = f.<a class="code" href="classion_1_1vec4.html#a585966ab6378c8cc7f92a528eaedbe97">X</a>; y = f.<a class="code" href="classion_1_1vec4.html#abafaa17497c4a09b7e6b4b81969011ee">Y</a>; z = f.<a class="code" href="classion_1_1vec4.html#a8c2c8d78c20a959cc8c233b500b46810">Z</a>; w = f.<a class="code" href="classion_1_1vec4.html#a2685b0eb78a26da70d5668bda0c742e2">W</a>; }   \</div><div class="line">        operator <a class="code" href="namespaceion.html#a96db1c27d51cd1b4c58da40f23995620">ion::vec4f</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="namespaceion.html#a96db1c27d51cd1b4c58da40f23995620">ion::vec4f</a>(x,y,z,w); }</div><div class="ttc" id="classion_1_1vec4_html_abafaa17497c4a09b7e6b4b81969011ee"><div class="ttname"><a href="classion_1_1vec4.html#abafaa17497c4a09b7e6b4b81969011ee">ion::vec4::Y</a></div><div class="ttdeci">T Y</div><div class="ttdef"><b>Definition:</b> vec4.h:20</div></div>
+<div class="ttc" id="classion_1_1vec4_html_a585966ab6378c8cc7f92a528eaedbe97"><div class="ttname"><a href="classion_1_1vec4.html#a585966ab6378c8cc7f92a528eaedbe97">ion::vec4::X</a></div><div class="ttdeci">T X</div><div class="ttdef"><b>Definition:</b> vec4.h:19</div></div>
+<div class="ttc" id="classion_1_1vec4_html"><div class="ttname"><a href="classion_1_1vec4.html">ion::vec4&lt; float &gt;</a></div></div>
+<div class="ttc" id="classion_1_1vec4_html_a8c2c8d78c20a959cc8c233b500b46810"><div class="ttname"><a href="classion_1_1vec4.html#a8c2c8d78c20a959cc8c233b500b46810">ion::vec4::Z</a></div><div class="ttdeci">T Z</div><div class="ttdef"><b>Definition:</b> vec4.h:21</div></div>
+<div class="ttc" id="classion_1_1vec4_html_a2685b0eb78a26da70d5668bda0c742e2"><div class="ttname"><a href="classion_1_1vec4.html#a2685b0eb78a26da70d5668bda0c742e2">ion::vec4::W</a></div><div class="ttdeci">T W</div><div class="ttdef"><b>Definition:</b> vec4.h:22</div></div>
+<div class="ttc" id="namespaceion_html_a96db1c27d51cd1b4c58da40f23995620"><div class="ttname"><a href="namespaceion.html#a96db1c27d51cd1b4c58da40f23995620">ion::vec4f</a></div><div class="ttdeci">vec4&lt; float &gt; vec4f</div><div class="ttdef"><b>Definition:</b> vec4.h:676</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a89b540f4a157e8c3196d3969df95b5ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ImDrawIdx&#160;&#160;&#160;unsigned int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 </div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Mon Jun 19 2017 for ionEngine v0.4.1
+Generated on Sun Nov 19 2017 for ionEngine v0.4.4
 </p>
 </address>
 </body>

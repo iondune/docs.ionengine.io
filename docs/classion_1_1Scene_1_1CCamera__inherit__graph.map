@@ -1,5 +1,5 @@
 <map id="ion::Scene::CCamera" name="ion::Scene::CCamera">
-<area shape="rect" id="node3" href="$classion_1_1Scene_1_1COrthographicCamera.html" title="ion::Scene::COrthographic\lCamera" alt="" coords="5,155,195,196"/>
-<area shape="rect" id="node4" href="$classion_1_1Scene_1_1CPerspectiveCamera.html" title="ion::Scene::CPerspective\lCamera" alt="" coords="219,155,399,196"/>
-<area shape="rect" id="node2" href="$classion_1_1Scene_1_1ICamera.html" title="ion::Scene::ICamera" alt="" coords="129,5,279,32"/>
+<area shape="rect" id="node3" href="$classion_1_1Scene_1_1COrthographicCamera.html" title="ion::Scene::COrthographic\lCamera" alt="" coords="5,155,181,196"/>
+<area shape="rect" id="node4" href="$classion_1_1Scene_1_1CPerspectiveCamera.html" title="ion::Scene::CPerspective\lCamera" alt="" coords="205,155,376,196"/>
+<area shape="rect" id="node2" href="$classion_1_1Scene_1_1ICamera.html" title="ion::Scene::ICamera" alt="" coords="121,5,263,32"/>
 </map>

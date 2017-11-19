@@ -1,6 +1,8 @@
 <map id="ion::Graphics::GL::CTexture2DArray" name="ion::Graphics::GL::CTexture2DArray">
-<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1ITexture2DArray.html" title="ion::Graphics::ITexture2\lDArray" alt="" coords="5,109,176,151"/>
-<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="43,5,205,32"/>
-<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1GL_1_1CTexture.html" title="ion::Graphics::GL::\lCTexture" alt="" coords="200,109,339,151"/>
-<area shape="rect" id="node6" href="$structvec3.html" title="vec3\&lt; u32 \&gt;" alt="" coords="363,117,469,143"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1ITexture2DArray.html" title="ion::Graphics::ITexture2\lDArray" alt="" coords="5,185,168,227"/>
+<area shape="rect" id="node3" href="$classion_1_1Graphics_1_1ITexture.html" title="ion::Graphics::ITexture" alt="" coords="12,81,167,108"/>
+<area shape="rect" id="node4" href="$classion_1_1Graphics_1_1GL_1_1CTexture.html" title="ion::Graphics::GL::\lCTexture" alt="" coords="193,185,325,227"/>
+<area shape="rect" id="node5" href="$classion_1_1color4.html" title="ion::color4\&lt; float \&gt;" alt="" coords="191,81,321,108"/>
+<area shape="rect" id="node6" href="$classion_1_1vec4.html" title="ion::vec4\&lt; float \&gt;" alt="" coords="194,5,318,32"/>
+<area shape="rect" id="node8" href="$struction_1_1vec3.html" title="ion::vec3\&lt; int \&gt;" alt="" coords="349,193,462,219"/>
 </map>

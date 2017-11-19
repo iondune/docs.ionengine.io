@@ -13,14 +13,14 @@ var searchData=
   ['_7eidrawcontext',['~IDrawContext',['../classion_1_1Graphics_1_1IDrawContext.html#abc6cc00aab4dc0b0965de72548d4d703',1,'ion::Graphics::IDrawContext']]],
   ['_7eievent',['~IEvent',['../classIEvent.html#a7b40f99aa852a91780d29dcbf50cbc6b',1,'IEvent']]],
   ['_7eiframebuffer',['~IFrameBuffer',['../classion_1_1Graphics_1_1IFrameBuffer.html#aa142c683fbc65ab0ce236ac01cf8facc',1,'ion::Graphics::IFrameBuffer']]],
-  ['_7eigeometryshader',['~IGeometryShader',['../classion_1_1Graphics_1_1IGeometryShader.html#a9a75c959d8ceee49f2de884da66f7bc5',1,'ion::Graphics::IGeometryShader']]],
+  ['_7eigeometrystage',['~IGeometryStage',['../classion_1_1Graphics_1_1IGeometryStage.html#ab0bef6a13dab13b4beeeebde7ba5e182',1,'ion::Graphics::IGeometryStage']]],
   ['_7eiindexbuffer',['~IIndexBuffer',['../classion_1_1Graphics_1_1IIndexBuffer.html#a1221d998a5650f1106f9d2f12273089c',1,'ion::Graphics::IIndexBuffer']]],
   ['_7eipipelinestate',['~IPipelineState',['../classion_1_1Graphics_1_1IPipelineState.html#aa4e24630f074b75d45318d67c96db916',1,'ion::Graphics::IPipelineState']]],
-  ['_7eipixelshader',['~IPixelShader',['../classion_1_1Graphics_1_1IPixelShader.html#a60ae8e0e52a40923fed72695ead859ab',1,'ion::Graphics::IPixelShader']]],
+  ['_7eipixelstage',['~IPixelStage',['../classion_1_1Graphics_1_1IPixelStage.html#a101ab3f89664c0b1d6a94a6440b1f59a',1,'ion::Graphics::IPixelStage']]],
   ['_7eirendertarget',['~IRenderTarget',['../classion_1_1Graphics_1_1IRenderTarget.html#a780b2464851e94ce706b7a9cd7834488',1,'ion::Graphics::IRenderTarget']]],
   ['_7eisceneobject',['~ISceneObject',['../classion_1_1Scene_1_1ISceneObject.html#a5e2a6629330412133f84790cf940a1d5',1,'ion::Scene::ISceneObject']]],
-  ['_7eitreenode',['~ITreeNode',['../classITreeNode.html#acd30252f9177c1bfba737f14c9f28da6',1,'ITreeNode']]],
+  ['_7eitreenode',['~ITreeNode',['../classion_1_1ITreeNode.html#a6409e09b13f7311d184cbe30f788b09f',1,'ion::ITreeNode']]],
   ['_7eivertexbuffer',['~IVertexBuffer',['../classion_1_1Graphics_1_1IVertexBuffer.html#a7d18e2f9ec92a02a58a70b1b6db719ef',1,'ion::Graphics::IVertexBuffer']]],
-  ['_7eivertexshader',['~IVertexShader',['../classion_1_1Graphics_1_1IVertexShader.html#aac752e7de8dcfd562fcd1c3d8141af41',1,'ion::Graphics::IVertexShader']]],
+  ['_7eivertexstage',['~IVertexStage',['../classion_1_1Graphics_1_1IVertexStage.html#abf674f0735997f93c12457a2ab42b043',1,'ion::Graphics::IVertexStage']]],
   ['_7escoped_5fid',['~scoped_id',['../classImGui_1_1scoped__id.html#a90f69a97821fcc802219fe67c4205f33',1,'ImGui::scoped_id']]]
 ];
