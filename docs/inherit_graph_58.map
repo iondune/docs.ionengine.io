@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classion_1_1IEntity.html" title="Base class for Component&#45;Entity design pattern implementation driven by typesBasic Usage: Derive your..." alt="" coords="5,5,189,32"/>
+<area shape="rect" id="node1" href="$classion_1_1IDataRecord.html" title="ion::IDataRecord\&lt; double \&gt;" alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$classion_1_1STable_1_1SRow.html" title="ion::STable::SRow" alt="" coords="236,5,368,32"/>
 </map>

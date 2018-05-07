@@ -1,17 +1,18 @@
 <map id="/home/ian/projects/ionEngine/ionScene/ionScene.h" name="/home/ian/projects/ionEngine/ionScene/ionScene.h">
-<area shape="rect" id="node5" href="$ICamera_8h.html" title="ICamera.h" alt="" coords="409,259,492,285"/>
-<area shape="rect" id="node6" href="$CCamera_8h.html" title="CCamera.h" alt="" coords="291,184,381,211"/>
-<area shape="rect" id="node7" href="$COrthographicCamera_8h.html" title="COrthographicCamera.h" alt="" coords="69,109,232,136"/>
-<area shape="rect" id="node8" href="$CPerspectiveCamera_8h.html" title="CPerspectiveCamera.h" alt="" coords="257,109,415,136"/>
-<area shape="rect" id="node9" href="$ILight_8h.html" title="ILight.h" alt="" coords="783,259,849,285"/>
-<area shape="rect" id="node10" href="$CPointLight_8h.html" title="CPointLight.h" alt="" coords="677,184,779,211"/>
-<area shape="rect" id="node11" href="$CDirectionalLight_8h.html" title="CDirectionalLight.h" alt="" coords="696,109,829,136"/>
-<area shape="rect" id="node12" href="$ISceneObject_8h.html" title="ISceneObject.h" alt="" coords="955,259,1067,285"/>
-<area shape="rect" id="node13" href="$CRenderPass_8h.html" title="CRenderPass.h" alt="" coords="488,184,603,211"/>
-<area shape="rect" id="node14" href="$CSceneManager_8h.html" title="CSceneManager.h" alt="" coords="440,109,571,136"/>
-<area shape="rect" id="node15" href="$CSimpleMesh_8h.html" title="CSimpleMesh.h" alt="" coords="1129,259,1244,285"/>
-<area shape="rect" id="node16" href="$CGeometryCreator_8h.html" title="CGeometryCreator.h" alt="" coords="1585,184,1727,211"/>
-<area shape="rect" id="node17" href="$CSimpleSceneObject_8h.html" title="CSimpleSceneObject.h" alt="" coords="1107,184,1266,211"/>
-<area shape="rect" id="node18" href="$CSimpleMeshSceneObject_8h.html" title="CSimpleMeshSceneObject.h" alt="" coords="1006,109,1197,136"/>
-<area shape="rect" id="node19" href="$CCoordinateFrameSceneObject_8h.html" title="CCoordinateFrameSceneObject.h" alt="" coords="1291,184,1509,211"/>
+<area shape="rect" id="node5" href="$ICamera_8h.html" title="ICamera.h" alt="" coords="550,259,633,285"/>
+<area shape="rect" id="node6" href="$CCamera_8h.html" title="CCamera.h" alt="" coords="363,184,452,211"/>
+<area shape="rect" id="node7" href="$COrthographicCamera_8h.html" title="COrthographicCamera.h" alt="" coords="56,109,218,136"/>
+<area shape="rect" id="node8" href="$CPerspectiveCamera_8h.html" title="CPerspectiveCamera.h" alt="" coords="243,109,402,136"/>
+<area shape="rect" id="node9" href="$ILight_8h.html" title="ILight.h" alt="" coords="799,259,864,285"/>
+<area shape="rect" id="node10" href="$CPointLight_8h.html" title="CPointLight.h" alt="" coords="869,184,970,211"/>
+<area shape="rect" id="node11" href="$CDirectionalLight_8h.html" title="CDirectionalLight.h" alt="" coords="528,109,661,136"/>
+<area shape="rect" id="node12" href="$ISceneObject_8h.html" title="ISceneObject.h" alt="" coords="1076,259,1188,285"/>
+<area shape="rect" id="node13" href="$CRenderPass_8h.html" title="CRenderPass.h" alt="" coords="629,184,744,211"/>
+<area shape="rect" id="node14" href="$CSceneManager_8h.html" title="CSceneManager.h" alt="" coords="685,109,816,136"/>
+<area shape="rect" id="node15" href="$CSimpleMesh_8h.html" title="CSimpleMesh.h" alt="" coords="1361,259,1476,285"/>
+<area shape="rect" id="node16" href="$CGeometryCreator_8h.html" title="CGeometryCreator.h" alt="" coords="1675,184,1818,211"/>
+<area shape="rect" id="node17" href="$CSimpleSceneObject_8h.html" title="CSimpleSceneObject.h" alt="" coords="1339,184,1498,211"/>
+<area shape="rect" id="node18" href="$CSimpleMeshSceneObject_8h.html" title="CSimpleMeshSceneObject.h" alt="" coords="1384,109,1575,136"/>
+<area shape="rect" id="node19" href="$CLineSceneObject_8h.html" title="CLineSceneObject.h" alt="" coords="1043,109,1186,136"/>
+<area shape="rect" id="node20" href="$CCoordinateFrameSceneObject_8h.html" title="CCoordinateFrameSceneObject.h" alt="" coords="1096,184,1314,211"/>
 </map>

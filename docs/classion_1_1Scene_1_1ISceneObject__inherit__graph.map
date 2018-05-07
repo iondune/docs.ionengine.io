@@ -1,5 +1,6 @@
 <map id="ion::Scene::ISceneObject" name="ion::Scene::ISceneObject">
-<area shape="rect" id="node2" href="$classion_1_1Scene_1_1CCoordinateFrameSceneObject.html" title="ion::Scene::CCoordinateFrame\lSceneObject" alt="" coords="5,80,208,121"/>
-<area shape="rect" id="node3" href="$classion_1_1Scene_1_1CSimpleSceneObject.html" title="ion::Scene::CSimpleScene\lObject" alt="" coords="232,80,411,121"/>
-<area shape="rect" id="node4" href="$classion_1_1Scene_1_1CSimpleMeshSceneObject.html" title="ion::Scene::CSimpleMeshScene\lObject" alt="" coords="216,169,427,211"/>
+<area shape="rect" id="node2" href="$classion_1_1Scene_1_1CCoordinateFrameSceneObject.html" title="ion::Scene::CCoordinateFrame\lSceneObject" alt="" coords="224,5,427,47"/>
+<area shape="rect" id="node3" href="$classion_1_1Scene_1_1CLineSceneObject.html" title="ion::Scene::CLineSceneObject" alt="" coords="225,71,426,98"/>
+<area shape="rect" id="node4" href="$classion_1_1Scene_1_1CSimpleSceneObject.html" title="ion::Scene::CSimpleScene\lObject" alt="" coords="236,123,415,164"/>
+<area shape="rect" id="node5" href="$classion_1_1Scene_1_1CSimpleMeshSceneObject.html" title="ion::Scene::CSimpleMeshScene\lObject" alt="" coords="475,123,685,164"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classion_1_1Scene_1_1ISceneObject.html" title="ion::Scene::ISceneObject" alt="" coords="5,46,176,73"/>
-<area shape="rect" id="node2" href="$classion_1_1Scene_1_1CCoordinateFrameSceneObject.html" title="ion::Scene::CCoordinateFrame\lSceneObject" alt="" coords="224,5,427,47"/>
-<area shape="rect" id="node3" href="$classion_1_1Scene_1_1CSimpleSceneObject.html" title="ion::Scene::CSimpleScene\lObject" alt="" coords="236,71,415,112"/>
-<area shape="rect" id="node4" href="$classion_1_1Scene_1_1CSimpleMeshSceneObject.html" title="ion::Scene::CSimpleMeshScene\lObject" alt="" coords="475,71,685,112"/>
+<area shape="rect" id="node1" href="$classion_1_1Scene_1_1ICamera.html" title="ion::Scene::ICamera" alt="" coords="5,46,148,73"/>
+<area shape="rect" id="node2" href="$classion_1_1Scene_1_1CCamera.html" title="ion::Scene::CCamera" alt="" coords="196,46,344,73"/>
+<area shape="rect" id="node3" href="$classion_1_1Scene_1_1COrthographicCamera.html" title="ion::Scene::COrthographic\lCamera" alt="" coords="392,5,568,47"/>
+<area shape="rect" id="node4" href="$classion_1_1Scene_1_1CPerspectiveCamera.html" title="ion::Scene::CPerspective\lCamera" alt="" coords="395,71,565,112"/>
 </map>

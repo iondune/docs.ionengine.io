@@ -20,9 +20,9 @@
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
-	<div class="glfwheader">
-		<a href="http://www.ionengine.io/" id="glfwhome">ionEngine</a>
-		<ul class="glfwnavbar">
+	<div class="topheader">
+		<a href="http://www.ionengine.io/" id="tophome">ionEngine</a>
+		<ul class="topnavbar">
 			<li><a href="http://www.ionengine.io/index.html">Home</a></li>
 			<li><a href="http://docs.ionengine.io/">Documentation</a></li>
 			<li><a href="http://www.ionengine.io/schedule.html">Roadmap</a></li>
@@ -38,10 +38,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Introduction</span></a></li>
-      <li><a href="pages.html"><span>Guides</span></a></li>
+      <li><a href="pages.html"><span>Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="files.html"><span>Header&#160;Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -62,10 +61,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -144,6 +140,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2988ba7ef8c7bafe05758fe5ef0ae0c7 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dba2d88055f9e6ecd087460a961d5c1 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#a0dba2d88055f9e6ecd087460a961d5c1">GetAnisotropy</a> ()=0</td></tr>
 <tr class="separator:a0dba2d88055f9e6ecd087460a961d5c1 inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8484dc4a902ed8d697480b4183277b0c inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#a8484dc4a902ed8d697480b4183277b0c">GenerateMipMaps</a> ()=0</td></tr>
+<tr class="separator:a8484dc4a902ed8d697480b4183277b0c inherit pub_methods_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -166,17 +164,18 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a0aa213cca864eb6993704ec907deeb76 inherit pub_types_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2d2690e95cba9a405b9ee2498ac2014 inherit pub_types_classion_1_1Graphics_1_1ITexture"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014">EInternalFormatType</a> { <br />
 &#160;&#160;<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a21d950e60d5e67b76663e9092d1d123f">EInternalFormatType::Fix8</a> = 0, 
-<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a26e6ed77470c6f2f830ecf874e6c0d55">EInternalFormatType::Float16</a> = 1, 
-<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a166495adc0d0f53bee6baecc577f5204">EInternalFormatType::Float32</a> = 2, 
-<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a1f1207a99a0672dbff6759a73d2ff2ab">EInternalFormatType::SignedInt8</a> = 3, 
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014ac7b485b57e5f9edbdb11c5ecbc2e13c5">EInternalFormatType::Fix16</a> = 1, 
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a26e6ed77470c6f2f830ecf874e6c0d55">EInternalFormatType::Float16</a> = 2, 
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a166495adc0d0f53bee6baecc577f5204">EInternalFormatType::Float32</a> = 3, 
 <br />
-&#160;&#160;<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a67b8d849a0f597fddc00d436ecabd4e3">EInternalFormatType::SignedInt16</a> = 4, 
-<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014acbb88da2b43d122a9b2238ff4f82e5ec">EInternalFormatType::SignedInt32</a> = 5, 
-<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a17f8bf41b41a4b9c8a20e1e2eebad547">EInternalFormatType::UnsignedInt8</a> = 6, 
-<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a854c9b463877363ab8aa6303e0d0e0e0">EInternalFormatType::UnsignedInt16</a> = 7, 
+&#160;&#160;<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a1f1207a99a0672dbff6759a73d2ff2ab">EInternalFormatType::SignedInt8</a> = 4, 
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a67b8d849a0f597fddc00d436ecabd4e3">EInternalFormatType::SignedInt16</a> = 5, 
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014acbb88da2b43d122a9b2238ff4f82e5ec">EInternalFormatType::SignedInt32</a> = 6, 
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a17f8bf41b41a4b9c8a20e1e2eebad547">EInternalFormatType::UnsignedInt8</a> = 7, 
 <br />
-&#160;&#160;<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014ae5c363f122ed4f25a773902639c88456">EInternalFormatType::UnsignedInt32</a> = 8, 
-<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a675056ad1441b6375b2c5abd48c27ef1">EInternalFormatType::Depth</a> = 9
+&#160;&#160;<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a854c9b463877363ab8aa6303e0d0e0e0">EInternalFormatType::UnsignedInt16</a> = 8, 
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014ae5c363f122ed4f25a773902639c88456">EInternalFormatType::UnsignedInt32</a> = 9, 
+<a class="el" href="classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a675056ad1441b6375b2c5abd48c27ef1">EInternalFormatType::Depth</a> = 10
 <br />
  }</td></tr>
 <tr class="separator:aa2d2690e95cba9a405b9ee2498ac2014 inherit pub_types_classion_1_1Graphics_1_1ITexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,7 +293,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Sun Nov 19 2017 for ionEngine v0.4.4
+Generated on Sun May 6 2018 for ionEngine v0.4.5
 </p>
 </address>
 </body>

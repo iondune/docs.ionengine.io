@@ -20,9 +20,9 @@
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
-	<div class="glfwheader">
-		<a href="http://www.ionengine.io/" id="glfwhome">ionEngine</a>
-		<ul class="glfwnavbar">
+	<div class="topheader">
+		<a href="http://www.ionengine.io/" id="tophome">ionEngine</a>
+		<ul class="topnavbar">
 			<li><a href="http://www.ionengine.io/index.html">Home</a></li>
 			<li><a href="http://docs.ionengine.io/">Documentation</a></li>
 			<li><a href="http://www.ionengine.io/schedule.html">Roadmap</a></li>
@@ -38,10 +38,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Introduction</span></a></li>
-      <li><a href="pages.html"><span>Guides</span></a></li>
+      <li><a href="pages.html"><span>Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="files.html"><span>Header&#160;Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -62,10 +61,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -99,8 +95,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr><td class="entry"><a class="el" href="classIEventListener.html#aebe53b697a31e9b3ce1d291462f591fa">AddListener</a>(IEventListener *Listener)</td><td class="entry"><a class="el" href="classIEventListener.html">IEventListener</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classion_1_1CWindowManager.html#ac9c12e25274272a19451020ebeda472d">CharCallback</a>(GLFWwindow *window, unsigned int c)</td><td class="entry"><a class="el" href="classion_1_1CWindowManager.html">ion::CWindowManager</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="classion_1_1IMultiTreeNode.html#aa7209a29ebd6f0851563734f0122fba6">Children</a></td><td class="entry"><a class="el" href="classion_1_1IMultiTreeNode.html">ion::IMultiTreeNode&lt; IEventListener &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classion_1_1CWindowManager.html#a39eb1ff641d3999fef7f6d05d8402a6e">CreateWindow</a>(vec2i const &amp;Size, std::string const &amp;Title, EWindowType const Type)</td><td class="entry"><a class="el" href="classion_1_1CWindowManager.html">ion::CWindowManager</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classion_1_1CWindowManager.html#a9b0846c7de83975b9caf08b67807133d">CreateWindowOnMonitor</a>(int const Monitor, std::string const &amp;Title)</td><td class="entry"><a class="el" href="classion_1_1CWindowManager.html">ion::CWindowManager</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classion_1_1CWindowManager.html#ade85138c6c3f6217dec82a31ca4d7229">CreateWindow</a>(vec2i const &amp;Size, std::string const &amp;Title, EWindowType const Type, EVsyncMode const Vsync=EVsyncMode::Default)</td><td class="entry"><a class="el" href="classion_1_1CWindowManager.html">ion::CWindowManager</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classion_1_1CWindowManager.html#a214638573a762897f40b780bf41cdf23">CreateWindowOnMonitor</a>(int const Monitor, std::string const &amp;Title, EVsyncMode const Vsync=EVsyncMode::Default)</td><td class="entry"><a class="el" href="classion_1_1CWindowManager.html">ion::CWindowManager</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classion_1_1CWindowManager.html#af93c7e306e1e39d1dcd6c9aa14105e31">DropCallback</a>(GLFWwindow *window, int count, const char **paths)</td><td class="entry"><a class="el" href="classion_1_1CWindowManager.html">ion::CWindowManager</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="classion_1_1Singleton.html#a10e6ed70297b085da0106958e49c4496">Get</a>()</td><td class="entry"><a class="el" href="classion_1_1Singleton.html">ion::Singleton&lt; Implementation &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classion_1_1IMultiTreeNode.html#a79b5f189b50f739c9c1ea1dd4f17c90b">GetChildren</a>() const</td><td class="entry"><a class="el" href="classion_1_1IMultiTreeNode.html">ion::IMultiTreeNode&lt; IEventListener &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -130,7 +126,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </table></div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Sun Nov 19 2017 for ionEngine v0.4.4
+Generated on Sun May 6 2018 for ionEngine v0.4.5
 </p>
 </address>
 </body>

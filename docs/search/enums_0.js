@@ -24,6 +24,7 @@ var searchData=
   ['etype',['EType',['../struction_1_1SMouseEvent.html#aa84a1beb737e0ac12cd0af4398276f03',1,'ion::SMouseEvent']]],
   ['euniformtype',['EUniformType',['../group__ionGraphics.html#gaddb5c086fd0778aac8df05438e372cca',1,'ion::Graphics']]],
   ['evaluetype',['EValueType',['../group__ionGraphics.html#gad56369fcca16f9b9920d81b3c5811955',1,'ion::Graphics']]],
+  ['evsyncmode',['EVsyncMode',['../namespaceion.html#a30f497666cbdad25caa5666f4c6c8273',1,'ion']]],
   ['ewindowtype',['EWindowType',['../namespaceion.html#ab40a9db3eacbb4cf19e714158dac71d5',1,'ion']]],
   ['ewrapmode',['EWrapMode',['../classion_1_1Graphics_1_1ITexture.html#a2cff528866c2b4473a487e3a348e75f5',1,'ion::Graphics::ITexture']]]
 ];

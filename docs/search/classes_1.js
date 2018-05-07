@@ -31,6 +31,7 @@ var searchData=
   ['ckdtreenode',['CKDTreeNode',['../classion_1_1CKDTreeNode.html',1,'ion']]],
   ['ckochanekbartelssplineinterpolator',['CKochanekBartelsSplineInterpolator',['../classion_1_1Animation_1_1CKochanekBartelsSplineInterpolator.html',1,'ion::Animation']]],
   ['clinearsplineinterpolator',['CLinearSplineInterpolator',['../classion_1_1Animation_1_1CLinearSplineInterpolator.html',1,'ion::Animation']]],
+  ['clinesceneobject',['CLineSceneObject',['../classion_1_1Scene_1_1CLineSceneObject.html',1,'ion::Scene']]],
   ['color3',['color3',['../classion_1_1color3.html',1,'ion']]],
   ['color3_3c_20byte_20_3e',['color3&lt; byte &gt;',['../classion_1_1color3.html',1,'ion']]],
   ['color3_3c_20float_20_3e',['color3&lt; float &gt;',['../classion_1_1color3.html',1,'ion']]],

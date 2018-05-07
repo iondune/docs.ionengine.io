@@ -7,6 +7,7 @@ var searchData=
   ['weakpointer',['WeakPointer',['../group__ionCore.html#ga00b6dd9bab861e8cbb25f21c82e6a7f2',1,'ion']]],
   ['which',['Which',['../classion_1_1Log_1_1Channel.html#a41c93d3009c13c6621d5fe1d3aa553f3',1,'ion::Log::Channel']]],
   ['white',['White',['../struction_1_1Color_1_1Basic.html#a62fdf54158cbcff0d431d6b0965ad48d',1,'ion::Color::Basic::White()'],['../namespaceion_1_1Color.html#a70d62d92c1aecaec169ec995b507e72d',1,'ion::Color::White()']]],
+  ['whole',['whole',['../ionGUI_2Fonts_2LICENSE_8txt.html#a10cf6dee05e6659880b39e81ad558b53',1,'LICENSE.txt']]],
   ['window',['Window',['../classion_1_1Graphics_1_1GL_1_1CGraphicsContext.html#ac13d95d92d8fcf4d00cb8e94bde3998c',1,'ion::Graphics::GL::CGraphicsContext::Window()'],['../classion_1_1Graphics_1_1GL_1_1CPipelineState.html#ac58739abe0d07fb3baf533a70b4cffea',1,'ion::Graphics::GL::CPipelineState::Window()'],['../classion_1_1Graphics_1_1GL_1_1CRenderTarget.html#a4d066b77fd18082aae32650561631da7',1,'ion::Graphics::GL::CRenderTarget::Window()'],['../classion_1_1CGUIManager.html#a24f4a881173adf0a353af73dadadc16b',1,'ion::CGUIManager::Window()'],['../struction_1_1SFileDroppedEvent.html#afd71eed73983ecef1f1277f892727d16',1,'ion::SFileDroppedEvent::Window()'],['../struction_1_1SKeyboardEvent.html#a8dbb1b7c18f4730419c890401dfd73a0',1,'ion::SKeyboardEvent::Window()'],['../struction_1_1SMouseEvent.html#ace525aec796e7a1c022fe60f9cfa36eb',1,'ion::SMouseEvent::Window()'],['../struction_1_1SWindowResizedEvent.html#a8960de8fb2e64429ade43b93bc3b8a8b',1,'ion::SWindowResizedEvent::Window()']]],
   ['windowed',['Windowed',['../namespaceion.html#ab40a9db3eacbb4cf19e714158dac71d5ab13311ab51c4c34757f67f26580018dd',1,'ion']]],
   ['windowhandle',['WindowHandle',['../classion_1_1CWindow.html#a5ae241006a2240a6c4a95fab12b2e2c4',1,'ion::CWindow']]],
@@ -17,11 +18,15 @@ var searchData=
   ['windowslogoutput',['WindowsLogOutput',['../classion_1_1Log_1_1WindowsLogOutput.html',1,'ion::Log']]],
   ['windowtype',['WindowType',['../struction_1_1CDefaultApplication_1_1SSettings.html#a791b8c877b63ff025cc1b77f6191fa0f',1,'ion::CDefaultApplication::SSettings']]],
   ['wireframe',['Wireframe',['../group__ionGraphics.html#gga5e576a7b5e19dd1eb42f99e9baff1624a33e42d0f3b166a4c405127e4412fbef2',1,'ion::Graphics']]],
+  ['work',['work',['../ionGUI_2Fonts_2LICENSE_8txt.html#adab0c60f5b491f36046a3844419f985a',1,'work(an example is provided in the Appendix below).&quot;Derivative Works&quot;shall mean any work:&#160;LICENSE.txt'],['../ionGUI_2Fonts_2LICENSE_8txt.html#ab5513a0874dcccd8ea863035302d567b',1,'Work():&#160;LICENSE.txt'],['../ionGUI_2Fonts_2LICENSE_8txt.html#a00111323c494b5e53f9b4d7d6bfe29c7',1,'Work(and each Contributor provides its Contributions) on an&quot;AS IS&quot;BASIS:&#160;LICENSE.txt']]],
+  ['works',['Works',['../ionGUI_2Fonts_2LICENSE_8txt.html#ae6e9c70e1e8c69fb4a7103bf81b9de01',1,'LICENSE.txt']]],
+  ['worldwide',['worldwide',['../ionGUI_2Fonts_2LICENSE_8txt.html#afa54bcfc543ad3c95e8c8068c1a74213',1,'LICENSE.txt']]],
   ['wrapmode',['WrapMode',['../classion_1_1Graphics_1_1GL_1_1CTexture.html#adf851b446406438434b32ff771d4d265',1,'ion::Graphics::GL::CTexture']]],
   ['write',['Write',['../classion_1_1CImage.html#a5f27c3fabb8e2b1762915e0999c60429',1,'ion::CImage::Write()'],['../classion_1_1Log_1_1Output.html#a2c5b3f1b65978a37f667ec0e12c7712e',1,'ion::Log::Output::Write()'],['../classion_1_1Log_1_1StandardOutput.html#a2e20eabb277aca196f78c9181e74b780',1,'ion::Log::StandardOutput::Write()'],['../classion_1_1Log_1_1WindowsLogOutput.html#a8acc5a14ce24bc484b794760fd8f18b8',1,'ion::Log::WindowsLogOutput::Write()'],['../classion_1_1Log.html#aca0e6a5d939f95a67e7b61c9dba6a2ac',1,'ion::Log::Write()']]],
   ['writeinternal',['WriteInternal',['../classion_1_1Log.html#aa38449a4e74d00cff91f69ec9e484098',1,'ion::Log']]],
   ['writemessage',['WriteMessage',['../classion_1_1Log_1_1Channel.html#a218c1e2649e6a7784ff5cb746ea8fbfb',1,'ion::Log::Channel']]],
   ['writeobj',['WriteOBJ',['../classion_1_1Scene_1_1CSimpleMesh.html#a56d09dcae413c9f573ef1b334aa8b305',1,'ion::Scene::CSimpleMesh']]],
   ['writeto',['WriteTo',['../classion_1_1Log_1_1Channel.html#af618cc550df3a0dacc605ca145784947',1,'ion::Log::Channel']]],
-  ['writetofile',['WriteToFile',['../classion_1_1STable.html#a9d6dfaae465d3c66d619c5507fa06b35',1,'ion::STable::WriteToFile()'],['../struction_1_1SVolumeDatabase.html#a2d1613a90d975102135cd69063234aaf',1,'ion::SVolumeDatabase::WriteToFile()']]]
+  ['writetofile',['WriteToFile',['../classion_1_1STable.html#a9d6dfaae465d3c66d619c5507fa06b35',1,'ion::STable::WriteToFile()'],['../struction_1_1SVolumeDatabase.html#a2d1613a90d975102135cd69063234aaf',1,'ion::SVolumeDatabase::WriteToFile()']]],
+  ['writing',['writing',['../ionGUI_2Fonts_2LICENSE_8txt.html#a92a2795743e2b9ff1713e0b56d9a9dae',1,'LICENSE.txt']]]
 ];

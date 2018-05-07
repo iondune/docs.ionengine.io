@@ -20,9 +20,9 @@
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
-	<div class="glfwheader">
-		<a href="http://www.ionengine.io/" id="glfwhome">ionEngine</a>
-		<ul class="glfwnavbar">
+	<div class="topheader">
+		<a href="http://www.ionengine.io/" id="tophome">ionEngine</a>
+		<ul class="topnavbar">
 			<li><a href="http://www.ionengine.io/index.html">Home</a></li>
 			<li><a href="http://docs.ionengine.io/">Documentation</a></li>
 			<li><a href="http://www.ionengine.io/schedule.html">Roadmap</a></li>
@@ -38,10 +38,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Introduction</span></a></li>
-      <li><a href="pages.html"><span>Guides</span></a></li>
+      <li><a href="pages.html"><span>Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="files.html"><span>Header&#160;Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -62,10 +61,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
   <div id="navrow3" class="tabs2">
@@ -137,8 +133,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>uInvCameraMatrix
 : <a class="el" href="classion_1_1Scene_1_1CRenderPass.html#a4c067249f82090319be5c4e4fa36a8a1">ion::Scene::CRenderPass</a>
 </li>
+<li>uInvProjectionMatrix
+: <a class="el" href="classion_1_1Scene_1_1CRenderPass.html#a2797d0858a7363f275f95edb2a928618">ion::Scene::CRenderPass</a>
+</li>
 <li>uInvProjectionViewMatrix
 : <a class="el" href="classion_1_1Scene_1_1CRenderPass.html#ad145119d7a93279dc4cee67ce1c69c51">ion::Scene::CRenderPass</a>
+</li>
+<li>uInvViewMatrix
+: <a class="el" href="classion_1_1Scene_1_1CRenderPass.html#a2da2d58784e85404ae026cd5f41ae4b4">ion::Scene::CRenderPass</a>
 </li>
 <li>UIScale
 : <a class="el" href="struction_1_1CDefaultApplication_1_1SSettings.html#acd844ce878c6361d47e8334382128c30">ion::CDefaultApplication::SSettings</a>
@@ -160,10 +162,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>Uniform
 : <a class="el" href="classion_1_1Animation_1_1CCatmullRomAdvancedSplineInterpolator.html#a804c34d2927da650c6f05b599154eb80ad5ee84c08a789fcca93587a9d6d50163">ion::Animation::CCatmullRomAdvancedSplineInterpolator&lt; T &gt;</a>
 , <a class="el" href="classion_1_1Graphics_1_1CUniform.html#a91f2f92b857e3df79476ba68fd594010">ion::Graphics::CUniform&lt; T &gt;</a>
+, <a class="el" href="struction_1_1Graphics_1_1GL_1_1CDrawConfig_1_1SUniformBinding.html#a73f0bb89f2a87ddc04814488046f40d0">ion::Graphics::GL::CDrawConfig::SUniformBinding</a>
+</li>
+<li>UniformBindings
+: <a class="el" href="classion_1_1Graphics_1_1GL_1_1CDrawConfig.html#aa7b68a197b415287022eb8e7cd60b8d3">ion::Graphics::GL::CDrawConfig</a>
 </li>
 <li>Uniforms
-: <a class="el" href="classion_1_1Graphics_1_1GL_1_1CDrawConfig.html#a385e2c461ce86a1519d86833076789e5">ion::Graphics::GL::CDrawConfig</a>
-, <a class="el" href="classion_1_1Graphics_1_1GL_1_1CDrawContext.html#a6300ea9e846068e82e7fa412d8458bdd">ion::Graphics::GL::CDrawContext</a>
+: <a class="el" href="classion_1_1Graphics_1_1GL_1_1CDrawContext.html#a6300ea9e846068e82e7fa412d8458bdd">ion::Graphics::GL::CDrawContext</a>
 , <a class="el" href="classion_1_1Graphics_1_1GL_1_1CPipelineState.html#a4e7e648888292ff61aa6c4716bb225e8">ion::Graphics::GL::CPipelineState</a>
 , <a class="el" href="classion_1_1Graphics_1_1GL_1_1CShader.html#a83df2fe170ee263dedaf8d57244c273b">ion::Graphics::GL::CShader</a>
 , <a class="el" href="classion_1_1Scene_1_1CRenderPass.html#a62b045ef42227a3625adf43088237af2">ion::Scene::CRenderPass</a>
@@ -205,12 +210,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>UploadData()
 : <a class="el" href="classion_1_1Graphics_1_1GL_1_1CIndexBuffer.html#ac1b536acd9b1e33a2df72ab36f9070a5">ion::Graphics::GL::CIndexBuffer</a>
 , <a class="el" href="classion_1_1Graphics_1_1GL_1_1CVertexBuffer.html#a62abab16ba6b9445d208fbf5277ac8b9">ion::Graphics::GL::CVertexBuffer</a>
-, <a class="el" href="classion_1_1Graphics_1_1IIndexBuffer.html#a938250f5eec40285a47295f0d13922ff">ion::Graphics::IIndexBuffer</a>
-, <a class="el" href="classion_1_1Graphics_1_1IVertexBuffer.html#ae708646318a3ef77097a758a01879dea">ion::Graphics::IVertexBuffer</a>
+, <a class="el" href="classion_1_1Graphics_1_1IIndexBuffer.html#acf4ef99e34e5b9ae312e0482228649f2">ion::Graphics::IIndexBuffer</a>
+, <a class="el" href="classion_1_1Graphics_1_1IVertexBuffer.html#a7a62d95648f9dacacad2ec536081227b">ion::Graphics::IVertexBuffer</a>
 </li>
 <li>UploadSubData()
 : <a class="el" href="classion_1_1Graphics_1_1GL_1_1CVertexBuffer.html#a25f2a8db5ccb43484c4fcdebad2e213f">ion::Graphics::GL::CVertexBuffer</a>
-, <a class="el" href="classion_1_1Graphics_1_1IVertexBuffer.html#ae8586156ed71e10d2ca27a16cd12143d">ion::Graphics::IVertexBuffer</a>
+, <a class="el" href="classion_1_1Graphics_1_1IVertexBuffer.html#afa880e9402c63c381d1d9779f13a906e">ion::Graphics::IVertexBuffer</a>
 </li>
 <li>UploadSubRegion()
 : <a class="el" href="classion_1_1Graphics_1_1GL_1_1CTexture2D.html#a66e80ffc79efa49c6aba14def28346a2">ion::Graphics::GL::CTexture2D</a>
@@ -262,7 +267,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Sun Nov 19 2017 for ionEngine v0.4.4
+Generated on Sun May 6 2018 for ionEngine v0.4.5
 </p>
 </address>
 </body>

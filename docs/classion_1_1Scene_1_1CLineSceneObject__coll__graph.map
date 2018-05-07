@@ -1,0 +1,5 @@
+<map id="ion::Scene::CLineSceneObject" name="ion::Scene::CLineSceneObject">
+<area shape="rect" id="node2" href="$classion_1_1Scene_1_1ISceneObject.html" title="ion::Scene::ISceneObject" alt="" coords="74,228,245,255"/>
+<area shape="rect" id="node4" href="$classion_1_1STransformation3.html" title="Describes a 3D transformation as a composed translation, rotation, and scale. " alt="" coords="84,131,235,158"/>
+<area shape="rect" id="node5" href="$struction_1_1vec3.html" title="ion::vec3\&lt; float \&gt;" alt="" coords="97,5,221,32"/>
+</map>

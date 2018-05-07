@@ -1,7 +1,8 @@
 var searchData=
 [
   ['n',['N',['../namespaceion.html#aa52c64ca8d1b6e0168e7f8037e18914ea8d9c307cb7f3c4a32822a51922d1ceaa',1,'ion::N()'],['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a8d9c307cb7f3c4a32822a51922d1ceaa',1,'ion::N()']]],
-  ['name',['Name',['../struction_1_1Graphics_1_1SInputLayoutElement.html#afac5c9013e58c67d15ad83823f02fb12',1,'ion::Graphics::SInputLayoutElement::Name()'],['../classion_1_1Scene_1_1CRenderPass.html#a3634fe305bcf34fc5c4405d3ac62c253',1,'ion::Scene::CRenderPass::Name()']]],
+  ['name',['Name',['../struction_1_1Graphics_1_1SInputLayoutElement.html#afac5c9013e58c67d15ad83823f02fb12',1,'ion::Graphics::SInputLayoutElement::Name()'],['../struction_1_1Graphics_1_1GL_1_1CDrawConfig_1_1SUniformBinding.html#a2b3512f917c896e75a64cc64704e2431',1,'ion::Graphics::GL::CDrawConfig::SUniformBinding::Name()'],['../struction_1_1Graphics_1_1GL_1_1CDrawConfig_1_1STextureBinding.html#a763b5600ed8df0a27fc5514e8ff87352',1,'ion::Graphics::GL::CDrawConfig::STextureBinding::Name()'],['../classion_1_1Scene_1_1CRenderPass.html#a3634fe305bcf34fc5c4405d3ac62c253',1,'ion::Scene::CRenderPass::Name()']]],
+  ['names',['names',['../ionGUI_2Fonts_2LICENSE_8txt.html#a30594132172b3373a0a76459eed4796e',1,'LICENSE.txt']]],
   ['nearest',['Nearest',['../classion_1_1Graphics_1_1ITexture.html#a7abc240922acfe5c6782c9302547d735a60494f02d440f316319dd0fad40ad007',1,'ion::Graphics::ITexture']]],
   ['nearestkneighbors',['NearestKNeighbors',['../classion_1_1CKDTreeNode.html#ad702a455c6a00a78b6a2cc5be8759fd0',1,'ion::CKDTreeNode::NearestKNeighbors()'],['../classion_1_1CKDTree.html#a8c856d37785af60c0733f027ee0a1aa0',1,'ion::CKDTree::NearestKNeighbors()']]],
   ['nearestneighbor',['NearestNeighbor',['../classion_1_1CKDTreeNode.html#ab6dd958e635317920166c20eb17305d3',1,'ion::CKDTreeNode::NearestNeighbor()'],['../classion_1_1CKDTree.html#a63c4484905d64a24a249760288a6c774',1,'ion::CKDTree::NearestNeighbor()']]],

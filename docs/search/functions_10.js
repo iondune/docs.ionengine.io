@@ -20,6 +20,7 @@ var searchData=
   ['render',['Render',['../classion_1_1CPrintProgressBar.html#a527216ef534f24fe1611eecdab3c59da',1,'ion::CPrintProgressBar::Render()'],['../classion_1_1IProgressBar.html#ae761b866d8161d8422aa7bd49cc2036f',1,'ion::IProgressBar::Render()']]],
   ['requiresinglecomponent',['RequireSingleComponent',['../classion_1_1IEntity.html#a33b150d50500d7d22bfb8a8c133d1c8a',1,'ion::IEntity']]],
   ['reset',['Reset',['../struction_1_1box2.html#a299ffe75038c6d32f6e99fc1d42d5fbd',1,'ion::box2::Reset()'],['../classion_1_1SBoundingBox3.html#aba286336ef4c1244ec415f52af1a8eb7',1,'ion::SBoundingBox3::Reset()'],['../struction_1_1vec2.html#a79d87bc172e97fade249a49d7d6eda8c',1,'ion::vec2::reset()'],['../struction_1_1vec3.html#a4720d9208bc0115afbc22786bbd4e308',1,'ion::vec3::reset()'],['../classion_1_1vec4.html#a384c3206c3486a557148bca93235379a',1,'ion::vec4::reset()']]],
+  ['resetlines',['ResetLines',['../classion_1_1Scene_1_1CLineSceneObject.html#ab54599665c479e415a6c8d74edf03f2c',1,'ion::Scene::CLineSceneObject']]],
   ['resize',['Resize',['../classion_1_1SBoundingBox3.html#afe8f6d91326755ef0f69d792869176f7',1,'ion::SBoundingBox3']]],
   ['resizemesh',['ResizeMesh',['../classion_1_1Scene_1_1CSimpleMesh.html#a6042de9d0d156eaeaf2a5928a5a85680',1,'ion::Scene::CSimpleMesh']]],
   ['reversefaces',['ReverseFaces',['../classion_1_1Scene_1_1CSimpleMesh.html#a8c1f06ca6b6342c5f970fd210fc346f1',1,'ion::Scene::CSimpleMesh']]],

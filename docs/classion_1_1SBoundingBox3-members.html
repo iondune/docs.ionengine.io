@@ -20,9 +20,9 @@
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
-	<div class="glfwheader">
-		<a href="http://www.ionengine.io/" id="glfwhome">ionEngine</a>
-		<ul class="glfwnavbar">
+	<div class="topheader">
+		<a href="http://www.ionengine.io/" id="tophome">ionEngine</a>
+		<ul class="topnavbar">
 			<li><a href="http://www.ionengine.io/index.html">Home</a></li>
 			<li><a href="http://docs.ionengine.io/">Documentation</a></li>
 			<li><a href="http://www.ionengine.io/schedule.html">Roadmap</a></li>
@@ -38,10 +38,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Introduction</span></a></li>
-      <li><a href="pages.html"><span>Guides</span></a></li>
+      <li><a href="pages.html"><span>Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="files.html"><span>Header&#160;Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -62,10 +61,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -109,16 +105,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#a44556845fb83200cb55972e859dd4f38">MinCorner</a></td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#a93ac9b31a8205e86e1635666aeaa7c10">Move</a>(Vector const &amp;Offset)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#adf0eff815b229293def90a5f3988e1f4">MoveTo</a>(Vector const &amp;Center)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#aba286336ef4c1244ec415f52af1a8eb7">Reset</a>(Vector const &amp;Point)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#afe8f6d91326755ef0f69d792869176f7">Resize</a>(Vector const &amp;Size)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#aa4df8eb14c55e185eaa26347150f1a34">SBoundingBox3</a>()</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#a7d2afd6438fdd9c5daae3910dbf8972d">SBoundingBox3</a>(Vector const &amp;min, Vector const &amp;max)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#a0f5ba57ccf178c49bcfa7a2b822a9ff1">SBoundingBox3</a>(Vector const &amp;v)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#a9ec4663f62055c69e2fe59160f87d6f2">Transform</a>(glm::mat4 const &amp;Transformation)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#a2a454e56eda515849ae0a349c13b3e80">PositionSize</a>(Vector const &amp;position, Vector const &amp;size)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#aba286336ef4c1244ec415f52af1a8eb7">Reset</a>(Vector const &amp;Point)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#afe8f6d91326755ef0f69d792869176f7">Resize</a>(Vector const &amp;Size)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#aa4df8eb14c55e185eaa26347150f1a34">SBoundingBox3</a>()</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#a7d2afd6438fdd9c5daae3910dbf8972d">SBoundingBox3</a>(Vector const &amp;min, Vector const &amp;max)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#a0f5ba57ccf178c49bcfa7a2b822a9ff1">SBoundingBox3</a>(Vector const &amp;v)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html#a9ec4663f62055c69e2fe59160f87d6f2">Transform</a>(glm::mat4 const &amp;Transformation)</td><td class="entry"><a class="el" href="classion_1_1SBoundingBox3.html">ion::SBoundingBox3&lt; T, Vector &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Sun Nov 19 2017 for ionEngine v0.4.4
+Generated on Sun May 6 2018 for ionEngine v0.4.5
 </p>
 </address>
 </body>

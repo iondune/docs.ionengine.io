@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classion_1_1ray3.html" title="3D ray " alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node1" href="$classion_1_1Log_1_1Output.html" title="ion::Log::Output" alt="" coords="5,31,120,57"/>
+<area shape="rect" id="node2" href="$classion_1_1Log_1_1StandardOutput.html" title="ion::Log::StandardOutput" alt="" coords="180,5,347,32"/>
+<area shape="rect" id="node3" href="$classion_1_1Log_1_1WindowsLogOutput.html" title="ion::Log::WindowsLogOutput" alt="" coords="168,56,359,83"/>
 </map>

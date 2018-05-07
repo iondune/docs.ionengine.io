@@ -22,5 +22,5 @@ var searchData=
   ['keypadsubtract',['KeyPadSubtract',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037aa4c1a1ecde50f32caac8fa3d077b622b',1,'ion']]],
   ['keyset',['KeySet',['../group__ionCore.html#ga61fda02ebd43f09c64f8c97df8df9c10',1,'ion']]],
   ['keystates',['KeyStates',['../classion_1_1CWindow.html#a44e736a45a7119b1ee1d3a442c2f599c',1,'ion::CWindow']]],
-  ['kind',['KIND',['../LICENSE_8txt.html#a8e1a82be600178fe97c0e1339897c260',1,'LICENSE.txt']]]
+  ['kind',['KIND',['../ionGUI_2Fonts_2LICENSE_8txt.html#a264cc32af17a4ed512b076066c564260',1,'KIND():&#160;LICENSE.txt'],['../LICENSE_8txt.html#a8e1a82be600178fe97c0e1339897c260',1,'KIND():&#160;LICENSE.txt']]]
 ];

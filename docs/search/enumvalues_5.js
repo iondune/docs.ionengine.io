@@ -17,6 +17,7 @@ var searchData=
   ['f8',['F8',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a4787509ad9f9d747a81a30e9dde3d4a7',1,'ion']]],
   ['f9',['F9',['../namespaceion.html#a26c62ef1a9d4bae5f8a1863922baf037a892a245e287c163080b23db737d3c4c9',1,'ion']]],
   ['false',['False',['../classion_1_1Graphics_1_1ITexture.html#abb2c588a190578a0d5483151f00a82dcaf8320b26d30ab433c5a54546d21f414c',1,'ion::Graphics::ITexture']]],
+  ['fix16',['Fix16',['../classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014ac7b485b57e5f9edbdb11c5ecbc2e13c5',1,'ion::Graphics::ITexture']]],
   ['fix8',['Fix8',['../classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a21d950e60d5e67b76663e9092d1d123f',1,'ion::Graphics::ITexture']]],
   ['float',['Float',['../group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2ac2e384360367fe68c1f4b5a4b8709876',1,'ion::Graphics::Float()'],['../group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b',1,'ion::Graphics::Float()'],['../group__ionGraphics.html#gga070026c778aa94db28cdb1c061f616b2a22ae0e2b89e5e3d477f988cc36d3272b',1,'ion::Graphics::Float()'],['../group__ionGraphics.html#ggaddb5c086fd0778aac8df05438e372ccaa22ae0e2b89e5e3d477f988cc36d3272b',1,'ion::Graphics::Float()']]],
   ['float16',['Float16',['../classion_1_1Graphics_1_1ITexture.html#aa2d2690e95cba9a405b9ee2498ac2014a26e6ed77470c6f2f830ecf874e6c0d55',1,'ion::Graphics::ITexture']]],

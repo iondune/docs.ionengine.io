@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classion_1_1GUI_1_1CWindowWidget.html" title="ion::GUI::CWindowWidget" alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node1" href="$classion_1_1Graphics_1_1IVertexStage.html" title="ion::Graphics::IVertexStage" alt="" coords="5,13,188,39"/>
+<area shape="rect" id="node2" href="$classion_1_1Graphics_1_1GL_1_1CVertexStage.html" title="ion::Graphics::GL::\lCVertexStage" alt="" coords="236,5,368,47"/>
 </map>

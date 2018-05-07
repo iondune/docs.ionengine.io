@@ -20,9 +20,9 @@
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
-	<div class="glfwheader">
-		<a href="http://www.ionengine.io/" id="glfwhome">ionEngine</a>
-		<ul class="glfwnavbar">
+	<div class="topheader">
+		<a href="http://www.ionengine.io/" id="tophome">ionEngine</a>
+		<ul class="topnavbar">
 			<li><a href="http://www.ionengine.io/index.html">Home</a></li>
 			<li><a href="http://docs.ionengine.io/">Documentation</a></li>
 			<li><a href="http://www.ionengine.io/schedule.html">Roadmap</a></li>
@@ -38,10 +38,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Introduction</span></a></li>
-      <li class="current"><a href="pages.html"><span>Guides</span></a></li>
+      <li class="current"><a href="pages.html"><span>Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="files.html"><span>Header&#160;Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -80,7 +79,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Installation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Windows </h2>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#install_windows">Windows  </a></li>
+<li class="level1"><a href="#install_linux">Linux   </a><ul><li class="level2"><a href="#install_ubuntu1604">Ubuntu 16.04 </a></li>
+<li class="level2"><a href="#install_ubuntu1404">Ubuntu 14.04  </a></li>
+</ul>
+</li>
+<li class="level1"><a href="#install_mac">Mac OS </a></li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="install_windows"></a>
+Windows  </h1>
 <p>First you need to get all of the "header only" dependencies, which are:</p>
 <ul>
 <li>stb - <a href="https://github.com/nothings/stb">https://github.com/nothings/stb</a></li>
@@ -93,7 +102,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </ul>
 <p>The easiest way to do this is to navigate to the <code>Dependencies/</code> folder and run <code>Clone.bat</code>. Make sure that you have <code>git</code> in your path.</p>
 <p>Next we need to get <code>glfw</code>, the only binary dependency. The easiest way to do this is using <a href="https://github.com/Microsoft/vcpkg">vcpkg</a>. Install that, then install the <code>glfw3:x64-windows</code> triplet.</p>
-<h2>Linux </h2>
+<h1><a class="anchor" id="install_linux"></a>
+Linux   </h1>
 <p>These instructions are tailored for Ubuntu but the same principles should apply to most Linux distros (in terms of using your flavor of package manager to install binary deps, and using bash/cmake for the rest).</p>
 <p>Thankfully all dependencies are available as packages or are header-only.</p>
 <p>You will need <code>g++</code> and <code>cmake</code> for compilation.</p>
@@ -101,12 +111,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>sudo apt-get -y install g++ cmake </p>
 </blockquote>
 <p>You'll also need to install GLFW3 and X.Org development packages. On older distros a sufficiently recent version of GLFW is not available as a native package, so this is where instructions diverge depending on version.</p>
-<h3>Ubuntu 16.04</h3>
+<h2><a class="anchor" id="install_ubuntu1604"></a>
+Ubuntu 16.04 </h2>
 <p>Simply install the packages <code>xorg-dev</code> and <code>libglfw3-dev</code>.</p>
 <blockquote class="doxtable">
 <p>sudo apt-get -y install xorg-dev libglfw3-dev </p>
 </blockquote>
-<h3>Ubuntu 14.04</h3>
+<p>Next, install the header-only dependencies by running <code>Clone.bash</code> in the <code>Dependencies/</code> folder.</p>
+<blockquote class="doxtable">
+<p>./Clone.bash </p>
+</blockquote>
+<p>With that we are ready to build ionEngine. Make a directory called <code>build</code> and <code>cd</code> to it. From that directory, run <code>cmake</code>.</p>
+<blockquote class="doxtable">
+<p>mkdir build cd build cmake .. make </p>
+</blockquote>
+<h2><a class="anchor" id="install_ubuntu1404"></a>
+Ubuntu 14.04  </h2>
 <p>The Ubuntu GLFW package is prohibitively out of date so we need to install a ppa to provide an up-to-date version.</p>
 <blockquote class="doxtable">
 <p>sudo add-apt-repository ppa:keithw/glfw3 -y sudo apt-get update </p>
@@ -123,7 +143,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <blockquote class="doxtable">
 <p>mkdir build cd build cmake .. make </p>
 </blockquote>
-<h2>OS X </h2>
+<h1><a class="anchor" id="install_mac"></a>
+Mac OS </h1>
 <p>These instructions are for OS X 10.9.5 but should hopefully apply pretty universally.</p>
 <p>First, make sure that you have both <a href="https://developer.apple.com/xcode/download/">Xcode</a> and <a href="http://brew.sh/">Homebrew</a> installed.</p>
 <p>Next, install <code>CMake</code> and <code>GLFW3</code> through homebrew.</p>
@@ -141,7 +162,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div></div><!-- contents -->
 <address class="footer">
 <p>
-Generated on Sun Nov 19 2017 for ionEngine v0.4.4
+Generated on Sun May 6 2018 for ionEngine v0.4.5
 </p>
 </address>
 </body>

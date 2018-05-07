@@ -1,18 +1,19 @@
 <map id="/home/ian/projects/ionEngine/Include/ionScene.h" name="/home/ian/projects/ionEngine/Include/ionScene.h">
-<area shape="rect" id="node2" href="$ionScene_2ionScene_8h.html" title="../ionScene/ionScene.h" alt="" coords="737,95,894,121"/>
-<area shape="rect" id="node6" href="$ICamera_8h.html" title="ICamera.h" alt="" coords="410,319,493,345"/>
-<area shape="rect" id="node7" href="$CCamera_8h.html" title="CCamera.h" alt="" coords="292,244,381,271"/>
-<area shape="rect" id="node8" href="$COrthographicCamera_8h.html" title="COrthographicCamera.h" alt="" coords="70,169,233,196"/>
-<area shape="rect" id="node9" href="$CPerspectiveCamera_8h.html" title="CPerspectiveCamera.h" alt="" coords="257,169,416,196"/>
-<area shape="rect" id="node10" href="$ILight_8h.html" title="ILight.h" alt="" coords="784,319,849,345"/>
-<area shape="rect" id="node11" href="$CPointLight_8h.html" title="CPointLight.h" alt="" coords="678,244,779,271"/>
-<area shape="rect" id="node12" href="$CDirectionalLight_8h.html" title="CDirectionalLight.h" alt="" coords="697,169,830,196"/>
-<area shape="rect" id="node13" href="$ISceneObject_8h.html" title="ISceneObject.h" alt="" coords="955,319,1067,345"/>
-<area shape="rect" id="node14" href="$CRenderPass_8h.html" title="CRenderPass.h" alt="" coords="489,244,603,271"/>
-<area shape="rect" id="node15" href="$CSceneManager_8h.html" title="CSceneManager.h" alt="" coords="441,169,571,196"/>
-<area shape="rect" id="node16" href="$CSimpleMesh_8h.html" title="CSimpleMesh.h" alt="" coords="1130,319,1245,345"/>
-<area shape="rect" id="node17" href="$CGeometryCreator_8h.html" title="CGeometryCreator.h" alt="" coords="1585,244,1728,271"/>
-<area shape="rect" id="node18" href="$CSimpleSceneObject_8h.html" title="CSimpleSceneObject.h" alt="" coords="1108,244,1267,271"/>
-<area shape="rect" id="node19" href="$CSimpleMeshSceneObject_8h.html" title="CSimpleMeshSceneObject.h" alt="" coords="1007,169,1197,196"/>
-<area shape="rect" id="node20" href="$CCoordinateFrameSceneObject_8h.html" title="CCoordinateFrameSceneObject.h" alt="" coords="1291,244,1510,271"/>
+<area shape="rect" id="node2" href="$ionScene_2ionScene_8h.html" title="../ionScene/ionScene.h" alt="" coords="876,95,1034,121"/>
+<area shape="rect" id="node6" href="$ICamera_8h.html" title="ICamera.h" alt="" coords="551,319,634,345"/>
+<area shape="rect" id="node7" href="$CCamera_8h.html" title="CCamera.h" alt="" coords="364,244,453,271"/>
+<area shape="rect" id="node8" href="$COrthographicCamera_8h.html" title="COrthographicCamera.h" alt="" coords="56,169,219,196"/>
+<area shape="rect" id="node9" href="$CPerspectiveCamera_8h.html" title="CPerspectiveCamera.h" alt="" coords="244,169,402,196"/>
+<area shape="rect" id="node10" href="$ILight_8h.html" title="ILight.h" alt="" coords="800,319,865,345"/>
+<area shape="rect" id="node11" href="$CPointLight_8h.html" title="CPointLight.h" alt="" coords="870,244,971,271"/>
+<area shape="rect" id="node12" href="$CDirectionalLight_8h.html" title="CDirectionalLight.h" alt="" coords="528,169,662,196"/>
+<area shape="rect" id="node13" href="$ISceneObject_8h.html" title="ISceneObject.h" alt="" coords="1076,319,1188,345"/>
+<area shape="rect" id="node14" href="$CRenderPass_8h.html" title="CRenderPass.h" alt="" coords="630,244,744,271"/>
+<area shape="rect" id="node15" href="$CSceneManager_8h.html" title="CSceneManager.h" alt="" coords="686,169,816,196"/>
+<area shape="rect" id="node16" href="$CSimpleMesh_8h.html" title="CSimpleMesh.h" alt="" coords="1362,319,1476,345"/>
+<area shape="rect" id="node17" href="$CGeometryCreator_8h.html" title="CGeometryCreator.h" alt="" coords="1676,244,1818,271"/>
+<area shape="rect" id="node18" href="$CSimpleSceneObject_8h.html" title="CSimpleSceneObject.h" alt="" coords="1340,244,1498,271"/>
+<area shape="rect" id="node19" href="$CSimpleMeshSceneObject_8h.html" title="CSimpleMeshSceneObject.h" alt="" coords="1385,169,1576,196"/>
+<area shape="rect" id="node20" href="$CLineSceneObject_8h.html" title="CLineSceneObject.h" alt="" coords="1044,169,1186,196"/>
+<area shape="rect" id="node21" href="$CCoordinateFrameSceneObject_8h.html" title="CCoordinateFrameSceneObject.h" alt="" coords="1096,244,1315,271"/>
 </map>
